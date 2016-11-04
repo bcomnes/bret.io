@@ -1,0 +1,24 @@
+{
+  "name": "bret.io",
+  "version": "1.0.0",
+  "description": "profesh website",
+  "main": "index.js",
+  "scripts": {
+    "test": "dependency-check . && standard | snazzy && tape test.js | tap-format-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcomnes/bret.io.git"
+  },
+  "keywords": [
+    "website",
+    "bret",
+    "comnes"
+  ],
+  "author": "Bret Comnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcomnes/bret.io/issues"
+  },
+  "homepage": "https://github.com/bcomnes/bret.io#readme"
+}
