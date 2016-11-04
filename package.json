@@ -4,7 +4,15 @@
   "description": "profesh website",
   "main": "index.js",
   "scripts": {
-    "test": "dependency-check . && standard | snazzy && tape test.js | tap-format-spec"
+    "test": "dependency-check . && standard | snazzy && tape test.js | tap-format-spec",
+    "gh-pages": "npm run site && gh-pages -d site",
+    "pretest": "standard | snazzy",
+    "serve:site": "live-server site",
+    "serve:watch": "npm run site:html -- -w",
+    "site": "run-s site:*",
+    "site:clean": "rm -rf site",
+    "site:html": "sitedown . -b site -l docs/layout.html",
+    "start": "npm-run-all site --parallel serve:*"
   },
   "repository": {
     "type": "git",
@@ -20,5 +28,18 @@
   "bugs": {
     "url": "https://github.com/bcomnes/bret.io/issues"
   },
-  "homepage": "https://github.com/bcomnes/bret.io#readme"
+  "homepage": "https://github.com/bcomnes/bret.io#readme",
+  "devDependencies": {
+    "@tap-format/spec": "^0.2.0",
+    "dependency-check": "^2.6.0",
+    "gh-pages": "^0.11.0",
+    "live-server": "^1.1.0",
+    "npm-run-all": "^3.1.1",
+    "rimraf": "^2.5.4",
+    "sitedown": "^3.0.1",
+    "snazzy": "^5.0.0",
+    "standard": "^8.5.0",
+    "standard-format": "^2.2.3",
+    "tape": "^4.6.2"
+  }
 }
