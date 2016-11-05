@@ -12,7 +12,7 @@
     "build:md": "sitedown . -b dist -l src/layout.html",
     "watch": "npm run clean && run-p watch:*",
     "watch:css": "npm run build:css -- --watch",
-    "watch:js": "budo src/index.js:dist/bundle.js --dir dist --live --open",
+    "watch:js": "budo src/index.js:bundle.js --dir dist --live --open",
     "watch:md": "npm run build:md -- -w",
     "clean": "rimraf dist && mkdirp dist",
     "start": "npm run watch"
