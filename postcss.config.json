@@ -1,0 +1,10 @@
+{
+    "use": [
+      "postcss-copy-assets",
+      "postcss-import",
+      "postcss-browser-reporter",
+      "postcss-reporter"
+    ],
+    "input": "src/index.css",
+    "output": "dist/bundle.css"
+}
