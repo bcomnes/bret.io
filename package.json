@@ -54,6 +54,7 @@
     "standard": "^8.5.0",
     "style.css": "^1.0.0-alpha-8",
     "tape": "^4.6.2",
+    "top-bar.css": "^1.2.0",
     "watchify": "^3.7.0"
   },
   "dependencies": {}
