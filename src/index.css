@@ -26,9 +26,9 @@ main {
 
 .header .title {
   margin: 0;
-  border-bottom: 1px solid rgba(0,0,0,.1);
-  margin-bottom: .25em;
-  padding-bottom: .25em;
+  /* border-bottom: 1px solid rgba(0,0,0,.1); */
+  /* margin-bottom: .25em; */
+  /* padding-bottom: .25em; */
 }
 
 .header .subtitle {
@@ -42,10 +42,6 @@ main {
 }
 
 @media screen and (max-width: 42rem) {
-  .header {
-    padding-top:  3em;
-  }
-
 
   span.external {
     display: none;
