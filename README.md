@@ -12,6 +12,7 @@
 - [hyperserv](https://github.com/bcomnes/hyperserv) - a minimal hypermodular http server toolbox replacement for [express.js](http://expressjs.com).
 - [hyperblog](https://github.com/bcomnes/hyperblog) - an experimental blog server powered by a p2p replicable [hyperlog](https://github.com/mafintosh/hyperlog) database store, conflict-free multiregister key value store via [hyperkv](https://github.com/substack/hyperkv), robust client application powered by [choo](https://github.com/yoshuawuyts/choo), with a [multiplex rpc interface](https://github.com/substack/multiplex-rpc) over [binary duplex websocket stream](https://github.com/maxogden/websocket-stream) for realtime client-server communication.
 - [mooon](https://www.npmjs.com/package/mooon) - display the current moon phase in your system tray.
+- [node-handbook](https://github.com/bcomnes/node-handbook) - history, background and resources for learning javascript and the node.js way.
 
 ## Contributing
 
