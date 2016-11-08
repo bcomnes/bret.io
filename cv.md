@@ -3,26 +3,190 @@
 
 ## Bret Comnes
 
-Software Engineer and Web Developer
+Software Engineer and Web Developer Specializing in Hypermodular Javascript and Node.js
 
-
-**email: [bcomnes@gmail.com](mailto:bcomnes@gmail.com) &bull; web: [bret.io/contact](http://bret.io/contact)**
+**email: [bcomnes@gmail.com](mailto:bcomnes@gmail.com) &bull; web: [bret.io/contact](http://bret.io/contact)  &bull; current location: [Portland, OR](http://osm.org/go/WIDwCTzGh-?m=)**
 
 ## Skills
 
-- **Fluent**:
-[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),
+- **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript):**
 [Node.js](https://nodejs.org/docs/latest/api/),
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML),
-[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[Browserify](http://browserify.org),
+[npm](https://www.npmjs.com/~bret),
+[npm scripts and build tools](https://github.com/sindresorhus/awesome-nodejs#build-tools),
+[choo](https://github.com/yoshuawuyts/choo),
+[React](https://facebook.github.io/react/),
+[electron](http://electron.atom.io),
+[Flux/Redux](http://redux.js.org/),
+[Express](http://expressjs.com),
+[hapi.js](http://hapijs.com),
+[LevelUP](https://github.com/Level/levelup),
+[SPA Frameworks](https://github.com/showcases/front-end-javascript-frameworks),
+[CSS in JS](https://github.com/MicheleBertoli/css-in-js),
+[streams](https://nodejs.org/api/stream.html),
+[Mississippi streams](https://github.com/maxogden/mississippi),
+[pull-streams](https://pull-stream.github.io),
+[callback heaven](http://callbackhell.com),
+[static website generators](https://www.staticgen.com),
+[tape](https://github.com/substack/tape),
+[Install We Trust](http://module.party),
+[VanillaJS](http://vanilla-js.com),
+[ES5](http://kangax.github.io/compat-table/es5/),
+[Browser Support](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support),
+[regl](https://github.com/regl-project/regl),
+[http](https://nodejs.org/api/http.html)
 
-...
+- **[Web Platform](https://developer.mozilla.org/en-US/):**
+[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML),
+[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS),
+[CSSNext](http://cssnext.io),
+[PostCSS](https://github.com/postcss/postcss),
+[CSS Frameworks](http://usablica.github.io/front-end-frameworks/compare.html),
+[Progressive Web Apps](https://github.com/TalAter/awesome-progressive-web-apps),
+[Rich Web Apps](http://rauchg.com/2014/7-principles-of-rich-web-applications/),
+[websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API),
+[WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API),
+[Oauth 2.0](https://oauth.net/2/),
+[svg](https://developer.mozilla.org/en-US/docs/Web/SVG),
+[webGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API),
+[canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API),
+[`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video),
+[`<audio>`](https://developer.mozilla.org/en-US/search?q=audio)
+
+- **Databases/Servers/Services:**
+[LevelDB](https://github.com/google/leveldb),
+[Postgres](https://www.postgresql.org),
+[MySQL](https://www.mysql.com),
+[SQLite](https://sqlite.org)
+[Firebase](https://firebase.google.com),
+[MongoDB](https://www.mongodb.com),
+[nginx](https://www.nginx.com/resources/wiki/),
+[haproxy](http://www.haproxy.org),
+[redis](http://redis.io),
+[rabbit.mq](https://www.rabbitmq.com),
+[logstash](https://www.elastic.co/products/logstash)
+
+
+- **Secondary Languages:**
+[Go](https://golang.org),
+[Swift](https://swift.org),
+[Python](https://docs.python.org/3/),
+[C](https://en.wikipedia.org/wiki/C_(programming_language)),
+[C++](https://isocpp.org),
+[Mathematica](https://www.wolfram.com/mathematica/),
+[LabVIEW](http://www.ni.com/labview/)
+[Ruby](http://poignant.guide)
+
+- **Project Management:**
+[git](https://git-scm.com),
+[Github](https://github.com),
+[Open Open Source](http://openopensource.org),
+[Slack](https://slack.com),
+[IRC](https://www.irccloud.com),
+[markdown](http://whatismarkdown.com),
+[rst](http://docutils.sourceforge.net/rst.html)/[sphinx](http://www.sphinx-doc.org/en/1.4.8/),
+[read the docs](https://readthedocs.org)
+[documentation](https://pages.18f.gov/open-source-guide/),
+[Chat Bots](http://zenircbot.readthedocs.io/en/latest/),
+[TravisCI](http://travis-ci.org),
+[AppVeyor](https://www.appveyor.com)
+
+- **Operations:**
+[bash](https://www.gnu.org/software/bash/bash.html),
+[systemd](https://www.freedesktop.org/wiki/Software/systemd/),
+[Ansible](https://www.ansible.com),
+[Linux](https://www.kernel.org),
+[Unix Philosophy](http://www.catb.org/esr/writings/taoup/html/ch01s06.html),
+[macOS](http://www.apple.com/macos/sierra/),
+[homebrew](http://brew.sh),
+[Arch Linux](https://www.archlinux.org),
+[Debian](https://www.debian.org),
+[CentOS](https://www.centos.org),
+[CoreOS](https://coreos.com),
+[Arm Servers](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/),
+[Windows](https://www.youtube.com/watch?v=Vhh_GeBPOhs) 😬,
+[autotools](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html)
+
+- **Cloud Platforms:**
+[AWS](https://aws.amazon.com),
+[Digital Ocean](https://www.digitalocean.com),
+[Linode](https://www.linode.com),
+[Dokku](https://github.com/dokku/dokku),
+[Heroku](https://www.heroku.com),
+[zeit](https://zeit.co)
+
+- **Physics, Math, Electroncs:**
+[PDEs](https://en.wikipedia.org/wiki/Partial_differential_equation),
+[Fourier Transforms](http://mathworld.wolfram.com/FourierTransform.html),
+[Scientific Data-vis](https://www.edwardtufte.com/tufte/),
+[Serial](https://en.wikipedia.org/wiki/RS-232),
+[Oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope),
+[Function Generators](https://en.wikipedia.org/wiki/Function_generator) etc...
 
 ## Work
 
-#### Javascript Software Engineer <small>July 2015 - Present</small>
+#### ZHealth Documentation<small>Contractor and FTE &bull; July 2015 - Present</small>
+
+- Developing next generation structured documentation software for Cardiac Surgeons and Hospitals.
+- Cross Platform Desktop software using Electron, HTML, CSS and SVG powered by React + Redux.
+- Modular development using github and npm and continuous delivery using travisCI and AWS.
+
+#### Jaguar Land Rover R&D<small>Software Engineer &bull; July 2015 - Present</small>
 
 - Rapid mobile app and infotainment prototype development using JS + Node.js, HTML and CSS.
--
+- Participate and run user testing sessions, and incorporate findings into development planning.
+
+#### Urban Airship<small>Technical Support Engineer &bull; April 2015 - July 2015</small>
+
+- Support Urban Airships customers ranging from mobile developers to marketers.
+- Custom mailing software for sending personalized emails to customers in Node.js.
+
+#### PSU Office of Information Technology ARC<small>Web & Systems Developer &bull; May 2014 - April 2015</small>
+
+- Web applications and systems programming with Python and Django.
+- Implemented and designed a Github style email correspondence bridge for ARCs ticketing system.
+- Implemented user tracking and notification system for ARC’s research systems.
+- Writing package that tracks MySQL and Postgres database activity of ARCs hosted projects.
+
+#### PSU Office of Information Technology ARC<small>Systems Administrator &bull; May 2013 - April 2015</small>
+
+- Responsible for building, automating and monitoring PSU’s research servers and Linux Clusters.
+- Initiated efforts to automate cluster deployment and management using configuration management.
+- Launched a successful user support documentation website to orient new users on the available
+research systems.
+- Trained and introduced new users to ARCs resources and shared unix computing environments.
+
+#### PSU Sánchez Nano Development Lab<small>Research Assistant &bull; May 2013 - April 2015</small>
+
+- Wrote custom control software and a web application that enabled remote viewing and operation of a Scanning Electron Microscope over the internet using React, Web Sockets and WebRTC.
+
+#### PSU Physics Department<small>Lab Instructor & TA &bull; September 2012 - December 2014</small>
+
+- Instructed PSU’s General Physics Labs and assisted in the upper division Experimental Physics Labs.
+- Developed two novel labs on the use of microcontrollers and FPGAs covering basic concepts to
+advanced topics like PID control theory.
+
+#### Cardinal TS<small> Textbook Development Consultant &bull; January 2012 - July 2012</small>
+
+- Front end Javascript development for a interactive calculus textbook website for Wiley Publishing.
+- Provided conceptual content and calculus interpretation for other members of the development team.
+
+#### HSU Gravitational Research Laboratory<small> Research Assistant &bull; May 2009 - September 2011</small>
+
+- Designed and machined custom experimental instruments and developed the lab’s data collection, automation and analysis software to study the gravitational inverse-square law at sub-millimeter distance scales.
+
+#### The Arecibo Radio Telescope ALFA Survey<small> Research Assistant &bull; November 2009</small>
+
+- Trained and operated one of the worlds largest radio telescopes and analyzed the collected data searching for previously undiscovered galaxies.
+
 
 ## Education
+
+- **B.S., Physics** - 2011, Humboldt State University
+- **M.A., Applied Physics** - 2015, Portland State University (Incomplete)
+
+## Publications, Talks, Community Involvement & Leadership
+
+- **PDX Node, Organizer** (2015 - 2016)
+- **Code for Portland, Organizer & Volunteer** (2014 - 2015)
+- **"Remote Operation of a Scanning Electron Microscope using WebRTC", WebRTC Camp** (2013)
