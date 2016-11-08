@@ -3,7 +3,7 @@
 
 ## Bret Comnes
 
-Software Engineer and Web Developer Specializing in Hypermodular Javascript and Node.js
+Software Engineer and Web Developer Specializing in Hypermodular JavaScript and Node.js
 
 **email: [bcomnes@gmail.com](mailto:bcomnes@gmail.com) &bull; web: [bret.io/contact](http://bret.io/contact)  &bull; current location: [Portland, OR](http://osm.org/go/WIDwCTzGh-?m=)**
 
@@ -104,7 +104,6 @@ Software Engineer and Web Developer Specializing in Hypermodular Javascript and 
 [CentOS](https://www.centos.org),
 [CoreOS](https://coreos.com),
 [Arm Servers](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/),
-[Windows](https://www.youtube.com/watch?v=Vhh_GeBPOhs) 😬,
 [autotools](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html)
 
 - **Cloud Platforms:**
@@ -115,7 +114,7 @@ Software Engineer and Web Developer Specializing in Hypermodular Javascript and 
 [Heroku](https://www.heroku.com),
 [zeit](https://zeit.co)
 
-- **Physics, Math, Electroncs:**
+- **Physics, Math, Electronics:**
 [PDEs](https://en.wikipedia.org/wiki/Partial_differential_equation),
 [Fourier Transforms](http://mathworld.wolfram.com/FourierTransform.html),
 [Scientific Data-vis](https://www.edwardtufte.com/tufte/),
@@ -125,30 +124,30 @@ Software Engineer and Web Developer Specializing in Hypermodular Javascript and 
 
 ## Work
 
-#### ZHealth Documentation<small>Contractor and FTE &bull; July 2015 - Present</small>
+#### [ZHealth Documentation](http://www.zhealthconsulting.com)<small>Contractor and FTE &bull; Present &bull; [<i class="fa fa-camera-retro"></i>](https://twitter.com/davidlymanning/status/738858873281347584)</small>
 
 - Developing next generation structured documentation software for Cardiac Surgeons and Hospitals.
 - Cross Platform Desktop software using Electron, HTML, CSS and SVG powered by React + Redux.
-- Modular development using github and npm and continuous delivery using travisCI and AWS.
+- Modular development using github, npm and continuous delivery using travisCI and AWS.
 
-#### Jaguar Land Rover R&D<small>Software Engineer &bull; July 2015 - Present</small>
+#### [Jaguar Land Rover R&D](https://www.jlrtechincubator.com/jlrti/)<small>Software Engineer &bull; 2015 - 2016</small>
 
 - Rapid mobile app and infotainment prototype development using JS + Node.js, HTML and CSS.
 - Participate and run user testing sessions, and incorporate findings into development planning.
 
-#### Urban Airship<small>Technical Support Engineer &bull; April 2015 - July 2015</small>
+#### [Urban Airship](https://www.urbanairship.com)<small>Technical Support Engineer &bull; April 2015 - July 2015</small>
 
 - Support Urban Airships customers ranging from mobile developers to marketers.
 - Custom mailing software for sending personalized emails to customers in Node.js.
 
-#### PSU Office of Information Technology ARC<small>Web & Systems Developer &bull; May 2014 - April 2015</small>
+#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing)<small>Web & Systems Developer &bull; 2014 - 2015 &bull; [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
 
 - Web applications and systems programming with Python and Django.
 - Implemented and designed a Github style email correspondence bridge for ARCs ticketing system.
 - Implemented user tracking and notification system for ARC’s research systems.
 - Writing package that tracks MySQL and Postgres database activity of ARCs hosted projects.
 
-#### PSU Office of Information Technology ARC<small>Systems Administrator &bull; May 2013 - April 2015</small>
+#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing)<small>Systems Administrator &bull; 2013 - 2015 &bull; [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
 
 - Responsible for building, automating and monitoring PSU’s research servers and Linux Clusters.
 - Initiated efforts to automate cluster deployment and management using configuration management.
@@ -156,26 +155,26 @@ Software Engineer and Web Developer Specializing in Hypermodular Javascript and 
 research systems.
 - Trained and introduced new users to ARCs resources and shared unix computing environments.
 
-#### PSU Sánchez Nano Development Lab<small>Research Assistant &bull; May 2013 - April 2015</small>
+#### [PSU Sánchez Nano Development Lab](http://www.pdx.edu/nano-development-lab/)<small>Research Assistant &bull; 2013 - 2015</small>
 
-- Wrote custom control software and a web application that enabled remote viewing and operation of a Scanning Electron Microscope over the internet using React, Web Sockets and WebRTC.
+- Wrote custom control software and a web application that enabled remote viewing and operation of a Scanning Electron Microscope over the Internet using React, Web Sockets and WebRTC.
 
-#### PSU Physics Department<small>Lab Instructor & TA &bull; September 2012 - December 2014</small>
+#### [PSU Physics Department](http://www.pdx.edu/physics/)<small>Lab Instructor & TA &bull; 2012 - 2014</small>
 
 - Instructed PSU’s General Physics Labs and assisted in the upper division Experimental Physics Labs.
-- Developed two novel labs on the use of microcontrollers and FPGAs covering basic concepts to
+- Developed two novel labs on the use of micro-controllers and FPGAs covering basic concepts to
 advanced topics like PID control theory.
 
-#### Cardinal TS<small> Textbook Development Consultant &bull; January 2012 - July 2012</small>
+#### [Cardinal TS](http://www.cardinalts.com/site/index.html)<small> Textbook Development Consultant &bull; 2012</small>
 
-- Front end Javascript development for a interactive calculus textbook website for Wiley Publishing.
+- Front end JavaScript development for a interactive calculus textbook website for Wiley Publishing.
 - Provided conceptual content and calculus interpretation for other members of the development team.
 
-#### HSU Gravitational Research Laboratory<small> Research Assistant &bull; May 2009 - September 2011</small>
+#### [HSU Gravitational Research Laboratory](http://www2.humboldt.edu/physics/gravitational-lab.html)<small> Research Assistant &bull; 2009 - 2011 &bull; [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157627758235393)</small>
 
 - Designed and machined custom experimental instruments and developed the lab’s data collection, automation and analysis software to study the gravitational inverse-square law at sub-millimeter distance scales.
 
-#### The Arecibo Radio Telescope ALFA Survey<small> Research Assistant &bull; November 2009</small>
+#### [The Arecibo Radio Telescope ALFA Survey](http://egg.astro.cornell.edu/index.php/)<small> Research Assistant &bull; 2009 &bull; [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157640257583256)</small>
 
 - Trained and operated one of the worlds largest radio telescopes and analyzed the collected data searching for previously undiscovered galaxies.
 
@@ -189,4 +188,9 @@ advanced topics like PID control theory.
 
 - **PDX Node, Organizer** (2015 - 2016)
 - **Code for Portland, Organizer & Volunteer** (2014 - 2015)
-- **"Remote Operation of a Scanning Electron Microscope using WebRTC", WebRTC Camp** (2013)
+- [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157640029129245) **"Remote Operation of a Scanning Electron Microscope using WebRTC", WebRTC Camp** (2013)
+
+## Open Source
+
+- <i class="fa fa-github" aria-hidden="true"></i> [github.com/bcomnes](https://github.com/bcomnes)
+- <i class="fa fa-archive" aria-hidden="true"></i> [npmjs.com/~bret](https://www.npmjs.com/~bret)
