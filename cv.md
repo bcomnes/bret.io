@@ -57,7 +57,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 [LevelDB](https://github.com/google/leveldb),
 [Postgres](https://www.postgresql.org),
 [MySQL](https://www.mysql.com),
-[SQLite](https://sqlite.org)
+[SQLite](https://sqlite.org),
 [Firebase](https://firebase.google.com),
 [MongoDB](https://www.mongodb.com),
 [nginx](https://www.nginx.com/resources/wiki/),
@@ -74,7 +74,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 [C](https://en.wikipedia.org/wiki/C_(programming_language)),
 [C++](https://isocpp.org),
 [Mathematica](https://www.wolfram.com/mathematica/),
-[LabVIEW](http://www.ni.com/labview/)
+[LabVIEW](http://www.ni.com/labview/),
 [Ruby](http://poignant.guide)
 
 - **Project Management:**
@@ -85,7 +85,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 [IRC](https://www.irccloud.com),
 [markdown](http://whatismarkdown.com),
 [rst](http://docutils.sourceforge.net/rst.html)/[sphinx](http://www.sphinx-doc.org/en/1.4.8/),
-[read the docs](https://readthedocs.org)
+[read the docs](https://readthedocs.org),
 [documentation](https://pages.18f.gov/open-source-guide/),
 [Chat Bots](http://zenircbot.readthedocs.io/en/latest/),
 [TravisCI](http://travis-ci.org),
