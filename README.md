@@ -22,7 +22,7 @@
 
 See more contributions, projects and experiments at [github.com/bcomnes](https://github.com/bcomnes).
 
-## Links
+## More Links
 
 - [<i class="fa fa-file-text"></i> cv](/cv)
 - [<i class="fa fa-comment"></i> contact](/contact)
