@@ -20,7 +20,14 @@
 - [hyperdrive / hypercore](https://github.com/mafintosh/hyperdrive) - futuristic Merkel-DAG based p2p filesharing network with fun features like version tracking, and appendable file archives.  Contributing to specs, supporting modules and discussions.
 - [scuttlebot](https://ssbc.github.io) - hosting a popular [patchwork](https://github.com/ssbc/patchwork) pub to power a p2p social network.  Also contributing to project discussions.
 
-See more contributions, projects and experiments at [github.com/bcomnes](https://github.com/bcomnes).
+See more contributions, projects and experiments at [github.com/bcomnes](https://github.com/bcomnes) and [npmjs.com/~bret](https://www.npmjs.com/~bret).
+
+## Articles and Snippets
+
+- [How I GPG](https://gist.github.com/bcomnes/647477a3a143774069755d672cb395ca)
+- [.dotfiles](https://github.com/bcomnes/.dotfiles)
+- [Sublime Text Settings](https://github.com/bcomnes/sublime-text-settings)
+- [Atom User Page](https://atom.io/users/bcomnes)
 
 ## More Links
 
