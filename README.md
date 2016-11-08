@@ -27,4 +27,4 @@ See more contributions, projects and experiments at [github.com/bcomnes](https:/
 - [<i class="fa fa-file-text"></i> cv](/cv)
 - [<i class="fa fa-comment"></i> contact](/contact)
 - [<i class="fa fa-file-code-o"></i> website details](/about)
-- [<i class="fa fa-clock-o"></i> old blog archive](http://bcomnes.github.io)
+- [<i class="fa fa-clock-o"></i> old blog archive](https://github.com/bcomnes/bcomnes.github.io)
