@@ -127,6 +127,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 #### [ZHealth Documentation](http://www.zhealthconsulting.com)<small>Contractor and FTE &bull; Present &bull; [<i class="fa fa-camera-retro"></i>](https://twitter.com/davidlymanning/status/738858873281347584)</small>
 
 - Developing next generation structured documentation software for Cardiac Surgeons and Hospitals.
+- API and microservice design + implementation.
 - Cross Platform Desktop software using Electron, HTML, CSS and SVG powered by React + Redux.
 - Modular development using github, npm and continuous delivery using travisCI and AWS.
 
@@ -181,8 +182,8 @@ advanced topics like PID control theory.
 
 ## Education
 
-- **B.S., Physics** - 2011, Humboldt State University
-- **M.A., Applied Physics** - 2015, Portland State University (Incomplete)
+- **B.S. Physics** <small>2011 Humboldt State University</small>
+- **M.S. Applied Physics** <small>2015, Portland State University (Incomplete)</small>
 
 ## Publications, Talks, Community Involvement & Leadership
 
