@@ -35,6 +35,7 @@
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
+    "autoprefixer": "^6.5.2",
     "browserify": "^13.1.1",
     "budo": "^9.2.1",
     "cpr": "^2.0.0",
