@@ -1,13 +1,13 @@
 
 # CV
 
-## Bret Comnes
+## <i class="fa fa-male" aria-hidden="true"></i> Bret Comnes
 
 Software Engineer and Web Developer Specializing in Hypermodular JavaScript and Node.js
 
 **email: [bcomnes@gmail.com](mailto:bcomnes@gmail.com) &bull; web: [bret.io/contact](http://bret.io/contact)  &bull; current location: [Portland, OR](http://osm.org/go/WIDwCTzGh-?m=)**
 
-## Skills
+## <i class="fa fa-bicycle" aria-hidden="true"></i> Skills
 
 - **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript):**
 [Node.js](https://nodejs.org/docs/latest/api/),
@@ -122,7 +122,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 [Oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope),
 [Function Generators](https://en.wikipedia.org/wiki/Function_generator) etc...
 
-## Work
+## <i class="fa fa-globe" aria-hidden="true"></i> Work
 
 #### [ZHealth Documentation](http://www.zhealthconsulting.com)<small>Contractor and FTE &bull; Present &bull; [<i class="fa fa-camera-retro"></i>](https://twitter.com/davidlymanning/status/738858873281347584)</small>
 
@@ -180,18 +180,19 @@ advanced topics like PID control theory.
 - Trained and operated one of the worlds largest radio telescopes and analyzed the collected data searching for previously undiscovered galaxies.
 
 
-## Education
+## <i class="fa fa-university" aria-hidden="true"></i> Education
 
 - **B.S. Physics** <small>2011 Humboldt State University</small>
 - **M.S. Applied Physics** <small>2015, Portland State University (Incomplete)</small>
 
-## Publications, Talks, Community Involvement & Leadership
+## <i class="fa fa-newspaper-o" aria-hidden="true"></i>  Community
 
 - **PDX Node, Organizer** (2015 - 2016)
 - **Code for Portland, Organizer & Volunteer** (2014 - 2015)
 - [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157640029129245) **"Remote Operation of a Scanning Electron Microscope using WebRTC", WebRTC Camp** (2013)
 
-## Open Source
+## <i class="fa fa-code-fork" aria-hidden="true"></i> Open Source
 
 - <i class="fa fa-github" aria-hidden="true"></i> [github.com/bcomnes](https://github.com/bcomnes)
 - <i class="fa fa-archive" aria-hidden="true"></i> [npmjs.com/~bret](https://www.npmjs.com/~bret)
+- <i class="fa fa-flask" aria-hidden="true"></i> [hypermodul.es](http://hypermodul.es)
