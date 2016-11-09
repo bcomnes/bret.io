@@ -1,5 +1,6 @@
 module.exports = {
   use: [
+    'autoprefixer',
     'postcss-import',
     'postcss-url',
     'postcss-browser-reporter',
