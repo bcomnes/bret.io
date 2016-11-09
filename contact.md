@@ -21,7 +21,7 @@ Send me a message on [irc][irc-url].  My nickname on [freenode](https://freenode
 [irc-img]: http://img.shields.io/badge/use-irc-brightgreen.svg?style=flat-square
 [irc-url]: https://www.irccloud.com/invite?channel=%23hypermodules&hostname=irc.freenode.net&port=6697&ssl=1
 
-#### Sign my [PGP Key](https://keybase.io/bret)
+#### <i class="fa fa-lock" aria-hidden="true"></i> Sign my [PGP Key](https://keybase.io/bret)
 
 Sign my [PGP key: `3705F4634DC3A1AC`][pgp-url].
 
