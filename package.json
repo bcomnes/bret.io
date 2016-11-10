@@ -4,7 +4,10 @@
   "description": "profesh website",
   "main": "src/index.js",
   "scripts": {
-    "test": "dependency-check . && standard | snazzy && tape test/* | tap-format-spec",
+    "test": "run-s test:* build",
+    "test:deps" "dependency-check .",
+    "test:lint": "standard | snazzy",
+    "test:tape": "tape test/* | tap-format-spec",
     "gh-pages": "npm run build && gh-pages -d dist",
     "build": "npm run clean && run-p build:*",
     "build:css": "postcss -c postcss.config.js",
