@@ -182,14 +182,14 @@ advanced topics like PID control theory.
 
 ## <i class="fa fa-university" aria-hidden="true"></i> Education
 
-- **B.S. Physics** <small>2011 Humboldt State University</small>
-- **M.S. Applied Physics** <small>2015, Portland State University (Incomplete)</small>
+- **B.S. Physics** <small>2011 [Humboldt State University](http://www2.humboldt.edu/physics/)</small>
+- **M.S. Applied Physics** <small>2015, [Portland State University](http://www.pdx.edu/physics/) (Incomplete)</small>
 
 ## <i class="fa fa-newspaper-o" aria-hidden="true"></i>  Community
 
-- **PDX Node, Organizer** (2015 - 2016)
-- **Code for Portland, Organizer & Volunteer** (2014 - 2015)
-- [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157640029129245) **"Remote Operation of a Scanning Electron Microscope using WebRTC", WebRTC Camp** (2013)
+- **[PDX Node](https://www.meetup.com/pdxnode/), Organizer** <small>Meetup (2015 - 2016)</small>
+- **[Code for Portland](http://www.codeforportland.org), Organizer & Volunteer** <small>Open Civic Data Initiative (2014 - Preset)</small>
+- [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157640029129245) **"Remote Operation of a Scanning Electron Microscope using WebRTC", [WebRTC Camp](https://twitter.com/WebRTCCamp)** <small>Conference (2013)</small>
 
 ## <i class="fa fa-code-fork" aria-hidden="true"></i> Open Source
 
