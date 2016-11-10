@@ -1,5 +1,7 @@
 # Website ingredients
 
+[![Build Status](https://travis-ci.org/bcomnes/bret.io.svg?branch=master)](https://travis-ci.org/bcomnes/bret.io)
+
 This is a simple professional website that is generated using [ungoldman/sitedown](https://github.com/ungoldman/sitedown) for commonmark transforms, [postcss](https://github.com/postcss/postcss) for css transforms and asset importing, [budo](https://github.com/mattdesl/budo) for live-reload and rapid development, and [browserify](http://browserify.org) for js bundling.
 
 Thanks to [ungoldman/style.css](https://github.com/ungoldman/style.css) for a hassle free markdown base style.
