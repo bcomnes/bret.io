@@ -1,3 +1,5 @@
+/*
+
 function listen () {
   var page = document.querySelector('.page')
   var toggle = document.querySelector('.id')
@@ -11,3 +13,9 @@ function listen () {
 }
 
 listen()
+
+*/
+
+console.log('hi fellow javascriptian!')
+console.log('nothing to see here yet.')
+
