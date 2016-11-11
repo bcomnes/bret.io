@@ -43,15 +43,19 @@ main {
   top: -1px;
 }
 
+nav.top-bar {
+  background-image: none;
+  transition: background-image 2s linear;
+}
+
 @media screen and (max-width: 85em) {
-  .top-bar {
-    position: inherit;
-    top: inherit;
+  nav.top-bar{
+    z-index: 1;
+    background-image: linear-gradient(to bottom, white 80%, hsla(360, 100%, 100%, 0));
   }
 }
 
 @media screen and (max-width: 42em) {
-
   span.external {
     display: none;
   }
