@@ -95,6 +95,8 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 [bash](https://www.gnu.org/software/bash/bash.html),
 [systemd](https://www.freedesktop.org/wiki/Software/systemd/),
 [Ansible](https://www.ansible.com),
+[containers](https://linuxcontainers.org) ([Docker](https://www.docker.com)/[rkt](https://github.com/coreos/rkt)),
+[clusters](https://en.wikipedia.org/wiki/Computer_cluster) ([kubernetes](http://kubernetes.io)/[slurm](http://slurm.schedmd.com)),
 [Linux](https://www.kernel.org),
 [Unix Philosophy](http://www.catb.org/esr/writings/taoup/html/ch01s06.html),
 [macOS](http://www.apple.com/macos/sierra/),
