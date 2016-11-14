@@ -186,8 +186,8 @@ advanced topics like PID control theory.
 
 ## <i class="fa fa-newspaper-o" aria-hidden="true"></i>  Community
 
-- **[PDX Node](https://www.meetup.com/pdxnode/), Organizer** <small>Meetup (2015 - 2016)</small>
-- **[Code for Portland](http://www.codeforportland.org), Organizer & Volunteer** <small>Open Civic Data Initiative (2014 - Preset)</small>
+- **[PDX Node](https://www.meetup.com/pdxnode/), Organizer** <small>Meetup (2015 - Present)</small>
+- **[Code for Portland](http://www.codeforportland.org), Organizer & Volunteer** <small>Open Civic Data Initiative (2014 - 2015)</small>
 - [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157640029129245) **"Remote Operation of a Scanning Electron Microscope using WebRTC", [WebRTC Camp](https://twitter.com/WebRTCCamp)** <small>Conference (2013)</small>
 
 ## <i class="fa fa-code-fork" aria-hidden="true"></i> Open Source
