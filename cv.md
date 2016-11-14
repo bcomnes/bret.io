@@ -32,7 +32,8 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 [Browser Support](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support),
 [regl](https://github.com/regl-project/regl),
 [http](https://nodejs.org/api/http.html),
-[greenkeeper](https://greenkeeper.io)
+[greenkeeper](https://greenkeeper.io),
+[david-dm](https://david-dm.org)
 
 - **[Web Platform](https://developer.mozilla.org/en-US/):**
 [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML),
