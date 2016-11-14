@@ -39,14 +39,23 @@ main {
 .top-bar {
   margin-bottom: 0;
   margin-top: 0;
+}
+
+nav.top-bar {
   position: sticky;
   top: -1px;
 }
 
+footer.top-bar {
+  position: sticky;
+  bottom: 1px;
+}
+
 @media screen and (max-width: 85em) {
-  .top-bar {
+  nav.top-bar, footer.top-bar {
     position: inherit;
     top: inherit;
+    bottom: inherit;
   }
 }
 
