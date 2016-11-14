@@ -1,7 +1,4 @@
-
-# CV
-
-## <i class="fa fa-male" aria-hidden="true"></i> Bret Comnes
+# <i class="fa fa-male" aria-hidden="true"></i> Bret Comnes
 
 Software Engineer and Web Developer Specializing in Hypermodular JavaScript and Node.js
 
