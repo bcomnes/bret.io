@@ -36,4 +36,4 @@ See more contributions, projects and experiments at [github.com/bcomnes](https:/
 - [🌵website details](/about)
 - [📜old blog archive](https://github.com/bcomnes/bcomnes.github.io)
 - [🐈follow me on github](https://twitter.com/uhhyeahbret)
-- [🐦follow me on twitter](https://twitter.com/uhhyeahbret)
+- [🐦follow me on twitter](https://github.com/bcomnes)
