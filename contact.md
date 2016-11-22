@@ -3,7 +3,7 @@
 
 *Here are some good ways to contact Bret Comnes.*
 
-#### 📬Send me an [email][email-url]
+#### 📬 Send me an [email][email-url]
 
 Email is a good way to contact me.  [iMessage](https://en.wikipedia.org/wiki/IMessage) and [google hangouts](https://hangouts.google.com) are also accepted at this address.  I love to hear from anyone about anything (excluding spambots 🤖).
 
@@ -12,7 +12,7 @@ Email is a good way to contact me.  [iMessage](https://en.wikipedia.org/wiki/IMe
 [email-img]: http://img.shields.io/badge/compose-email-brightgreen.svg?style=flat-square
 [email-url]: mailto:bcomnes@gmail.com
 
-#### 🐈Make an [issue][message-url]
+#### 🐈 Make an [issue][message-url]
 
 Start a public conversation by creating a [github issue][message-url].
 
@@ -22,7 +22,7 @@ Start a public conversation by creating a [github issue][message-url].
 [message-url]: https://github.com/bcomnes/bret.io/issues/new
 
 
-#### 🐦Send me a [tweet][tweet-url]
+#### 🐦 Send me a [tweet][tweet-url]
 
 Send me a public tweet or a private direct message at [`@uhhyeahbret`](http://twitter.com/uhhyeahbret).
 
@@ -31,7 +31,7 @@ Send me a public tweet or a private direct message at [`@uhhyeahbret`](http://tw
 [tweet-img]: http://img.shields.io/badge/send-tweet-green.svg?style=flat-square
 [tweet-url]: https://twitter.com/intent/tweet?text=@uhhyeahbret
 
-#### 💬Ping me on [irc][irc-url]
+#### 💬 Ping me on [irc][irc-url]
 
 Send me a message on [irc][irc-url].  My nickname on [freenode](https://freenode.net) is registerd as `bret` or you can leave a message in [`#hypermodules`][irc-url].
 
@@ -40,7 +40,7 @@ Send me a message on [irc][irc-url].  My nickname on [freenode](https://freenode
 [irc-img]: http://img.shields.io/badge/query-irc-yellow.svg?style=flat-square
 [irc-url]: https://www.irccloud.com/invite?channel=%23hypermodules&hostname=irc.freenode.net&port=6697&ssl=1
 
-#### 🔑Sign my [PGP Key](https://keybase.io/bret)
+#### 🔑 Sign my [PGP Key](https://keybase.io/bret)
 
 Sign my [PGP key: `3705F4634DC3A1AC`][pgp-url].
 
@@ -50,7 +50,7 @@ Sign my [PGP key: `3705F4634DC3A1AC`][pgp-url].
 [pgp-url]: https://keybase.io/bret
 
 
-#### 📻Call me on [HAM Radio][ham-url]
+#### 📻 Call me on [HAM Radio][ham-url]
 
 You can try to contact me with my [call sign: `KI7ILE`][ham-url].  We will probably have to coordinate beforhand though.
 

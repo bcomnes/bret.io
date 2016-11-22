@@ -4,7 +4,7 @@
   <p class="subtitle">Software Engineer and Web Developer Specializing in Hypermodular Javascript and Node.js</p>
 </header>
 
-## 🌝Current projects
+## 🌝 Current projects
 
 - [hypermodul.es](http://hypermodul.es) - [hypermodular](https://opbeat.com/community/posts/hypermodular-development-by-mathias-buus/) development collective.
 - [hyperamp](https://github.com/hypermodules/hyperamp) - [electron](http://electron.atom.io), js, css, html powered media library, with big dreams of unified media libraries that span multiple devices using p2p connections.
@@ -14,7 +14,7 @@
 - [mooon](https://www.npmjs.com/package/mooon) - display the current moon phase in your system tray.
 - [node-handbook](https://github.com/bcomnes/node-handbook) - history, background and resources for learning javascript and the node.js way.
 
-## 🔭Contributing
+## 🔭 Contributing
 
 - [standard](https://www.npmjs.com/package/standard) - Use JavaScript Standard Style!  ~209,908+ downloads a month!
 - [hyperdrive / hypercore](https://github.com/mafintosh/hyperdrive) - futuristic Merkel-DAG based p2p filesharing network with fun features like version tracking, and appendable file archives.  Contributing to specs, supporting modules and discussions.
@@ -22,7 +22,7 @@
 
 See more contributions, projects and experiments at [github.com/bcomnes](https://github.com/bcomnes) and [npmjs.com/~bret](https://www.npmjs.com/~bret).
 
-## 📰Articles and Snippets
+## 📰 Articles and Snippets
 
 - [How I GPG](https://gist.github.com/bcomnes/647477a3a143774069755d672cb395ca)
 - [.dotfiles](https://github.com/bcomnes/.dotfiles)
@@ -31,9 +31,9 @@ See more contributions, projects and experiments at [github.com/bcomnes](https:/
 
 ## ⛓More Links
 
-- [📃cv](/cv)
-- [💬contact](/contact)
-- [🌵website details](/about)
-- [📜old blog archive](https://github.com/bcomnes/bcomnes.github.io)
-- [🐈follow me on github](https://github.com/bcomnes)
-- [🐦follow me on twitter](https://twitter.com/uhhyeahbret)
+- [📃 cv](/cv)
+- [💬 contact](/contact)
+- [🌵 website details](/about)
+- [📜 old blog archive](https://github.com/bcomnes/bcomnes.github.io)
+- [🐈 follow me on github](https://github.com/bcomnes)
+- [🐦 follow me on twitter](https://twitter.com/uhhyeahbret)

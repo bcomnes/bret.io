@@ -1,10 +1,10 @@
-# 👷Bret Comnes
+# 👷 Bret Comnes
 
 Software Engineer and Web Developer Specializing in Hypermodular JavaScript and Node.js
 
 **email: [bcomnes@gmail.com](mailto:bcomnes@gmail.com) &bull; web: [bret.io/contact](http://bret.io/contact)  &bull; current location: [Portland, OR](http://osm.org/go/WIDwCTzGh-?m=)**
 
-## 🚲Skills
+## 🚲 Skills
 
 - **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript):**
 [Node.js](https://nodejs.org/docs/latest/api/),
@@ -123,7 +123,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 [Oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope),
 [Function Generators](https://en.wikipedia.org/wiki/Function_generator) etc...
 
-## 🌎Work
+## 🌎 Work
 
 #### [ZHealth Documentation](http://www.zhealthconsulting.com)<small>Contractor and FTE &bull; Present &bull; [🛤](https://twitter.com/davidlymanning/status/738858873281347584)</small>
 
@@ -181,19 +181,19 @@ advanced topics like PID control theory.
 - Trained and operated one of the worlds largest radio telescopes and analyzed the collected data searching for previously undiscovered galaxies.
 
 
-## 🎓Education
+## 🎓 Education
 
 - **B.S. Physics** <small>2011 [Humboldt State University](http://www2.humboldt.edu/physics/)</small>
 - **M.S. Applied Physics** <small>2015, [Portland State University](http://www.pdx.edu/physics/) (Incomplete)</small>
 
-## 🎆Community
+## 🎆 Community
 
 - **[PDX Node](https://www.meetup.com/pdxnode/), Organizer** <small>Meetup (2015 - Present)</small>
 - **[Code for Portland](http://www.codeforportland.org), Organizer & Volunteer** <small>Open Civic Data Initiative (2014 - 2015)</small>
 - [🔬](https://www.flickr.com/photos/bretc/albums/72157640029129245) **"Remote Operation of a Scanning Electron Microscope using WebRTC", [WebRTC Camp](https://twitter.com/WebRTCCamp)** <small>Conference (2013)</small>
 
-## 🎋Open Source
+## 🎋 Open Source
 
-- 🐈[github.com/bcomnes](https://github.com/bcomnes)
-- 📦[npmjs.com/~bret](https://www.npmjs.com/~bret)
-- 🔭[hypermodul.es](http://hypermodul.es)
+- 🐈 [github.com/bcomnes](https://github.com/bcomnes)
+- 📦 [npmjs.com/~bret](https://www.npmjs.com/~bret)
+- 🔭 [hypermodul.es](http://hypermodul.es)
