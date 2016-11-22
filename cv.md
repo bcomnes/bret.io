@@ -125,31 +125,31 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 
 ## 🌎 Work
 
-#### [ZHealth Documentation](http://www.zhealthconsulting.com)<small>Contractor and FTE &bull; Present &bull; [🛤](https://twitter.com/davidlymanning/status/738858873281347584)</small>
+#### [ZHealth Documentation](http://www.zhealthconsulting.com) <small>Contractor and FTE &bull; Present &bull; [🛤](https://twitter.com/davidlymanning/status/738858873281347584)</small>
 
 - Developing next generation structured documentation software for Cardiac Surgeons and Hospitals.
 - API and microservice design + implementation.
 - Cross Platform Desktop software using Electron, HTML, CSS and SVG powered by React + Redux.
 - Modular development using github, npm and continuous delivery using travisCI and AWS.
 
-#### [Jaguar Land Rover R&D](https://www.jlrtechincubator.com/jlrti/)<small>Software Engineer &bull; 2015 - 2016</small>
+#### [Jaguar Land Rover R&D](https://www.jlrtechincubator.com/jlrti/) <small>Software Engineer &bull; 2015 - 2016</small>
 
 - Rapid mobile app and infotainment prototype development using JS + Node.js, HTML and CSS.
 - Participate and run user testing sessions, and incorporate findings into development planning.
 
-#### [Urban Airship](https://www.urbanairship.com)<small>Technical Support Engineer &bull; April 2015 - July 2015</small>
+#### [Urban Airship](https://www.urbanairship.com) <small>Technical Support Engineer &bull; April 2015 - July 2015</small>
 
 - Support Urban Airships customers ranging from mobile developers to marketers.
 - Custom mailing software for sending personalized emails to customers in Node.js.
 
-#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing)<small>Web & Systems Developer &bull; 2014 - 2015 &bull; [🏛](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
+#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing) <small>Web & Systems Developer &bull; 2014 - 2015 &bull; [🏛](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
 
 - Web applications and systems programming with Python and Django.
 - Implemented and designed a Github style email correspondence bridge for ARCs ticketing system.
 - Implemented user tracking and notification system for ARC’s research systems.
 - Writing package that tracks MySQL and Postgres database activity of ARCs hosted projects.
 
-#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing)<small>Systems Administrator &bull; 2013 - 2015 &bull; [🏛](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
+#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing) <small>Systems Administrator &bull; 2013 - 2015 &bull; [🏛](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
 
 - Responsible for building, automating and monitoring PSU’s research servers and Linux Clusters.
 - Initiated efforts to automate cluster deployment and management using configuration management.
@@ -157,29 +157,28 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 research systems.
 - Trained and introduced new users to ARCs resources and shared unix computing environments.
 
-#### [PSU Sánchez Nano Development Lab](http://www.pdx.edu/nano-development-lab/)<small>Research Assistant &bull; 2013 - 2015</small>
+#### [PSU Sánchez Nano Development Lab](http://www.pdx.edu/nano-development-lab/) <small>Research Assistant &bull; 2013 - 2015</small>
 
 - Wrote custom control software and a web application that enabled remote viewing and operation of a Scanning Electron Microscope over the Internet using React, Web Sockets and WebRTC.
 
-#### [PSU Physics Department](http://www.pdx.edu/physics/)<small>Lab Instructor & TA &bull; 2012 - 2014</small>
+#### [PSU Physics Department](http://www.pdx.edu/physics/) <small>Lab Instructor & TA &bull; 2012 - 2014</small>
 
 - Instructed PSU’s General Physics Labs and assisted in the upper division Experimental Physics Labs.
 - Developed two novel labs on the use of micro-controllers and FPGAs covering basic concepts to
 advanced topics like PID control theory.
 
-#### [Cardinal TS](http://www.cardinalts.com/site/index.html)<small> Textbook Development Consultant &bull; 2012</small>
+#### [Cardinal TS](http://www.cardinalts.com/site/index.html) <small>Textbook Development Consultant &bull; 2012</small>
 
 - Front end JavaScript development for a interactive calculus textbook website for Wiley Publishing.
 - Provided conceptual content and calculus interpretation for other members of the development team.
 
-#### [HSU Gravitational Research Laboratory](http://www2.humboldt.edu/physics/gravitational-lab.html)<small> Research Assistant &bull; 2009 - 2011 &bull; [🛰](https://www.flickr.com/photos/bretc/albums/72157627758235393)</small>
+#### [HSU Gravitational Research Laboratory](http://www2.humboldt.edu/physics/gravitational-lab.html) <small>Research Assistant &bull; 2009 - 2011 &bull; [🛰](https://www.flickr.com/photos/bretc/albums/72157627758235393)</small>
 
 - Designed and machined custom experimental instruments and developed the lab’s data collection, automation and analysis software to study the gravitational inverse-square law at sub-millimeter distance scales.
 
-#### [The Arecibo Radio Telescope ALFA Survey](http://egg.astro.cornell.edu/index.php/)<small> Research Assistant &bull; 2009 &bull; [📡](https://www.flickr.com/photos/bretc/albums/72157640257583256)</small>
+#### [The Arecibo Radio Telescope ALFA Survey](http://egg.astro.cornell.edu/index.php/) <small>Research Assistant &bull; 2009 &bull; [📡](https://www.flickr.com/photos/bretc/albums/72157640257583256)</small>
 
 - Trained and operated one of the worlds largest radio telescopes and analyzed the collected data searching for previously undiscovered galaxies.
-
 
 ## 🎓 Education
 
