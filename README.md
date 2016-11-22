@@ -4,7 +4,7 @@
   <p class="subtitle">Software Engineer and Web Developer Specializing in Hypermodular Javascript and Node.js</p>
 </header>
 
-## <i class="fa fa-clock-o" aria-hidden="true"></i> Current projects
+## 🌝Current projects
 
 - [hypermodul.es](http://hypermodul.es) - [hypermodular](https://opbeat.com/community/posts/hypermodular-development-by-mathias-buus/) development collective.
 - [hyperamp](https://github.com/hypermodules/hyperamp) - [electron](http://electron.atom.io), js, css, html powered media library, with big dreams of unified media libraries that span multiple devices using p2p connections.
@@ -14,7 +14,7 @@
 - [mooon](https://www.npmjs.com/package/mooon) - display the current moon phase in your system tray.
 - [node-handbook](https://github.com/bcomnes/node-handbook) - history, background and resources for learning javascript and the node.js way.
 
-## <i class="fa fa-users" aria-hidden="true"></i> Contributing
+## 🔭Contributing
 
 - [standard](https://www.npmjs.com/package/standard) - Use JavaScript Standard Style!  ~209,908+ downloads a month!
 - [hyperdrive / hypercore](https://github.com/mafintosh/hyperdrive) - futuristic Merkel-DAG based p2p filesharing network with fun features like version tracking, and appendable file archives.  Contributing to specs, supporting modules and discussions.
@@ -22,16 +22,18 @@
 
 See more contributions, projects and experiments at [github.com/bcomnes](https://github.com/bcomnes) and [npmjs.com/~bret](https://www.npmjs.com/~bret).
 
-## <i class="fa fa-file-text-o" aria-hidden="true"></i> Articles and Snippets
+## 📰Articles and Snippets
 
 - [How I GPG](https://gist.github.com/bcomnes/647477a3a143774069755d672cb395ca)
 - [.dotfiles](https://github.com/bcomnes/.dotfiles)
 - [Sublime Text Settings](https://github.com/bcomnes/sublime-text-settings)
 - [Atom User Page](https://atom.io/users/bcomnes)
 
-## <i class="fa fa-link" aria-hidden="true"></i> More Links
+## ⛓More Links
 
-- [<i class="fa fa-file-text"></i> cv](/cv)
-- [<i class="fa fa-comment"></i> contact](/contact)
-- [<i class="fa fa-file-code-o"></i> website details](/about)
-- [<i class="fa fa-clock-o"></i> old blog archive](https://github.com/bcomnes/bcomnes.github.io)
+- [📃cv](/cv)
+- [💬contact](/contact)
+- [🌵website details](/about)
+- [📜old blog archive](https://github.com/bcomnes/bcomnes.github.io)
+- [🐈follow me on github](https://twitter.com/uhhyeahbret)
+- [🐦follow me on twitter](https://twitter.com/uhhyeahbret)
