@@ -35,5 +35,5 @@ See more contributions, projects and experiments at [github.com/bcomnes](https:/
 - [💬contact](/contact)
 - [🌵website details](/about)
 - [📜old blog archive](https://github.com/bcomnes/bcomnes.github.io)
-- [🐈follow me on github](https://twitter.com/uhhyeahbret)
-- [🐦follow me on twitter](https://github.com/bcomnes)
+- [🐈follow me on github](https://github.com/bcomnes)
+- [🐦follow me on twitter](https://twitter.com/uhhyeahbret)
