@@ -1,10 +1,10 @@
-# <i class="fa fa-male" aria-hidden="true"></i> Bret Comnes
+# 👷Bret Comnes
 
 Software Engineer and Web Developer Specializing in Hypermodular JavaScript and Node.js
 
 **email: [bcomnes@gmail.com](mailto:bcomnes@gmail.com) &bull; web: [bret.io/contact](http://bret.io/contact)  &bull; current location: [Portland, OR](http://osm.org/go/WIDwCTzGh-?m=)**
 
-## <i class="fa fa-bicycle" aria-hidden="true"></i> Skills
+## 🚲Skills
 
 - **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript):**
 [Node.js](https://nodejs.org/docs/latest/api/),
@@ -123,9 +123,9 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 [Oscilloscopes](https://en.wikipedia.org/wiki/Oscilloscope),
 [Function Generators](https://en.wikipedia.org/wiki/Function_generator) etc...
 
-## <i class="fa fa-globe" aria-hidden="true"></i> Work
+## 🌎Work
 
-#### [ZHealth Documentation](http://www.zhealthconsulting.com)<small>Contractor and FTE &bull; Present &bull; [<i class="fa fa-camera-retro"></i>](https://twitter.com/davidlymanning/status/738858873281347584)</small>
+#### [ZHealth Documentation](http://www.zhealthconsulting.com)<small>Contractor and FTE &bull; Present &bull; [🛤](https://twitter.com/davidlymanning/status/738858873281347584)</small>
 
 - Developing next generation structured documentation software for Cardiac Surgeons and Hospitals.
 - API and microservice design + implementation.
@@ -142,14 +142,14 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 - Support Urban Airships customers ranging from mobile developers to marketers.
 - Custom mailing software for sending personalized emails to customers in Node.js.
 
-#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing)<small>Web & Systems Developer &bull; 2014 - 2015 &bull; [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
+#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing)<small>Web & Systems Developer &bull; 2014 - 2015 &bull; [🏛](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
 
 - Web applications and systems programming with Python and Django.
 - Implemented and designed a Github style email correspondence bridge for ARCs ticketing system.
 - Implemented user tracking and notification system for ARC’s research systems.
 - Writing package that tracks MySQL and Postgres database activity of ARCs hosted projects.
 
-#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing)<small>Systems Administrator &bull; 2013 - 2015 &bull; [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
+#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing)<small>Systems Administrator &bull; 2013 - 2015 &bull; [🏛](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
 
 - Responsible for building, automating and monitoring PSU’s research servers and Linux Clusters.
 - Initiated efforts to automate cluster deployment and management using configuration management.
@@ -172,28 +172,28 @@ advanced topics like PID control theory.
 - Front end JavaScript development for a interactive calculus textbook website for Wiley Publishing.
 - Provided conceptual content and calculus interpretation for other members of the development team.
 
-#### [HSU Gravitational Research Laboratory](http://www2.humboldt.edu/physics/gravitational-lab.html)<small> Research Assistant &bull; 2009 - 2011 &bull; [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157627758235393)</small>
+#### [HSU Gravitational Research Laboratory](http://www2.humboldt.edu/physics/gravitational-lab.html)<small> Research Assistant &bull; 2009 - 2011 &bull; [🛰](https://www.flickr.com/photos/bretc/albums/72157627758235393)</small>
 
 - Designed and machined custom experimental instruments and developed the lab’s data collection, automation and analysis software to study the gravitational inverse-square law at sub-millimeter distance scales.
 
-#### [The Arecibo Radio Telescope ALFA Survey](http://egg.astro.cornell.edu/index.php/)<small> Research Assistant &bull; 2009 &bull; [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157640257583256)</small>
+#### [The Arecibo Radio Telescope ALFA Survey](http://egg.astro.cornell.edu/index.php/)<small> Research Assistant &bull; 2009 &bull; [📡](https://www.flickr.com/photos/bretc/albums/72157640257583256)</small>
 
 - Trained and operated one of the worlds largest radio telescopes and analyzed the collected data searching for previously undiscovered galaxies.
 
 
-## <i class="fa fa-university" aria-hidden="true"></i> Education
+## 🎓Education
 
 - **B.S. Physics** <small>2011 [Humboldt State University](http://www2.humboldt.edu/physics/)</small>
 - **M.S. Applied Physics** <small>2015, [Portland State University](http://www.pdx.edu/physics/) (Incomplete)</small>
 
-## <i class="fa fa-newspaper-o" aria-hidden="true"></i>  Community
+## 🎆Community
 
 - **[PDX Node](https://www.meetup.com/pdxnode/), Organizer** <small>Meetup (2015 - Present)</small>
 - **[Code for Portland](http://www.codeforportland.org), Organizer & Volunteer** <small>Open Civic Data Initiative (2014 - 2015)</small>
-- [<i class="fa fa-camera-retro"></i>](https://www.flickr.com/photos/bretc/albums/72157640029129245) **"Remote Operation of a Scanning Electron Microscope using WebRTC", [WebRTC Camp](https://twitter.com/WebRTCCamp)** <small>Conference (2013)</small>
+- [🔬](https://www.flickr.com/photos/bretc/albums/72157640029129245) **"Remote Operation of a Scanning Electron Microscope using WebRTC", [WebRTC Camp](https://twitter.com/WebRTCCamp)** <small>Conference (2013)</small>
 
-## <i class="fa fa-code-fork" aria-hidden="true"></i> Open Source
+## 🎋Open Source
 
-- <i class="fa fa-github" aria-hidden="true"></i> [github.com/bcomnes](https://github.com/bcomnes)
-- <i class="fa fa-archive" aria-hidden="true"></i> [npmjs.com/~bret](https://www.npmjs.com/~bret)
-- <i class="fa fa-flask" aria-hidden="true"></i> [hypermodul.es](http://hypermodul.es)
+- 🐈[github.com/bcomnes](https://github.com/bcomnes)
+- 📦[npmjs.com/~bret](https://www.npmjs.com/~bret)
+- 🔭[hypermodul.es](http://hypermodul.es)
