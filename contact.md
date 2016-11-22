@@ -1,5 +1,5 @@
 
-# Contact
+# 📞 Contact
 
 *Here are some good ways to contact Bret Comnes.*
 
