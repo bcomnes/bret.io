@@ -105,7 +105,8 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 [CentOS](https://www.centos.org),
 [CoreOS](https://coreos.com),
 [Arm Servers](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/),
-[autotools](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html)
+[autotools](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html),
+[ubiquiti hardware/software](https://www.ubnt.com/)/[vyatta routers](https://en.wikipedia.org/wiki/Vyatta)
 
 - **Cloud Platforms:**
 [AWS](https://aws.amazon.com),
