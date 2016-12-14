@@ -81,4 +81,8 @@ footer.top-bar {
   body {
     border: 0;
   }
+
+  main {
+    max-width: none;
+  }
 }
