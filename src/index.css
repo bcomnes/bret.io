@@ -64,3 +64,21 @@ footer.top-bar {
     display: none;
   }
 }
+
+
+@media print {
+  nav.top-bar, footer.top-bar {
+    position: inherit;
+    top: inherit;
+    bottom: inherit;
+  }
+
+  html {
+    background: white;
+    font-size: 85%;
+  }
+
+  body {
+    border: 0;
+  }
+}
