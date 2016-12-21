@@ -12,7 +12,7 @@
     "build:css": "postcss -c postcss.config.js",
     "build:js": "browserify src/index.js -o dist/bundle.js",
     "build:md": "sitedown . -b dist -l src/layout.html",
-    "build:cname": "cpr ./static/ dist/static/",
+    "build:static": "cpr ./static/ dist/static/",
     "watch": "npm run clean && run-p watch:*",
     "watch:css": "npm run build:css -- --watch",
     "watch:js": "budo src/index.js:bundle.js --dir dist --live --open",
