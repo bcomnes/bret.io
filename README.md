@@ -24,6 +24,7 @@ See more contributions, projects and experiments at [github.com/bcomnes](https:/
 
 ## 📰 Articles and Snippets
 
+- [Late 2016 Reading List](https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe)
 - [How I GPG](https://gist.github.com/bcomnes/647477a3a143774069755d672cb395ca)
 - [.dotfiles](https://github.com/bcomnes/.dotfiles)
 - [Sublime Text Settings](https://github.com/bcomnes/sublime-text-settings)
