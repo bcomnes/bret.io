@@ -13,7 +13,7 @@ body {
 }
 
 a, button, input {
-    cursor: url("./static/hand.png"), auto
+    cursor: url("./static/hand.png"), auto !important
 }
 
 main {
