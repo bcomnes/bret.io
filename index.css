@@ -2,10 +2,18 @@
 @import 'style.css';
 @import 'top-bar.css';
 
+html {
+  cursor: url("./static/pointer.png"), auto;
+}
+
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+a, button, input {
+    cursor: url("./static/hand.png"), auto
 }
 
 main {
