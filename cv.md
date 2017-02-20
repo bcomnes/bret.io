@@ -129,16 +129,22 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 
 ## 🌎 Work
 
-#### [ZHealth Documentation](http://www.zhealthconsulting.com) <small>Contractor and FTE &bull; Present &bull; [🛤](https://twitter.com/davidlymanning/status/738858873281347584)</small>
+#### Dexter Automation Project <small>Javascript and Electron Consultant &bull; 2017 - Present</small>
+
+- Remote software engineering consulting for MIT connected robotics and automation project.
+- Assist in porting Chrome browser applications to the Electron Application framework.
+
+#### [ZHealth Documentation](http://www.zhealthconsulting.com) <small>Javascript and Web Developer &bull; 2016 - Present &bull; [🛤](https://twitter.com/davidlymanning/status/738858873281347584)</small>
 
 - Developing next generation structured documentation software for Cardiac Surgeons and Hospitals.
 - API and microservice design + implementation.
 - Cross Platform Desktop software using Electron, HTML, CSS and SVG powered by React + Redux.
-- Modular development using github, npm and continuous delivery using travisCI and AWS.
+- Modular development using github, npm and continuous delivery using travisCI.
 
 #### [Jaguar Land Rover R&D](https://www.jlrtechincubator.com/jlrti/) <small>Software Engineer &bull; 2015 - 2016</small>
 
 - Rapid mobile app and infotainment prototype development using JS + Node.js, HTML and CSS.
+- Developed a custom single sign-on service and documentation server for internal documents and projects, and managed its monitoring and deployment process.
 - Participate and run user testing sessions, and incorporate findings into development planning.
 
 #### [Urban Airship](https://www.urbanairship.com) <small>Technical Support Engineer &bull; April 2015 - July 2015</small>
@@ -151,7 +157,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 - Web applications and systems programming with Python and Django.
 - Implemented and designed a Github style email correspondence bridge for ARCs ticketing system.
 - Implemented user tracking and notification system for ARC’s research systems.
-- Writing package that tracks MySQL and Postgres database activity of ARCs hosted projects.
+- Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics.
 
 #### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing) <small>Systems Administrator &bull; 2013 - 2015 &bull; [🏛](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
 
