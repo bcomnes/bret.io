@@ -2,9 +2,11 @@
 @import 'style.css';
 @import 'top-bar.css';
 
+/*
 html {
   cursor: url("./static/pointer.png"), auto;
 }
+*/
 
 body {
   min-height: 100vh;
@@ -12,9 +14,11 @@ body {
   flex-direction: column;
 }
 
+/*
 a, button, input {
     cursor: url("./static/hand.png"), auto !important
 }
+*/
 
 main {
   flex-grow: 1;
