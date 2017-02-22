@@ -1,6 +1,6 @@
 # 👷 Bret Comnes
 
-Software Engineer and Web Developer Specializing in Hypermodular JavaScript and Node.js
+Software Engineer and Web Developer Specializing in Hypermodular JavaScript and Operations
 
 **email: [bcomnes@gmail.com](mailto:bcomnes@gmail.com) &bull; web: [bret.io/contact](http://bret.io/contact)  &bull; current location: [Portland, OR](http://osm.org/go/WIDwCTzGh-?m=)**
 
@@ -106,7 +106,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 [Arch Linux](https://www.archlinux.org),
 [Debian](https://www.debian.org),
 [CentOS](https://www.centos.org),
-[CoreOS](https://coreos.com),
+[Container Linux](https://coreos.com/os/docs/latest),
 [Arm Servers](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/),
 [autotools](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html),
 [ubiquiti hardware/software](https://www.ubnt.com/)/[vyatta routers](https://en.wikipedia.org/wiki/Vyatta)
@@ -129,10 +129,10 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 
 ## 🌎 Work
 
-#### Dexter Automation Project <small>Javascript and Electron Consultant &bull; 2017 - Present</small>
+####  [Haddington Dynamics](http://hdrobotic.com) <small>Software Development Consultant &bull; 2017 - Present &bull; [🤖](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity#)</small>
 
 - Remote software engineering consulting for MIT connected robotics and automation project.
-- Assist in porting Chrome browser applications to the Electron Application framework.
+- Provide consulting on modern Javascript software development best practices and assist in porting existing Chrome Apps codebase to [Electron](http://electron.atom.io).
 
 #### [ZHealth Documentation](http://www.zhealthconsulting.com) <small>Javascript and Web Developer &bull; 2016 - Present &bull; [🛤](https://twitter.com/davidlymanning/status/738858873281347584)</small>
 
