@@ -129,7 +129,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 
 ## 🌎 Work
 
-####  [Haddington Dynamics](http://hdrobotic.com) <small>Software Development Consultant &bull; 2017 - Present &bull; [🤖](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity#)</small>
+####  [Haddington Dynamics](http://hdrobotic.com) <small>Development Consultant &bull; 2017 - Present &bull; [🤖](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity#)</small>
 
 - Remote software engineering consulting for MIT connected robotics and automation project.
 - Provide consulting on modern Javascript software development best practices and assist in porting existing Chrome Apps codebase to [Electron](http://electron.atom.io).
