@@ -159,7 +159,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 - Implemented user tracking and notification system for ARC’s research systems.
 - Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics.
 
-#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing) <small>Systems Administrator &bull; 2013 - 2015 &bull; [🏛](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
+#### [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing) <small>Devops & Systems Administrator &bull; 2013 - 2015 &bull; [🏛](https://www.flickr.com/photos/bretc/albums/72157658985330381)</small>
 
 - Responsible for building, automating and monitoring PSU’s research servers and Linux Clusters.
 - Initiated efforts to automate cluster deployment and management using configuration management.
