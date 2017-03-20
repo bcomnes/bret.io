@@ -22,6 +22,7 @@ See more contributions, projects and experiments at [github.com/bcomnes](https:/
 - [entypo](https://github.com/hypermodules/entypo) - Entypo icons as a module.
 - [level-auto-index](https://github.com/hypermodules/level-auto-index)/[level-idx](https://github.com/hypermodules/level-idx)/[level-hookdown](https://github.com/hypermodules/level-hookdown) - automatic leveldb indexing utilities.
 - [dti](https://github.com/hypermodules/dti) - electron devtools installer.
+- [goref](https://github.com/bcomnes/goref) - A Golang concentrate for refreshing your memory on the go programming language.
 - [hyperserv](https://github.com/bcomnes/hyperserv) - a minimal http server toolbox replacement for [express.js](http://expressjs.com).
 - [mooon](https://www.npmjs.com/package/mooon) - display the current moon phase in your system tray.
 - [node-handbook](https://github.com/bcomnes/node-handbook) - history, background and resources for learning javascript and the node.js way.
