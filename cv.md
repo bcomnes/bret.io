@@ -131,15 +131,16 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 
 ####  [Haddington Dynamics](http://hdrobotic.com) <small>Development Consultant &bull; 2017 - Present &bull; [🤖](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity#)</small>
 
-- Remote software engineering consulting for MIT connected robotics and automation project.
+- Remote software engineering consulting for MIT-connected robotics and automation project.
 - Provide consulting on modern Javascript software development best practices and assist in porting existing Chrome Apps codebase to [Electron](http://electron.atom.io).
+- Set up continuous integration infrastructure using TravisCI, Appveyor and Github.
 
 #### [ZHealth Documentation](http://www.zhealthconsulting.com) <small>Javascript and Web Developer &bull; 2016 - Present &bull; [🛤](https://twitter.com/davidlymanning/status/738858873281347584)</small>
 
 - Developing next generation structured documentation software for Cardiac Surgeons and Hospitals.
 - API and microservice design + implementation.
 - Cross Platform Desktop software using Electron, HTML, CSS and SVG powered by React + Redux.
-- Modular development using github, npm and continuous delivery using travisCI.
+- Modular development using github, npm and continuous delivery using TravisCI, Appveyor and S3/AWS.
 
 #### [Jaguar Land Rover R&D](https://www.jlrtechincubator.com/jlrti/) <small>Software Engineer &bull; 2015 - 2016</small>
 
@@ -176,6 +177,7 @@ research systems.
 - Instructed PSU’s General Physics Labs and assisted in the upper division Experimental Physics Labs.
 - Developed two novel labs on the use of micro-controllers and FPGAs covering basic concepts to
 advanced topics like PID control theory.
+- Teaching introductory electronics and debugging skills to students.
 
 #### [Cardinal TS](http://www.cardinalts.com/site/index.html) <small>Textbook Development Consultant &bull; 2012</small>
 
@@ -198,8 +200,11 @@ advanced topics like PID control theory.
 ## 🎆 Community
 
 - **[PDX Node](https://www.meetup.com/pdxnode/), Organizer** <small>Meetup (2015 - Present)</small>
-- **[Code for Portland](http://www.codeforportland.org), Organizer & Volunteer** <small>Open Civic Data Initiative (2014 - 2015)</small>
+- **[Node School](https://nodeschool.io), Organizer & Mentor** <small>(2016)</small>
+- **[Code for Portland](http://www.codeforportland.org), Organizer & Mentor** <small>Open Civic Data Initiative (2014 - 2015)</small>
 - [🔬](https://www.flickr.com/photos/bretc/albums/72157640029129245) **"Remote Operation of a Scanning Electron Microscope using WebRTC", [WebRTC Camp](https://twitter.com/WebRTCCamp)** <small>Conference (2013)</small>
+- **[Indieweb Camp](https://indieweb.org), Organizer & Mentor** <small>Yearly BarCamp style conference (2012 - 2014)</small>
+
 
 ## 🎋 Open Source
 
