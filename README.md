@@ -12,6 +12,7 @@
 ## 🔭 Contributing
 
 - [standard](https://www.npmjs.com/package/standard) - Use JavaScript Standard Style!  ~209,908+ downloads a month!
+- [choo](https://choo.io) - STURDY FRONTEND FRAMEWORK offered as a counterpoint implementation of react and redux style frameworks.
 - [hyperdrive / hypercore](https://github.com/mafintosh/hyperdrive) - futuristic Merkel-DAG based p2p filesharing network with fun features like version tracking, and appendable file archives.  Contributing to specs, supporting modules and discussions.
 - [scuttlebot](https://ssbc.github.io) - hosting a popular [patchwork](https://github.com/ssbc/patchwork) pub to power a p2p social network.  Also contributing to project discussions.
 
