@@ -47,9 +47,3 @@ See more contributions, projects and experiments at [github.com/bcomnes](https:/
 - [📜 old blog archive](https://github.com/bcomnes/bcomnes.github.io)
 - [🐈 follow me on github](https://github.com/bcomnes)
 - [🐦 follow me on twitter](https://twitter.com/uhhyeahbret)
-
-## 🐖 Support
-
-<script data-gratipay-username="bcomnes" src="//grtp.co/v1.js"></script>
-
-<script data-gratipay-username="bcomnes" data-gratipay-widget="giving" src="//grtp.co/v1.js"></script>
