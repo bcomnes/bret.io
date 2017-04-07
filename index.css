@@ -62,6 +62,10 @@ footer.top-bar {
   bottom: 1px;
 }
 
+.pop {
+  text-shadow: #cc1c1c 4px -3px 0px, #cc0 7px -5px 0px;
+}
+
 @media screen and (max-width: 85em) {
   nav.top-bar, footer.top-bar {
     position: inherit;
