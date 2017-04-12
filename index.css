@@ -97,4 +97,8 @@ footer.top-bar {
   main {
     max-width: none;
   }
+
+  .hide-print {
+    display: none;
+  }
 }
