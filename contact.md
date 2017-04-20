@@ -5,7 +5,7 @@
 
 #### 📬 Send me an [email][email-url]
 
-Email is a good way to contact me.  [iMessage](https://en.wikipedia.org/wiki/IMessage) and [google hangouts](https://hangouts.google.com) are also accepted at this address.  I love to hear from anyone about anything (excluding spambots 🤖).
+Email is a good way to contact me.  [iMessage](https://en.wikipedia.org/wiki/IMessage) and [google hangouts](https://hangouts.google.com) are also accepted at this address.  I love to hear from anyone about anything (excluding spambots 🤖).  I am also on [signal](https://whispersystems.org).  Email me for my phone number and we can connect securely. 
 
 [<svg xmlns="http://www.w3.org/2000/svg" width="98" height="20"><g shape-rendering="crispEdges"><path fill="#555" d="M0 0h59v20H0z"/><path fill="#4c1" d="M59 0h39v20H59z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="29.5" y="14">compose</text><text x="77.5" y="14">email</text></g></svg>][email-url]
 
