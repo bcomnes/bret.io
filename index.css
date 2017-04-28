@@ -1,6 +1,7 @@
 @import 'highlight.js/styles/github.css';
 @import 'style.css';
 @import 'top-bar.css';
+@import './fonts.css';
 
 /*
 html {
@@ -60,6 +61,14 @@ nav.top-bar {
 footer.top-bar {
   position: sticky;
   bottom: 1px;
+}
+
+.markdown-body {
+  font-family: Go, sans-serif;
+}
+
+pre, code {
+  font-family: Go Mono;
 }
 
 @media screen and (max-width: 85em) {
