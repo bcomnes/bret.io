@@ -68,7 +68,7 @@ footer.top-bar {
 }
 
 pre, code {
-  font-family: Go Mono;
+  font-family: Go Mono, monospace;
 }
 
 @media screen and (max-width: 85em) {
