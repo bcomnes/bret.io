@@ -202,6 +202,7 @@ advanced topics like PID control theory.
 - **[PDX Node](https://www.meetup.com/pdxnode/), Organizer** <small>Meetup (2015 - Present)</small>
 - **[Node School](https://nodeschool.io), Organizer & Mentor** <small>(2016)</small>
 - **[Code for Portland](http://www.codeforportland.org), Organizer & Mentor** <small>Open Civic Data Initiative (2014 - 2015)</small>
+- **[Small Modules Talk](http://bcomnes.github.io/slides/small-modules/)**, <small>Internal Presentation (2014)</small>
 - [🔬](https://www.flickr.com/photos/bretc/albums/72157640029129245) **"Remote Operation of a Scanning Electron Microscope using WebRTC", [WebRTC Camp](https://twitter.com/WebRTCCamp)** <small>Conference (2013)</small>
 - **[Indieweb Camp](https://indieweb.org), Organizer & Mentor** <small>Yearly BarCamp style conference (2012 - 2014)</small>
 
