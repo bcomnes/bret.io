@@ -15,7 +15,7 @@ npm run build # build snapshot from src to dist
 ## Features
 
 - Markdown to HTML with [sitedown](https://github.com/hypermodules/sitedown)
-- [Modular]() CSS in-lining with [post-css](https://github.com/postcss/postcss)
+- [Modular](https://github.com/bcomnes/bret.io/blob/master/postcss.config.js#L5-L10) CSS in-lining with [post-css](https://github.com/postcss/postcss)
 - Modular JS with [browserify](http://browserify.org) tested with [tape](https://github.com/substack/tape)
 - Emoji 🐴
 - CSS Styles happily borrowed from: [style.css](https://github.com/ungoldman/style.css), [top-bar.css](https://github.com/ungoldman/top-bar.css), [Go fonts](https://blog.golang.org/go-fonts)
