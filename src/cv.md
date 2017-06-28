@@ -129,13 +129,18 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 
 ## 🌎 Work
 
+####  [Netlify](https://www.netlify.com) <small>Web Development &bull; 2017 - Present</small>
+
+- I just started working here!  More details to come soon.
+- Developing product features in the companies primary React app and developing service APIs in Go.
+
 ####  [Haddington Dynamics](http://hdrobotic.com) <small>Development Consultant &bull; 2017 - Present &bull; [🤖](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity#)</small>
 
 - Remote software engineering consulting for MIT-connected robotics and automation project.
 - Provide consulting on modern Javascript software development best practices and assist in porting existing Chrome Apps codebase to [Electron](http://electron.atom.io).
 - Set up continuous integration infrastructure using TravisCI, Appveyor and Github.
 
-#### [ZHealth Documentation](http://www.zhealthconsulting.com) <small>Javascript and Web Developer &bull; 2016 - Present &bull; [🛤](https://twitter.com/davidlymanning/status/738858873281347584)</small>
+#### [ZHealth Documentation](http://www.zhealthconsulting.com) <small>Javascript and Web Developer &bull; 2016 - 2017 &bull; [🛤](https://twitter.com/davidlymanning/status/738858873281347584)</small>
 
 - Developing next generation structured documentation software for Cardiac Surgeons and Hospitals.
 - API and microservice design + implementation.
