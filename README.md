@@ -23,13 +23,13 @@ npm run build # build snapshot from src to dist
 - Automated dependency updates by [greenkeeper](https://greenkeeper.io)
 - Full external CSS + JS sourcemap support
 
-## License
-
-- Content: © Bret Comnes
-- Code: ISC
-
 ## Screenshot
 
 (may be out of date)
 
 ![screenshot](screenshot.png)
+
+## License
+
+- Content: © Bret Comnes
+- Code: ISC
