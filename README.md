@@ -19,7 +19,7 @@ npm run build # build snapshot from src to dist
 - Modular JS with [browserify](http://browserify.org) tested with [tape](https://github.com/substack/tape)
 - Emoji 🐴
 - CSS Styles happily borrowed from: [style.css](https://github.com/ungoldman/style.css), [top-bar.css](https://github.com/ungoldman/top-bar.css), [Go fonts](https://blog.golang.org/go-fonts)
-- Continuous git deployment and deploy previews provided by [Netlify](https://www.netlify.com) (I work there now)
+- Continuous git deployment and PR deploy previews provided by [Netlify](https://www.netlify.com) (I work there now)
 - Automated dependency updates by [greenkeeper](https://greenkeeper.io)
 - Full external CSS + JS sourcemap support
 
