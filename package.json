@@ -37,7 +37,7 @@
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
-    "autoprefixer": "^7.0.1",
+    "autoprefixer": "^7.1.4",
     "browserify": "^14.1.0",
     "budo": "^10.0.3",
     "cpr": "^2.0.0",
@@ -48,7 +48,7 @@
     "npm-run-all": "^4.0.0",
     "postcss": "^6.0.1",
     "postcss-browser-reporter": "^0.5.0",
-    "postcss-cli": "^4.0.0",
+    "postcss-cli": "^4.1.1",
     "postcss-import": "^10.0.0",
     "postcss-reporter": "^5.0.0",
     "postcss-url": "^7.0.0",
@@ -56,7 +56,7 @@
     "sitedown": "^3.0.1",
     "snazzy": "^7.0.0",
     "standard": "^10.0.1",
-    "style.css": "^1.0.0-alpha-8",
+    "style.css": "^1.0.0-beta-1",
     "tape": "^4.6.2",
     "top-bar.css": "^1.2.0"
   },
