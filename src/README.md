@@ -6,7 +6,7 @@
 
 ## 🌝 Current projects
 
-- [hypermodul.es](http://hypermodul.es) - [hypermodular](https://opbeat.com/community/posts/hypermodular-development-by-mathias-buus/) development collective.
+- [hypermodul.es](http://hypermodul.es) - [hypermodular](https://opbeat.com/community/posts/hypermodular-development-by-mathias-buus/) devhaus.
 - [hyperamp](https://github.com/hypermodules/hyperamp) - [electron](http://electron.atom.io), js, css, html powered media library, with big dreams of unified media libraries that span multiple devices using p2p connections.
 
 ## 🔭 Contributing
