@@ -185,10 +185,10 @@ research systems.
 advanced topics like PID control theory.
 - Teaching introductory electronics and debugging skills to students.
 
-#### [Cardinal TS](http://www.cardinalts.com/site/index.html) <small>Textbook Development Consultant &bull; 2012</small>
+#### [Wiley Publishing](https://www.wiley.com/en-us) <small>Textbook Development Consultant &bull; 2012</small>
 
 - Front end JavaScript development for a interactive calculus textbook website for Wiley Publishing.
-- Provided conceptual content and calculus interpretation for other members of the development team.
+- Provided conceptual content and calculus interpretation for other members of the [development team](http://www.cardinalts.com/site/index.html).
 
 #### [HSU Gravitational Research Laboratory](http://www2.humboldt.edu/physics/gravitational-lab.html) <small>Research Assistant &bull; 2009 - 2011 &bull; [🛰](https://www.flickr.com/photos/bretc/albums/72157627758235393)</small>
 
