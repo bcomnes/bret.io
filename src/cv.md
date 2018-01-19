@@ -131,7 +131,7 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 
 ####  [Netlify](https://www.netlify.com) <small>Web Development &bull; 2017 - Present</small>
 
-- Help plan, scope, design, implement, test and iterate on new features in the primary Netlify product app.
+- Plan, design, implement, test and iterate on new features in the primary Netlify product app.
 - Support, maintain, test and release Netlify's open source JS libraries.
 - Help implement features in Netlify's Go microservice offerings.
 
