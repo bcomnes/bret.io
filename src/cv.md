@@ -131,8 +131,9 @@ Software Engineer and Web Developer Specializing in Hypermodular JavaScript and 
 
 ####  [Netlify](https://www.netlify.com) <small>Web Development &bull; 2017 - Present</small>
 
-- I just started working here!  More details to come soon.
-- Developing product features and developing service APIs in Go.
+- Help plan, scope, design, implement, test and iterate on new features in the primary Netlify product app.
+- Support, maintain, test and release Netlify's open source JS libraries.
+- Help implement features in Netlify's Go microservice offerings.
 
 ####  [Haddington Dynamics](http://hdrobotic.com) <small>Development Consultant &bull; 2017 - Present &bull; [🤖](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity#)</small>
 
@@ -204,6 +205,7 @@ advanced topics like PID control theory.
 
 ## 🎆 Community
 
+- **[🚂 Intro to Choo](https://www.youtube.com/watch?v=aqtku9qCTmQ)** <small>Speaker (2017) (All react jokes indended to be tongue-in-cheek 😬)</small>
 - **[PDX Node](https://www.meetup.com/pdxnode/), Organizer** <small>Meetup (2015 - Present)</small>
 - **[Node School](https://nodeschool.io), Organizer & Mentor** <small>(2016)</small>
 - **[Code for Portland](http://www.codeforportland.org), Organizer & Mentor** <small>Open Civic Data Initiative (2014 - 2015)</small>
