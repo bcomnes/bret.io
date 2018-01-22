@@ -205,7 +205,7 @@ advanced topics like PID control theory.
 
 ## 🎆 Community
 
-- **[🚂 Intro to Choo](https://www.youtube.com/watch?v=aqtku9qCTmQ)** <small>Speaker (2017) (All react jokes indended to be tongue-in-cheek 😬)</small>
+- **[🚂 Intro to Choo](https://www.youtube.com/watch?v=aqtku9qCTmQ)** <small>Speaker (2017)</small>
 - **[PDX Node](https://www.meetup.com/pdxnode/), Organizer** <small>Meetup (2015 - Present)</small>
 - **[Node School](https://nodeschool.io), Organizer & Mentor** <small>(2016)</small>
 - **[Code for Portland](http://www.codeforportland.org), Organizer & Mentor** <small>Open Civic Data Initiative (2014 - 2015)</small>
