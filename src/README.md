@@ -4,6 +4,51 @@
   <p class="subtitle">JS • Go • Swift</p>
 </header>
 
+<section class="grid-container">
+  <div>
+    <h2>Hyperamp</h2>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Helsinki_z00.jpg/1920px-Helsinki_z00.jpg" alt="Helsinki">
+      <figcaption>Panoramic view of <a href="//commons.wikimedia.org/wiki/Helsinki" title="Helsinki">Helsinki</a>, Finland from the Ateljee bar of <a href="https://en.wikipedia.org/wiki/Hotel_Torni" title="en:Hotel Torni">Hotel Torni</a>.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <h2>Hypermodul.es</h2>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Helsinki_z00.jpg/1920px-Helsinki_z00.jpg" alt="Helsinki">
+      <figcaption>Panoramic view of <a href="//commons.wikimedia.org/wiki/Helsinki" title="Helsinki">Helsinki</a>, Finland from the Ateljee bar of <a href="https://en.wikipedia.org/wiki/Hotel_Torni" title="en:Hotel Torni">Hotel Torni</a>.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <h2>Go</h2>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Helsinki_z00.jpg/1920px-Helsinki_z00.jpg" alt="Helsinki">
+      <figcaption>Panoramic view of <a href="//commons.wikimedia.org/wiki/Helsinki" title="Helsinki">Helsinki</a>, Finland from the Ateljee bar of <a href="https://en.wikipedia.org/wiki/Hotel_Torni" title="en:Hotel Torni">Hotel Torni</a>.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <h2>LevelDB</h2>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Helsinki_z00.jpg/1920px-Helsinki_z00.jpg" alt="Helsinki">
+      <figcaption>Panoramic view of <a href="//commons.wikimedia.org/wiki/Helsinki" title="Helsinki">Helsinki</a>, Finland from the Ateljee bar of <a href="https://en.wikipedia.org/wiki/Hotel_Torni" title="en:Hotel Torni">Hotel Torni</a>.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <h2>Choo</h2>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Helsinki_z00.jpg/1920px-Helsinki_z00.jpg" alt="Helsinki">
+      <figcaption>Panoramic view of <a href="//commons.wikimedia.org/wiki/Helsinki" title="Helsinki">Helsinki</a>, Finland from the Ateljee bar of <a href="https://en.wikipedia.org/wiki/Hotel_Torni" title="en:Hotel Torni">Hotel Torni</a>.</figcaption>
+    </figure>
+  </div>
+  <div>
+    <h2>Standard</h2>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Helsinki_z00.jpg/1920px-Helsinki_z00.jpg" alt="Helsinki">
+      <figcaption>Panoramic view of <a href="//commons.wikimedia.org/wiki/Helsinki" title="Helsinki">Helsinki</a>, Finland from the Ateljee bar of <a href="https://en.wikipedia.org/wiki/Hotel_Torni" title="en:Hotel Torni">Hotel Torni</a>.</figcaption>
+    </figure>
+  </div>
+</section>
+
 ## Current projects
 
 - [hypermodul.es](http://hypermodul.es) - [hypermodular](https://opbeat.com/community/posts/hypermodular-development-by-mathias-buus/) devhaus.

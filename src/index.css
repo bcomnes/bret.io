@@ -94,6 +94,12 @@ pre, code {
   font-family: Go Mono, monospace;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
 @media screen and (max-width: 85em) {
   nav.top-bar, footer.top-bar {
     position: inherit;
