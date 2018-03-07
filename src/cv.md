@@ -1,6 +1,6 @@
 # Bret Comnes
 
-Software engineer specializing in modular, opensource Javascript and Node.js.  Go and Swift enthusiast.
+Software engineer specializing in modular, opensource Javascript and Node.js.  Go, Swift and P2P enthusiast.
 
 - email: [bcomnes@gmail.com](mailto:bcomnes@gmail.com)
 - location: [Portland, OR](http://osm.org/go/WIDwCTzGh-?m=)
