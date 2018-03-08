@@ -86,12 +86,22 @@ footer > .top-bar-link:first-child {
   margin-left: unset;
 }
 
+.markdown-body {
+  /* font-family: Go, sans-serif; */
+}
+
 .markdown-body h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
 }
 
 pre, code {
   font-family: Go Mono, monospace;
+}
+
+figure.no-border img {
+  background: inherit;
+  border: none;
+  padding: unset;
 }
 
 .grid-container {
