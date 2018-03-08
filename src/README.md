@@ -8,15 +8,15 @@
   <div>
     <h2>Hyperamp</h2>
     <figure>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Helsinki_z00.jpg/1920px-Helsinki_z00.jpg" alt="Helsinki">
-      <figcaption>Panoramic view of <a href="//commons.wikimedia.org/wiki/Helsinki" title="Helsinki">Helsinki</a>, Finland from the Ateljee bar of <a href="https://en.wikipedia.org/wiki/Hotel_Torni" title="en:Hotel Torni">Hotel Torni</a>.</figcaption>
+      <img src="/static/hyperamp.png" alt="Helsinki">
+      <figcaption>A humble, cross platform audio library app. (<a href="https://git.io/vFwz6">Download Beta</a>)</figcaption>
     </figure>
   </div>
   <div>
     <h2>Hypermodul.es</h2>
     <figure>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Helsinki_z00.jpg/1920px-Helsinki_z00.jpg" alt="Helsinki">
-      <figcaption>Panoramic view of <a href="//commons.wikimedia.org/wiki/Helsinki" title="Helsinki">Helsinki</a>, Finland from the Ateljee bar of <a href="https://en.wikipedia.org/wiki/Hotel_Torni" title="en:Hotel Torni">Hotel Torni</a>.</figcaption>
+      <img src="/static/hypermodules.png" alt="Helsinki">
+      <figcaption>Experimental open source <a href="https://github.com/hypermodules/">development guild</a> and legal entity to assist in the development and publishing of open source apps.</figcaption>
     </figure>
   </div>
   <div>
