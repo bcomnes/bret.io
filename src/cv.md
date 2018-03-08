@@ -15,7 +15,7 @@ Software engineer specializing in modular, opensource Javascript and Node.js.  G
 - Support, maintain, test and release Netlify's [open source JS and Go libraries](https://github.com/netlify).
 
 ## [Haddington Dynamics](http://hdrobotic.com) <small>Electron Consultant • 2017 - Present</small>
-- Port control software for the MIT connected [Dexter robotic arm](ttps://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity#) to electron.
+- Port control software for the MIT connected [Dexter robotic arm](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity) to electron.
 - Automate build and delivery pipeline using Github, Travis and Appveyor.
 - Implement browser based voice recognition API.
 
