@@ -8,7 +8,6 @@ Software engineer specializing in modular, opensource Javascript and Node.js.  G
 - modules: [npmjs.com/~bret](https://www.npmjs.com/~bret)
 - org: [hypermodul.es](http://hypermodul.es)
 
-
 ## [Netlify](https://www.netlify.com) <small>Product Engineering • 2017 - Present</small>
 
 - Plan, design, implement, test and iterate on new features for [Netlify's React based webapp](https://app.netlify.com).
