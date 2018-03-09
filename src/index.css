@@ -1,7 +1,7 @@
 @import 'highlight.js/styles/github.css';
 @import 'style.css';
 @import 'top-bar.css';
-@import './fonts.css';
+@import 'go-fonts.css';
 
 /*
 html {
@@ -19,6 +19,52 @@ ul {
   list-style-type: circle;
 }
 
+ul .lang {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.lang {
+  text-indent: -1.1em;
+}
+
+li.lang::before {
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  height: 10px;
+  width: 10px;
+  background-color: #888;
+}
+li.js::before {
+  background-color: #f1e05a;
+}
+
+li.html::before {
+  background-color: #e34c26;
+}
+
+li.go::before {
+  background-color: #375eab;
+}
+
+li.python::before {
+  background-color: #3572A5;
+}
+
+li.css::before {
+  background-color: #563d7c;
+}
+
+li.sh::before {
+  background-color: #89e051;
+}
+
+li.objc::before {
+  background-color: #6866fb;
+}
 /*
 a, button, input {
     cursor: url("./static/hand.png"), auto !important
@@ -86,6 +132,10 @@ footer > .top-bar-link:first-child {
   margin-left: unset;
 }
 
+.markdown-body {
+  /* font-family: Go, sans-serif; */
+}
+
 .markdown-body h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
 }
@@ -94,11 +144,29 @@ pre, code {
   font-family: Go Mono, monospace;
 }
 
+figure.no-border img {
+  background: inherit;
+  border: none;
+  padding: unset;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
 @media screen and (max-width: 85em) {
   nav.top-bar, footer.top-bar {
     position: inherit;
     top: inherit;
     bottom: inherit;
+  }
+}
+
+@media screen and (max-width: 45em) {
+  .grid-container {
+    grid-template-columns: 1fr;
   }
 }
 
