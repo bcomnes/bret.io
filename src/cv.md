@@ -1,12 +1,12 @@
 # Bret Comnes
 
-Software engineer specializing in modular, opensource Javascript and Node.js.  Go, Swift and P2P enthusiast.
+Software engineer specializing in modular, open source Javascript and Node.js.  Go, Swift and P2P enthusiast.
 
-- email: [bcomnes@gmail.com](mailto:bcomnes@gmail.com)
-- location: [Portland, OR](http://osm.org/go/WIDwCTzGh-?m=)
-- github: [github.com/bcomnes](https://github.com/bcomnes)
-- modules: [npmjs.com/~bret](https://www.npmjs.com/~bret)
-- org: [hypermodul.es](http://hypermodul.es)
+- <span class="subdue">email:</span> [bcomnes@gmail.com](mailto:bcomnes@gmail.com)
+- <span class="subdue">location:</span> [Portland, OR](http://osm.org/go/WIDwCTzGh-?m=)
+- <span class="subdue">github:</span> [github.com/bcomnes](https://github.com/bcomnes)
+- <span class="subdue">modules:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
+- <span class="subdue">org:</span> [hypermodul.es](http://hypermodul.es)
 
 ## [Netlify](https://www.netlify.com) <small>Product Engineering • 2017 - Present</small>
 
@@ -29,23 +29,18 @@ Software engineer specializing in modular, opensource Javascript and Node.js.  G
 
 - Rapid mobile app and infotainment prototype development using JS + Node.js, HTML and CSS.
 - Architected a single sign-on service and documentation server for internal documents and project planning using Express.js.
-- Architected in-car interface prototypes utilizing Node.js websocket servers and modular frontend code using Browserify.
 
 ## [Urban Airship](https://www.urbanairship.com) <small>Technical Support Engineer • 2015</small>
 
-- Support Urban Airships customers ranging from mobile developers to marketers.
-- Custom mailing software for sending personalized emails to customers in Node.js.
+- Support developers implementing with Urban Airships SDK.
+- Developed a specialized customer analytic and messaging system.
 
 ## [PSU Office of Information Technology ARC](https://www.pdx.edu/oit/research-computing) <small>HPC Operations & Python Development • 2013 - 2015</small>
 
 - Web applications and systems programming with Python and Django.
-- Implemented and designed a Github style email correspondence bridge for ARCs ticketing system.
-- Implemented user tracking and notification system for ARC’s research systems.
-- Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics.
-- Responsible for building, automating and monitoring PSU’s research servers and Linux Clusters.
-- Initiated efforts to automate cluster deployment and management using configuration management.
-- Launched a successful user support documentation website to orient new users on the available
-research systems.
+- Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics
+- Responsible for building, automating and monitoring PSU’s research servers and HPC Linux Clusters.
+- Initiated efforts to automate cluster deployment and management using Ansible.
 - Trained and introduced new users to ARCs resources and shared unix computing environments.
 
 ## [PSU Sánchez Nano Development Lab](http://www.pdx.edu/nano-development-lab/) <small>Research Assistant • 2013 - 2015</small>
@@ -61,8 +56,7 @@ advanced topics like PID control theory.
 
 ## [Wiley Publishing](https://www.wiley.com/en-us) <small>Textbook Development Consultant • 2012</small>
 
-- Front end JavaScript development for a interactive calculus textbook website for Wiley Publishing.
-- Provided conceptual content and calculus interpretation for other members of the [development team](http://www.cardinalts.com/site/index.html).
+- Developed interactive figures and demos for an interactive Calculus textbook published by Wiley Publishing.
 
 ## [HSU Gravitational Research Laboratory](http://www2.humboldt.edu/physics/gravitational-lab.html) <small>Research Assistant • 2009 - 2011</small>
 
@@ -70,21 +64,21 @@ advanced topics like PID control theory.
 
 ## [The Arecibo Radio Telescope ALFA Survey](http://egg.astro.cornell.edu/index.php/) <small>Research Assistant • 2009</small>
 
-- Trained and operated one of the worlds largest radio telescopes and analyzed the collected data searching for previously undiscovered galaxies.
+- Trained and operated the worlds largest radio telescope and analyzed the collected data searching for previously undiscovered galaxies.
 
 ## Education
 
-- **B.S. Physics** <small>2011 [Humboldt State University](http://www2.humboldt.edu/physics/)</small>
-- **M.S. Applied Physics** <small>2015, [Portland State University](http://www.pdx.edu/physics/) (Incomplete)</small>
+- [Humboldt State University](http://www2.humboldt.edu/physics/) <small class="subdue">B.S. Physics 2011 </small>
+- [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (Incomplete)</small>
 
 ## Community
 
-- **[Intro to Choo](https://www.youtube.com/watch?v=aqtku9qCTmQ)** <small>Speaker (2017)</small>
-- **[PDX Node](https://www.meetup.com/pdxnode/), Organizer** <small>Meetup (2015 - Present)</small>
-- **[Node School](https://nodeschool.io), Organizer & Mentor** <small>(2016)</small>
-- **[Code for Portland](http://www.codeforportland.org), Organizer & Mentor** <small>Open Civic Data Initiative (2014 - 2015)</small>
-- **[Small Modules Talk](http://bcomnes.github.io/slides/small-modules/)**, <small>Internal Presentation (2014)</small>
-- **"Remote Operation of a Scanning Electron Microscope using WebRTC", [WebRTC Camp](https://twitter.com/WebRTCCamp)** <small>Conference (2013)</small>
-- **[Indieweb Camp](https://indieweb.org), Organizer & Mentor** <small>Yearly BarCamp style conference (2012 - 2014)</small>
+- [Intro to Choo](https://github.com/bcomnes/choo-6-talk/) <small class="subdue">Speaker (2017)</small>
+- [PDX Node](https://www.meetup.com/pdxnode/) <small class="subdue">Organizer Meetup (2015 - Present)</small>
+- [Node School](https://nodeschool.io) <small class="subdue">Organizer & Mentor (2016)</small>
+- [Code for Portland](http://www.codeforportland.org) <small class="subdue">Organizer & Mentor • Open Civic Data Initiative (2014 - 2015)</small>
+- [Small Modules Talk](http://bcomnes.github.io/slides/small-modules/) <small class="subdue">Internal Presentation (2014)</small>
+- [WebRTC Camp](https://twitter.com/WebRTCCamp) <small class="subdue">Speaker (2013)</small>
+- [Indieweb Camp](https://indieweb.org) <small class="subdue">Organizer & Mentor (2012 - 2014)</small>
 
 
