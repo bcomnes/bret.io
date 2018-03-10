@@ -177,7 +177,7 @@ figure.no-border img {
 @media print {
   html {
     background: white;
-    font-size: 85%;
+    font-size: 55%;
   }
 
   body {
@@ -190,5 +190,17 @@ figure.no-border img {
 
   .hide-print {
     display: none;
+  }
+
+  .grid-container > div {
+    page-break-inside: avoid;
+  }
+
+  .subdue {
+    color: #222;
+  }
+
+  h1 small, h2 small, h3 small, h4 small,h5 small,h6 small {
+    color: #222;
   }
 }
