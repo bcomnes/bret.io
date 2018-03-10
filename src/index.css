@@ -3,18 +3,19 @@
 @import 'top-bar.css';
 @import 'go-fonts.css';
 
-/*
-html {
-  cursor: url("./static/pointer.png"), auto;
-}
-*/
-
+/* Document level */
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+/* Fonts */
+pre, code {
+  font-family: Go Mono, monospace;
+}
+
+/* List styles */
 ul {
   list-style-type: circle;
 }
@@ -65,14 +66,13 @@ li.sh::before {
 li.objc::before {
   background-color: #6866fb;
 }
-/*
-a, button, input {
-    cursor: url("./static/hand.png"), auto !important
+
+/* Random Text Modifiers */
+.subdue {
+  color: #777;
 }
-*/
 
-
-/* previously main styles */
+/* Markdown Body layout */
 .markdown-body {
   max-width: 50em;
   margin: 2em auto;
@@ -84,6 +84,15 @@ a, button, input {
 .markdown-body > *:first-child { margin-top: 0 !important; }
 .markdown-body > *:last-child { margin-bottom: 0 !important; }
 
+.markdown-body h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
+
+.markdown-body h2 {
+  font-size: 1.85em;
+}
+
+/* Porfolio Header */
 .header {
   text-align: center;
   padding-bottom: 1em;
@@ -103,16 +112,13 @@ a, button, input {
   /* padding-bottom: .25em; */
 }
 
-h2 {
-  font-size: 1.85em;
-}
-
 .header .subtitle {
   color: #888;
   font-size: .8em;
   font-weight: 100;
 }
 
+/* Sticky header footer top-bar */
 .top-bar {
   margin-bottom: 0;
   margin-top: 0;
@@ -132,28 +138,10 @@ footer > .top-bar-link:first-child {
   margin-left: unset;
 }
 
-.markdown-body {
-  /* font-family: Go, sans-serif; */
-}
-
-.markdown-body h1, h2, h3, h4, h5, h6 {
-  font-weight: 200;
-}
-
-pre, code {
-  font-family: Go Mono, monospace;
-}
-
 figure.no-border img {
   background: inherit;
   border: none;
   padding: unset;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1em;
 }
 
 @media screen and (max-width: 85em) {
@@ -164,19 +152,29 @@ figure.no-border img {
   }
 }
 
-@media screen and (max-width: 45em) {
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media print {
   nav.top-bar, footer.top-bar {
     position: inherit;
     top: inherit;
     bottom: inherit;
   }
+}
 
+/* Portfolio grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
+@media screen and (max-width: 45em) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Print specifics */
+@media print {
   html {
     background: white;
     font-size: 85%;

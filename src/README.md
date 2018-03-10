@@ -4,12 +4,13 @@
   <p class="subtitle">JS • Go • Swift</p>
 </header>
 
-<section class="grid-container">
+
+<section class="portfolio grid-container">
   <div>
     <h2><a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h2>
     <figure>
       <a href="https://github.com/hypermodules/hyperamp"><img src="/static/hyperamp.png" alt="Screenshot of Hyperamp"></a>
-      <figcaption>A humble, cross platform audio library app. (<a href="https://git.io/vFwz6">Download Beta</a>)</figcaption>
+      <figcaption>Cross platform audio library app. (<a href="https://git.io/vFwz6">Download Beta</a>)</figcaption>
     </figure>
     <ul>
       <li class="lang js"><a href="https://github.com/hypermodules/hyperamp">hypermodules/hyperamp</a></li>
@@ -46,9 +47,10 @@
     <h2><a href="https://github.com/choojs/nanocomponent">Nanocomponent</a></h2>
     <figure>
       <a href="https://github.com/choojs/nanocomponent"><img src="/static/nanocomponent.jpg" alt="Screenshot of nanocomponent life cycle"></a>
-      <figcaption>Primary author of Nanocomponent, a standalone component model that works well with choo.</figcaption>
+      <figcaption>Primary author of Nanocomponent, a standalone component model that works well with choo. Shoutout <a href="https://github.com/lrlna">lrlna</a> for the algorithm illustration.</figcaption>
     </figure>
     <ul>
+      <li class="lang js"><a href="https://github.com/choojs/nanocomponent">choojs/nanocomponent</a></li>
       <li class="lang js"><a href="https://github.com/bcomnes/youtube-component">bcomnes/youtube-component</a></li>
       <li class="lang js"><a href="https://github.com/bcomnes/twitter-component">bcomnes/twitter-component</a></li>
       <li class="lang js"><a href="https://github.com/bcomnes/nanocomponent-cache">bcomnes/nanocomponent-cache</a></li>
@@ -178,4 +180,3 @@
     </figure>
   </div>
 </section>
-
