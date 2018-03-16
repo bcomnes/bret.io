@@ -1,0 +1,8 @@
+
+<link rel="stylesheet" href="/deferred.css">
+
+<script>
+  var importDoc = document.currentScript.ownerDocument;
+  var styles = importDoc.querySelector('link[rel="stylesheet"]');
+  document.head.prepend(styles.cloneNode(true));
+</script>
