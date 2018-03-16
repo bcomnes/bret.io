@@ -20,6 +20,10 @@ ul {
   list-style-type: circle;
 }
 
+figcaption {
+  font-size: 0.8em;
+}
+
 ul .lang {
   list-style: none;
   padding: 0;
