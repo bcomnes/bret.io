@@ -10,12 +10,16 @@
     "test:tape": "tape test.js | tap-format-spec",
     "build": "npm run clean && run-p build:*",
     "build:css": "postcss src/index.css -o dist/bundle.css",
-    "build:js": "browserify src/index.js --debug | exorcist dist/bundle.js.map > dist/bundle.js",
+    "build:css-def": "postcss src/deferred.css -o dist/deferred.css",
+    "build:js": "browserify src/index.js --debug -g uglifyify | exorcist dist/bundle.js.map > dist/bundle.js",
+    "build:sw": "browserify src/sw.js --debug | exorcist dist/sw.js.map > dist/sw.js",
     "build:md": "sitedown src -b dist -l src/layout.html",
     "build:static": "cpx 'src/static/*' dist/static",
     "watch": "npm run clean && run-p watch:* build:static",
     "watch:css": "npm run build:css -- --watch",
-    "watch:js": "budo src/index.js:bundle.js --dir dist --live --open",
+    "watch:css-def": "npm run build:css-def -- --watch",
+    "watch:js": "budo src/index.js:bundle.js -g uglifyify --dir dist --live --open",
+    "watch:sw": "watchify src/sw.js --debug -o dist/sw.js",
     "watch:md": "npm run build:md -- -w",
     "watch:static": "npm run build:static -- --watch",
     "clean": "rimraf dist && mkdirp dist",
@@ -47,9 +51,11 @@
     "go-fonts.css": "^1.0.0",
     "highlight.js": "^9.8.0",
     "mkdirp": "^0.5.1",
+    "node-fetch": "^2.1.1",
     "npm-run-all": "^4.0.0",
     "postcss": "^6.0.19",
     "postcss-browser-reporter": "^0.5.0",
+    "postcss-clean": "^1.1.0",
     "postcss-cli": "^5.0.0",
     "postcss-import": "^11.0.0",
     "postcss-reporter": "^5.0.0",
@@ -60,7 +66,11 @@
     "standard": "^11.0.0",
     "style.css": "^1.0.0-beta-1",
     "tape": "^4.6.2",
-    "top-bar.css": "^1.2.0"
+    "top-bar.css": "^1.2.0",
+    "uglifyify": "^4.0.5",
+    "watchify": "^3.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "global": "^4.3.2"
+  }
 }

@@ -1,7 +1,4 @@
-@import 'highlight.js/styles/github.css';
-@import 'style.css';
 @import 'top-bar.css';
-@import 'go-fonts.css';
 
 /* Document level */
 body {

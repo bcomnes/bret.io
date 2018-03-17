@@ -8,6 +8,7 @@ module.exports = (ctx) => ({
       useHash: true,
       assetsPath: 'assets'
     },
+    // 'postcss-clean': {sourceMap: true},
     'postcss-browser-reporter': {},
     'postcss-reporter': {}
   }
