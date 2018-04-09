@@ -15,7 +15,7 @@
     "build:md": "sitedown src -b dist -l src/layout.html",
     "build:static": "cpx 'src/static/*' dist/static",
     "watch": "npm run clean && run-p watch:* build:static",
-    "watch:css": "npm run build:css -- --watch",
+    "watch:css": "run-s 'build:css -- --watch'",
     "watch:js": "budo src/index.js:bundle.js --dir dist --live --open",
     "watch:sw": "watchify src/sw.js --debug -o dist/sw.js",
     "watch:md": "npm run build:md -- -w",

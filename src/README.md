@@ -30,6 +30,16 @@
     </ul>
   </div>
   <div>
+    <h2 id="elenacomnes"><a href="https://elenacomnes.com">elenacomnes.com</a></h2>
+    <figure>
+      <a href="https://elenacomnes.com"><img src="/static/elenacomnes.png" alt="Screenshot of elenacomnes.com website"></a>
+      <figcaption>A minimal creative website.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang html"><a href="https://github.com/bcomnes/elenacomnes.com">bcomnes/elenacomnes.com</a></li>
+    </ul>
+  </div>
+  <div>
     <h2 id="css"><a href="https://css-pkg.github.io">css-pkg</a></h2>
     <figure>
       <a href="https://css-pkg.github.io"><img src="/static/css-pkg.png" alt="Screenshot of css-pkg website"></a>
