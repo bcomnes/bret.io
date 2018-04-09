@@ -1,10 +1,18 @@
 [
-{
-  "type": "raw",
-  "content": "Added css-pkg to portfolio: https://css-pkg.github.io",
-  "link": "https://bret.io#css",
-  "title": "Portfolio: css-pkg",
-  "author": "Bret Comnes (https://bret.io)",
-  "publishDate": "2018-04-04T16:22:37-07:00"
-}
+  {
+    "type": "text",
+    "content": "Added css-pkg to portfolio: https://css-pkg.github.io",
+    "image": "/static/css-pkg.css",
+    "url": "https://bret.io#css",
+    "link": "https://css-pkg.github.io",
+    "date": "2018-04-04T16:22:37-07:00"
+  },
+  {
+    "type": "text",
+    "content": "Added elenacomnes.com to portfolio: https://elenacomnes.com",
+    "image": "/static/css-pkg.css",
+    "url": "https://bret.io#elenacomnes",
+    "link": "https://elenacomnes.com",
+    "date": "2018-04-04T16:22:37-07:00"
+  }
 ]
