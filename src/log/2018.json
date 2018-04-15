@@ -1,17 +1,19 @@
 [
   {
-    "content": "Added css-pkg to portfolio: https://css-pkg.github.io",
+    "content": "Added css-pkg to portfolio\n\nhttps://css-pkg.github.io",
     "image": "/static/css-pkg.png",
     "url": "https://bret.io#css",
     "link": "https://css-pkg.github.io",
-    "date": "2018-04-04T16:22:37-07:00"
+    "date": "2018-04-04T16:22:37-07:00",
+    "modified": "2018-04-14T18:34:04-07:00"
   },
   {
-    "content": "Added elenacomnes.com to portfolio: https://elenacomnes.com",
+    "content": "Added elenacomnes.com to portfolio\n\nhttps://elenacomnes.com",
     "image": "/static/elenacomnes.png",
     "url": "https://bret.io#elenacomnes",
     "link": "https://elenacomnes.com",
-    "date": "2018-04-04T16:21:37-07:00"
+    "date": "2018-04-04T16:21:37-07:00",
+    "modified": "2018-04-14T18:33:46-07:00"
   },
   {
     "content": "Added a JSON-feed and atom feed to this site.",
