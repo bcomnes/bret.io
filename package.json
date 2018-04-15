@@ -45,7 +45,7 @@
     "cpx": "^1.5.0",
     "dependency-check": "^3.0.0",
     "exorcist": "^1.0.0",
-    "generate-feed": "^1.0.3",
+    "generate-feed": "^1.0.4",
     "highlight.js": "^9.8.0",
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.0.0",
