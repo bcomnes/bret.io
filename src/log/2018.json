@@ -20,5 +20,11 @@
     "url": "https://bret.io#generate-feed",
     "link": "https://github.com/bcomnes/generate-feed",
     "date": "2018-04-14T16:26:49-07:00"
+  },
+  {
+    "content": "Released jsonfeed-to-atom\n\n",
+    "link": "https://github.com/bcomnes/generate-feed",
+    "date": "2018-04-15T21:14:49-07:00",
+    "title": "New module: jsonfeed-to-atom"
   }
 ]
