@@ -18,6 +18,7 @@
     "watch:css": "run-s 'build:css -- --watch'",
     "watch:js": "budo src/index.js:bundle.js --dir dist --live --open",
     "watch:md": "npm run build:md -- -w",
+    "watch:feed": "run-s build:feed",
     "watch:static": "npm run build:static -- --watch",
     "clean": "rimraf dist && mkdirp dist",
     "start": "npm run watch"
