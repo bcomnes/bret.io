@@ -14,6 +14,7 @@
     "build:md": "sitedown src -b dist -l src/layout.html",
     "build:feed": "generate-feed src/log --dest dist",
     "build:static": "cpx 'src/static/*' dist/static",
+    "build:icon": "node src/generate-favicon && cpx 'src/favicons/*' dist",
     "watch": "npm run clean && run-p watch:* build:static",
     "watch:css": "run-s 'build:css -- --watch'",
     "watch:js": "budo src/index.js:bundle.js --dir dist --live --open",
@@ -41,22 +42,30 @@
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
     "autoprefixer": "^8.0.0",
+    "bl": "^1.2.2",
     "browserify": "^16.0.0",
     "budo": "^11.0.0",
     "cpx": "^1.5.0",
     "dependency-check": "^3.0.0",
     "exorcist": "^1.0.0",
+    "favicons": "^5.1.1",
+    "from2-string": "^1.1.0",
     "generate-feed": "^1.0.4",
+    "gravatar-url": "^2.0.0",
     "highlight.js": "^9.8.0",
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.0.0",
+    "parse-author": "^2.0.0",
     "postcss": "^6.0.19",
     "postcss-browser-reporter": "^0.5.0",
     "postcss-cli": "^5.0.0",
     "postcss-import": "^11.0.0",
     "postcss-reporter": "^5.0.0",
     "postcss-url": "^7.3.1",
+    "request": "^2.85.0",
     "rimraf": "^2.5.4",
+    "run-parallel-limit": "^1.0.4",
+    "run-series": "^1.1.6",
     "sitedown": "^3.0.1",
     "snazzy": "^7.0.0",
     "standard": "^11.0.0",
@@ -64,5 +73,9 @@
     "tape": "^4.6.2",
     "top-bar.css": "^2.0.0",
     "watchify": "^3.11.0"
+  },
+  "dependencies": {
+    "concat-stream": "^1.6.2",
+    "pump": "^3.0.0"
   }
 }
