@@ -9,6 +9,10 @@ body {
   flex-direction: column;
 }
 
+a:hover {
+  text-decoration-skip: ink;
+}
+
 /* List styles */
 ul {
   list-style-type: circle;
