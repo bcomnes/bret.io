@@ -195,9 +195,9 @@
     </ul>
   </div>
   <div>
-    <h2 id"2016-reading"><a href="">Late 2016 Reading List</a></h2>
+    <h2 id"2016-reading"><a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe">Late 2016 Reading List</a></h2>
     <figure>
-      <a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe"><img src="/static/2016readinglist.png" alt="Screenshot of Mooon.app"></a>
+      <a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe"><img src="/static/2016readinglist.png" alt="Screenshot of 2016 reading list"></a>
       <figcaption>A list of things I was reading in late 2016.</figcaption>
     </figure>
   </div>
