@@ -26,5 +26,10 @@
     "link": "https://github.com/bcomnes/jsonfeed-to-atom",
     "date": "2018-04-15T21:14:49-07:00",
     "title": "New module: jsonfeed-to-atom"
+  },
+  {
+    "content": "Hello micro.blog!\n\nContent is now syndicated to https://micro.blog/bret",
+    "link": "https://micro.blog/bret",
+    "date": "2018-04-17T09:58:25-07:00"
   }
 ]
