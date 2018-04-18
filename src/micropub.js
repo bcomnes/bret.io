@@ -5,12 +5,8 @@ const ME = 'https://bret.io/'
 
 function micropub (event, context, cb) {
   const bearer = event.headers.authorization
-  console.log('event.path: ' + event.path)
-  console.log('event.httpMethod: ' + event.httpMethod)
-  console.log('event.header: ' + event.header)
-  console.log('event.queryStringParameters: ' + event.queryStringParameters)
-  console.log('event.body: ' + event.body)
-  console.log('event.isBase64Encoded: ' + event.isBase64Encoded)
+  console.log('**********************NEW REQUEST*************************')
+  console.log(event)
 
   if (!bearer) return cb(null, { statusCode: 401, body: 'Missing bearer token' })
 
