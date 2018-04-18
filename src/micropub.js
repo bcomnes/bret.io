@@ -5,6 +5,12 @@ const ME = 'https://bret.io/'
 
 function micropub (event, context, cb) {
   const bearer = event.headers.authorization
+  console.log('event.path: ' + event.path)
+  console.log('event.httpMethod: ' + event.httpMethod)
+  console.log('event.header: ' + event.header)
+  console.log('event.queryStringParameters: ' + event.queryStringParameters)
+  console.log('event.body: ' + event.body)
+  console.log('event.isBase64Encoded: ' + event.isBase64Encoded)
 
   if (!bearer) return cb(null, { statusCode: 401, body: 'Missing bearer token' })
 
@@ -22,8 +28,7 @@ function micropub (event, context, cb) {
       return cb(null, { statusCode: 500, body: 'Unknown error' })
     }
 
-    console.log(resp.statusCode)
-    console.log(body)
+    console.log('Token endpoint: ' + resp.statusCode)
 
     let info
     try {
@@ -32,11 +37,16 @@ function micropub (event, context, cb) {
       console.error(e)
       return cb(null, { statusCode: 500, body: 'Token endpoint error' })
     }
+    console.log(info)
 
     if (resp.statusCode !== 200) return cb(null, { statusCode: 401, body: 'Not authorized' })
 
     if (info.me !== ME) return cb(null, {statusCode: 401, 'body': 'Not authorized'})
 
+    return processRequest(info)
+  }
+
+  function processRequest (info) {
     return cb(null, { statusCode: 200, 'body': 'Authorized!' })
   }
 }
