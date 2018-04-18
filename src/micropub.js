@@ -11,14 +11,15 @@ function micropub (event, context, cb) {
   request({
     url: TOKEN_ENDPOINT,
     headers: {
-      'Authorization': bearer
+      'Authorization': bearer,
+      Accept: 'application/json'
     }
   }, handleVerify)
 
   function handleVerify (err, resp, body) {
     if (err) {
       console.error(err)
-      return cb(err, { statusCode: 500, body: 'Unknown error' })
+      return cb(null, { statusCode: 500, body: 'Unknown error' })
     }
 
     console.log(resp)
@@ -29,7 +30,7 @@ function micropub (event, context, cb) {
       info = JSON.parse(body)
     } catch (e) {
       console.error(e)
-      return cb(e, { statusCode: 500, body: 'Token endpoint error' })
+      return cb(null, { statusCode: 500, body: 'Token endpoint error' })
     }
 
     if (resp.statusCode !== 200) return cb(null, { statusCode: 401, body: 'Not authorized' })
