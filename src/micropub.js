@@ -1,4 +1,4 @@
-function micropub (event, context, callback) {
+function micropub (event, context, cb) {
   console.dir(event)
   console.dir(context)
   cb(null, {
