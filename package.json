@@ -15,7 +15,7 @@
     "build:feed": "generate-feed src/log --dest dist",
     "build:static": "cpx 'src/static/*' dist/static",
     "build:icon": "node src/generate-favicon && cpx 'src/favicons/*' dist",
-    "build:functions": "browserify src/micropub.js --node -o functions/micropub.js",
+    "build:functions": "browserify src/micropub.js --node --standalone handler -o functions/micropub.js",
     "watch": "npm run clean && run-p watch:* build:static",
     "watch:css": "run-s 'build:css -- --watch'",
     "watch:js": "budo src/index.js:bundle.js --dir dist --live --open",
