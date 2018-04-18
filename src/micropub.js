@@ -1,7 +1,7 @@
 const request = require('request')
 
 const TOKEN_ENDPOINT = 'https://tokens.indieauth.com/token'
-const ME = 'https://bret.io'
+const ME = 'https://bret.io/'
 
 function micropub (event, context, cb) {
   const bearer = event.headers.authorization
