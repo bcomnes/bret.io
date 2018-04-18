@@ -1,4 +1,4 @@
-function micropub (event, context, cb) {
+module.handler = function micropub (event, context, cb) {
   console.dir(event)
   console.dir(context)
   cb(null, {
@@ -6,5 +6,3 @@ function micropub (event, context, cb) {
     body: 'hello world'
   })
 }
-
-exports.handler = micropub
