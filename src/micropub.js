@@ -22,7 +22,7 @@ function micropub (event, context, cb) {
       return cb(null, { statusCode: 500, body: 'Unknown error' })
     }
 
-    console.log(resp)
+    console.log(resp.statusCode)
     console.log(body)
 
     let info
