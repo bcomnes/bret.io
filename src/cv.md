@@ -42,7 +42,7 @@ Software engineer specializing in modular, open source Javascript and Node.js.  
 - Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics
 - Responsible for building, automating and monitoring PSU’s research servers and HPC Linux Clusters.
 - Initiated efforts to automate cluster deployment and management using Ansible.
-- Trained and introduced new users to ARCs resources and shared unix computing environments.
+- Trained and introduced new users to ARC's resources and shared unix computing environments.
 
 ## [PSU Sánchez Nano Development Lab](http://www.pdx.edu/nano-development-lab/) <small>Research Assistant • 2013 - 2015</small>
 
