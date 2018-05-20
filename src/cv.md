@@ -84,3 +84,5 @@ advanced topics like PID control theory.
 - [Indieweb Camp](https://indieweb.org) <small class="subdue">Organizer & Mentor (2012 - 2014)</small>
 
 
+*[HPC]: High Performance Computing
+
