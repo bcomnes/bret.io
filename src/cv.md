@@ -14,7 +14,7 @@ Software engineer specializing in modular, open source Javascript and Node.js.  
 - Plan, design, implement, test and iterate on new features for [Netlify's React based webapp](https://app.netlify.com).
 - Support, maintain, test and release Netlify's [open source JS and Go libraries](https://github.com/netlify).
 
-## [Haddington Dynamics](http://hdrobotic.com) <small>Electron Consultant • 2017 - Present</small>
+## [Haddington Dynamics](http://hdrobotic.com) <small>Electron Consultant • 2017 - 2018</small>
 - Port control software for the MIT connected [Dexter robotic arm](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity) to electron.
 - Automate build and delivery pipeline using Github, Travis and Appveyor.
 - Implement browser based voice recognition API.
@@ -76,7 +76,7 @@ advanced topics like PID control theory.
 
 - [Datcast](https://dat-cast.hashbase.io) <small class="subdue">Podcast (2018 - Present)</small>
 - [Intro to Choo](https://github.com/bcomnes/choo-6-talk/) <small class="subdue">Speaker (2017)</small>
-- [PDX Node](https://www.meetup.com/pdxnode/) <small class="subdue">Organizer Meetup (2015 - Present)</small>
+- [PDX Node](https://www.meetup.com/pdxnode/) <small class="subdue">Organizer Meetup (2015 - 2017)</small>
 - [Node School](https://nodeschool.io) <small class="subdue">Organizer & Mentor (2016)</small>
 - [Code for Portland](http://www.codeforportland.org) <small class="subdue">Organizer & Mentor • Open Civic Data Initiative (2014 - 2015)</small>
 - [Small Modules Talk](http://bcomnes.github.io/slides/small-modules/) <small class="subdue">Internal Presentation (2014)</small>
