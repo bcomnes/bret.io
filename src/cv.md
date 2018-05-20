@@ -26,7 +26,7 @@ Software engineer specializing in modular, open source Javascript and Node.js.  
 - Cross Platform Desktop software using Electron, HTML, CSS and SVG powered by React + Redux.
 - Modular development using github, npm and continuous delivery using TravisCI, Appveyor and S3/AWS.
 
-## [Jaguar Land Rover R&D](https://www.jlrtechincubator.com/) <small>Infotainment Engineering • 2015 - 2016</small>
+## [Jaguar Land Rover R&D](https://www.jlrtechincubator.com/) <small>OS & Application Engineering • 2015 - 2016</small>
 
 - Rapid mobile app and infotainment prototype development using JS + Node.js, HTML and CSS.
 - Architected a single sign-on service and documentation server for internal documents and project planning using Express.js.
@@ -55,7 +55,7 @@ Software engineer specializing in modular, open source Javascript and Node.js.  
 advanced topics like PID control theory.
 - Teaching introductory electronics and debugging skills to students.
 
-## [Wiley Publishing](https://www.wiley.com/en-us) <small>Textbook Development Consultant • 2012</small>
+## [Wiley](https://www.wiley.com/en-us) <small>Textbook Development Consultant • 2012</small>
 
 - Developed interactive figures and demos for an interactive Calculus textbook published by Wiley Publishing.
 
