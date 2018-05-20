@@ -86,3 +86,5 @@ advanced topics like PID control theory.
 
 *[HPC]: High Performance Computing
 *[PSU]: Portland State University
+*[ARC]: Academic Research Computing
+
