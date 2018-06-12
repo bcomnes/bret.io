@@ -22,6 +22,7 @@
     "watch:md": "npm run build:md -- -w",
     "watch:feed": "run-s build:feed",
     "watch:static": "npm run build:static -- --watch",
+    "watch:icon": "run-s build:icon",
     "clean": "rimraf dist functions && mkdirp dist functions",
     "start": "npm run watch"
   },
