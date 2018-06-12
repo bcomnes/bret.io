@@ -74,6 +74,12 @@ li.objc::before {
   color: #777;
 }
 
+/* JSON Feed Icon */
+
+.rounded-icon {
+  border-radius: 3px;
+}
+
 /* Markdown Body layout */
 .markdown-body {
   max-width: 50em;
