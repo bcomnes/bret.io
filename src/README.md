@@ -21,7 +21,7 @@
     <h2 id="hypermodules"><a href="https://hypermodul.es">Hypermodul.es</a></h2>
     <figure>
       <a href="https://hypermodul.es"><img src="/static/hypermodules.png" alt="Screenshot of hypermodules website"></a>
-      <figcaption>Experimental open source <a href="https://github.com/hypermodules/">development guild</a> and legal entity to assist in the development and publishing of open source apps.</figcaption>
+      <figcaption>Experimental open source <a href="https://github.com/hypermodules/">development studio</a> and legal entity to assist in the development and publishing of open source apps.</figcaption>
     </figure>
     <ul>
       <li class="lang html"><a href="https://github.com/hypermodules/hypermodul.es">hypermodules/hypermodul.es</a></li>
