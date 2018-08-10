@@ -13,6 +13,7 @@ Software engineer specializing in modular, open source Javascript and Node.js.  
 
 - Plan, design, implement, test and iterate on new features for [Netlify's React based webapp](https://app.netlify.com).
 - Support, maintain, test and release Netlify's [open source JS and Go libraries](https://github.com/netlify).
+- Architect and build Netlify's next generation, extensible CLI (TBA).
 
 ## [Haddington Dynamics](http://hdrobotic.com) <small>Electron Consultant • 2017 - 2018</small>
 - Port control software for the MIT connected [Dexter robotic arm](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity) to electron.
