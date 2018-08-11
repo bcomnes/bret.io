@@ -28,45 +28,40 @@ ul .lang {
   margin: 0;
 }
 
-li.lang {
-  text-indent: -1.1em;
-}
-
 li.lang::before {
-  border-radius: 50%;
-  content: "";
   display: inline-block;
-  margin-right: 10px;
-  height: 10px;
-  width: 10px;
-  background-color: #888;
+  width: 1em;
+  margin-left: -1em;
+  content: "•";
+  color: #888;
+  transform: scale(1.5, 1.5);
 }
 li.js::before {
-  background-color: #f1e05a;
+  color: #f1e05a;
 }
 
 li.html::before {
-  background-color: #e34c26;
+  color: #e34c26;
 }
 
 li.go::before {
-  background-color: #375eab;
+  color: #375eab;
 }
 
 li.python::before {
-  background-color: #3572A5;
+  color: #3572A5;
 }
 
 li.css::before {
-  background-color: #563d7c;
+  color: #563d7c;
 }
 
 li.sh::before {
-  background-color: #89e051;
+  color: #89e051;
 }
 
 li.objc::before {
-  background-color: #6866fb;
+  color: #6866fb;
 }
 
 /* Random Text Modifiers */
