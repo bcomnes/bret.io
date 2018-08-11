@@ -192,7 +192,7 @@ figure.no-border img {
     border: 0;
   }
 
-  main {
+  .markdown-body {
     max-width: none;
   }
 
@@ -210,5 +210,10 @@ figure.no-border img {
 
   h1 small, h2 small, h3 small, h4 small,h5 small,h6 small {
     color: #222;
+  }
+
+  .avatar {
+    height: 5em;
+    width: 5em;
   }
 }
