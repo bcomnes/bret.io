@@ -76,14 +76,13 @@ advanced topics like PID control theory.
 ## Community
 
 - [Datcast](https://dat-cast.hashbase.io) <small class="subdue">Podcast (2018 - Present)</small>
-- [Intro to Choo](https://github.com/bcomnes/choo-6-talk/) <small class="subdue">Speaker (2017)</small>
 - [PDX Node](https://www.meetup.com/pdxnode/) <small class="subdue">Organizer Meetup (2015 - 2017)</small>
 - [Node School](https://nodeschool.io) <small class="subdue">Organizer & Mentor (2016)</small>
 - [Code for Portland](http://www.codeforportland.org) <small class="subdue">Organizer & Mentor • Open Civic Data Initiative (2014 - 2015)</small>
 - [Small Modules Talk](http://bcomnes.github.io/slides/small-modules/) <small class="subdue">Internal Presentation (2014)</small>
 - [WebRTC Camp](https://twitter.com/WebRTCCamp) <small class="subdue">Speaker (2013)</small>
 - [Indieweb Camp](https://indieweb.org) <small class="subdue">Organizer & Mentor (2012 - 2014)</small>
-
+<!-- [Intro to Choo](https://github.com/bcomnes/choo-6-talk/) <small class="subdue">Speaker (2017)</small> -->
 
 *[HPC]: High Performance Computing
 *[PSU]: Portland State University
