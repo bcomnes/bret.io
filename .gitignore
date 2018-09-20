@@ -43,3 +43,4 @@ package-lock.json
 .vscode
 favicons
 functions
+.netlify/state.json
