@@ -37,7 +37,7 @@ function micropub (event, context, cb) {
 
     if (resp.statusCode !== 200) return cb(null, { statusCode: 401, body: 'Not authorized' })
 
-    if (info.me !== ME) return cb(null, {statusCode: 401, 'body': 'Not authorized'})
+    if (info.me !== ME) return cb(null, { statusCode: 401, 'body': 'Not authorized' })
 
     return processRequest(info)
   }
