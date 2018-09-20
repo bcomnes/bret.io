@@ -48,7 +48,7 @@ const configuration = {
 
 const author = parseAuthor(config.author)
 
-const avatarUrl = gravatarUrl(author.email, {size: 500})
+const avatarUrl = gravatarUrl(author.email, { size: 500 })
 
 const concat = concatStream(gotPicture)
 
