@@ -9,13 +9,21 @@ Software engineer specializing in modular, open source Javascript and Node.js.  
 - <span class="subdue">modules:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 - <span class="subdue">org:</span> [hypermodul.es](https://hypermodul.es)
 
-## [Netlify](https://www.netlify.com) <small>Product Engineering • 2017 - Present</small>
+
+## [Netlify](https://www.netlify.com) <small>Platform Engineering • 2018 - Present</small>
+
+- Develop and support Netlify's platform microservices and CI/CD pipeline.
+
+## [Netlify](https://www.netlify.com) <small>Product Engineering • 2017 - 2018</small>
 
 - Plan, design, implement, test and iterate on new features for [Netlify's React based webapp](https://app.netlify.com).
 - Support, maintain, test and release Netlify's [open source JS and Go libraries](https://github.com/netlify).
 - Architect and build Netlify's next generation, extensible CLI (TBA).
 
-## [Haddington Dynamics](http://hdrobotic.com) <small>Electron Consultant • 2017 - 2018</small>
+## [Backbody Project](https://backbodyproject.com/) <small>Platform Consultant • 2018</small>
+- Research, plan and assist in implementing and launching a [Vimeo OTT](https://ott.vimeo.com/) subscription and live video subscription service.
+
+## [Haddington Dynamics](http://hdrobotic.com) <small>Electron Consultant • 2017 - Present</small>
 - Port control software for the MIT connected [Dexter robotic arm](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity) to electron.
 - Automate build and delivery pipeline using Github, Travis and Appveyor.
 - Implement browser based voice recognition API.
