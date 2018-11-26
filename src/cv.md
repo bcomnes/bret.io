@@ -79,7 +79,7 @@ advanced topics like PID control theory.
 ## Education
 
 - [Humboldt State University](http://www2.humboldt.edu/physics/) <small class="subdue">B.S. Physics 2011 </small>
-- [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (Incomplete)</small>
+- [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (Completed coursework, no diploma)</small>
 
 ## Community
 
