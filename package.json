@@ -77,7 +77,7 @@
     "top-bar.css": "^2.0.0"
   },
   "dependencies": {
-    "concat-stream": "^1.6.2",
+    "concat-stream": "^2.0.0",
     "pump": "^3.0.0"
   }
 }
