@@ -45,7 +45,7 @@
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
     "autoprefixer": "^9.0.0",
-    "bl": "^2.0.0",
+    "bl": "^3.0.0",
     "browserify": "^16.0.0",
     "budo": "^11.0.0",
     "cpx": "^1.5.0",
