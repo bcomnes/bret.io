@@ -55,7 +55,7 @@
     "from2-string": "^1.1.0",
     "generate-feed": "^1.0.4",
     "gravatar-url": "^2.0.0",
-    "highlight.js": "^9.15.5",
+    "highlight.js": "^9.15.6",
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.0.0",
     "parse-author": "^2.0.0",
