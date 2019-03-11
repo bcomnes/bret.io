@@ -12,7 +12,10 @@ Software engineer specializing in modular, open source Javascript and Node.js.  
 
 ## [Netlify](https://www.netlify.com) <small>Platform Engineering • 2018 - Present</small>
 
-- Develop and support Netlify's platform microservices and CI/CD pipeline.
+- Develop and support Netlify's platform microservices and CI/CD build environment.
+- Help develop Netlify's internal go libraries and contribute to upstream open-source go depedencies.
+- Prepare, deploy and manage applications deployed as docker containers on Kubernetes and other hosts on almost every cloud provider you can think of. (AWS, GCP, Digital Ocean + more)
+- Help maintain internal libraries supporting Netlify's CLI products.
 
 ## [Netlify](https://www.netlify.com) <small>Product Engineering • 2017 - 2018</small>
 
