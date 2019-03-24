@@ -165,7 +165,7 @@
       <li class="lang js"><a href="https://github.com/prebuild">Home Prebuilders Association</a></li>
     </ul>
   </div>
-   <div>
+  <div>
     <h2 id="dotfiles"><a href="https://github.com/bcomnes/.dotfiles">.dotfiles</a></h2>
     <figure>
       <a href="https://github.com/bcomnes/.dotfiles"><img src="static/dotfiles.png" alt="Screenshot of my terminal"></a>
@@ -194,7 +194,7 @@
     </ul>
   </div>
   <div>
-    <h2 id"2016-reading"><a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe">Late 2016 Reading List</a></h2>
+    <h2 id="2016-reading"><a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe">Late 2016 Reading List</a></h2>
     <figure>
       <a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe"><img src="static/2016readinglist.png" alt="Screenshot of 2016 reading list"></a>
       <figcaption>A list of things I was reading in late 2016.</figcaption>
