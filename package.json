@@ -14,7 +14,7 @@
     "build:js": "browserify src/index.js --debug | exorcist dist/bundle.js.map > dist/bundle.js",
     "build:md": "sitedown src -b dist -l src/layout.html",
     "build:feed": "generate-feed src/log --dest dist",
-    "build:static": "cpx 'src/static/*' dist/static",
+    "build:static": "cpx 'src/**/*.{png,svg,jpg,jpeg,pdf}' dist",
     "build:icon": "gravatar-favicons --config favicon-config.js",
     "watch": "npm run clean && run-p watch:* build:static",
     "watch:css": "run-s 'build:css -- --watch'",
