@@ -11,24 +11,18 @@ Software engineer specializing in modular, open source Javascript and Node.js.  
 
 ## [Netlify](https://www.netlify.com) <small>Platform Engineering • 2018 - Present</small>
 
-- Develop and support Netlify's platform microservices and CI/CD build environment.
-- Help develop Netlify's internal go libraries and contribute to upstream open-source go depedencies.
-- Prepare, deploy and manage applications deployed as docker containers on Kubernetes and other hosts on almost every cloud provider you can think of. (AWS, GCP, Digital Ocean + more)
-- Help maintain internal libraries supporting Netlify's CLI products.
+- Maintain and develop [Netlify's CI build environment](https://www.netlify.com/docs/continuous-deployment/), built with [Docker](https://www.docker.com), [Go](https://golang.org), [Jenkins](https://jenkins.io) and [Kubernets](https://kubernetes.io).
+- Launch Netlify's selectable build-image infrastructure and interface.
+- Develop and maintain [Netlify's Open-api](http://github.com/netlify/open-api) Go client, and architect and rewrite the [Javascript client](http://github.com/netlify/js-client).
+- Perform 24h on-call duties to monitor and maintain the health of Netlify's multi-cloud infrastructure using [Ansible](https://www.ansible.com), [Humio](http://humio.com) and [Datadog](http://datadoghq.com).
+- [Netlify Portfolio](/jobs/netlify#platform)
 
 ## [Netlify](https://www.netlify.com) <small>Product Engineering • 2017 - 2018</small>
 
 - Plan, design, implement, test and iterate on new features for [Netlify's React based webapp](https://app.netlify.com).
 - Support, maintain, test and release Netlify's [open source JS and Go libraries](https://github.com/netlify).
-- Architect and build Netlify's next generation, extensible CLI (TBA).
-
-## [Backbody Project](https://backbodyproject.com/) <small>Platform Consultant • 2018</small>
-- Research, plan and assist in implementing and launching a [Vimeo OTT](https://ott.vimeo.com/) subscription and live video subscription service.
-
-## [Haddington Dynamics](http://hdrobotic.com) <small>Electron Consultant • 2017 - Present</small>
-- Port control software for the MIT connected [Dexter robotic arm](https://www.kickstarter.com/projects/51496107/dexter-the-robotic-arm-to-end-scarcity) to electron.
-- Automate build and delivery pipeline using Github, Travis and Appveyor.
-- Implement browser based voice recognition API.
+- Architect and build Netlify's next generation, extensible [CLI](https://github.com/netlify/cli).
+- [Netlify Portfolio](/jobs/netlify#product)
 
 ## [ZHealth Documentation](http://www.zhealthconsulting.com) <small>Electron Developer • 2016 - 2017</small>
 
