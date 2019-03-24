@@ -9,7 +9,6 @@ Software engineer specializing in modular, open source Javascript and Node.js.  
 - <span class="subdue">modules:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 - <span class="subdue">org:</span> [hypermodul.es](https://hypermodul.es)
 
-
 ## [Netlify](https://www.netlify.com) <small>Platform Engineering • 2018 - Present</small>
 
 - Develop and support Netlify's platform microservices and CI/CD build environment.
@@ -93,9 +92,9 @@ advanced topics like PID control theory.
 - [Small Modules Talk](http://bcomnes.github.io/slides/small-modules/) <small class="subdue">Internal Presentation (2014)</small>
 - [WebRTC Camp](https://twitter.com/WebRTCCamp) <small class="subdue">Speaker (2013)</small>
 - [Indieweb Camp](https://indieweb.org) <small class="subdue">Organizer & Mentor (2012 - 2014)</small>
+
 <!-- [Intro to Choo](https://github.com/bcomnes/choo-6-talk/) <small class="subdue">Speaker (2017)</small> -->
 
 *[HPC]: High Performance Computing
 *[PSU]: Portland State University
 *[ARC]: Academic Research Computing
-
