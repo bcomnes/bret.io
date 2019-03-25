@@ -1,21 +1,25 @@
-# Netlify Portfolio
+# [Netlify](http://www.netlify.com) Portfolio
 
-At Netlify, I worked on the product team focusing on planning, designing and implementing new features on their frontend application in addition to developing and maintaining various open source projects.
+I am lucky to be able to contribute to many features and experiences that affect Netlify's massive user base.  Here are some examples of things that I worked on.
 
-## Buildbot
+## **Platform**
 
-## CLI
+### Buildbot
 
-## Identity Widget
+### Gotrue
 
-## Domains
+## **Product**
 
-## Functions
+### CLI
 
-## Dashboard
+### Identity Widget
 
-## Gotrue
+### Domains
 
-## Security Audit Log
+### Functions
 
-## Zero Config Split Testing
+### Dashboard
+
+### Security Audit Log
+
+### Zero Config Split Testing

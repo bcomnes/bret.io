@@ -2,12 +2,11 @@
 
 Software engineer specializing in modular, open source Javascript and Node.js.  Go, Swift and P2P enthusiast.
 
-- <span class="subdue">web:</span> [bret.io](https://bret.io)
+- <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
 - <span class="subdue">email:</span> [bcomnes@gmail.com](mailto:bcomnes@gmail.com)
-- <span class="subdue">location:</span> [Portland, OR](https://osm.org/go/WIDwCTzGh-?m=)
+- <span class="subdue">location:</span> [Arcata, CA](https://goo.gl/maps/iLc2dJ43hQw)
 - <span class="subdue">github:</span> [github.com/bcomnes](https://github.com/bcomnes)
-- <span class="subdue">modules:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
-- <span class="subdue">org:</span> [hypermodul.es](https://hypermodul.es)
+- <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 
 ## [Netlify](https://www.netlify.com) <small>Platform Engineering • 2018 - Present</small>
 
