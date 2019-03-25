@@ -18,6 +18,18 @@
     </ul>
   </div>
   <div>
+    <h2 id="netlify"><a href="/jobs/netlify">Netlify</a></h2>
+    <figure>
+      <a href="/jobs/netlify"><img src="static/hypermodules.png" alt="Screenshot of Netlify website"></a>
+      <figcaption>I work at <a href="https://www.netlify.com">Netlify</a> on product features, platform architecture and opensource.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang html"><a href="https://github.com/hypermodules/hypermodul.es">hypermodules/hypermodul.es</a></li>
+      <li class="lang js"><a href="https://github.com/hypermodules/changelog-init">hypermodules/changelog-init</a></li>
+      <li class="lang html"><a href="https://github.com/hypermodules/irc.hypermodul.es">hypermodules/irc.hypermodul.es</a></li>
+    </ul>
+  </div>
+  <div>
     <h2 id="hypermodules"><a href="https://hypermodul.es">Hypermodul.es</a></h2>
     <figure>
       <a href="https://hypermodul.es"><img src="static/hypermodules.png" alt="Screenshot of hypermodules website"></a>
