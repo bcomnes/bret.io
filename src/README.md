@@ -4,8 +4,8 @@
   <p class="subtitle">JS • Go • Swift</p>
 </header>
 
-
 <section class="portfolio grid-container">
+
   <div>
     <h2 id="hyperamp"><a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h2>
     <figure>
@@ -17,6 +17,7 @@
       <li class="lang js"><a href="https://github.com/hypermodules/entypo">hypermodules/entypo</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="netlify"><a href="/jobs/netlify">Netlify</a></h2>
     <figure>
@@ -29,6 +30,7 @@
       <li class="lang html"><a href="https://github.com/hypermodules/irc.hypermodul.es">hypermodules/irc.hypermodul.es</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="hypermodules"><a href="https://hypermodul.es">Hypermodul.es</a></h2>
     <figure>
@@ -41,6 +43,7 @@
       <li class="lang html"><a href="https://github.com/hypermodules/irc.hypermodul.es">hypermodules/irc.hypermodul.es</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="elenacomnes"><a href="https://elenacomnes.com">elenacomnes.com</a></h2>
     <figure>
@@ -51,6 +54,7 @@
       <li class="lang html"><a href="https://github.com/bcomnes/elenacomnes.com">bcomnes/elenacomnes.com</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="css"><a href="https://css-pkg.github.io">css-pkg</a></h2>
     <figure>
@@ -64,6 +68,7 @@
       <li class="lang css"><a href="https://github.com/css-pkg/lunchtype.css">css-pkg/lunchtype.css</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="choo"><a href="https://choo.io">Choo</a></h2>
     <figure>
@@ -76,6 +81,7 @@
       <li class="lang js"><a href="https://github.com/shama/bel">shama/bel</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="nanocomponent"><a href="https://github.com/choojs/nanocomponent">Nanocomponent</a></h2>
     <figure>
@@ -91,6 +97,7 @@
       <li class="lang js"><a href="https://github.com/bcomnes/nanomap">bcomnes/nanomap</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="standard" ><a href="https://standardjs.com">Standard JS</a></h2>
     <figure>
@@ -103,6 +110,7 @@
       <li class="lang js"><a href="https://github.com/standard/standard">standard/standard</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="brwoserify"><a href="http://browserify.org">Browserify</a></h2>
     <figure>
@@ -115,6 +123,7 @@
       <li class="lang js"><a href="https://github.com/browserify/browserify-handbook">browserify/browserify-handbook</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="node.js"><a href="https://nodejs.org/en/">Node.js</a></h2>
     <figure>
@@ -128,6 +137,7 @@
       <li class="lang js"><a href="https://github.com/bcomnes/hyperblog">bcomnes/hyperblog</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="datproject"><a href="https://datproject.org">Dat</a></h2>
     <figure>
@@ -141,6 +151,7 @@
       <li class="lang js"><a href="https://github.com/mafintosh/hyperirc">mafintosh/hyperirc</a></li>
     </ul>
   </div>
+
   <div id="golang">
     <h2><a href="https://golang.org">Go</a></h2>
     <figure>
@@ -152,6 +163,7 @@
       <li class="lang css"><a href="https://github.com/bcomnes/go-fonts.css">bcomnes/go-fonts.css</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="leveldb"><a href="http://leveldb.org">Leveldb</a></h2>
     <figure>
@@ -164,6 +176,7 @@
       <li class="lang js"><a href="https://github.com/hypermodules/level-hookdown">hypermodules/level-hookdown</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="electron"><a href="https://electronjs.org">Electron</a></h2>
     <figure>
@@ -177,6 +190,7 @@
       <li class="lang js"><a href="https://github.com/prebuild">Home Prebuilders Association</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="dotfiles"><a href="https://github.com/bcomnes/.dotfiles">.dotfiles</a></h2>
     <figure>
@@ -189,6 +203,7 @@
       <li class="lang sh"><a href="https://github.com/bcomnes/sbc-bootstrap">bcomnes/sbc-bootstrap</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="tron"><a href="https://github.com/bcomnes/sublime-tron-color-scheme">$ edit<a/></h2>
     <figure>
@@ -205,6 +220,7 @@
       <li class="lang js"><a href="https://atom.io/users/bcomnes">Atom user page</a></li>
     </ul>
   </div>
+
   <div>
     <h2 id="2016-reading"><a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe">Late 2016 Reading List</a></h2>
     <figure>
@@ -212,4 +228,5 @@
       <figcaption>A list of things I was reading in late 2016.</figcaption>
     </figure>
   </div>
+
 </section>
