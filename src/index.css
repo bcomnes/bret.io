@@ -95,10 +95,6 @@ li.docker::before {
   font-weight: 200;
 }
 
-.markdown-body h2 {
-  font-size: 1.85em;
-}
-
 /* Porfolio Header */
 .header {
   text-align: center;
