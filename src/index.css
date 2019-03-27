@@ -64,6 +64,10 @@ li.objc::before {
   color: #6866fb;
 }
 
+li.docker::before {
+  color: #384d54;
+}
+
 /* Random Text Modifiers */
 .subdue {
   color: #777;
