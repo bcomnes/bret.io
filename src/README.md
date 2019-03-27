@@ -19,9 +19,9 @@
   </div>
 
   <div>
-    <h2 id="netlify"><a href="/jobs/netlify">Netlify Portfolio</a></h2>
+    <h2 id="netlify"><a href="/jobs/netlify/">Netlify Portfolio</a></h2>
     <figure>
-      <a href="/jobs/netlify"><img src="static/netlify.png" alt="Screenshot of Netlify website"></a>
+      <a href="/jobs/netlify/"><img src="static/netlify.png" alt="Screenshot of Netlify website"></a>
       <figcaption>I work at <a href="https://www.netlify.com">Netlify</a> on product features, platform architecture and open-source.</figcaption>
     </figure>
     <ul>
