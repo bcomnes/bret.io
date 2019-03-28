@@ -93,7 +93,7 @@ I helped lead and implement build status favicons, so you can put a build log in
 
 ### [Lambda Functions](https://www.netlify.com/blog/2018/03/20/netlifys-aws-lambda-functions-bring-the-backend-to-your-frontend-workflow/)
 
-I implemented the application UI for Netlify's Lambda functions and logging infrastructure, and have continued to help design and improve the developer ergonomics of there Lambda functions feature set.
+I implemented the application UI for Netlify's Lambda functions and logging infrastructure, and have continued to help design and improve the developer ergonomics of the Lambda functions feature set.
 
 [![functions](./functions.png)](https://www.netlify.com/blog/2018/03/20/netlifys-aws-lambda-functions-bring-the-backend-to-your-frontend-workflow/)
 
