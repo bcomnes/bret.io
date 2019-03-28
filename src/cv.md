@@ -1,6 +1,6 @@
 # Bret Comnes
 
-Software engineer specializing in modular, open source Javascript and Node.js.  Go, Swift and P2P enthusiast.
+Software engineer specializing in modular, open source Javascript and Node.js, Go, P2P and crypto.
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
 - <span class="subdue">email:</span> [bcomnes@gmail.com](mailto:bcomnes@gmail.com)
