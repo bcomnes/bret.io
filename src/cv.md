@@ -10,7 +10,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 ## [Netlify](https://www.netlify.com) <small>Platform Engineering • 2018 - Present</small>
 
-- Maintain and develop [Netlify's CI build environment](https://www.netlify.com/docs/continuous-deployment/), built with [Docker](https://www.docker.com), [Go](https://golang.org), [Jenkins](https://jenkins.io) and [Kubernets](https://kubernetes.io).
+- Maintain and develop [Netlify's CI build environment](https://www.netlify.com/docs/continuous-deployment/), built with [Docker](https://www.docker.com), [Go](https://golang.org), [Jenkins](https://jenkins.io) and [Kubernetes](https://kubernetes.io).
 - Launch Netlify's selectable build-image infrastructure and interface.
 - Develop and maintain [Netlify's Open-api](http://github.com/netlify/open-api) Go client, and architect and rewrite the [Javascript client](http://github.com/netlify/js-client).
 - Perform 24h on-call duties to monitor and maintain the health of Netlify's multi-cloud infrastructure using [Ansible](https://www.ansible.com), [Humio](http://humio.com) and [Datadog](http://datadoghq.com).
