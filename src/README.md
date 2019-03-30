@@ -30,7 +30,21 @@
       <li class="lang js"><a href="https://github.com/netlify/js-client">netlify/js-client</a></li>
       <li class="lang js"><a href="http://github.com/netlify/cli">netlify/cli</a></li>
       <li class="lang js"><a href="https://github.com/netlify/cli-utils">netlify/cli-utils</a></li>
-</ul>
+    </ul>
+  </div>
+
+  <div>
+    <h2 id="json-feed"><a href="https://jsonfeed.org">News Feed Tools</a></h2>
+    <figure>
+      <a href="https://github.com/bcomnes/jsonfeed-to-rss"><img src="static/jsonfeed-to-rss.png" alt="Screenshot of JSONFeed-to-RSS"></a>
+      <figcaption>Simple tools to support a JSON Feed first workflow, while still supporting legacy RSS and Atom for websites and podcasting.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang js"><a href="https://github.com/bcomnes/jsonfeed-to-rss">bcomnes/jsonfeed-to-rss</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/jsonfeed-to-atom">bcomnes/jsonfeed-to-atom</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/generate-feed">bcomnes/generate-feed</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/podcast-categories">bcomnes/podcast-categories</a></li>
+    </ul>
   </div>
 
   <div>

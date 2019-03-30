@@ -58,6 +58,7 @@ I was primary author on Netlify's current CLI codebase.
   <li class="lang js"><a href="http://github.com/netlify/cli">netlify/cli</a> - Netlify's extensible CLI</li>
   <li class="lang js"><a href="https://github.com/netlify/js-client">netlify/js-client</a> - The API client used to make all API calls in the CLI</li>
   <li class="lang js"><a href="https://github.com/netlify/cli-utils">netlify/cli-utils</a> - A common utility class for loading and saving configuration from a CLI command</li>
+  <li class="lang js"><a href="https://github.com/bcomnes/netlify-lambda-builder">bcomnes/netlify-lambda-builder</a> - I wrote a CLI that packaged Netlify functions in a convenient manner in order to communicate the idea clearly as a possible direction to take.</li>
 </ul>
 
 <figure>
