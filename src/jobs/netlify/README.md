@@ -62,8 +62,8 @@ I was primary author on Netlify's current CLI codebase.
 </ul>
 
 <figure>
-  <video controls width="100%">
-    <source src="./netlify-cli.mp4" type="video/mp4">
+  <video controls width="100%" preload="metadata">
+    <source src="./netlify-cli.mp4#t=0.5" type="video/mp4">
   </video>
   <figcaption>Build image selection UI.</figcaption>
 </figure>
@@ -120,6 +120,6 @@ I led the project to specify and implement the Audit Log for teams and identity 
 
 I implemented the UI for Netlify's split testing feature.
 
-<video controls width="100%">
-  <source src="./split-testing.mp4" type="video/mp4">
+<video controls width="100%" preload="metadata">
+  <source src="./split-testing.mp4#t=0.5" type="video/mp4">
 </video>
