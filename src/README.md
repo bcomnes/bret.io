@@ -44,6 +44,7 @@
       <li class="lang js"><a href="https://github.com/bcomnes/jsonfeed-to-atom">bcomnes/jsonfeed-to-atom</a></li>
       <li class="lang js"><a href="https://github.com/bcomnes/generate-feed">bcomnes/generate-feed</a></li>
       <li class="lang js"><a href="https://github.com/bcomnes/podcast-categories">bcomnes/podcast-categories</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/jsonfeed-converter">bcomnes/jsonfeed-converter</a></li>
     </ul>
   </div>
 
