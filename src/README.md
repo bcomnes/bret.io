@@ -68,7 +68,7 @@
       <figcaption>A minimal creative website.</figcaption>
     </figure>
     <ul>
-      <li class="lang html"><a href="https://github.com/bcomnes/elenacomnes.com">bcomnes/elenacomnes.com</a></li>
+      <li class="lang html"><a href="https://github.com/ecomnes/elenacomnes.com">ecomnes/elenacomnes.com</a></li>
     </ul>
   </div>
 
