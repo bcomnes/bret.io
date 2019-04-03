@@ -1,6 +1,6 @@
 # [Netlify](http://www.netlify.com) Portfolio
 
-I am lucky to be able to contribute to many features and experiences that affect Netlify's massive user base.  Here are some examples of things that I worked on.  If this kind of work looks interesting to you, we are usually hiring: [netlify.com/careers](https://www.netlify.com/careers/).
+I am lucky to be able to contribute to many features and experiences that affect Netlify's massive user base.  Here are some examples of things that I worked on.  If this kind of work looks interesting to you, we are usually hiring: [netlify.com/careers](https://www.netlify.com/careers/).  Questions and comments can be sent via email or [twitter](https://twitter.com/bcomnes/status/1111324728277368832).
 
 ## Platform
 
