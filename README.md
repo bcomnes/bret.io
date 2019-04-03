@@ -23,6 +23,7 @@ npm run build # build snapshot from src to dist
 - Continuous git deployment and PR deploy previews provided by [Netlify](https://www.netlify.com) (I work there now)
 - Automated dependency updates by [greenkeeper](https://greenkeeper.io)
 - Full external CSS + JS sourcemap support
+- Progressive enhancement on top of Github's build in repo browser (essentially, Github as a CMS). Browser around in [src](/src)
 
 ## Screenshot
 
