@@ -83,6 +83,7 @@
       <li class="lang css"><a href="https://github.com/css-pkg/fraktur.css">css-pkg/fraktur.css</a></li>
       <li class="lang css"><a href="https://github.com/css-pkg/chicago.css">css-pkg/chicago.css</a></li>
       <li class="lang css"><a href="https://github.com/css-pkg/lunchtype.css">css-pkg/lunchtype.css</a></li>
+      <li class="lang html"><a href="https://github.com/css-pkg/css-pkg.github.io">css-pkg/css-pkg.github.io</a></li>
     </ul>
   </div>
 
