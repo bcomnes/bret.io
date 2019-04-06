@@ -34,6 +34,21 @@
   </div>
 
   <div>
+    <h2><a href="/projects/websockets/">Websockets</a></h2>
+    <figure>
+      <a href="/projects/websockets/"><img src="static/websockets.png" alt="Screenshot of Websockets writeup"></a>
+      <figcaption>Experiments and abstractions with Websockets and a write up of the discoveries made regarding universal Node.js/DOM modules.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang js"><a href="https://github.com/bcomnes/universal-reconnecting-websocket">bcomnes/universal-reconnecting-websocket</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/websocket-chat">bcomnes/websocket-chat</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/websocket-chat-client">bcomnes/websocket-chat-client</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/dom-event-handler">bcomnes/dom-event-handler</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/node-event-handler">bcomnes/node-event-handler</a></li>
+    </ul>
+  </div>
+
+  <div>
     <h2 id="json-feed"><a href="https://jsonfeed.org">News Feed Tools</a></h2>
     <figure>
       <a href="https://github.com/bcomnes/jsonfeed-to-rss"><img src="static/jsonfeed-to-rss.png" alt="Screenshot of JSONFeed-to-RSS"></a>
