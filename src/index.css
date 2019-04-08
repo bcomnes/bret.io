@@ -1,4 +1,4 @@
-@import 'highlight.js/styles/github.css';
+@import 'highlight.js/styles/atom-one-dark-reasonable.css';
 @import 'style.css';
 @import 'top-bar.css';
 
@@ -18,7 +18,7 @@ ul {
   list-style-type: circle;
 }
 
-figcaption {
+.portfolio figcaption {
   font-size: 0.8em;
 }
 
@@ -210,5 +210,39 @@ figure.no-border img {
   .avatar {
     height: 5em;
     width: 5em;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Overrides for Dark Mode. */
+  body {
+      color:#aec2e0;
+      background:#14191f;
+  }
+
+  a {
+    color: #267fb5;
+  }
+
+  h2 small, .subdue {
+    color: rgb(154, 154, 154);
+  }
+
+  :not(pre) > code {
+    color: #7d8b9f;
+    background-color: #242d39;
+  }
+
+  pre {
+    background-color: #242d39;
+    color: white;
+  }
+
+  .dark-icon {
+    filter: invert(95%);
+  }
+
+  .top-bar-title {
+    color: #C7F026;
   }
 }
