@@ -23,5 +23,11 @@
     "image": "/static/websockets.png",
     "url": "https://bret.io/projects/websockets/",
     "date": "2019-04-06T23:58:03.289Z"
+  },
+  {
+    "content": "Added a simple dark mode CSS modifier",
+    "image": "/static/dark-mode.png",
+    "url": "https://bret.io/#dark-mode",
+    "date": "2019-04-08T17:37:01.262Z"
   }
 ]
