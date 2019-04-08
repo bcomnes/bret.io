@@ -245,4 +245,10 @@ figure.no-border img {
   .top-bar-title {
     color: #C7F026;
   }
+
+  figure img {
+    background: unset;
+    border: unset;
+    padding: unset;
+  }
 }
