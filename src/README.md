@@ -118,7 +118,7 @@
   <div>
     <h2 id="nanocomponent"><a href="https://github.com/choojs/nanocomponent">Nanocomponent</a></h2>
     <figure>
-      <a href="https://github.com/choojs/nanocomponent"><img src="static/nanocomponent.jpg" alt="Screenshot of nanocomponent life cycle"></a>
+      <a href="https://github.com/choojs/nanocomponent"><img class="dark-icon" src="static/nanocomponent.jpg" alt="Screenshot of nanocomponent life cycle"></a>
       <figcaption>Primary author of Nanocomponent, a standalone component model that works well with choo. Shoutout <a href="https://github.com/lrlna">lrlna</a> for the algorithm illustration.</figcaption>
     </figure>
     <ul>
