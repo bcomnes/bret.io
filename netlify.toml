@@ -1,0 +1,3 @@
+[build]
+  publish = "dist"
+  command = "ls -la && ls -la node_modules/.bin && npm run build"
