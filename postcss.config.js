@@ -8,6 +8,7 @@ module.exports = (ctx) => ({
       useHash: true,
       assetsPath: 'assets'
     },
+    'postcss-nesting': {},
     'postcss-browser-reporter': {},
     'postcss-reporter': {}
   }
