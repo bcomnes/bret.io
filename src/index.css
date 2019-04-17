@@ -222,40 +222,38 @@ figure.no-border img {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+.dark-mode:not(.light-mode) {
   /* Overrides for Dark Mode. */
-  body {
-      color:#aec2e0;
-      background:#14191f;
-  }
+  color:#aec2e0;
+  background:#14191f;
 
-  a {
+  & .markdown-body a {
     color: #267fb5;
   }
 
-  h2 small, .subdue {
+  & h2 small, & .subdue {
     color: rgb(154, 154, 154);
   }
 
-  :not(pre) > code {
+  & :not(pre) > code {
     color: #7d8b9f;
     background-color: #242d39;
   }
 
-  pre {
+  & pre {
     background-color: #242d39;
     color: white;
   }
 
-  .dark-icon {
+  & .dark-icon {
     filter: invert(95%);
   }
 
-  .top-bar-title {
+  & .top-bar-title {
     color: #C7F026;
   }
 
-  figure img {
+  & figure img {
     background: unset;
     border: unset;
     padding: unset;
