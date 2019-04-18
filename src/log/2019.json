@@ -29,5 +29,11 @@
     "image": "/static/dark-mode.png",
     "url": "https://bret.io/#dark-mode",
     "date": "2019-04-08T17:37:01.262Z"
+  },
+  {
+    "content": "Added a dark mode switcher",
+    "image": "/static/switcher.png",
+    "date": "2019-04-18T23:33:10.689Z",
+    "url": "https://bret.io/#dark-mode-switcher"
   }
 ]
