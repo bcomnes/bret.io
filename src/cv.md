@@ -8,7 +8,11 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 - <span class="subdue">github:</span> [github.com/bcomnes](https://github.com/bcomnes)
 - <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 
-## [Netlify](https://www.netlify.com) <small>Platform Engineering • 2018 - Present</small>
+## [Hyperdivision](https://hyperdivision.dk) <small>Software Engineer • 2019 - Present</small>
+
+- Working on Heimdall, a distributed cryptographic financial ledger.
+
+## [Netlify](https://www.netlify.com) <small>Platform Engineering • 2018 - 2019</small>
 
 - Maintain and develop [Netlify's CI build environment](https://www.netlify.com/docs/continuous-deployment/), built with [Docker](https://www.docker.com), [Go](https://golang.org), [Jenkins](https://jenkins.io) and [Kubernetes](https://kubernetes.io).
 - Launch Netlify's selectable build-image infrastructure and interface.
