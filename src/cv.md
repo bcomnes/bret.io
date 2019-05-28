@@ -4,7 +4,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
 - <span class="subdue">email:</span> [bcomnes@gmail.com](mailto:bcomnes@gmail.com)
-- <span class="subdue">location:</span> [Arcata, CA](https://goo.gl/maps/iLc2dJ43hQw)
+- <span class="subdue">location:</span> [Copenhagen, Denmark](https://goo.gl/maps/BS8HBA56Asu4V7bL9)
 - <span class="subdue">github:</span> [github.com/bcomnes](https://github.com/bcomnes)
 - <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 
