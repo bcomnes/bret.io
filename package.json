@@ -52,7 +52,7 @@
     "exorcist": "^1.0.0",
     "generate-feed": "^1.0.4",
     "gravatar-favicons": "^1.0.2",
-    "highlight.js": "^9.15.6",
+    "highlight.js": "^9.15.8",
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.0.0",
     "postcss": "^7.0.0",
