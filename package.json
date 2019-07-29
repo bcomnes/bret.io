@@ -48,7 +48,7 @@
     "browserify": "^16.0.0",
     "budo": "^11.0.0",
     "cpx": "^1.5.0",
-    "dependency-check": "^3.0.0",
+    "dependency-check": "^4.1.0",
     "exorcist": "^1.0.0",
     "generate-feed": "^1.0.4",
     "gravatar-favicons": "^1.0.2",
