@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "run-s test:*",
-    "test:deps": "dependency-check ./package.json --entry src/index.js",
+    "test:deps": "dependency-check ./package.json src/index.js",
     "test:lint": "standard | snazzy",
     "test:tape": "tape test.js | tap-format-spec",
     "test:build": "run-s build",
