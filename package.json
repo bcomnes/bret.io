@@ -65,7 +65,7 @@
     "rimraf": "^3.0.0",
     "sitedown": "hypermodules/sitedown#improve-hljs ",
     "snazzy": "^8.0.0",
-    "standard": "^13.0.1",
+    "standard": "^14.0.0",
     "style.css": "^1.0.0",
     "tape": "^4.6.2",
     "top-bar.css": "^2.0.0"
