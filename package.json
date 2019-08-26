@@ -63,7 +63,7 @@
     "postcss-reporter": "^6.0.0",
     "postcss-url": "^8.0.0",
     "rimraf": "^3.0.0",
-    "sitedown": "hypermodules/sitedown#improve-hljs ",
+    "sitedown": "https://github.com/hypermodules/sitedown#improve-hljs",
     "snazzy": "^8.0.0",
     "standard": "^14.0.0",
     "style.css": "^1.0.0",
