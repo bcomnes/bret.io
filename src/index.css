@@ -9,8 +9,8 @@ body {
   flex-direction: column;
 }
 
-a:hover {
-  /* text-decoration-skip-ink: auto; */
+h2 a:hover,a:focus,a:active {
+  text-decoration: none;
 }
 
 /* List styles */
