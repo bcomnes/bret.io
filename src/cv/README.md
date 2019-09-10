@@ -10,7 +10,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="hyperdivision" href="#hyperdivision">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/hyperdivision.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="hyperdivision.svg">
   </a>
   <a href="https://hyperdivision.dk">Hyperdivision</a>
   <small>Software Engineer • 2019 - Present</small>
@@ -24,7 +24,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="netlify-platform" href="#netlify-platform">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/netlify.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="netlify.svg">
   </a>
   <a href="https://www.netlify.com">Netlify</a>
   <small>Platform Engineering • 2018 - 2019</small>
@@ -41,7 +41,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="netlify-product" href="#netlify-product">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/netlify.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="netlify.svg">
   </a>
   <a href="https://www.netlify.com">Netlify</a>
   <small>Product Engineering • 2017 - 2018</small>
@@ -54,7 +54,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="zhealth" href="#zhealth">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/zhealth.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="zhealth.svg">
   </a>
   <a href="http://www.zhealthconsulting.com">ZHealth Documentation</a>
   <small>Electron Developer • 2016 - 2017</small>
@@ -67,7 +67,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="jlr" href="#jlr">
-    <img style="display: inline-block; vertical-align: middle" height="28" width="113" src="../static/jlr.png">
+    <img style="display: inline-block; vertical-align: middle" height="28" width="113" src="jlr.png">
   </a>
   <a href="https://www.jaguarlandrover.com">Jaguar Land Rover</a>
   <small>OS & Application Engineering • 2015 - 2016</small>
@@ -79,7 +79,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="airship" href="#airship">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/airship.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="airship.svg">
   </a>
   <a href="https://www.airship.com">Airship</a>
   <small>Technical Support Engineer • 2015</small>
@@ -90,7 +90,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="psu-oit" href="#psu-oit">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/psu.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="psu.svg">
   </a>
   <a href="https://www.pdx.edu/oit/research-computing">PSU Office of Information Technology ARC</a>
   <small>HPC Operations & Python Development • 2013 - 2015</small>
@@ -104,7 +104,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="psu-sanchez" href="#psu-sanchez">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/psu.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="psu.svg">
   </a>
   <a href="http://www.pdx.edu/nano-development-lab">PSU Sánchez Nano Development Lab</a>
   <small>Research Assistant • 2013 - 2015</small>
@@ -114,7 +114,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="psu-phys" href="#psu-phys">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/psu.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="psu.svg">
   </a>
   <a href="http://www.pdx.edu/physics/">PSU Physics Department</a>
   <small>Lab Instructor & TA • 2012 - 2014</small>
@@ -127,7 +127,7 @@ advanced topics like PID control theory.
 
 <h2>
   <a id="wiley" href="#wiley">
-    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/wiley.svg">
+    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="32" width="32" src="wiley.svg">
   </a>
   <a href="https://www.wiley.com/en-us">Wiley</a>
   <small>Textbook Development Consultant • 2012</small>
@@ -137,7 +137,7 @@ advanced topics like PID control theory.
 
 <h2>
   <a id="wiley" href="#wiley">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/hsu.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="hsu.svg">
   </a>
   <a href="http://www2.humboldt.edu/physics/gravitational-lab.html">HSU Gravitational Research Laboratory</a>
   <small>Research Assistant • 2009 - 2011</small>
@@ -147,7 +147,7 @@ advanced topics like PID control theory.
 
 <h2>
   <a id="naic" href="#naic">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="../static/naic.png">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="naic.png">
   </a>
   <a href="http://egg.astro.cornell.edu/index.php/">National Astronomy and Ionosphere Center</a>
   <small>Arecibo Guest Researcher • 2009</small>
