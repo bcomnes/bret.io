@@ -1,5 +1,5 @@
 <header class="header">
-  <img class="avatar" src="https://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=500" alt="avatar" height="128" width="128">
+  <img loading="auto" class="avatar" src="https://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=500" alt="avatar" height="128" width="128">
   <h1 class="title">Bret Comnes</h1>
   <p class="subtitle">JS • Go • Swift • Crypto • P2P</p>
 </header>
@@ -7,9 +7,21 @@
 <section class="portfolio grid-container">
 
   <div>
+    <h2 id="vhs-tape"><a href="https://github.com/hyperdivision/vhs-tape">vhs-tape</a></h2>
+    <figure>
+      <a href="https://github.com/hyperdivision/vhs-tape"><img loading="auto" src="static/vhs-tape.png" alt="VHS-Tape logo"></a>
+      <figcaption>Generic component unit testing with async/await. (Logo by <a href="https://github.com/tony-go">@tony-go</a>)</figcaption>
+    </figure>
+    <ul>
+      <li class="lang js"><a href="https://github.com/hyperdivision/vhs-tape">hyperdivision/vhs-tape</a></li>
+      <li class="lang"><a href="https://twitter.com/bcomnes/status/1153690382703693830">Demo</a></li>
+    </ul>
+  </div>
+
+  <div>
     <h2 id="hyperamp"><a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h2>
     <figure>
-      <a href="https://github.com/hypermodules/hyperamp"><img src="static/hyperamp.png" alt="Screenshot of Hyperamp"></a>
+      <a href="https://github.com/hypermodules/hyperamp"><img loading="auto" src="static/hyperamp.png" alt="Screenshot of Hyperamp"></a>
       <figcaption>Cross platform audio library app. (<a href="https://git.io/vFwz6">Download Beta</a>)</figcaption>
     </figure>
     <ul>
@@ -21,7 +33,7 @@
   <div>
     <h2 id="netlify"><a href="/jobs/netlify/">Netlify Portfolio</a></h2>
     <figure>
-      <a href="/jobs/netlify/"><img src="static/netlify.png" alt="Screenshot of Netlify website"></a>
+      <a href="/jobs/netlify/"><img loading="auto" src="static/netlify.png" alt="Screenshot of Netlify website"></a>
       <figcaption>I work at <a href="https://www.netlify.com">Netlify</a> on product features, platform architecture and open-source.</figcaption>
     </figure>
     <ul>
@@ -36,7 +48,7 @@
   <div>
     <h2><a href="/projects/websockets/">Websockets</a></h2>
     <figure>
-      <a href="/projects/websockets/"><img src="static/websockets.png" alt="Screenshot of Websockets writeup"></a>
+      <a href="/projects/websockets/"><img loading="auto" src="static/websockets.png" alt="Screenshot of Websockets writeup"></a>
       <figcaption>Experiments and abstractions with Websockets and a write up of the discoveries made regarding universal Node.js/DOM modules.</figcaption>
     </figure>
     <ul>
@@ -51,7 +63,7 @@
   <div>
     <h2 id="json-feed"><a href="https://jsonfeed.org">News Feed Tools</a></h2>
     <figure>
-      <a href="https://github.com/bcomnes/jsonfeed-to-rss"><img src="static/jsonfeed-to-rss.png" alt="Screenshot of JSONFeed-to-RSS"></a>
+      <a href="https://github.com/bcomnes/jsonfeed-to-rss"><img loading="auto" src="static/jsonfeed-to-rss.png" alt="Screenshot of JSONFeed-to-RSS"></a>
       <figcaption>Simple tools to support a JSON Feed first workflow, while still supporting legacy RSS and Atom for websites and podcasting.</figcaption>
     </figure>
     <ul>
@@ -66,7 +78,7 @@
   <div>
     <h2 id="hypermodules"><a href="https://hypermodul.es">Hypermodul.es</a></h2>
     <figure>
-      <a href="https://hypermodul.es"><img src="static/hypermodules.png" alt="Screenshot of hypermodules website"></a>
+      <a href="https://hypermodul.es"><img loading="auto" src="static/hypermodules.png" alt="Screenshot of hypermodules website"></a>
       <figcaption>Open source <a href="https://github.com/hypermodules/">development studio</a> LLC.</figcaption>
     </figure>
     <ul>
@@ -79,7 +91,7 @@
   <div>
     <h2 id="elenacomnes"><a href="https://elenacomnes.com">elenacomnes.com</a></h2>
     <figure>
-      <a href="https://elenacomnes.com"><img src="static/elenacomnes.png" alt="Screenshot of elenacomnes.com website"></a>
+      <a href="https://elenacomnes.com"><img loading="auto" src="static/elenacomnes.png" alt="Screenshot of elenacomnes.com website"></a>
       <figcaption>A minimal creative website.</figcaption>
     </figure>
     <ul>
@@ -90,7 +102,7 @@
   <div>
     <h2 id="css"><a href="https://css-pkg.github.io">css-pkg</a></h2>
     <figure>
-      <a href="https://css-pkg.github.io"><img src="static/css-pkg.png" alt="Screenshot of css-pkg website"></a>
+      <a href="https://css-pkg.github.io"><img loading="auto" src="static/css-pkg.png" alt="Screenshot of css-pkg website"></a>
       <figcaption>An <a href="https://github.com/css-pkg/">org</a> supporting CSS as node packaged modules, ready for consumption directly out of <code>node_modules</code> and installed with <code>npm</code> or <code>yarn</code>.</figcaption>
     </figure>
     <ul>
@@ -105,7 +117,7 @@
   <div>
     <h2 id="choo"><a href="https://choo.io">Choo</a></h2>
     <figure>
-      <a href="https://choo.io"><img src="static/choo.png" alt="Choo website screenshot"></a>
+      <a href="https://choo.io"><img loading="auto" src="static/choo.png" alt="Choo website screenshot"></a>
       <figcaption>Maintainer and core contributor to the choo framework and ecosystem, a lightweight and decomposable alternative to frameworks like React.</figcaption>
     </figure>
     <ul>
@@ -118,7 +130,7 @@
   <div>
     <h2 id="nanocomponent"><a href="https://github.com/choojs/nanocomponent">Nanocomponent</a></h2>
     <figure>
-      <a href="https://github.com/choojs/nanocomponent"><img class="dark-icon" src="static/nanocomponent.jpg" alt="Screenshot of nanocomponent life cycle"></a>
+      <a href="https://github.com/choojs/nanocomponent"><img loading="auto" class="dark-icon" src="static/nanocomponent.jpg" alt="Screenshot of nanocomponent life cycle"></a>
       <figcaption>Primary author of Nanocomponent, a standalone component model that works well with choo. Shoutout <a href="https://github.com/lrlna">lrlna</a> for the algorithm illustration.</figcaption>
     </figure>
     <ul>
@@ -134,7 +146,7 @@
   <div>
     <h2 id="standard" ><a href="https://standardjs.com">Standard JS</a></h2>
     <figure>
-      <a href="https://standardjs.com"><img src="static/standard.jpeg" alt="Screenshot of Standard website"></a>
+      <a href="https://standardjs.com"><img loading="auto" src="static/standard.jpeg" alt="Screenshot of Standard website"></a>
       <figcaption>Maintainer, contributor and advisor to the <a href="https://github.com/standard/standard">Standard JS</a> linter and formatter project, used by <a href="https://twitter.com/feross/status/740592720230518784/photo/1">Timbl</a> and <a href="https://twitter.com/BrendanEich/status/741277499376603138">B.Eich</a>.</figcaption>
     </figure>
     <ul>
@@ -147,7 +159,7 @@
   <div>
     <h2 id="brwoserify"><a href="http://browserify.org">Browserify</a></h2>
     <figure>
-      <a href="http://browserify.org"><img src="static/browserify.png" alt="Screenshot of Browserify website"></a>
+      <a href="http://browserify.org"><img loading="auto" src="static/browserify.png" alt="Screenshot of Browserify website"></a>
       <figcaption>Maintainer and contributor to Browserify and ecosystem.</figcaption>
     </figure>
     <ul>
@@ -160,7 +172,7 @@
   <div>
     <h2 id="node.js"><a href="https://nodejs.org/en/">Node.js</a></h2>
     <figure>
-      <a href="https://github.com/bcomnes/node-handbook"><img src="static/node-handbook.png" alt="Screenshot of Node.js handbook"></a>
+      <a href="https://github.com/bcomnes/node-handbook"><img loading="auto" src="static/node-handbook.png" alt="Screenshot of Node.js handbook"></a>
       <figcaption>The <a href="https://github.com/bcomnes/node-handbook">Node.js handbook</a> captures resources and anthropological artifacts relevant to learning Node.js.</figcaption>
     </figure>
     <ul>
@@ -174,7 +186,7 @@
   <div>
     <h2 id="datproject"><a href="https://datproject.org">Dat</a></h2>
     <figure>
-      <a href="https://github.com/bcomnes/flattree"><img src="static/flattree.png" alt="Screenshot of flattree website"></a>
+      <a href="https://github.com/bcomnes/flattree"><img loading="auto" src="static/flattree.png" alt="Screenshot of flattree website"></a>
       <figcaption>Contributing to the <a href="https://github.com/random-access-storage">Dat module ecosystem</a> and provided early review of the <a href="https://github.com/datproject/docs/blob/master/papers/dat-paper.md">hypercore protocol spec<a>.</figcaption>
     </figure>
     <ul>
@@ -188,7 +200,7 @@
   <div id="golang">
     <h2><a href="https://golang.org">Go</a></h2>
     <figure>
-      <a href="https://github.com/bcomnes/goref/"><img src="static/goref.png" alt="Screenshot of goref"></a>
+      <a href="https://github.com/bcomnes/goref/"><img loading="auto" src="static/goref.png" alt="Screenshot of goref"></a>
       <figcaption>A Golang concentrate for refreshing your memory on the go programming language.</figcaption>
     </figure>
     <ul>
@@ -200,7 +212,7 @@
   <div>
     <h2 id="leveldb"><a href="http://leveldb.org">Leveldb</a></h2>
     <figure>
-      <a href="https://github.com/hypermodules/level-auto-index/"><img src="static/leveldb.png" alt="Screenshot of level-auto-index"></a>
+      <a href="https://github.com/hypermodules/level-auto-index/"><img loading="auto" src="static/leveldb.png" alt="Screenshot of level-auto-index"></a>
       <figcaption>level-auto-index creates and maintains supplementary <a href="http://leveldb.org">LevelDB</a> indexes automatically.</figcaption>
     </figure>
     <ul>
@@ -213,7 +225,7 @@
   <div>
     <h2 id="electron"><a href="https://electronjs.org">Electron</a></h2>
     <figure>
-      <a href="https://github.com/bcomnes/mooon"><img src="static/mooon.png" alt="Screenshot of Mooon.app"></a>
+      <a href="https://github.com/bcomnes/mooon"><img loading="auto" src="static/mooon.png" alt="Screenshot of Mooon.app"></a>
       <figcaption>Creating Electron apps, developer tools and contributing to the Electron prebuild ecosystem to help improve native modules in Electron.</figcaption>
     </figure>
     <ul>
@@ -227,7 +239,7 @@
   <div>
     <h2 id="dotfiles"><a href="https://github.com/bcomnes/.dotfiles">.dotfiles</a></h2>
     <figure>
-      <a href="https://github.com/bcomnes/.dotfiles"><img src="static/dotfiles.png" alt="Screenshot of my terminal"></a>
+      <a href="https://github.com/bcomnes/.dotfiles"><img loading="auto" src="static/dotfiles.png" alt="Screenshot of my terminal"></a>
       <figcaption>These are my .dotfiles, don't wear em out.  I've also written a few notes on how I like to do things.</figcaption>
     </figure>
     <ul>
@@ -240,7 +252,7 @@
   <div>
     <h2 id="tron"><a href="https://github.com/bcomnes/sublime-tron-color-scheme">$ edit<a/></h2>
     <figure>
-      <a href="https://github.com/bcomnes/sublime-tron-color-scheme"><img src="static/edit.png" alt="Screenshot of Tron Legacy theme."></a>
+      <a href="https://github.com/bcomnes/sublime-tron-color-scheme"><img loading="auto" src="static/edit.png" alt="Screenshot of Tron Legacy theme."></a>
       <figcaption>Here are a few themes and plugins I help maintain, as well as my editor settings.</figcaption>
     </figure>
     <ul>
@@ -257,7 +269,7 @@
   <div>
     <h2 id="2016-reading"><a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe">Late 2016 Reading List</a></h2>
     <figure>
-      <a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe"><img src="static/2016readinglist.png" alt="Screenshot of 2016 reading list"></a>
+      <a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe"><img loading="auto" src="static/2016readinglist.png" alt="Screenshot of 2016 reading list"></a>
       <figcaption>A list of things I was reading in late 2016.</figcaption>
     </figure>
   </div>
