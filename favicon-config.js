@@ -4,7 +4,7 @@ const author = parseAuthor(logConfig.author)
 
 module.exports = {
   email: author.email,
-  dest: './dist',
+  dest: './public',
   faviconConfig: {
     path: '/', // Path for overriding default icons path. `string`
     appName: 'bret.io', // Your application's name. `string`
