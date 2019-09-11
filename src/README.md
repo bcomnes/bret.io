@@ -108,7 +108,7 @@
     <h2 id="elenacomnes"><a href="https://elenacomnes.com">elenacomnes.com</a></h2>
     <figure>
       <a href="https://elenacomnes.com"><img loading="auto" src="static/elenacomnes.png" alt="Screenshot of elenacomnes.com website"></a>
-      <figcaption>A minimal creative website.</figcaption>
+      <figcaption>A minimalist, creative website.</figcaption>
     </figure>
     <ul>
       <li class="lang html"><a href="https://github.com/ecomnes/elenacomnes.com">ecomnes/elenacomnes.com</a></li>
