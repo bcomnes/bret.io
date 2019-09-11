@@ -14,7 +14,8 @@
     </figure>
     <ul>
       <li class="lang js"><a href="https://github.com/hyperdivision/vhs-tape">hyperdivision/vhs-tape</a></li>
-      <li class="lang"><a href="https://twitter.com/bcomnes/status/1153690382703693830">Demo</a></li>
+      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1153690382703693830">Demo 1</a></li>
+      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1168462157777899527">Demo 2</a></li>
     </ul>
   </div>
 
@@ -40,6 +41,9 @@
       <li class="lang twitter">Follow <a href="https://twitter.com/dat_cast">@dat_cast</a> on twitter</li>
     </ul>
     <a href="https://podcasts.apple.com/us/podcast/datcast/id1377475849?mt=2&app=podcast" style="display:inline-block;overflow:hidden;background:url(static/US_UK_Apple_Podcasts_Listen_Badge_RGB.svg) no-repeat;width:165px;height:40px;"></a>
+    <a href="https://dat-cast.hashbase.io/feed.xml">
+      <img height="40" src="static/atom.svg" />
+    </a>
   </div>
 
   <div>
