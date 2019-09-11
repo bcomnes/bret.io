@@ -31,6 +31,18 @@
   </div>
 
   <div>
+    <h2 id="datcast"><a href="https://dat-cast.hashbase.io">Datcast</a></h2>
+    <figure>
+      <a href="https://dat-cast.hashbase.io"><img loading="auto" height="256" src="static/datcast.png" alt="Datcast logo"></a>
+      <figcaption>Podcast exploring the people building the p2p web with <a href="https://twitter.com/jimpick">@jimpick</a></figcaption>
+    </figure>
+    <ul>
+      <li class="lang twitter">Follow <a href="https://twitter.com/dat_cast">@dat_cast</a> on twitter</li>
+    </ul>
+    <a href="https://podcasts.apple.com/us/podcast/datcast/id1377475849?mt=2&app=podcast" style="display:inline-block;overflow:hidden;background:url(static/US_UK_Apple_Podcasts_Listen_Badge_RGB.svg) no-repeat;width:165px;height:40px;"></a>
+  </div>
+
+  <div>
     <h2 id="netlify"><a href="/jobs/netlify/">Netlify Portfolio</a></h2>
     <figure>
       <a href="/jobs/netlify/"><img loading="auto" src="static/netlify.png" alt="Screenshot of Netlify website"></a>

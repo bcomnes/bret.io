@@ -68,6 +68,10 @@ li.docker::before {
   color: #384d54;
 }
 
+li.twitter::before {
+  color: rgb(76, 159, 235);
+}
+
 /* Random Text Modifiers */
 .subdue {
   color: #777;
