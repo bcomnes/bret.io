@@ -10,7 +10,7 @@ Source code for [bret.io](https://www.bret.io).
 npm i
 npm test
 npm start # live reload server for dev
-npm run build # build snapshot from src to dist
+npm run build # build snapshot from src to public
 ```
 
 ## Features
