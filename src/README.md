@@ -14,8 +14,8 @@
     </figure>
     <ul>
       <li class="lang js"><a href="https://github.com/hyperdivision/vhs-tape">hyperdivision/vhs-tape</a></li>
-      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1153690382703693830">Demo 1</a></li>
-      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1168462157777899527">Demo 2</a></li>
+      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1153690382703693830">Announcement 📺</a></li>
+      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1168462157777899527">Headless test runner 📺</a></li>
     </ul>
   </div>
 
