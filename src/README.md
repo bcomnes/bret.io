@@ -50,7 +50,7 @@
     <h2 id="netlify"><a href="/jobs/netlify/">Netlify Portfolio</a></h2>
     <figure>
       <a href="/jobs/netlify/"><img loading="auto" src="static/netlify.png" alt="Screenshot of Netlify website"></a>
-      <figcaption>I work at <a href="https://www.netlify.com">Netlify</a> on product features, platform architecture and open-source.</figcaption>
+      <figcaption>I worked at <a href="https://www.netlify.com">Netlify</a> on product features, platform architecture and open-source.</figcaption>
     </figure>
     <ul>
       <li class="lang docker"><a href="https://github.com/netlify/build-image">netlify/build-image</a></li>
