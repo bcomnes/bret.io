@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="341px" height="341px" viewBox="0 0 341 341" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Hyperdivision H</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.53272657%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#6890A4" offset="0%"></stop>
+            <stop stop-color="#547585" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="170.5" cy="170.5" r="170.5"></circle>
+    </defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hyperdivision-H">
+            <g id="Oval">
+                <use fill="#357EDD" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+            <path d="M89,261 L89,79 L139,79 L139,147 L203,147 L202.819899,79 L253,79 L253,260 L228,260 L203,260 L203,191 L139,191 L139,261 L114,261 L114,170 L228,170 L228,105.000954 M113,79.5 L113,147 M228,191 L228,258" id="Stroke-2" stroke="#ABC3D1" stroke-width="6" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
