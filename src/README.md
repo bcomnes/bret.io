@@ -14,8 +14,8 @@
     </figure>
     <ul>
       <li class="lang js"><a href="https://github.com/hyperdivision/vhs-tape">hyperdivision/vhs-tape</a></li>
-      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1153690382703693830">Demo 1</a></li>
-      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1168462157777899527">Demo 2</a></li>
+      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1153690382703693830">Announcement 📺</a></li>
+      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1168462157777899527">Headless test runner 📺</a></li>
     </ul>
   </div>
 
@@ -50,7 +50,7 @@
     <h2 id="netlify"><a href="/jobs/netlify/">Netlify Portfolio</a></h2>
     <figure>
       <a href="/jobs/netlify/"><img loading="auto" src="static/netlify.png" alt="Screenshot of Netlify website"></a>
-      <figcaption>I work at <a href="https://www.netlify.com">Netlify</a> on product features, platform architecture and open-source.</figcaption>
+      <figcaption>I worked at <a href="https://www.netlify.com">Netlify</a> on product features, platform architecture and open-source.</figcaption>
     </figure>
     <ul>
       <li class="lang docker"><a href="https://github.com/netlify/build-image">netlify/build-image</a></li>
@@ -108,7 +108,7 @@
     <h2 id="elenacomnes"><a href="https://elenacomnes.com">elenacomnes.com</a></h2>
     <figure>
       <a href="https://elenacomnes.com"><img loading="auto" src="static/elenacomnes.png" alt="Screenshot of elenacomnes.com website"></a>
-      <figcaption>A minimal creative website.</figcaption>
+      <figcaption>A minimalist, creative website.</figcaption>
     </figure>
     <ul>
       <li class="lang html"><a href="https://github.com/ecomnes/elenacomnes.com">ecomnes/elenacomnes.com</a></li>
