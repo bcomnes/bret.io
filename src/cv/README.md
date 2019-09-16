@@ -10,7 +10,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="hyperdivision" href="#hyperdivision">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="hyperdivision.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="hyperdivision-logo.svg">
   </a>
   <a href="https://hyperdivision.dk">Hyperdivision</a>
   <small>Software Engineer • 2019 - Present</small>
