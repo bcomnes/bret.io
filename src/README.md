@@ -62,6 +62,30 @@
   </div>
 
   <div>
+    <h2 id="arch-arm"><a href="https://github.com/bcomnes/archlinux-arm-img">Archlinux Arm</a></h2>
+    <figure>
+      <a href="https://github.com/bcomnes/archlinux-arm-img"><img loading="auto" src="static/arch-arm-raspi.svg" alt="arch arm logo"></a>
+      <figcaption>Automated provisioning of <a href="https://archlinuxarm.org">Archlinx Arm</a> images for Rasberry Pi hardware with <a href="https://www.packer.io">Hashicorp's Packer</a> and other various micro-scale devops experiments.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang sh"><a href="https://github.com/bcomnes/archlinux-arm-img">bcomnes/archlinux-arm-img</a></li>
+      <li class="lang go"><a href="https://github.com/bcomnes/raspi-packer">bcomnes/raspi-packer</a></li>
+      <li class="lang python"><a href="https://github.com/bcomnes/sbc-bootstrap">sbc-bootstrap</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 id="gumcast"><a href="https://github.com/bcomnes/gumcast-api">Gumcast</a></h2>
+    <figure>
+      <a href="https://github.com/bcomnes/gumcast-api"><img loading="auto" src="static/gumcast.svg" alt="gumcast logo"></a>
+      <figcaption>Custom API servce allowing you to subscrube to any product on <a href="https://gumroad.com">Gumroad</a> as a Podcast. (WIP)</figcaption>
+    </figure>
+    <ul>
+      <li class="lang js"><a href="https://github.com/bcomnes/gumcast-api">bcomnes/gumcast-api</a></li>
+    </ul>
+  </div>
+
+  <div>
     <h2><a href="/projects/websockets/">Websockets</a></h2>
     <figure>
       <a href="/projects/websockets/"><img loading="auto" src="static/websockets.png" alt="Screenshot of Websockets writeup"></a>
