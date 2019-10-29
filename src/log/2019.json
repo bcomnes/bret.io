@@ -35,5 +35,12 @@
     "image": "/static/switcher.png",
     "date": "2019-04-18T23:33:10.689Z",
     "url": "https://bret.io/#dark-mode-switcher"
+  },
+  {
+    "content": "Websockets",
+    "type": "md",
+    "date": "2019-10-29T18:50:05.140Z",
+    "path": "../projects/websockets/README.md",
+    "url": "https://bret.io/projects/websockets/"
   }
 ]

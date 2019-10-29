@@ -50,7 +50,7 @@
     "cpx2": "^2.0.0",
     "dependency-check": "^4.1.0",
     "exorcist": "^1.0.0",
-    "generate-feed": "^1.0.4",
+    "generate-feed": "bcomnes/generate-feed#master",
     "gravatar-favicons": "^1.0.2",
     "highlight.js": "^9.15.8",
     "mkdirp": "^0.5.1",
