@@ -91,6 +91,7 @@ li.twitter::before {
   overflow: hidden;
   word-wrap: break-word;
   flex-grow: 1;
+  width: 100vw;
 }
 .markdown-body > *:first-child { margin-top: 0 !important; }
 .markdown-body > *:last-child { margin-bottom: 0 !important; }
