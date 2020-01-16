@@ -13,7 +13,7 @@
     "build:css": "postcss src/index.css -o public/bundle.css",
     "build:js": "browserify src/index.js --debug | exorcist public/bundle.js.map > public/bundle.js",
     "build:md": "sitedown src -b public -l src/layout.html",
-    "build:feed": "generate-feed src/log --dest public",
+    "build:feed": "generate-feed src/log --dest public && cp public/feed.xml public/atom.xml",
     "build:static": "cpx 'src/**/*.{png,svg,jpg,jpeg,pdf,mp4,mp3}' public",
     "build:icon": "gravatar-favicons --config favicon-config.js",
     "watch": "npm run clean && run-p watch:* build:static",
