@@ -6,7 +6,7 @@ Websockets are a fantastic and underutilized API.  Here are some tools and exper
 
 [![](urws.png)](https://github.com/bcomnes/universal-reconnecting-websocket/)
 
-Universal reconnecting websocket is a thin websocket client wrapper on top of DOM [`WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)'s and Node.js's [ws](https://github.com/websockets/ws).  It provides the following features:
+Universal reconnecting websocket is a thin websocket client wrapper on top of DOM [`WebSocket`](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)'s and Node.js's [ws](https://github.com/websockets/ws).  It provides the following features:
 
 - Automatic serializing of messages
 - Automatic reconnect, with customizable strategies
