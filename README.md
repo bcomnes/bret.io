@@ -1,8 +1,7 @@
 # [bret.io](https://www.bret.io)
 
-[![Build Status](https://travis-ci.org/bcomnes/bret.io.svg?branch=master)](https://travis-ci.org/bcomnes/bret.io)
+[![Actions Status](https://github.com/bcomnes/bret.io/workflows/tests/badge.svg)](https://github.com/bcomnes/bret.io/actions)
 [![devDependencies Status](https://david-dm.org/bcomnes/bret.io/dev-status.svg)](https://david-dm.org/bcomnes/bret.io?type=dev)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2c90d434-a872-4a88-ad28-8d8a46b927cb/deploy-status)](https://app.netlify.com/sites/bret-io/deploys)
 
 Source code for [bret.io](https://www.bret.io).
 
