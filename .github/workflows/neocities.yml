@@ -7,19 +7,14 @@ on:
 
 jobs:
   deploy:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [12]
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node }}
+    - name: Use Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node }}
+        node-version: 12
     - name: npm install and build
       run: |
         npm i
