@@ -1,9 +1,12 @@
 name: Deploy to neociteis
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
-  example:
+  deploy:
     runs-on: ${{ matrix.os }}
 
     strategy:
