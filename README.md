@@ -18,7 +18,6 @@ npm run build # build snapshot from src to public
 - [Modular](https://github.com/bcomnes/bret.io/blob/master/postcss.config.js#L5-L10) CSS in-lining with [post-css](https://github.com/postcss/postcss)
 - Modular JS with [browserify](http://browserify.org) tested with [tape](https://github.com/substack/tape)
 - CSS base coat provided by: [style.css](https://github.com/ungoldman/style.css), [top-bar.css](https://github.com/ungoldman/top-bar.css), [Go fonts](https://blog.golang.org/go-fonts) [👨‍🎨](https://ungoldman.com)
-- Continuous git deployment and PR deploy previews provided by [Netlify](https://www.netlify.com)
 - Automated dependency updates by [greenkeeper](https://greenkeeper.io)
 - Full external CSS + JS sourcemap support
 - Progressive enhancement on top of Github's build in repo browser (essentially, Github as a CMS). Browse around in [src](/src)
