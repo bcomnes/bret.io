@@ -25,4 +25,4 @@ jobs:
       uses: bcomnes/deploy-to-neocities@master
       with:
         api-token: ${{ secrets.NEOCITIES_API_TOKEN }}
-        cleanup: FALSE
+        cleanup: false
