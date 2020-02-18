@@ -22,7 +22,7 @@ jobs:
       env:
         CI: true
     - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@master
+      uses: bcomnes/deploy-to-neocities@v1
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: false
