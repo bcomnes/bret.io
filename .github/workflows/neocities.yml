@@ -23,8 +23,24 @@ jobs:
         npm run build
       env:
         CI: true
+    - name: Create deployment
+      uses: bobheadxi/deployments@v0.2.0
+      id: deployment
+      with:
+        step: start
+        token: ${{ secrets.GITHUB_TOKEN }}
+        env: neocities
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v1
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: false
+    - name: Finish deployment
+      uses: bobheadxi/deployments@v0.2.0
+      if: always()
+      with:
+        step: finish
+        token: ${{ secrets.GITHUB_TOKEN }}
+        deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+        status: ${{ job.status }}
+        env_url: https://bret.io
