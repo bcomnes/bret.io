@@ -11,5 +11,12 @@
     "image": "/static/happy-2020.jpeg",
     "url": "https://twitter.com/bcomnes/status/1210671394989727744#",
     "date": "2020-01-16T23:05:21.372Z"
-  }
+  },
+  {
+    "content": "2020 CV Updates",
+    "type": "md",
+    "date": "2020-03-02T00:26:26.625Z",
+    "path": "../cv/README.md",
+    "url": "https://bret.io/cv/"
+  },
 ]
