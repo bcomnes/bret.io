@@ -9,11 +9,22 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 - <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 
 <h2>
+  <a id="littlstar" href="#littlstar">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="littlstar-logo.png">
+  </a>
+  <a href="https://littlstar.info">Littlstar</a>
+  <small>Senior Software Engineer • 2019 - Present</small>
+</h2>
+
+- Developing next gen IAC with Terraform, AWS and Github Actions.
+- Develop [Little Core Labs](https://github.com/little-core-labs) peer to peer content delivery system.
+
+<h2>
   <a id="hyperdivision" href="#hyperdivision">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="hyperdivision-logo.svg">
   </a>
   <a href="https://hyperdivision.dk">Hyperdivision</a>
-  <small>Software Engineer • 2019 - Present</small>
+  <small>Software Engineer • 2019 🇩🇰</small>
 </h2>
 
 - Leading development on Heimdall, a cryptographically secure, p2p ledger and proposal system used to securely manage cryptographic assets used for cryptocurrency exchange asset management and other financial technologies.
@@ -27,8 +38,11 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="netlify.svg">
   </a>
   <a href="https://www.netlify.com">Netlify</a>
-  <small>Platform Engineering • 2018 - 2019</small>
 </h2>
+
+<h3>
+  <small>Platform Engineering • 2018 - 2019</small>
+</h3>
 
 - Joined Netlify's DevOps focused platform team.
 - Maintain and develop [Netlify's CI build environment](https://www.netlify.com/docs/continuous-deployment/), built with [Docker](https://www.docker.com), [Go](https://golang.org), [Jenkins](https://jenkins.io) and [Kubernetes](https://kubernetes.io).
@@ -39,13 +53,9 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 - Scale and deploy infrastructure with GitOps via [Ansible](https://www.ansible.com), bash and [Terraform](http://terraform.io).
 - See [Netlify portfolio](/jobs/netlify/#platform) for more examples.
 
-<h2>
-  <a id="netlify-product" href="#netlify-product">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="netlify.svg">
-  </a>
-  <a href="https://www.netlify.com">Netlify</a>
+<h3>
   <small>Product Engineering • 2017 - 2018</small>
-</h2>
+</h3>
 
 - Plan, design, implement, test and iterate on new features for [Netlify's React based webapp](https://app.netlify.com).
 - Support, maintain, test and release Netlify's [open source JS and Go libraries](https://github.com/netlify).
@@ -89,12 +99,16 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 - Developed a specialized customer analytic and messaging system.
 
 <h2>
-  <a id="psu-oit" href="#psu-oit">
+  <a id="psu" href="#psu">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="psu.svg">
   </a>
-  <a href="https://www.pdx.edu/oit/research-computing">PSU Office of Information Technology ARC</a>
-  <small>HPC Operations & Python Development • 2013 - 2015</small>
+  <a href="https://www.pdx.edu/">Portland State University</a>
 </h2>
+
+<h3>
+  <a href="https://www.pdx.edu/oit/research-computing">Office of Information Technology ARC</a>
+  <small>HPC Operations & Python Development • 2013 - 2015</small>
+</h3>
 
 - Web applications and systems programming with Python and Django.
 - Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics
@@ -102,23 +116,17 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 - Initiated efforts to automate cluster deployment and management using Ansible.
 - Trained and introduced new users to ARC's resources and shared unix computing environments.
 
-<h2>
-  <a id="psu-sanchez" href="#psu-sanchez">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="psu.svg">
-  </a>
-  <a href="http://www.pdx.edu/nano-development-lab">PSU Sánchez Nano Development Lab</a>
+<h3>
+  <a href="http://www.pdx.edu/nano-development-lab">Sánchez Nano Development Lab</a>
   <small>Research Assistant • 2013 - 2015</small>
-</h2>
+</h3>
 
 - Wrote custom control software and a web application that enabled remote viewing and operation of a Scanning Electron Microscope over the Internet using React, Web Sockets and WebRTC.
 
-<h2>
-  <a id="psu-phys" href="#psu-phys">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="psu.svg">
-  </a>
+<h3>
   <a href="http://www.pdx.edu/physics/">PSU Physics Department</a>
   <small>Lab Instructor & TA • 2012 - 2014</small>
-</h2>
+</h3>
 
 - Instructed PSU’s General Physics Labs and assisted in the upper division Experimental Physics Labs.
 - Developed two novel labs on the use of micro-controllers and FPGAs covering basic concepts to
@@ -175,3 +183,4 @@ advanced topics like PID control theory.
 *[HPC]: High Performance Computing
 *[PSU]: Portland State University
 *[ARC]: Academic Research Computing
+*[IAC]: Infrastructure as code
