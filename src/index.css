@@ -20,6 +20,8 @@ ul {
 
 .portfolio figcaption {
   font-size: 0.8em;
+  font-weight: unset;
+  color: var(--darker-gray);
 }
 
 ul .lang {
@@ -121,9 +123,13 @@ li.twitter::before {
 }
 
 .header .subtitle {
-  color: #888;
+  color: var(--darker-gray);
   font-size: .8em;
-  font-weight: 100;
+}
+
+.top-bar-link {
+  color: var(--darker-gray);
+  font-weight: unset;
 }
 
 /* Sticky header footer top-bar */
@@ -204,12 +210,16 @@ figure.no-border img {
     page-break-inside: avoid;
   }
 
-  .subdue {
-    color: var(--blockquote-color);
-  }
-
-  h1 small, h2 small, h3 small, h4 small,h5 small,h6 small {
-    color: var(--blockquote-color);
+  .subdue,
+  .header .subtitle,
+  .portfolio figcaption,
+  h1 small,
+  h2 small,
+  h3 small,
+  h4 small,
+  h5 small,
+  h6 small {
+    color: var(--h6-color);
   }
 
   .avatar {
