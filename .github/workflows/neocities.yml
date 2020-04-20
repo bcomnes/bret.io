@@ -34,7 +34,7 @@ jobs:
       uses: bcomnes/deploy-to-neocities@v1
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-        cleanup: false
+        cleanup: true
     - name: Finish deployment
       uses: bobheadxi/deployments@v0.2.0
       if: always()
