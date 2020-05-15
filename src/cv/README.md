@@ -10,7 +10,7 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
 
 <h2>
   <a id="littlstar" href="#littlstar">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="littlstar-logo.png">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="littlstar-logo.svg">
   </a>
   <a href="https://littlstar.info">Littlstar</a>
   <small>Senior Software Engineer • 2019 - Present</small>
