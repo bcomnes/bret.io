@@ -140,12 +140,12 @@ li.twitter::before {
 
 nav.top-bar {
   position: sticky;
-  top: -1px;
+  top: 0px;
 }
 
 footer.top-bar {
   position: sticky;
-  bottom: 1px;
+  bottom: 0px;
 }
 
 footer > .top-bar-link:first-child {
