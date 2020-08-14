@@ -174,6 +174,10 @@ figure.no-border img {
     font-size: 55%;
   }
 
+  :root {
+    --light-accent-foreground: var(--text);
+  }
+
   body {
     border: 0;
   }
@@ -214,7 +218,6 @@ figure.no-border img {
   --dark-background: #14191f;
 
   --dark-accent-background: #242d39;
-  --dark-accent-midground: var(--dark-accent-midground);
   --dark-accent-foreground: rgb(154, 154, 154);
 
   /* misc colors */
