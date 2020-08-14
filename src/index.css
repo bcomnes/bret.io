@@ -1,5 +1,6 @@
 @import 'highlight.js/styles/dracula.css';
 @import 'mine.css';
+@import 'mine.css/dist/layout.css';
 @import 'top-bar.css';
 
 /* Document level */
@@ -7,10 +8,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-h2 a:hover,a:focus,a:active {
-  text-decoration: none;
 }
 
 /* List styles */
@@ -21,7 +18,7 @@ ul {
 .portfolio figcaption {
   font-size: 0.8em;
   font-weight: unset;
-  color: var(--darker-gray);
+  color: var(--accent-foreground);
 }
 
 ul .lang {
@@ -76,30 +73,13 @@ li.twitter::before {
 
 /* Random Text Modifiers */
 .subdue {
-  color: #777;
+  color: var(--accent-foreground);
 }
 
 /* JSON Feed Icon */
 
 .rounded-icon {
   border-radius: 3px;
-}
-
-/* Markdown Body layout */
-.markdown-body {
-  max-width: 50em;
-  margin: 2em auto;
-  padding: 0 1em;
-  overflow: hidden;
-  word-wrap: break-word;
-  flex-grow: 1;
-  width: 100%;
-}
-.markdown-body > *:first-child { margin-top: 0 !important; }
-.markdown-body > *:last-child { margin-bottom: 0 !important; }
-
-.markdown-body h1, h2, h3, h4, h5, h6 {
-  font-weight: 200;
 }
 
 /* Porfolio Header */
@@ -123,12 +103,12 @@ li.twitter::before {
 }
 
 .header .subtitle {
-  color: var(--darker-gray);
+  color: var(--accent-foreground);
   font-size: .8em;
 }
 
 .top-bar-link {
-  color: var(--darker-gray);
+  color: var(--accent-foreground);
   font-weight: unset;
 }
 
@@ -219,7 +199,7 @@ figure.no-border img {
   h4 small,
   h5 small,
   h6 small {
-    color: var(--h6-color);
+    color: var(--accent-foreground);
   }
 
   .avatar {
@@ -228,37 +208,21 @@ figure.no-border img {
   }
 }
 
-@supports(padding: max(0px)) {
-  body {
-      padding-top: env(safe-area-inset-top);
-      padding-left: env(safe-area-inset-left);
-      padding-right: env(safe-area-inset-right);
-      padding-bottom: env(safe-area-inset-bottom);
-  }
+:root {
+  /* main colors */
+  --dark-text: #aec2e0;
+  --dark-background: #14191f;
+
+  --dark-accent-background: #242d39;
+  --dark-accent-midground: var(--dark-accent-midground);
+  --dark-accent-foreground: rgb(154, 154, 154);
+
+  /* misc colors */
+  --dark-link-text: #267fb5;
 }
 
 .dark-mode:not(.light-mode) {
-  /* Overrides for Dark Mode. */
-  color:#aec2e0;
-  background:#14191f;
-
-  & .markdown-body a {
-    color: #267fb5;
-  }
-
-  & h2 small, & .subdue {
-    color: rgb(154, 154, 154);
-  }
-
-  & :not(pre) > code {
-    color: #7d8b9f;
-    background-color: #242d39;
-  }
-
-  & pre {
-    background-color: #242d39;
-    color: white;
-  }
+  --code-text: #7d8b9f;
 
   & .dark-icon {
     filter: invert(95%);
@@ -266,11 +230,5 @@ figure.no-border img {
 
   & .top-bar-title {
     color: #C7F026;
-  }
-
-  & figure img {
-    background: unset;
-    border: unset;
-    padding: unset;
   }
 }
