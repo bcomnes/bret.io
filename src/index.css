@@ -222,11 +222,10 @@ figure.no-border img {
 
   /* misc colors */
   --dark-link-text: #267fb5;
+  --dark-code-text: #7d8b9f;
 }
 
 .dark-mode:not(.light-mode) {
-  --code-text: #7d8b9f;
-
   & .dark-icon {
     filter: invert(95%);
   }
