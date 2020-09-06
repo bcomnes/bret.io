@@ -5,43 +5,37 @@
     <title>bret.io</title>
     <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
     <link rel="stylesheet" href="/bundle.css">
-    <meta name="google-site-verification" content="-gd5D4qtAADYPG5Iwbl7Z1265Dt6fzf1H5BQItIbsps" />
-    <link rel="alternate" title="bret.io (JSON Feed)" type="application/json" href="/feed.json" />
-    <link rel="alternate" title="bret.io (JSON Feed)" type="application/feed+json" href="/feed.json" />
-    <link rel="alternate" title="bret.io (RSS Feed)" type="application/rss+xml"  href="/feed.xml" />
-    <link rel="shortcut icon" href="/favicon.ico">
+
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="/apple-touch-icon-167x167.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-    <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024x1024.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png">
+    <meta name="theme-color" content="#C7F026">
+    <link rel="manifest" href="/manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="bret.io">
-    <meta name="msapplication-TileColor" content="#232830">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-    <meta name="msapplication-config" content="/browserconfig.xml">
+
+    <link rel="alternate" title="bret.io (JSON Feed)" type="application/json" href="/feed.json" />
+    <link rel="alternate" title="bret.io (JSON Feed)" type="application/feed+json" href="/feed.json" />
+    <link rel="alternate" title="bret.io (RSS Feed)" type="application/rss+xml"  href="/feed.xml" />
+
+    <meta name="google-site-verification" content="-gd5D4qtAADYPG5Iwbl7Z1265Dt6fzf1H5BQItIbsps" />
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
     <link rel="micropub" href="https://bret.io/.netlify/functions/micropub">
     <link href="https://micro.blog/bret" rel="me" />
+
+    <script type="module" src="/index.js"></script>
   </head>
   <body class="safe-area-inset">
     <nav class="top-bar hide-print">
       <a href="/" class="top-bar-title" title="home">bret.io</a>
       <a href="/cv/" class="top-bar-link" title="resume">cv</a>
-      <a href="https://hypermodul.es" class="top-bar-link" title="HYPERMODULES LLC">hypermodul.es</a>
+      <a href="https://hypermodul.es" class="top-bar-link" title="HYPERMODULES LLC">hmi</a>
       <span class="top-bar-right">
         <span class="top-bar-link" >
-            <!-- TODO: Fix darm mode overrides -->
+            <input class="dark-icon light-dark-button" onclick="window.toggleTheme()" height="14" width="14" type="image" alt="Toogle Theme" height="14" width="14" src="/static/light-dark.svg">
             <a id="neocities" href="https://neocities.org/site/bret"><img height="14" width="14" src="/static/neocitieshead.svg"></a>
             <a id="microblog" href="https://micro.blog/bret"><img height="14" width="14" src="/static/microblog.svg"></a>
             <a rel="me" href="https://github.com/bcomnes" title="github"><img class="dark-icon" height="14" width="14" src="/static/github.svg"></a>
@@ -60,6 +54,5 @@
         <a rel="me" href="mailto:bcomnes@gmail.com" class="top-bar-link" title="email">bcomnes@gmail.com</a>
       </span>
     </footer>
-    <script src="/bundle.js"></script>
   </body>
 </html>

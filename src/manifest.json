@@ -1,0 +1,12 @@
+
+{
+    "manifest_version": 2,
+    "name": "bret.io",
+    "icons": [{
+        "src": "/apple-touch-icon-180x180.png",
+        "sizes": "180x180"
+    }],
+    "background_color": "#ee802f",
+    "theme_color": "#ee802f",
+    "display": "fullscreen"
+}

@@ -234,3 +234,51 @@ figure.no-border img {
     color: #C7F026;
   }
 }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-click {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(540deg);
+  }
+}
+
+@keyframes spin-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.light-dark-button {
+  animation-name: spin-reverse;
+  animation-duration: 0.2s;
+}
+
+.light-dark-button:hover {
+  animation-name: spin;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.light-dark-button:active {
+  animation-name: spin-click;
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+}
+
