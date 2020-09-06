@@ -11,14 +11,13 @@
     "test:build": "run-s build",
     "build": "npm run clean && run-p build:*",
     "build:css": "postcss src/index.css -o public/bundle.css",
-    "build:js": "browserify src/index.js --debug | exorcist public/bundle.js.map > public/bundle.js",
     "build:md": "sitedown src -b public -l src/layout.html",
     "build:feed": "generate-feed src/log --dest public && cp public/feed.xml public/atom.xml",
-    "build:static": "cpx 'src/**/*.{png,svg,jpg,jpeg,pdf,mp4,mp3}' public",
+    "build:static": "cpx 'src/**/*.{png,svg,jpg,jpeg,pdf,mp4,mp3,js,json}' public",
     "build:icon": "gravatar-favicons --config favicon-config.js",
     "watch": "npm run clean && run-p watch:* build:static",
     "watch:css": "run-s 'build:css -- --watch'",
-    "watch:js": "budo src/index.js:bundle.js --dir public --live --open",
+    "watch:serve": "browser-sync start --server 'public' --files 'public'",
     "watch:md": "npm run build:md -- -w",
     "watch:feed": "run-s build:feed",
     "watch:static": "npm run build:static -- --watch",
@@ -45,17 +44,15 @@
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
     "autoprefixer": "^9.0.0",
-    "browserify": "^16.0.0",
-    "budo": "^11.0.0",
     "cpx2": "^2.0.0",
     "dependency-check": "^4.1.0",
-    "exorcist": "^1.0.0",
     "generate-feed": "^1.1.0",
     "gravatar-favicons": "^1.0.2",
     "highlight.js": "^10.0.0",
     "mkdirp": "^1.0.0",
     "npm-run-all": "^4.0.0",
     "postcss": "^7.0.0",
+    "browser-sync": "^2.26.7",
     "postcss-browser-reporter": "^0.6.0",
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.0",
@@ -68,6 +65,6 @@
     "standard": "^14.0.0",
     "tape": "^5.0.0",
     "top-bar.css": "^2.0.0",
-    "mine.css": "^4.0.5"
+    "mine.css": "^4.2.2"
   }
 }
