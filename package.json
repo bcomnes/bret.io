@@ -47,7 +47,7 @@
     "cpx2": "^2.0.0",
     "dependency-check": "^4.1.0",
     "generate-feed": "^1.1.0",
-    "gravatar-favicons": "^1.0.2",
+    "gravatar-favicons": "^2.0.0",
     "highlight.js": "^10.0.0",
     "mkdirp": "^1.0.0",
     "npm-run-all": "^4.0.0",
