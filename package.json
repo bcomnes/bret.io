@@ -51,7 +51,7 @@
     "highlight.js": "^10.0.0",
     "mkdirp": "^1.0.0",
     "npm-run-all": "^4.0.0",
-    "postcss": "^7.0.0",
+    "postcss": "^8.0.3",
     "browser-sync": "^2.26.7",
     "postcss-browser-reporter": "^0.6.0",
     "postcss-cli": "^7.1.0",
