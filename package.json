@@ -46,7 +46,7 @@
     "autoprefixer": "^9.0.0",
     "cpx2": "^2.0.0",
     "dependency-check": "^4.1.0",
-    "generate-feed": "^1.1.0",
+    "generate-feed": "^1.1.13",
     "gravatar-favicons": "^2.0.0",
     "highlight.js": "^10.0.0",
     "mkdirp": "^1.0.0",
