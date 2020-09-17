@@ -7,6 +7,18 @@
 <section class="portfolio grid-container">
 
   <div>
+    <h2 id="package-automation"><a href="./projects/package-automation/">pkg automation</a></h2>
+    <figure>
+      <a href="./projects/package-automation/"><img loading="auto" src="./projects/package-automation/forerunner_structure.jpg" alt="a picture of the future"></a>
+      <figcaption>Fully Automated Luxury Space Age Package Maintenance, as a blogpost. (<a href="https://lortarkam.wordpress.com/2017/04/12/how-should-the-forerunners-really-look/">Img Source</a>)</figcaption>
+    </figure>
+    <ul>
+      <li class="lang js"><a href="https://github.com/bcomnes/npm-bump">bcomnes/npm-bump</a></li>
+      <li class="lang twitter"><a href="">Blogpost discussion thread</a></li>
+    </ul>
+  </div>
+
+  <div>
     <h2 id="vhs-tape"><a href="https://github.com/hyperdivision/vhs-tape">vhs-tape</a></h2>
     <figure>
       <a href="https://github.com/hyperdivision/vhs-tape"><img loading="auto" src="static/vhs-tape.png" alt="VHS-Tape logo"></a>
