@@ -44,7 +44,7 @@
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
     "autoprefixer": "^9.0.0",
-    "cpx2": "^2.0.0",
+    "cpx2": "^3.0.0",
     "dependency-check": "^4.1.0",
     "generate-feed": "^1.1.13",
     "gravatar-favicons": "^2.0.0",
