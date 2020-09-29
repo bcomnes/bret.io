@@ -14,7 +14,7 @@
     </figure>
     <ul>
       <li class="lang js"><a href="https://github.com/bcomnes/npm-bump">bcomnes/npm-bump</a></li>
-      <li class="lang twitter"><a href="">Blogpost discussion thread</a></li>
+      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1311034520305569800">Blogpost discussion thread</a></li>
     </ul>
   </div>
 
