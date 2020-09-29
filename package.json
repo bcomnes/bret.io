@@ -13,7 +13,7 @@
     "build:css": "postcss src/index.css -o public/bundle.css",
     "build:md": "sitedown src -b public -l src/layout.html",
     "build:feed": "generate-feed src/log --dest public && cp public/feed.xml public/atom.xml",
-    "build:static": "cpx 'src/**/*.{png,svg,jpg,jpeg,pdf,mp4,mp3,js,json}' public",
+    "build:static": "cpx 'src/**/*.{png,svg,jpg,jpeg,pdf,mp4,mp3,js,json,gif}' public",
     "build:icon": "gravatar-favicons --config favicon-config.js",
     "watch": "npm run clean && run-p watch:* build:static",
     "watch:css": "run-s 'build:css -- --watch'",
@@ -65,6 +65,6 @@
     "standard": "^14.0.0",
     "tape": "^5.0.0",
     "top-bar.css": "^2.0.0",
-    "mine.css": "^4.2.2"
+    "mine.css": "^4.5.0"
   }
 }

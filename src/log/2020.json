@@ -18,5 +18,12 @@
     "date": "2020-03-02T00:26:26.625Z",
     "path": "../cv/README.md",
     "url": "https://bret.io/cv/"
+  },
+  {
+    "content": "Fully Automated Luxury Space Age Package Maintenance",
+    "type": "md",
+    "date": "2020-09-29T17:50:58.562Z",
+    "path": "../projects/package-automation/README.md",
+    "url": "https://bret.io/projects/package-automation/"
   }
 ]
