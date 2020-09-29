@@ -675,7 +675,7 @@ Much more could be said about the versioned development tooling, standardized sc
 
 If you enjoyed this article, have suggestions or feedback, or think I'm full of it, follow me on twitter ([@bcomnes][twitter]) and feel free to hop in the the accompanying thread.  I would love to hear your thoughts, ideas and examples!  Also subscribe to my [RSS](http://bret-dk.local:3000/feed.xml)/[JSON](http://bret-dk.local:3000/feed.json) Feed in your favorite RSS reader.
 
-(TWITTER LINK WILL BE PUT HERE WHEN AVAILABLE)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Fully Automated Luxury Space Age Package Maintenance&quot;<br><br>I wrote up how tedious package maintenance tasks can be fully automated. <br><br>Hope someone enjoys!<a href="https://t.co/fvYIu2Wq0r">https://t.co/fvYIu2Wq0r</a> <a href="https://t.co/q220LTax8X">pic.twitter.com/q220LTax8X</a></p>&mdash; 🌌🌵🛸Bret🏜👨‍👩‍👧🚙 (@bcomnes) <a href="https://twitter.com/bcomnes/status/1311034520305569800?ref_src=twsrc%5Etfw">September 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [keepachangelog]: https://keepachangelog.com/en/1.0.0/
 [git]: https://git-scm.com
