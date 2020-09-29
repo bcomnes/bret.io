@@ -121,6 +121,8 @@ li.twitter::before {
 nav.top-bar {
   position: sticky;
   top: 0px;
+  backdrop-filter: contrast(100%) blur(10px);
+  z-index: 1; /* float over interactive content below */
 }
 
 footer.top-bar {
@@ -139,7 +141,7 @@ figure.no-border img {
 }
 
 @media screen and (max-width: 85em) {
-  nav.top-bar, footer.top-bar {
+  footer.top-bar {
     position: inherit;
     top: inherit;
     bottom: inherit;
