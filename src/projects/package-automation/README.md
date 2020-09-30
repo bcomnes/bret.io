@@ -677,6 +677,10 @@ If you enjoyed this article, have suggestions or feedback, or think I'm full of 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Fully Automated Luxury Space Age Package Maintenance&quot;<br><br>I wrote up how tedious package maintenance tasks can be fully automated. <br><br>Hope someone enjoys!<a href="https://t.co/fvYIu2Wq0r">https://t.co/fvYIu2Wq0r</a> <a href="https://t.co/q220LTax8X">pic.twitter.com/q220LTax8X</a></p>&mdash; 🌌🌵🛸Bret🏜👨‍👩‍👧🚙 (@bcomnes) <a href="https://twitter.com/bcomnes/status/1311034520305569800?ref_src=twsrc%5Etfw">September 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+### Syndications
+
+- [/r/node](https://www.reddit.com/r/node/comments/j27pbt/fully_automated_luxury_space_age_package/)
+
 [keepachangelog]: https://keepachangelog.com/en/1.0.0/
 [git]: https://git-scm.com
 [nyc]: http://ghub.io/nyc
