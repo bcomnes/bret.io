@@ -254,7 +254,7 @@ npm outdated
     <source srcset="./outdated-dark.png" media="(prefers-color-scheme: dark)">
     <img src="./outdated-light.png" alt="Screenshot of npm outdated output">
   </picture>
-  <figcaption><code>npm outdated</code> will give you a list of your dependencies that have fallen behind their semver range and updates that are available outside of their semver range.</figcaption>
+  <figcaption><a href="https://docs.npmjs.com/cli-commands/outdated.html"><code>npm outdated</code></a> will give you a list of your dependencies that have fallen behind their semver range and updates that are available outside of their semver range.</figcaption>
 </figure>
 
 Checking for updates any time you work on the package is not a bad strategy, but it becomes tiresome, and can present a large amount of maintenance work, unrelated to the prompting task at hand, if left to go a long time.  A good package doesn't need to change much, so it may rarely ever be revisited and rot indefinitely.
