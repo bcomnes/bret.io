@@ -121,8 +121,6 @@ li.twitter::before {
 nav.top-bar {
   position: sticky;
   top: 0px;
-  backdrop-filter: contrast(100%) blur(10px);
-  z-index: 1; /* float over interactive content below */
 }
 
 footer.top-bar {
@@ -140,11 +138,19 @@ figure.no-border img {
   padding: unset;
 }
 
-@media screen and (max-width: 85em) {
+@media screen and (max-width: 72em) {
   footer.top-bar {
     position: inherit;
     top: inherit;
     bottom: inherit;
+  }
+}
+
+@media screen and (max-width: 65em) {
+  nav.top-bar {
+    backdrop-filter: contrast(100%) blur(10px);
+    z-index: 1; /* float over interactive content below */
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0, 0.2);
   }
 }
 
