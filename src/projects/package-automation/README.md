@@ -680,6 +680,8 @@ If you enjoyed this article, have suggestions or feedback, or think I'm full of 
 ### Syndications
 
 - [/r/node](https://www.reddit.com/r/node/comments/j27pbt/fully_automated_luxury_space_age_package/)
+- [Github Community Forum](https://github.community/t/fully-automated-luxury-space-age-package-maintenance-with-github-actions/135103)
+- [twitter thread](https://twitter.com/bcomnes/status/1311034520305569800)
 
 [keepachangelog]: https://keepachangelog.com/en/1.0.0/
 [git]: https://git-scm.com
