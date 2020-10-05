@@ -144,7 +144,7 @@ There are lots of other easy tests you can throw at your package testing step th
 
 ### Managing complex test scripts
 
-Running multiple tests under `npm test` can result in a long, difficult to maintain `test` script.  Install [`npm-run-all`][npm-run-all] as a `devDependency` to break each `package.json` `test` command into its own sub-script, and then use the globbing feature to run them all in parallel (`run-p`) or in series (`run-s`):
+Running multiple tests under `npm test` can result in a long, difficult to maintain `test` script.  Install [`npm-run-all2`][npm-run-all2] as a `devDependency` to break each `package.json` `test` command into its own sub-script, and then use the globbing feature to run them all in parallel (`run-p`) or in series (`run-s`):
 
 ```json
 {
@@ -164,7 +164,7 @@ When testing locally, and an individual test is failing, you can bypass the othe
 npm run test:deps
 ```
 
-[`npm-run-all`][npm-run-all] is a fantastic tool to keep your [`npm run`](https://docs.npmjs.com/misc/scripts) scripts manageable.
+[`npm-run-all2`][npm-run-all2] is a fantastic tool to keep your [`npm run`](https://docs.npmjs.com/misc/scripts) scripts manageable.
 
 This builds on the fantastic and 2014 classic Keith Cirkel blog post [How to Use npm as a Build Tool](https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/).
 
@@ -456,7 +456,7 @@ Some packages have builds steps.  No problem, these are easily incorporated into
 }
 ```
 
-Since version becomes a bit more complex, we can break it down into pieces with [`npm-run-all`][npm-run-all] as we did in the testing step.  We ensure we run fresh builds on development install (`prepare`), and also when we `version`.  We capture any updated build outputs in `git` during the version step by staging the `dist` folder (or whatever else you want to capture in your `git` version commit).
+Since version becomes a bit more complex, we can break it down into pieces with [`npm-run-all2`][npm-run-all2] as we did in the testing step.  We ensure we run fresh builds on development install (`prepare`), and also when we `version`.  We capture any updated build outputs in `git` during the version step by staging the `dist` folder (or whatever else you want to capture in your `git` version commit).
 
 This pattern was documented well by [@swyx](http://twitter.com/swyx): [Semi-Automatic npm and GitHub Releases with `gh-release` and `auto-changelog`](https://dev.to/swyx/semi-automatic-npm-and-github-releases-with-gh-release-and-auto-changelog-4b5a).
 
@@ -612,7 +612,7 @@ But we can do better.
 
 ### [`create-project`][create-project] repos
 
-[`create-project`][create-project] is a simple CLI tool that works similar to Github template repos, except it has a `{{variable}}` system that lets you insert values when spawning off a project repo.  You can designate your [`create-project`][create-project] template repos to also be a Github template repo, and create new projects either way you feel like it.
+[`create-project`][create-project] is a simple CLI tool (by [@mafintosh](https://github.com/mafintosh)) that works similar to Github template repos, except it has a `{{variable}}` system that lets you insert values when spawning off a project repo.  You can designate your [`create-project`][create-project] template repos to also be a Github template repo, and create new projects either way you feel like it.
 
 <figure>
   <video controls width="100%" preload="metadata">
@@ -687,6 +687,7 @@ If you enjoyed this article, have suggestions or feedback, or think I'm full of 
 [git]: https://git-scm.com
 [nyc]: http://ghub.io/nyc
 [npm-run-all]: http://ghub.io/npm-run-all
+[npm-run-all2]: http://ghub.io/npm-run-all2
 [travis]: https://travis-ci.org
 [dependabot]: https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates
 [auto-changelog]: https://ghub.io/auto-changelog
