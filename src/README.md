@@ -239,7 +239,7 @@
     <h2 id="datproject"><a href="https://datproject.org">Dat</a></h2>
     <figure>
       <a href="https://github.com/bcomnes/flattree"><img loading="auto" src="static/flattree.png" alt="Screenshot of flattree website"></a>
-      <figcaption>Contributing to the <a href="https://github.com/random-access-storage">Dat module ecosystem</a> and provided early review of the <a href="https://github.com/datproject/docs/blob/master/papers/dat-paper.md">hypercore protocol spec<a>.</figcaption>
+      <figcaption>Contributing to the <a href="https://github.com/random-access-storage">Dat module ecosystem</a> and provided early review of the <a href="https://github.com/datproject/docs/blob/master/papers/dat-paper.md">hypercore protocol spec</a>.</figcaption>
     </figure>
     <ul>
       <li class="lang go"><a href="https://github.com/bcomnes/flattree">bcomnes/flattree</a></li>
