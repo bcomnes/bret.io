@@ -62,7 +62,7 @@
     "rimraf": "^3.0.0",
     "sitedown": "^4.0.0",
     "snazzy": "^9.0.0",
-    "standard": "^15.0.0",
+    "standard": "^16.0.3",
     "tape": "^5.0.0",
     "top-bar.css": "^2.0.0",
     "mine.css": "^4.5.0"
