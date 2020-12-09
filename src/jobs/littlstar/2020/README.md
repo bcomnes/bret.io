@@ -218,6 +218,11 @@ These changes would have unlikely been accepted upstream, so by forking we are a
 
 https://github.com/little-core-labs/gqlr
 
+### local-storage-proxy
+
+A configuration solution that allows for persistent overrides stored in local storage, including cache busting capabilities.  Implemented with a recursive JS proxy to simulate native object interactions over a window.localstorage interface.  Implemented using the ESM/CSJ development workflow established in sdk-js.
+https://github.com/bcomnes/local-storage-proxy
+
 ### Strapi remote auth
 
 Helped solve a major initial problem with our strapi microservice architecture quickly and in a way that is still in use today.
