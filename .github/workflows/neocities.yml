@@ -44,12 +44,3 @@ jobs:
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: true
-    - name: Finish deployment
-      uses: bobheadxi/deployments@v0.5.1
-      if: always()
-      with:
-        step: finish
-        token: ${{ secrets.GITHUB_TOKEN }}
-        deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-        status: ${{ job.status }}
-        env_url: https://bret.io
