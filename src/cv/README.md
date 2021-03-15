@@ -1,6 +1,6 @@
 # Bret Comnes
 
-Software engineer specializing in modular, open source Javascript and Node.js, Go, P2P and crypto.
+Software engineer specializing in DevOps and modular, open source Javascript(Node.js/Deno), Go, P2P and crypto.
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
 - <span class="subdue">email:</span> [bcomnes@gmail.com](mailto:bcomnes@gmail.com)
@@ -13,11 +13,24 @@ Software engineer specializing in modular, open source Javascript and Node.js, G
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="littlstar-logo.svg">
   </a>
   <a href="https://littlstar.info">Littlstar</a>
-  <small>Senior Software Engineer • 2019 - Present</small>
+  +
+  <a id="rad" href="#rad">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="rad.svg">
+  </a>
+  <a href="https://rad.live">Rad.live</a>
 </h2>
 
-- Developing next gen IAC with Terraform, AWS and Github Actions.
+<h3>
+  <div><small>Principal Engineer • 2021 - Present</small></div>
+  <div><small>Senior Software Engineer • 2019 - 2021</small></div>
+</h3>
+
+- Developing next gen IAC and delivery pipelines with Terraform and Github Actions deployed to AWS.
 - Develop [Little Core Labs](https://github.com/little-core-labs) peer to peer content delivery system.
+- Implement a rebrand of Littlstar to [Rad.live](https://rad.live).
+- Design and reboot product website using [next.js](https://nextjs.org) and [swr](https://swr.vercel.app).
+- Designed and implemented an organizational microservice pattern.
+- Develop centralized JWT authorization strategy for all services.
 
 <h2>
   <a id="hyperdivision" href="#hyperdivision">
