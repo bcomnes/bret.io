@@ -1,51 +1,63 @@
 # [Littlstar][ls] Portfolio 2020
 
+<img src="./littlstar-logo.svg" height=100 width=100>
+
 After a short sabbatical in Denmark at [Hyperdivision](https://hyperdivision.dk), I joined [Littlstar][ls].  Here are some of the projects and accomplishments I worked on in 2020.
 
 ## NYCPF
 
-This was an agency style project developing a novel VR reality training platform for [NYCPF](https://www.nycpolicefoundation.org), powered by a custom [hypercore](https://ghub.io/hypercore) p2p file sharing network, delivering in-house developed unity VR scenarios.
-These scenarios could then be brought to various locations like schools or events where NYCPF could guide participants through various law enforcement scenarios with different outcomes.
+<figure class="borderless">
+  <img src="./nycpf.png" alt="NYCPF-XR screenshot">
+  <figcaption>NYCPF used a hybrid local process talking over websocket RPC to a webapp running in a local browser.</figcaption>
+</figure>
+
+My first project was picking up on an agency style project developing a novel VR reality training platform for [NYCPF](https://www.nycpolicefoundation.org), powered by a custom [hypercore](https://ghub.io/hypercore) p2p file sharing network, delivering in-house developed unity VR scenarios.
+These scenarios could then be brought to various locations like schools or events where NYCPF could guide participants through various law enforcement scenarios with different outcomes based on participant choices within the simulation.
 
 By utilizing a p2p and offline first design approach, we were able to deliver an incredibly flexible and robust delivery platform that had all sorts of difficult features to develop for traditional file distribution platforms such as:
 
-- Automated offline re-distribution to a fleet of devices.
+- Automated offline re-distribution of simulation data to a fleet of devices.
 - Bittorrent style inverted bandwidth characteristics (more demand = more availability).
 - Extremely high performance content distribution speeds.
 - WAN and LAN peering between devices.
 - Centrally controlled editorial over available content, with eventual-consistency properties to offline or air-gapped clients.
-- Cross platform codebase targeting Windows, MacOS and Linux. (In fact, the dev team utilized all 3 platforms during development, interchangeably)
+- Cross platform codebase targeting Windows, MacOS and Linux. The dev team utilized all 3 platforms during development, interchangeably.
 
-While the project was built on the backs of giants like the Hypercore protocol, as well as the amazing work of my [colleges](https://github.com/jwerle), I contributed in a number of areas to move the project forward during my time contracting on it.
+While the project was built on the backs of giants like the Hypercore protocol, as well as the amazing work of my [colleges](https://github.com/orgs/little-core-labs/people), I contributed in a number of areas to move the project forward during my time contracting on it.
 
-- Took over the existing React application codebase, maintaining it and moving progress forward.
-- Simplify and many internal packages.
-- Simplify internal state management to React state and contexts instead of the existing Redux state machine.
-- Implement offline mode.
+- Take ownership of the preexisting React application.
+- Simplify and maintain a mix of internal open source and closed source packages.
+- Simplify React app state layer by eliminating the need for Redux in favor of built in React state solutions.
+- Implement offline mode via Service workers in conjunction with Hypercore.
 - Packaging and delivery tasks.
 - Improved progress UI/UX.
-- Contribute to native packaging tools build with [pkg](https://ghub.io/pgk).
+- Contribute to native packaging tools build with [pkg](https://ghub.io/pgk) and [tiny-module-compiler](https://github.com/little-core-labs/tiny-module-compiler).
 
 Some of the discrete software packages that resulted from this project are described below:
 
-### secure-rpc-protocol
+### [`secure-rpc-protocol`](https://github.com/little-core-labs/secure-rpc-protocol)
 
 Secure rpc-protocol over any duplex socket using noise-protocol.
 This was a refactor of an existing RPC over websocket project was using.
 It improved upon the previous secure RPC already used in the project by switching to using the [noise protocol](http://noiseprotocol.org) which implements well understood handshake patterns that can be shared and audited between projects.
 It also decoupled the RPC protocol from the underlying socket being used, so that the RPC system could be used over any other channels we might want in the future.
 
-https://github.com/little-core-labs/secure-rpc-protocol
+<figure class="borderless">
+  <img src="./secure-rpc-protocol.png" alt="Secure RPC Protocol">
+  <figcaption><a href="https://github.com/little-core-labs/secure-rpc-protocol">Secure RPC protocol</a> uses the noise protocol for encryption, and works over any duplex socket.</figcaption>
+</figure>
 
-### async-folder-walkers
+### [`async-folder-walker`](https://github.com/bcomnes/async-folder-walker)
 
 An async generator that walks files.
 This project was a refactor of an existing project called [folder-walker](https://ghub.io/folder-walker) implementing a high performance folder walk algorithm using a more modern async generator API.
 
-https://github.com/bcomnes/async-folder-walker
+<figure>
+  <img src="./afw.jpeg" alt="Async folder walker">
+  <figcaption><a href="https://github.com/bcomnes/async-folder-walker">Async folder walker</a> provides a modern api to folder and filer walking of a directory.</figcaption>
+</figure>
 
-
-### Unpacker with progress
+### [`unpacker-with-progress`](https://github.com/little-core-labs/unpacker-with-progress)
 
 A specialized package that unpacks archives, and provides a progress api in order to provide UI feedback.
 One of the deficiencies with the NYCPF project when I started was lack of UI feedback during the extraction process.
@@ -55,56 +67,63 @@ This step did not provide any sort of progress feedback to the user because the 
 This library implemented support for unpacking the various archive formats the project required, and also added an API providing uniform unpacking progress info that could be used in the UI during unpacking tasks.
 I implemented and package the library, in addition to implementing it into the React app, thus improving the UX during the unpacking step of the download process.
 
-https://github.com/little-core-labs/unpacker-with-progress
+<figure class="borderless">
+  <img src="./uwp.png" alt="Unpacker with progress">
+  <figcaption><a href="https://github.com/little-core-labs/unpacker-with-progress">unpacker-with-progress</a> is a consistency layer on top of a few unpacking libraries, with an emphasis on progress reporting for use in UI applications.</figcaption>
+</figure>
 
-### Hchacha20
+### [`hchacha20`](https://github.com/little-core-labs/hchacha20)
 
-One of the more interesting side projects I worked on was porting over some of the [libsodium]() primitives to [libsodium-js]().
-I utilized a technique I learned about at Hyperdivision where one can write web assembly by hand in the WAT format, providing a much wider set of data types, providing the type guarantees needed to write effective crypto.
+One of the more interesting side projects I worked on was porting over some of the [libsodium](https://doc.libsodium.org) primitives to [sodium-javascript](https://github.com/sodium-friends/sodium-javascript).
+I utilized a technique I learned about at Hyperdivision where one can write web assembly by hand in the [WAT format](https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format), providing a much wider set of data types, providing the type guarantees needed to write effective crypto.
 
-While the WAT was written for HChaCha20, the effort was quite laborious and it kicked off a debate as to weather it would be better to just wrap libsodium-js (the official libsodium js port) in a wrapper that provided the [sodium-universal]() API.  This was achieved by another group in https://github.com/geut/sodium-javascript-plus which successfully ran hypercores in the browser using that wrapper.
+While the WAT was written for HChaCha20, the effort was quite laborious and it kicked off a debate as to whether it would be better to just wrap [libsodium-js](https://github.com/jedisct1/libsodium.js) (the official libsodium js port) in a wrapper that provided the [sodium-universal](https://github.com/sodium-friends/sodium-universal) API.  This was achieved by another group in [geut/sodium-javascript-plus](https://github.com/geut/sodium-javascript-plus) which successfully ran hypercores in the browser using that wrapper.
 
 Ultimately, it this effort was scrapped, determining that noise peer connections in the browser are redundant to webRTC encryption and https sockets.
 
-https://github.com/little-core-labs/hchacha20
+<figure class="borderless">
+  <img src="./hchacha.png" alt="Some HChacha WAT Code">
+  <figcaption>A peek into the world of WASM via WAT.</figcaption>
+</figure>
 
 ### Reconnecting sockets
 
-The work underlying the secure-rpc-protocol work was a re-implementation and improvements of a reconnecting socket.
+The work underlying the [`secure-rpc-protocol`](https://github.com/little-core-labs/secure-rpc-protocol) work was a re-implementation and improvements of a reconnecting socket.
 The react app talked to a program running locally on the machine that communicated over websockets.
 There were a number of strange error modes that these two would get into, and it was suspected to a bad state transition between the two due to some unknown factors.
 I implemented a reconnecting state machine with primitives to manage a socket, and then implemented a version for browser native websockets.
-This helped eliminate some of these bad state transitions by implementing a well understood and tested state machine for managing a reconnecting socket.
+This helped eliminate some of these bad state transitions by implementing a well understood and tested state machine for managing a reconnecting socket.  Additionally, all the reconnection logic becomes independent of the socket type.
 
-https://github.com/little-core-labs/reconnecting-socket
-https://github.com/little-core-labs/reconnecting-simple-websocket
+- [`little-core-labs/reconnecting-socket`](https://github.com/little-core-labs/reconnecting-socket)
+- [`little-core-labs/reconnecting-simple-websocket`](https://github.com/little-core-labs/reconnecting-simple-websocket)
 
-## Had a baby
-
-Helped my wife in labor!
-Littlstar support me and my family through this wonderful and challenging life event.
-Thanks!
+<figure class="borderless">
+  <img src="./rsw.png" alt="Reconnecting simple websocket">
+</figure>
 
 ## Little Core Labs
 
-Broke off to develop the future technology rewrite of Littlstar: rad.live!
+<img src="./lcl.png" width=100 height=100>
 
-High level contributions:
+Broke off Littlstar to develop the future technology rewrite of the platform.
+
+My high level contributions:
 
 - Terraform running in Github actions
 - Provisioning AWS infrastructure.
 - Helping come up with how all of this stuff will work.
 
-This was an amazing founders-style opportunity to help rethink and re-implement years of work that had developed at Littlstar prior to myself joining.
-Effectivly starting from 0, we re-though of the entire technology pipeline, from operations, to infrastructure, to deployment, resulting in something really nice, modern and malleable.
+This was an amazing founders-style opportunity to help rethink and re-implement years of work that had developed at Littlstar prior to  joining.
+Effectively starting from 0, we re-though of the entire technology pipeline, from operations, to infrastructure, to deployment, resulting in something really nice, modern and malleable.
 
-This work broke down into the following areas:
+- [Little Core Labs Github](https://github.com/little-core-labs)
+- [Little Core Labs Twitter](https://twitter.com/littlecorelabs)
 
 ## Github Actions CI
 
 Enabled CI for all package across little-core-labs.  From the NYCPF work, we had a bunch of new software packages in a fresh GitHub org, but hadn't really standardized on how to automate anything around the.
 One of my first initiatives was to enable basic automation around CI tasks, using the relatively new GitHub actions services.
-This project enabled automation around the majority of the projects we had established, and also helped lay out a patter for the rest of the org to follow.
+This project enabled automation around the majority of the projects we had established, and also helped lay out a patterns for the rest of the org to follow.
 
 ## Terraform ops
 
