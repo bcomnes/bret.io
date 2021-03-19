@@ -9,7 +9,7 @@
 - <a href="#level-4">Level 4</a>: Human triggered, bot-run version cutting and publishing
 - <a href="#level-5">Level 5</a>: Capture common automations into a boiler plate generator
 
-These solutions focus on Node.js + npm packages, automated on Github Actions, but the underlying principals are general to any language or automation platform.
+==These solutions focus on Node.js + npm packages, automated on Github Actions, but the underlying principals are general to any language or automation platform.==
 
 ## Background
 
