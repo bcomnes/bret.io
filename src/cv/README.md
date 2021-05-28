@@ -9,7 +9,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 - <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 
 <h2>
-  <a id="littlstar" href="#littlstar">
+  <a class="job-logo" id="littlstar" href="#littlstar">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="littlstar-logo.svg">
   </a>
   <a href="https://littlstar.info">Littlstar</a>
@@ -33,7 +33,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 - Develop centralized JWT authorization strategy for all services.
 
 <h2>
-  <a id="hyperdivision" href="#hyperdivision">
+  <a class="job-logo" id="hyperdivision" href="#hyperdivision">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="hyperdivision-logo.svg">
   </a>
   <a href="https://hyperdivision.dk">Hyperdivision</a>
@@ -47,7 +47,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 - Webassembly module development ([wat2js](http://ghub.io/wat2js))
 
 <h2>
-  <a id="netlify-platform" href="#netlify-platform">
+  <a class="job-logo" class="job-logo" id="netlify-platform" href="#netlify-platform">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="netlify.svg">
   </a>
   <a href="https://www.netlify.com">Netlify</a>
@@ -76,8 +76,8 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 - See [Netlify portfolio](/jobs/netlify/#product) for more examples.
 
 <h2>
-  <a id="zhealth" href="#zhealth">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="zhealth.svg">
+  <a class="job-logo" id="zhealth" href="#zhealth">
+    <img style="display: inline-block; vertical-align: middle" height="25" width="32" src="zhealth.svg">
   </a>
   <a href="http://www.zhealthconsulting.com">ZHealth Documentation</a>
   <small>Electron Developer • 2016 - 2017</small>
@@ -89,7 +89,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 - Modular development using github, npm and continuous delivery using TravisCI, Appveyor and S3/AWS.
 
 <h2>
-  <a id="jlr" href="#jlr">
+  <a class="job-logo" id="jlr" href="#jlr">
     <img style="display: inline-block; vertical-align: middle" height="28" width="113" src="jlr.png">
   </a>
   <a href="https://www.jaguarlandrover.com">Jaguar Land Rover</a>
@@ -101,7 +101,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 - Architected a single sign-on service and documentation server for internal documents and project planning using Express.js.
 
 <h2>
-  <a id="airship" href="#airship">
+  <a class="job-logo" id="airship" href="#airship">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="airship.svg">
   </a>
   <a href="https://www.airship.com">Airship</a>
@@ -112,7 +112,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 - Developed a specialized customer analytic and messaging system.
 
 <h2>
-  <a id="psu" href="#psu">
+  <a class="job-logo" id="psu" href="#psu">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="psu.svg">
   </a>
   <a href="https://www.pdx.edu/">Portland State University</a>
@@ -130,7 +130,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 - Trained and introduced new users to ARC's resources and shared unix computing environments.
 
 <h3>
-  <a href="http://www.pdx.edu/nano-development-lab">Sánchez Nano Development Lab</a>
+  <a class="job-logo" href="http://www.pdx.edu/nano-development-lab">Sánchez Nano Development Lab</a>
   <small>Research Assistant • 2013 - 2015</small>
 </h3>
 
@@ -147,7 +147,7 @@ advanced topics like PID control theory.
 - Teaching introductory electronics and debugging skills to students.
 
 <h2>
-  <a id="wiley" href="#wiley">
+  <a class="job-logo" id="wiley" href="#wiley">
     <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="32" width="32" src="wiley.svg">
   </a>
   <a href="https://www.wiley.com/en-us">Wiley</a>
@@ -157,7 +157,7 @@ advanced topics like PID control theory.
 - Developed interactive figures and demos for an interactive Calculus textbook published by Wiley Publishing.
 
 <h2>
-  <a id="wiley" href="#wiley">
+  <a class="job-logo" id="wiley" href="#wiley">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="hsu.svg">
   </a>
   <a href="http://www2.humboldt.edu/physics/gravitational-lab.html">HSU Gravitational Research Laboratory</a>
@@ -167,7 +167,7 @@ advanced topics like PID control theory.
 - Designed and machined custom experimental instruments and developed the lab’s data collection, automation and analysis software to study the gravitational inverse-square law at sub-millimeter distance scales.
 
 <h2>
-  <a id="naic" href="#naic">
+  <a class="job-logo" id="naic" href="#naic">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="naic.png">
   </a>
   <a href="http://egg.astro.cornell.edu/index.php/">National Astronomy and Ionosphere Center</a>

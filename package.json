@@ -44,15 +44,16 @@
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
     "autoprefixer": "^10.0.0",
+    "browser-sync": "^2.26.7",
     "cpx2": "^3.0.0",
     "dependency-check": "^4.1.0",
     "generate-feed": "^1.1.13",
     "gravatar-favicons": "^2.0.0",
     "highlight.js": "^10.0.0",
+    "mine.css": "^4.5.0",
     "mkdirp": "^1.0.0",
     "npm-run-all": "^4.0.0",
     "postcss": "^8.0.3",
-    "browser-sync": "^2.26.7",
     "postcss-browser-reporter": "^0.6.0",
     "postcss-cli": "^8.0.0",
     "postcss-import": "^14.0.0",
@@ -64,7 +65,6 @@
     "snazzy": "^9.0.0",
     "standard": "^16.0.3",
     "tape": "^5.0.0",
-    "top-bar.css": "^2.0.0",
-    "mine.css": "^4.5.0"
+    "top-bar.css": "^2.0.0"
   }
 }
