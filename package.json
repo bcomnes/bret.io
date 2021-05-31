@@ -49,7 +49,7 @@
     "dependency-check": "^4.1.0",
     "generate-feed": "^1.1.13",
     "gravatar-favicons": "^2.0.0",
-    "highlight.js": "^10.0.0",
+    "highlight.js": "^11.0.0",
     "mine.css": "^4.5.0",
     "mkdirp": "^1.0.0",
     "npm-run-all": "^4.0.0",
