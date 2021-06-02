@@ -21,8 +21,13 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 </h2>
 
 <h3>
-  <div><small>Principal Engineer • 2021 - Present</small></div>
-  <div><small>Senior Software Engineer • 2019 - 2021</small></div>
+  <small>Principal Engineer • 2021 - Present</small>
+</h3>
+
+- Design and implment NFT minting and auction platform in ~10 weeks.
+
+<h3>
+  <small>Senior Software Engineer • 2019 - 2021</small>
 </h3>
 
 - Developing next gen IAC and delivery pipelines with Terraform and Github Actions deployed to AWS.
