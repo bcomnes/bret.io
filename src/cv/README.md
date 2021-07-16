@@ -25,6 +25,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 </h3>
 
 - Design and implment NFT minting and auction platform in \~10 weeks.
+- See [Littlstar portfilio](https://bret.io/jobs/littlstar/) for more info.
 
 <h3>
   <small>Senior Software Engineer • 2019 - 2021</small>
