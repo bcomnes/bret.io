@@ -7,6 +7,16 @@
 <section class="portfolio grid-container">
 
   <div>
+    <h2 id="rad-porfolio"><a href="./jobs/littlstar/">Littlstar Portfolio</a></h2>
+    <figure>
+      <a href="./jobs/littlstar/">
+        <img loading="auto" src="./static/rad-portfolio-preview.jpg" alt="rad screenshot">
+      </a>
+      <figcaption>A look at my work at Little Star Media Inc.</figcaption>
+    </figure>
+  </div>
+
+  <div>
     <h2 id="package-automation"><a href="./projects/package-automation/">pkg automation</a></h2>
     <figure>
       <a href="./projects/package-automation/"><img loading="auto" src="./projects/package-automation/forerunner_structure.jpg" alt="a picture of the future"></a>
