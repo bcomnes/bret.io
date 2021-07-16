@@ -24,7 +24,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
   <small>Principal Engineer • 2021 - Present</small>
 </h3>
 
-- Design and implment NFT minting and auction platform in ~10 weeks.
+- Design and implment NFT minting and auction platform in \~10 weeks.
 
 <h3>
   <small>Senior Software Engineer • 2019 - 2021</small>
