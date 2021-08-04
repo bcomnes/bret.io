@@ -124,6 +124,13 @@ Effectively starting from 0, we rethought the entire technology pipeline, from o
 - [Little Core Labs Github](https://github.com/little-core-labs)
 - [Little Core Labs Twitter](https://twitter.com/littlecorelabs)
 
+<figure>
+  <img src="./overview.jpg" alt="A snapshot of our cloudcraft">
+  <figcaption>
+    A screencap of our cloudformation diagram.
+  </figcaption>
+</figure>
+
 ## Terraform ops
 
 A culmination of ingesting the ["Terraform: Up & Running"](https://amzn.to/3er6lBB) and ["AWS Certified Solutions Architect"](https://amzn.to/3rbNakx) books, as well as building off existing organizational experience with AWS, I helped research and design an operations plan using [Terraform](https://www.terraform.io) and [GitHub Actions](https://github.com/features/actions).
