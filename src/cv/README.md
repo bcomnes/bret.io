@@ -9,6 +9,16 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 - <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 
 <h2>
+  <a class="job-logo" id="rainbow" href="#rainbow">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="rainbow.png">
+  </a>
+  <a href="https://rainbow.me">Rainbow</a>
+  <small>Software Engineer • 2021 - Present</small>
+</h2>
+
+- Working on Rainbow, the #1 Etherium wallet of all time.
+
+<h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="littlstar-logo.svg">
   </a>
@@ -21,7 +31,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 </h2>
 
 <h3>
-  <small>Principal Engineer • 2021 - Present</small>
+  <small>Principal Engineer • 2021</small>
 </h3>
 
 - Design and implment NFT minting and auction platform in \~10 weeks.
@@ -85,7 +95,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
   <a class="job-logo" id="zhealth" href="#zhealth">
     <img style="display: inline-block; vertical-align: middle" height="25" width="32" src="zhealth.svg">
   </a>
-  <a href="http://www.zhealthconsulting.com">ZHealth Documentation</a>
+  <a href="http://www.zhealthconsulting.com">ZHealth</a>
   <small>Electron Developer • 2016 - 2017</small>
 </h2>
 
