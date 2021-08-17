@@ -176,7 +176,7 @@ I helped lay the framework for the initial version of `sdk-js`, the Little Core 
 
 
 One of underlying design goals was to solve for the [newly introduced native ESM features in node](https://nodejs.org/api/esm.html), in such a way that the package could be consumed directly in the browser, natively as ESM in node, but also work in dual CJS/ESM environments like Next.js.
-While this did add some extra overhead to the project, it serves as a design patter we can pull from in the future, as well as a provide a highly compatible but modern API client.
+While this did add some extra overhead to the project, it serves as a design pattern we can pull from in the future, as well as a provide a highly compatible but modern API client.
 
 I also extracted out this dual package pattern into a reusable template.
 
@@ -207,14 +207,15 @@ For this we used:
 - Automated component testing, with a minimum of 'does it render' testing utilizing the storybook stories.
 - Release automation.
 
-Overall, the codebase has had two other seasoned developers (one familiar and one new at React) jump in and found it productive.
+Overall, the codebase has had two other seasoned developers (one familiar and one new at React) jump in and find it productive based on individual testimony.
+Gathering feedback from those thatI work with on technical decisions that I make is an important feedback look I always try to incorporate when green fielding projects.
 Additionally, it has been a relatively malleable code base that is easy to add MVP features to and is in a great position to grow.
 
 ### `vision.css`
 
 ![vision.css](./vision.jpg)
 
-I implemented a custom design system working closely with our design team.
+I implemented a custom design system in tandem with our design team.
 This project has worked out well, and has so far avoided 'css lockout', where only one developer can effectively make dramatic changes to an app layout due to an undefined and overly general orthogonal 'global style sheet'.
 
 The way this was achieved was by focusing on a simple global CSS style sheet that implements the base HTML elements in accordance with the design system created by the design team.
