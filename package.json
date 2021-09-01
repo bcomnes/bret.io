@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "profesh website",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "run-s test:*",
     "test:deps": "dependency-check ./package.json src/index.js --no-dev",
@@ -10,17 +11,12 @@
     "test:tape": "tape test.js | tap-format-spec",
     "test:build": "run-s build",
     "build": "npm run clean && run-p build:*",
-    "build:css": "postcss src/index.css -o public/bundle.css",
-    "build:md": "sitedown src -b public -l src/layout.html",
+    "build:siteup": "siteup",
     "build:feed": "generate-feed src/log --dest public && cp public/feed.xml public/atom.xml",
-    "build:static": "cpx 'src/**/*.{png,svg,jpg,jpeg,pdf,mp4,mp3,js,json,gif}' public",
-    "build:icon": "gravatar-favicons --config favicon-config.js",
+    "build:icon": "gravatar-favicons --config favicon-config.cjs",
     "watch": "npm run clean && run-p watch:* build:static",
-    "watch:css": "run-s 'build:css -- --watch'",
     "watch:serve": "browser-sync start --server 'public' --files 'public'",
-    "watch:md": "npm run build:md -- -w",
     "watch:feed": "run-s build:feed",
-    "watch:static": "npm run build:static -- --watch",
     "watch:icon": "run-s build:icon",
     "clean": "rimraf public && mkdirp public",
     "start": "npm run watch"
@@ -42,6 +38,7 @@
   },
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
+    "@bret/siteup": "^0.0.3",
     "@tap-format/spec": "^0.2.0",
     "autoprefixer": "^10.0.0",
     "browser-sync": "^2.26.7",
@@ -66,5 +63,8 @@
     "standard": "^16.0.3",
     "tape": "^5.0.0",
     "top-bar.css": "^2.0.0"
+  },
+  "dependencies": {
+    "uhtml-ssr": "^0.7.4"
   }
 }

@@ -1,3 +1,12 @@
+import { html } from 'uhtml-ssr'
+
+export default async function rootLayout ({
+  title,
+  scripts,
+  styles,
+  children
+}) {
+  return html`
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,6 +36,13 @@
     <link href="https://micro.blog/bret" rel="me" />
 
     <script type="module" src="/index.js"></script>
+    ${scripts
+        ? scripts.map(script => html`<script src="${script}" type='module'></script>`)
+        : null}
+      ${styles
+        ? styles.map(style => html`<link rel="stylesheet" href=${style} />`)
+        : null}
+    <link rel="stylesheet" href="/global.css" />x
   </head>
   <body class="safe-area-inset">
     <nav class="top-bar hide-print">
@@ -46,7 +62,9 @@
         </span>
       </span>
     </nav>
-    <main class="markdown-body mine-layout"></main>
+    <main class="markdown-body mine-layout">
+      ${typeof children === 'string' ? html([children]) : children /* Support both uhtml and string children. Optional. */}
+    </main>
     <footer class="top-bar hide-print">
       <a href="#" class="top-bar-link">© Bret Comnes</a>
       <a href="https://github.com/bcomnes/bret.io/tree/master/src" class="top-bar-link" title="edit site on github">edit</a>
@@ -56,3 +74,6 @@
     </footer>
   </body>
 </html>
+
+  `
+}
