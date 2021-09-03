@@ -72,7 +72,6 @@ You are already automating your packages to a large extent by your use of [`git`
   <figcaption>The old git mascot knew what was up.</figcaption>
 </figure>
 
-
 If you are new to programming or learning `git`, its helpful to understand you are learning a tool used to automate the process by which you can cooperatively work on code with other people and bots.
 
 <figure class="borderless">
@@ -409,7 +408,6 @@ Incorporate a tool like [`gh-release`][gh-release] to create a Github release pa
   <figcaption><a href="https://ghub.io/gh-release"><code>gh-release</code></a> makes it easy to create Github releases from a CHANGELOG.md.</figcaption>
 </figure>
 
-
 The result of this is our release process is returned to the lowest common denominator of process dictated by npm:
 
 ```console
@@ -441,7 +439,6 @@ Those two run scripts together:
 #### Extending with a build step
 
 Some packages have builds steps.  No problem, these are easily incorporated into the above flow:
-
 
 ```json
 {
@@ -661,7 +658,6 @@ If you want to see a complete level 0 through level 5 example, check out my `cre
   </video>
   <figcaption>Here we can see the various parts of level 0-4 automation in action together.  Changes are made to the git history, the module is versioned and published by a bot.  It includes a changelog and was automatically validated by tests.</figcaption>
 </figure>
-
 
 ## Final thoughts
 

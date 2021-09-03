@@ -12,7 +12,6 @@ The biggest problem I ran into was poor in-line color highlighting when working 
 Sublime has a great plugin also called [`Color Highlight`](https://packagecontrol.io/packages/Color%20Highlight) that usually works well, but not in this case.
 The Sublime `Color Highlight` variant actually does temporary modifications to color schemes, which seriously gets in the way when working on color scheme files.
 
-
 The rewrite is based it off of the new [Mariana Theme](https://www.youtube.com/watch?v=_HoltQwvF2o) that ships with ST4, so the theme should have support for most of the latest features in ST4 though there are surely features that even Mariana missed.
 Let me know if you know of any.
 
@@ -52,7 +51,7 @@ Here a few more relevant links and please let me know what you think if you try 
 - [github.com/bcomnes/sublime-tron-color-scheme](https://github.com/bcomnes/sublime-tron-color-scheme)
 - [Release page](https://github.com/bcomnes/sublime-tron-color-scheme/releases/tag/v2.0.0)
 
-### Syndication
+## Syndication
 
 - <a href="https://twitter.com/bcomnes/status/1423418998725742602" rel="syndication" class="u-syndication">twitter thread</a>
 
