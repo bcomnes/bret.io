@@ -1,3 +1,6 @@
+---
+title: 'Bret Comnes Resume & CV'
+---
 # Bret Comnes
 
 Software engineer specializing in DevOps and modular, open source Javascript(Node.js/Deno), Go, P2P and crypto.
@@ -24,7 +27,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
   </a>
   <a href="https://littlstar.info">Littlstar</a>
   +
-  <a id="rad" href="#rad">
+  <a class="job-logo" id="rad" href="#rad">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="rad.svg">
   </a>
   <a href="https://rad.live">Rad.live</a>

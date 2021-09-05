@@ -1,0 +1,32 @@
+/* Random Text Modifiers */
+.subdue {
+  color: var(--accent-foreground);
+}
+
+.job-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+}
+
+/* Print specifics */
+@media print {
+
+  .subdue,
+  .header .subtitle,
+  .portfolio figcaption,
+  h1 small,
+  h2 small,
+  h3 small,
+  h4 small,
+  h5 small,
+  h6 small {
+    color: var(--accent-foreground);
+  }
+
+  .avatar {
+    height: 5em;
+    width: 5em;
+  }
+}

@@ -3,9 +3,7 @@
 [![Build Status](https://travis-ci.org/bcomnes/bret.io.svg?branch=master)](https://travis-ci.org/bcomnes/bret.io)
 [![devDependencies Status](https://david-dm.org/bcomnes/bret.io/dev-status.svg)](https://david-dm.org/bcomnes/bret.io?type=dev)
 
-This is a simple professional website that is generated using [ungoldman/sitedown](https://github.com/ungoldman/sitedown) for commonmark transforms, [postcss](https://github.com/postcss/postcss) for css transforms and asset importing, [budo](https://github.com/mattdesl/budo) for live-reload and rapid development, and [browserify](http://browserify.org) for js bundling.
-
-Thanks to [ungoldman/style.css](https://github.com/ungoldman/style.css) for a hassle free markdown base style.
+This is a simple professional website that is generated using [ungoldman/sitedown](https://github.com/bcomnes/siteup).
 
 ```json
 {
@@ -13,21 +11,22 @@ Thanks to [ungoldman/style.css](https://github.com/ungoldman/style.css) for a ha
   "version": "1.0.0",
   "description": "profesh website",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "run-s test:*",
-    "test:deps": "dependency-check ./package.json",
     "test:lint": "standard | snazzy",
-    "test:tape": "tape test/* | tap-format-spec",
+    "test:tape": "tape test.js | tap-format-spec",
+    "test:build": "run-s build",
     "build": "npm run clean && run-p build:*",
-    "build:css": "postcss -c postcss.config.js",
-    "build:js": "browserify index.js -o dist/bundle.js",
-    "build:md": "sitedown . -b dist -l layout.html",
-    "build:static": "cpr ./static dist/static",
-    "watch": "npm run clean && run-p watch:* build:static",
-    "watch:css": "npm run build:css -- --watch",
-    "watch:js": "budo index.js:bundle.js --dir dist --live --open",
-    "watch:md": "npm run build:md -- -w",
-    "clean": "rimraf dist && mkdirp dist",
+    "build:siteup": "siteup",
+    "build:feed": "generate-feed src/log --dest public && cp public/feed.xml public/atom.xml",
+    "build:icon": "gravatar-favicons --config favicon-config.cjs",
+    "watch": "npm run clean && run-p watch:*",
+    "watch:serve": "browser-sync start --server 'public' --files 'public'",
+    "watch:siteup": "npm run build:siteup -- --watch",
+    "watch:feed": "run-s build:feed",
+    "watch:icon": "run-s build:icon",
+    "clean": "rimraf public && mkdirp public",
     "start": "npm run watch"
   },
   "repository": {
@@ -37,7 +36,8 @@ Thanks to [ungoldman/style.css](https://github.com/ungoldman/style.css) for a ha
   "keywords": [
     "website",
     "bret",
-    "comnes"
+    "comnes",
+    "bret comnes"
   ],
   "author": "Bret Comnes",
   "license": "MIT",
@@ -46,29 +46,24 @@ Thanks to [ungoldman/style.css](https://github.com/ungoldman/style.css) for a ha
   },
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
+    "@bret/siteup": "latest",
     "@tap-format/spec": "^0.2.0",
-    "autoprefixer": "^6.5.2",
-    "browserify": "^14.1.0",
-    "budo": "^9.2.1",
-    "cpr": "^2.0.0",
-    "dependency-check": "^2.6.0",
-    "highlight.js": "^9.8.0",
-    "mkdirp": "^0.5.1",
+    "browser-sync": "^2.26.7",
+    "generate-feed": "^1.1.13",
+    "gravatar-favicons": "^2.0.0",
+    "highlight.js": "^11.0.1",
+    "mine.css": "^4.6.1",
+    "mkdirp": "^1.0.0",
     "npm-run-all": "^4.0.0",
-    "postcss": "^5.2.5",
-    "postcss-browser-reporter": "^0.5.0",
-    "postcss-cli": "^2.6.0",
-    "postcss-import": "^9.0.0",
-    "postcss-reporter": "^3.0.0",
-    "postcss-url": "^5.1.2",
-    "rimraf": "^2.5.4",
-    "sitedown": "^3.0.1",
-    "snazzy": "^6.0.0",
-    "standard": "^8.5.0",
-    "style.css": "^1.0.0-alpha-8",
-    "tape": "^4.6.2",
-    "top-bar.css": "^1.2.0"
+    "rimraf": "^3.0.0",
+    "snazzy": "^9.0.0",
+    "standard": "^16.0.3",
+    "tape": "^5.0.0",
+    "top-bar.css": "^2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "markdownlint-cli": "^0.28.1",
+    "uhtml-ssr": "^0.7.4"
+  }
 }
 ```
