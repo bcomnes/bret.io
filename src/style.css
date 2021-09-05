@@ -1,0 +1,62 @@
+@import './language-bullets.css';
+
+/* Porfolio Header */
+.header {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.header .avatar {
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.header .title {
+  margin: 0;
+  font-size: 3em;
+  /* border-bottom: 1px solid rgba(0,0,0,.1); */
+  /* margin-bottom: .25em; */
+  /* padding-bottom: .25em; */
+}
+
+.header .subtitle {
+  color: var(--accent-foreground);
+  font-size: .8em;
+}
+
+.portfolio figcaption {
+  font-size: 0.8em;
+  font-weight: unset;
+  color: var(--accent-foreground);
+}
+
+/* Portfolio grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
+@media screen and (max-width: 45em) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Print specifics */
+@media print {
+  .grid-container > div {
+    page-break-inside: avoid;
+  }
+
+  .header .subtitle,
+  .portfolio figcaption {
+    color: var(--accent-foreground);
+  }
+
+  .avatar {
+    height: 5em;
+    width: 5em;
+  }
+}

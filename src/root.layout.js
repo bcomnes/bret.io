@@ -1,10 +1,19 @@
+import { html } from 'uhtml-ssr'
+
+export default async function rootLayout ({
+  title,
+  siteName,
+  scripts,
+  styles,
+  children
+}) {
+  return html`
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>bret.io</title>
+    <title>${title ? `${title} | ` : ''}${siteName}</title>
     <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
-    <link rel="stylesheet" href="/bundle.css">
 
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,9 +33,16 @@
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
     <link rel="micropub" href="https://bret.io/.netlify/functions/micropub">
-    <link href="https://micro.blog/bret" rel="me" />
+    <link rel="me" href="https://micro.blog/bret" />
 
-    <script type="module" src="/index.js"></script>
+    ${scripts
+      ? scripts.map(script => html`<script src="${script}" type='module'></script>`)
+      : null
+    }
+    ${styles
+      ? styles.map(style => html`<link rel="stylesheet" href=${style} />`)
+      : null
+    }
   </head>
   <body class="safe-area-inset">
     <nav class="top-bar hide-print">
@@ -46,7 +62,9 @@
         </span>
       </span>
     </nav>
-    <main class="markdown-body mine-layout"></main>
+    <main class="markdown-body mine-layout">
+      ${typeof children === 'string' ? html([children]) : children /* Support both uhtml and string children. Optional. */}
+    </main>
     <footer class="top-bar hide-print">
       <a href="#" class="top-bar-link">© Bret Comnes</a>
       <a href="https://github.com/bcomnes/bret.io/tree/master/src" class="top-bar-link" title="edit site on github">edit</a>
@@ -55,4 +73,5 @@
       </span>
     </footer>
   </body>
-</html>
+</html>`
+}
