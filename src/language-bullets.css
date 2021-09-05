@@ -1,0 +1,49 @@
+ul .lang {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.lang::before {
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "•";
+  color: #888;
+  transform: scale(1.5, 1.5);
+}
+li.js::before {
+  color: #f1e05a;
+}
+
+li.html::before {
+  color: #e34c26;
+}
+
+li.go::before {
+  color: #00ADD8;
+}
+
+li.python::before {
+  color: #3572A5;
+}
+
+li.css::before {
+  color: #563d7c;
+}
+
+li.sh::before {
+  color: #89e051;
+}
+
+li.objc::before {
+  color: #6866fb;
+}
+
+li.docker::before {
+  color: #384d54;
+}
+
+li.twitter::before {
+  color: rgb(76, 159, 235);
+}
