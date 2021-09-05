@@ -43,3 +43,20 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Print specifics */
+@media print {
+  .grid-container > div {
+    page-break-inside: avoid;
+  }
+
+  .header .subtitle,
+  .portfolio figcaption {
+    color: var(--accent-foreground);
+  }
+
+  .avatar {
+    height: 5em;
+    width: 5em;
+  }
+}

@@ -28,11 +28,6 @@ ul {
   list-style-type: circle;
 }
 
-/* Random Text Modifiers */
-.subdue {
-  color: var(--accent-foreground);
-}
-
 /* JSON Feed Icon */
 
 .rounded-icon {
@@ -62,12 +57,6 @@ footer.top-bar {
 
 footer > .top-bar-link:first-child {
   margin-left: unset;
-}
-
-figure.no-border img {
-  background: inherit;
-  border: none;
-  padding: unset;
 }
 
 @media screen and (max-width: 72em) {
@@ -129,13 +118,6 @@ figure.no-border img {
     display: none;
   }
 
-  .grid-container > div {
-    page-break-inside: avoid;
-  }
-
-  .subdue,
-  .header .subtitle,
-  .portfolio figcaption,
   h1 small,
   h2 small,
   h3 small,
@@ -143,11 +125,6 @@ figure.no-border img {
   h5 small,
   h6 small {
     color: var(--accent-foreground);
-  }
-
-  .avatar {
-    height: 5em;
-    width: 5em;
   }
 }
 
