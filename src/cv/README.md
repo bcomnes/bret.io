@@ -1,5 +1,5 @@
 ---
-title: 'Resume/CV'
+title: 'Bret Comnes Resume & CV'
 ---
 # Bret Comnes
 

@@ -12,7 +12,7 @@ export default async function rootLayout ({
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>${siteName}${title ? ` | ${title}` : ''}</title>
+    <title>${title ? `${title} | ` : ''}${siteName}</title>
     <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
