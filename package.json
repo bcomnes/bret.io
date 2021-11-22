@@ -54,7 +54,7 @@
     "top-bar.css": "^2.0.0"
   },
   "dependencies": {
-    "markdownlint-cli": "^0.29.0",
+    "markdownlint-cli": "^0.30.0",
     "uhtml-ssr": "^0.7.4"
   }
 }
