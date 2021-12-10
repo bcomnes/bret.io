@@ -55,6 +55,6 @@
   },
   "dependencies": {
     "markdownlint-cli": "^0.30.0",
-    "uhtml-ssr": "^0.7.4"
+    "uhtml-ssr": "^0.8.0"
   }
 }
