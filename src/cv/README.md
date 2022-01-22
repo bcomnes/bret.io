@@ -12,11 +12,21 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 - <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 
 <h2>
+  <a class="job-logo" id="socket" href="#socket">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="logo-80x80.png">
+  </a>
+  <a href="https://socket.dev">Socket</a>
+  <small>Software Engineer • 2021 - Present</small>
+</h2>
+
+- Developing the platform to secure npm supply chains.
+
+<h2>
   <a class="job-logo" id="rainbow" href="#rainbow">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="rainbow.png">
   </a>
   <a href="https://rainbow.me">Rainbow</a>
-  <small>Software Engineer • 2021 - Present</small>
+  <small>Software Engineer • 2021</small>
 </h2>
 
 - Working on Rainbow, the #1 Etherium wallet of all time.
