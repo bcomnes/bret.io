@@ -2,6 +2,7 @@
 @import 'mine.css';
 @import 'mine.css/dist/layout.css';
 @import 'top-bar.css';
+@import 'fragmentions';
 
 /* Document level */
 body {
@@ -198,3 +199,4 @@ footer > .top-bar-link:first-child {
   animation-duration: 0.2s;
   animation-fill-mode: both;
 }
+
