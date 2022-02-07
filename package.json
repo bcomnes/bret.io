@@ -45,7 +45,7 @@
     "generate-feed": "^1.1.13",
     "gravatar-favicons": "^2.0.0",
     "highlight.js": "^11.0.1",
-    "markdownlint-cli": "^0.30.0",
+    "markdownlint-cli": "^0.31.0",
     "mine.css": "^5.0.1",
     "mkdirp": "^1.0.0",
     "npm-run-all": "^4.0.0",
