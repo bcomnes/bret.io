@@ -2,7 +2,6 @@
 
 [![Actions Status](https://github.com/bcomnes/bret.io/workflows/tests/badge.svg)](https://github.com/bcomnes/bret.io/actions)
 ![Deploy to neociteis](https://github.com/bcomnes/bret.io/workflows/Deploy%20to%20neociteis/badge.svg)
-[![devDependencies Status](https://david-dm.org/bcomnes/bret.io/dev-status.svg)](https://david-dm.org/bcomnes/bret.io?type=dev)
 
 Source code for [bret.io](https://www.bret.io).
 
