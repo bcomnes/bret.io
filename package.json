@@ -51,7 +51,7 @@
     "npm-run-all2": "^5.0.0",
     "rimraf": "^3.0.0",
     "snazzy": "^9.0.0",
-    "standard": "^16.0.3",
+    "standard": "^17.0.0",
     "tape": "^5.0.0",
     "top-bar.css": "^3.0.0",
     "uhtml-ssr": "^0.8.0"
