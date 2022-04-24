@@ -3,6 +3,8 @@ title: 'Bret Comnes Resume & CV'
 ---
 # Bret Comnes
 
+**Not responding to recruiters at the moment, sorry :(**
+
 Software engineer specializing in DevOps and modular, open source Javascript(Node.js/Deno), Go, P2P and crypto.
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
