@@ -214,7 +214,7 @@ advanced topics like PID control theory.
 
 ## Community
 
-- [Datcast](https://dat-cast.hashbase.io) <small class="subdue">Podcast (2018 - Present)</small>
+- [Datcast](https://dat-cast.hashbase.io) <small class="subdue">Podcast (2018 - 2019)</small>
 - [PDX Node](https://www.meetup.com/pdxnode/) <small class="subdue">Organizer Meetup (2015 - 2017)</small>
 - [Node School](https://nodeschool.io) <small class="subdue">Organizer & Mentor (2016)</small>
 - [Code for Portland](http://www.codeforportland.org) <small class="subdue">Organizer & Mentor • Open Civic Data Initiative (2014 - 2015)</small>
