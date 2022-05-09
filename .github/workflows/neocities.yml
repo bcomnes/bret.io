@@ -44,7 +44,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         env: neocities
     - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@v1.1.4
+      uses: bcomnes/deploy-to-neocities@v1.1.5
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: true
