@@ -68,7 +68,7 @@ export default async function rootLayout ({
       <a href="#" class="top-bar-link">© Bret Comnes</a>
       <a href="https://github.com/bcomnes/bret.io/tree/master/src" class="top-bar-link" title="edit site on github">edit</a>
       <span class="top-bar-right hide-print">
-        <a rel="me" href="mailto:bcomnes+website@gmail.com" class="top-bar-link" title="email">bcomnes@gmail.com</a>
+        <a rel="me" href="mailto:bcomnes+website@gmail.com" class="top-bar-link" title="email">contact</a>
       </span>
     </footer>
   </body>
