@@ -1,4 +1,4 @@
-import { html } from 'uhtml-ssr'
+import { html } from 'uhtml-isomorphic'
 
 export default async function rootLayout ({
   title,
