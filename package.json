@@ -46,7 +46,7 @@
     "gravatar-favicons": "^2.0.0",
     "highlight.js": "^11.0.1",
     "markdownlint-cli": "^0.31.0",
-    "mine.css": "^6.0.1",
+    "mine.css": "^7.0.0",
     "mkdirp": "^1.0.0",
     "npm-run-all2": "^5.0.0",
     "rimraf": "^3.0.0",
