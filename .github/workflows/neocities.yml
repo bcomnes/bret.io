@@ -31,7 +31,7 @@ jobs:
       run: git lfs pull
 
     - name: Use Node.js
-      uses: actions/setup-node@v3.2.0
+      uses: actions/setup-node@v3
       with:
         node-version: ${{env.node-version}}
     - name: npm install and build
@@ -41,14 +41,14 @@ jobs:
       env:
         CI: true
     - name: Create deployment
-      uses: bobheadxi/deployments@v1.2.0
+      uses: bobheadxi/deployments@v1
       id: deployment
       with:
         step: start
         token: ${{ secrets.GITHUB_TOKEN }}
         env: neocities
     - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@v1.1.5
+      uses: bcomnes/deploy-to-neocities@v1
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: true
