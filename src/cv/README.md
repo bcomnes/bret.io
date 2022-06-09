@@ -212,6 +212,11 @@ advanced topics like PID control theory.
 - [Humboldt State University](http://www2.humboldt.edu/physics/) <small class="subdue">B.S. Physics 2011 </small>
 - [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (Completed coursework, no diploma)</small>
 
+## Media
+
+- [JS Party – Episode #227: JS logging & error handling](https://changelog.com/jsparty/219) (Guest) 2022-05-27
+- [JS Party – Episode #219: Making moves on supply chain security](https://changelog.com/jsparty/219) (Guest) 2022-03-24
+
 ## Community
 
 - [Datcast](https://dat-cast.hashbase.io) <small class="subdue">Podcast (2018 - 2019)</small>
