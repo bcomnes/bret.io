@@ -214,8 +214,15 @@ advanced topics like PID control theory.
 
 ## Media
 
-- [JS Party – Episode #227: JS logging & error handling](https://changelog.com/jsparty/219) (Guest) 2022-05-27
-- [JS Party – Episode #219: Making moves on supply chain security](https://changelog.com/jsparty/219) (Guest) 2022-03-24
+- [JS Party – Episode #227: JS logging & error handling](https://changelog.com/jsparty/219) (Podcast guest) 2022-05-27
+- [JS Party – Episode #219: Making moves on supply chain security](https://changelog.com/jsparty/219) (Podcast guest) 2022-03-24
+- [Netlify Blog: A more flexible build architecture with updated Linux](https://www.netlify.com/blog/2019/03/14/a-more-flexible-build-architecture-with-updated-linux/) (Blog post author) 2019-03-14
+- [Netlify Blog: Fearless deploys for your lingering processes](https://www.netlify.com/blog/2018/11/28/fearless-deploys-for-your-lingering-processes/) (Blog post author) 2018-11-28
+- [Netlify Blog: Netlify CLI 2.0 now in Beta 🎉](https://www.netlify.com/blog/2018/09/10/netlify-cli-2.0-now-in-beta/) (Blog post author) 2018-09-10
+- [Netlify Blog: Buy and secure a custom domain through Netlify](https://www.netlify.com/blog/2018/06/19/buy-and-secure-a-custom-domain-through-netlify/) (Blog post author) (Blog post author) 2018-06-19
+- [Netlify Blog: Netlify now shows your deploy status on its favicon](https://www.netlify.com/blog/2018/05/22/netlify-now-shows-your-deploy-status-on-its-favicon/) (Blog post author) 2018-05-22
+- [Netlify Blog: Introducing Site Dashboards](https://www.netlify.com/blog/2017/08/22/introducing-site-dashboards/) (Blog post author) 2017-08-22
+- [Netlify Blog: Introducing Audit Log](https://www.netlify.com/blog/2017/07/27/introducing-audit-log/) (Blog post author) 2017-07-27
 
 ## Community
 
