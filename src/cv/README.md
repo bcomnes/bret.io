@@ -214,7 +214,7 @@ advanced topics like PID control theory.
 
 ## Media
 
-- [Socket - Github App Improvements](https://socket.dev/blog/github-app-improvements)
+- [Socket - Github App Improvements](https://socket.dev/blog/github-app-improvements) 2022-07-26
 - [JS Party – Episode #227: JS logging & error handling](https://changelog.com/jsparty/219) 2022-05-27
 - [JS Party – Episode #219: Making moves on supply chain security](https://changelog.com/jsparty/219) 2022-03-24
 - [Netlify Blog: A more flexible build architecture with updated Linux](https://www.netlify.com/blog/2019/03/14/a-more-flexible-build-architecture-with-updated-linux/) 2019-03-14
