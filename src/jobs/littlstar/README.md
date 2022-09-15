@@ -2,7 +2,7 @@
 
 <img src="./littlstar-logo.svg" height=100 width=100 style='float: left; margin-right: 1em;'>
 
-After a short sabbatical in Denmark at [Hyperdivision](https://hyperdivision.dk), I joined [Littlstar][ls].
+After a short sabbatical in Denmark at [Hyperdivision](https://archive.ph/m8Igr), I joined [Littlstar][ls].
 Here is a quick overview of some of the more interesting projects I worked on.
 I joined Littlstar during a transitional period of the company and help them transition from a VR video platform to a video on demand and live streaming platform, and now an NFT sales and auction platform.
 

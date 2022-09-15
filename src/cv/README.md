@@ -67,7 +67,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
   <a class="job-logo" id="hyperdivision" href="#hyperdivision">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="hyperdivision-logo.svg">
   </a>
-  <a href="https://hyperdivision.dk">Hyperdivision</a>
+  <a href="https://archive.ph/m8Igr">Hyperdivision</a>
   <small>Software Engineer • 2019 🇩🇰</small>
 </h2>
 
