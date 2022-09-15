@@ -212,6 +212,19 @@ advanced topics like PID control theory.
 - [Humboldt State University](http://www2.humboldt.edu/physics/) <small class="subdue">B.S. Physics 2011 </small>
 - [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (Completed coursework, no diploma)</small>
 
+## Media
+
+- [Socket - Github App Improvements](https://socket.dev/blog/github-app-improvements) 2022-07-26
+- [JS Party – Episode #227: JS logging & error handling](https://changelog.com/jsparty/219) 2022-05-27
+- [JS Party – Episode #219: Making moves on supply chain security](https://changelog.com/jsparty/219) 2022-03-24
+- [Netlify Blog: A more flexible build architecture with updated Linux](https://www.netlify.com/blog/2019/03/14/a-more-flexible-build-architecture-with-updated-linux/) 2019-03-14
+- [Netlify Blog: Fearless deploys for your lingering processes](https://www.netlify.com/blog/2018/11/28/fearless-deploys-for-your-lingering-processes/) 2018-11-28
+- [Netlify Blog: Netlify CLI 2.0 now in Beta 🎉](https://www.netlify.com/blog/2018/09/10/netlify-cli-2.0-now-in-beta/) 2018-09-10
+- [Netlify Blog: Buy and secure a custom domain through Netlify](https://www.netlify.com/blog/2018/06/19/buy-and-secure-a-custom-domain-through-netlify/) 2018-06-19
+- [Netlify Blog: Netlify now shows your deploy status on its favicon](https://www.netlify.com/blog/2018/05/22/netlify-now-shows-your-deploy-status-on-its-favicon/) 2018-05-22
+- [Netlify Blog: Introducing Site Dashboards](https://www.netlify.com/blog/2017/08/22/introducing-site-dashboards/) 2017-08-22
+- [Netlify Blog: Introducing Audit Log](https://www.netlify.com/blog/2017/07/27/introducing-audit-log/) 2017-07-27
+
 ## Community
 
 - [Datcast](https://dat-cast.hashbase.io) <small class="subdue">Podcast (2018 - 2019)</small>
