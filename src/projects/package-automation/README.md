@@ -679,6 +679,10 @@ If you enjoyed this article, have suggestions or feedback, or think I'm full of 
 - <a href="https://github.community/t/fully-automated-luxury-space-age-package-maintenance-with-github-actions/135103" rel="syndication" class="u-syndication">Github Community Forum</a>
 - <a href="https://twitter.com/bcomnes/status/1311034520305569800" rel="syndication" class="u-syndication">twitter thread</a>
 
+### See also
+
+- [swyx.io/release-automation](https://www.swyx.io/release-automation)
+
 [keepachangelog]: https://keepachangelog.com/en/1.0.0/
 [git]: https://git-scm.com
 [nyc]: http://ghub.io/nyc
