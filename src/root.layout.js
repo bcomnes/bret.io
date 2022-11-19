@@ -52,6 +52,7 @@ export default async function rootLayout ({
         <span class="top-bar-link" >
             <input class="dark-icon light-dark-button" onclick="window.toggleTheme()" height="14" width="14" type="image" alt="Toogle Theme" height="14" width="14" src="/static/light-dark.svg">
             <a id="neocities" href="https://neocities.org/site/bret"><img height="14" width="14" src="/static/neocitieshead.svg"></a>
+            <a rel="me" id="mastadon" href="https://fosstodon.org/@bcomnes"><img height="14" width="14" src="/static/mastodon.svg"></a>
             <a id="microblog" href="https://micro.blog/bret"><img height="14" width="14" src="/static/microblog.svg"></a>
             <a rel="me" href="https://github.com/bcomnes" title="github"><img class="dark-icon" height="14" width="14" src="/static/github.svg"></a>
             <a href="https://npmjs.com/~bret" title="node packaged modules"><img class="rounded-icon" height="14" width="14" src="/static/npm.svg"></a>
