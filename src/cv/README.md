@@ -15,7 +15,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 
 <h2>
   <a class="job-logo" id="socket" href="#socket">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="logo-80x80.png">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/logo-80x80.png">
   </a>
   <a href="https://socket.dev">Socket</a>
   <small>Software Engineer • 2021 - Present</small>
@@ -25,7 +25,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 
 <h2>
   <a class="job-logo" id="rainbow" href="#rainbow">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="rainbow.png">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/rainbow.png">
   </a>
   <a href="https://rainbow.me">Rainbow</a>
   <small>Software Engineer • 2021</small>
@@ -35,12 +35,12 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 
 <h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="littlstar-logo.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/littlstar-logo.svg">
   </a>
   <a href="https://littlstar.info">Littlstar</a>
   +
   <a class="job-logo" id="rad" href="#rad">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="rad.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/rad.svg">
   </a>
   <a href="https://rad.live">Rad.live</a>
 </h2>
@@ -65,7 +65,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 
 <h2>
   <a class="job-logo" id="hyperdivision" href="#hyperdivision">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="hyperdivision-logo.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hyperdivision-logo.svg">
   </a>
   <a href="https://archive.ph/m8Igr">Hyperdivision</a>
   <small>Software Engineer • 2019 🇩🇰</small>
@@ -79,7 +79,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 
 <h2>
   <a class="job-logo" class="job-logo" id="netlify-platform" href="#netlify-platform">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="netlify.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/netlify.svg">
   </a>
   <a href="https://www.netlify.com">Netlify</a>
 </h2>
@@ -108,7 +108,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 
 <h2>
   <a class="job-logo" id="zhealth" href="#zhealth">
-    <img style="display: inline-block; vertical-align: middle" height="25" width="32" src="zhealth.svg">
+    <img style="display: inline-block; vertical-align: middle" height="25" width="32" src="img/zhealth.svg">
   </a>
   <a href="http://www.zhealthconsulting.com">ZHealth</a>
   <small>Electron Developer • 2016 - 2017</small>
@@ -121,7 +121,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 
 <h2>
   <a class="job-logo" id="jlr" href="#jlr">
-    <img style="display: inline-block; vertical-align: middle" height="28" width="113" src="jlr.png">
+    <img style="display: inline-block; vertical-align: middle" height="28" width="113" src="img/jlr.png">
   </a>
   <a href="https://www.jaguarlandrover.com">Jaguar Land Rover</a>
   <small>OS & Application Engineering • 2015 - 2016</small>
@@ -133,7 +133,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 
 <h2>
   <a class="job-logo" id="airship" href="#airship">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="airship.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/airship.svg">
   </a>
   <a href="https://www.airship.com">Airship</a>
   <small>Technical Support Engineer • 2015</small>
@@ -144,7 +144,7 @@ Software engineer specializing in DevOps and modular, open source Javascript(Nod
 
 <h2>
   <a class="job-logo" id="psu" href="#psu">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="psu.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/psu.svg">
   </a>
   <a href="https://www.pdx.edu/">Portland State University</a>
 </h2>
@@ -179,7 +179,7 @@ advanced topics like PID control theory.
 
 <h2>
   <a class="job-logo" id="wiley" href="#wiley">
-    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="32" width="32" src="wiley.svg">
+    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/wiley.svg">
   </a>
   <a href="https://www.wiley.com/en-us">Wiley</a>
   <small>Textbook Development Consultant • 2012</small>
@@ -189,7 +189,7 @@ advanced topics like PID control theory.
 
 <h2>
   <a class="job-logo" id="wiley" href="#wiley">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="hsu.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hsu.svg">
   </a>
   <a href="http://www2.humboldt.edu/physics/gravitational-lab.html">HSU Gravitational Research Laboratory</a>
   <small>Research Assistant • 2009 - 2011</small>
@@ -199,7 +199,7 @@ advanced topics like PID control theory.
 
 <h2>
   <a class="job-logo" id="naic" href="#naic">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="naic.png">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/naic.png">
   </a>
   <a href="http://egg.astro.cornell.edu/index.php/">National Astronomy and Ionosphere Center</a>
   <small>Arecibo Guest Researcher • 2009</small>
