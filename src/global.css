@@ -1,5 +1,5 @@
 @import 'highlight.js/styles/github-dark-dimmed.css';
-@import 'mine.css';
+@import 'mine.css/dist/mine.css';
 @import 'mine.css/dist/layout.css';
 @import 'top-bar.css';
 @import 'fragmentions';
