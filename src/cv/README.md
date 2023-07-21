@@ -18,7 +18,7 @@ Software engineer specializing in DevOps and modular open source Javascript and 
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/logo-80x80.png">
   </a>
   <a href="https://socket.dev">Socket</a>
-  <small>Software Engineer • 2021 - Present</small>
+  <small>Software Engineer • 2021 - 2023</small>
 </h2>
 
 - Developing the platform to secure npm supply chains.
