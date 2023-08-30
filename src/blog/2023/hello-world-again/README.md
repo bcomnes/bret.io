@@ -37,7 +37,7 @@ Here are some updates from the last couple years that didn't make it onto this s
 - [bcomnes/deploy-to-neocities](https://github.com/bcomnes/deploy-to-neocities/) has 300+ public users deploying websites from GitHub actions to Neocities.
 - My fork [bcomnes/npm-run-all2](https://github.com/bcomnes/npm-run-all2) (co-maintained by [voxpelli.com](https://voxpelli.com)) has picked up 1000+ public dependents.
 - Now that twitter (*ahem* x) has completely abandoned its charter as an open web website, you can find me posting on [@bcomnes@fosstodon.org](https://fosstodon.org/@bcomnes) and [@bret.io on bsky](https://bsky.app/profile/bret.io). I would like to make this website authoritative though for me posts though.
-- I'm very luck to have a new office that is a 1 minute walk from home:
+- I'm very lucky to have a new office that is a 1 minute walk from home:
 
 [![pic of the office](./office.jpeg)](./office.jpeg)
 
