@@ -19,7 +19,7 @@ Software engineer specializing in DevOps and modular open source Javascript and 
     <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="28" width="100" src="img/socket-supply.svg">
   </a>
   <a href="https://socketsupply.co">Socket Supply Co.</a>
-  <small>Software Engineer • 2023 - Present</small>
+  <small>Consultant • 2023 - Present</small>
 </h2>
 
 - Contributing to the [ssc](https://github.com/socketsupply/socket) runtime and p2p protocol enabling true write once, run anywhere apps using JS, CSS and HTML. (JS, C++)
