@@ -5,7 +5,7 @@ title: 'Bret Comnes Resume & CV'
 
 **Not responding to recruiters at the moment, sorry :(**
 
-Software engineer specializing in DevOps and modular open source Javascript and Go, with an interest in product development and team building, P2P and cryptography.
+Professional & amateur computer programmer specializing in software engineering, DevOps and modular open source Javascript and Go, with an interest in product development and team building, P2P and cryptography.
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
 - <span class="subdue">email:</span> [bcomnes at gmail dot com](mailto:bcomnes+website@gmail.com)
