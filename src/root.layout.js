@@ -47,6 +47,7 @@ export default async function rootLayout ({
     <nav class="top-bar hide-print">
       <a href="/" class="top-bar-title" title="home">bret.io</a>
       <a href="/cv/" class="top-bar-link" title="resume">cv</a>
+      <a href="/blog/" class="top-bar-link" title="blog">blog</a>
       <a href="https://hifiwi.fi" class="top-bar-link" title="HifiWi.fi">hifiwi.fi</a>
       <span class="top-bar-right">
         <span class="top-bar-link" >
