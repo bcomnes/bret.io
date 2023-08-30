@@ -12,6 +12,7 @@ Software engineer specializing in DevOps and modular open source Javascript and 
 - <span class="subdue">location:</span> 🌎 US Remote 🤳
 - <span class="subdue">github:</span> [github.com/bcomnes](https://github.com/bcomnes)
 - <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
+- <span class="subdue">linkedin:</span> [linkedin.com/in/bcomnes](https://www.linkedin.com/in/bcomnes/)
 
 <h2>
   <a class="job-logo" id="socket-supply" href="#socket-supply">
