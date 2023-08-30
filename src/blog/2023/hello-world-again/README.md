@@ -10,7 +10,7 @@ The other day around 3AM, I woke up and realized that the tools aren't stopping 
 from writing, I am.
 Also my silently implemented policy about not writing about 'future plans and ideas before they are ready' was implemented far to strictly.
 It is in fact a good thing to write about in-progress ideas and projects slightly out into the future.
-This is realistic, interesting, and avoids the juvenile trap of spilling ideas in front of the world to see you never realize.
+This is realistic, interesting, and avoids the juvenile trap of spilling ideas in front of the world only to see you never realize them.
 So here I am writing a blog post again.
 
 Anyway, no promises, but it is my goal to write various *ahem* opinions, thoughts and ideas more often because nothing ever happens unless you write it down.
