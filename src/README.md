@@ -10,37 +10,68 @@ title: null
 <section class="portfolio grid-container">
 
   <div>
-    <h2 id="rad-porfolio"><a href="./jobs/littlstar/">Littlstar Portfolio</a></h2>
+    <h2 id="breadcrum"><a href="https://breadcrum.net">Breadcrum</a></h2>
     <figure>
-      <a href="./jobs/littlstar/">
-        <img loading="auto" src="./static/rad-portfolio-preview.jpg" alt="rad screenshot">
+      <a href="https://breadcrum.net">
+        <picture>
+          <source srcset="./static/breadcrum-dark.png" media="(prefers-color-scheme: dark)">
+          <img loading="auto" src="./static/breadcrum-light.png" alt="Screenshot of Breadcrum.app">
+        </picture>
       </a>
-      <figcaption>A look at my work at Little Star Media Inc.</figcaption>
+      <figcaption><a href="https://breadcrum.net">Breadcrum</a>: a bookmarking service with full text archiving and search and podcasting support for media from all around the web.</figcaption>
     </figure>
+    <ul>
+      <li class="lang html"><a href="https://breadcrum.net">breadcrum.net</a></li>
+      <li class="lang js"><a href="https://github.com/hifiwi-fi/breadcrum.net">hifiwi-fi/breadcrum.net</a></li>
+      <li class="lang twitter">Follow <a href="https://twitter.com/breadcrum_">@breadcrum_</a> on twitter</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 id="gumcast"><a href="https://gumcast.com/">gumcast</a></h2>
+    <figure>
+      <a href="https://gumcast.com"><img loading="auto" src="static/gumcast.svg" alt="gumcast logo"></a>
+      <figcaption>Custom API service allowing you to subscribe to any product on <a href="https://gumroad.com">Gumroad</a> as a Podcast.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang html"><a href="https://gumcast.com/">gumcast.com</a></li>
+      <li class="lang js"><a href="https://github.com/gumcast/gumcast-api">gumcast/gumcast-api</a></li>
+      <li class="lang js"><a href="https://github.com/gumcast/gumcast-client">gumcast/gumcast-client</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 id="hifiwifi"><a href="https://hifiwi.fi">HifiWi.fi</a></h2>
+    <figure>
+      <a href="https://hifiwi.fi">
+        <picture>
+          <source srcset="./static/hifiwifi-dark.png" media="(prefers-color-scheme: dark)">
+          <img loading="auto" src="./static/hifiwifi-light.png" alt="Screenshot of hifiwi.fi">
+        </picture>
+      </a>
+      <figcaption>HifiWi.fi: High fidelity internet products. Catch all technical contracting (App development to mesh network deployments).</figcaption>
+    </figure>
+    <ul>
+      <li class="lang html"><a href="https://hifiwi.fi">hifiwi.fi</a></li>
+      <li class="lang html"><a href="https://github.com/hifiwi-fi/hifiwi.fi">hifiwi-fi/hifiwi.fi</a></li>
+      <li class="lang js"><a href="https://github.com/hifiwi-fi/yt-dlp-api">hifiwi-fi/yt-dlp-api</a></li>
+      <li class="lang js"><a href="https://github.com/hifiwi-fi/bc-dlp">hifiwi-fi/bc-dlp</a></li>
+      <li class="lang twitter">Follow <a href="https://twitter.com/hifiwi_fi">@hifiwi_fi</a> on twitter</li>
+    </ul>
   </div>
 
   <div>
     <h2 id="package-automation"><a href="./projects/package-automation/">pkg automation</a></h2>
     <figure>
       <a href="./projects/package-automation/"><img loading="auto" src="./projects/package-automation/forerunner_structure.jpg" alt="a picture of the future"></a>
-      <figcaption>Fully Automated Luxury Space Age Package Maintenance, as a blogpost. (<a href="https://lortarkam.wordpress.com/2017/04/12/how-should-the-forerunners-really-look/">Img Source</a>)</figcaption>
+      <figcaption>Fully Automated Luxury Space Age Package Maintenance, as a blog post. (<a href="https://lortarkam.wordpress.com/2017/04/12/how-should-the-forerunners-really-look/">image Source</a>)</figcaption>
     </figure>
     <ul>
       <li class="lang js"><a href="https://github.com/bcomnes/npm-bump">bcomnes/npm-bump</a></li>
-      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1311034520305569800">Blogpost discussion thread</a></li>
-    </ul>
-  </div>
-
-  <div>
-    <h2 id="vhs-tape"><a href="https://github.com/hyperdivision/vhs-tape">vhs-tape</a></h2>
-    <figure>
-      <a href="https://github.com/hyperdivision/vhs-tape"><img loading="auto" src="static/vhs-tape.png" alt="VHS-Tape logo"></a>
-      <figcaption>Generic component unit testing with async/await. (Logo by <a href="https://github.com/tony-go">@tony-go</a>)</figcaption>
-    </figure>
-    <ul>
-      <li class="lang js"><a href="https://github.com/hyperdivision/vhs-tape">hyperdivision/vhs-tape</a></li>
-      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1153690382703693830">Announcement 📺</a></li>
-      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1168462157777899527">Headless test runner 📺</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/esm-template">bcomnes/esm-template</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/cjs-template">bcomnes/cjs-template</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/dual-package-template">bcomnes/dual-package-template</a></li>
+      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1311034520305569800">Blog post discussion thread</a></li>
     </ul>
   </div>
 
@@ -53,75 +84,7 @@ title: null
     <ul>
       <li class="lang js"><a href="https://github.com/hypermodules/hyperamp">hypermodules/hyperamp</a></li>
       <li class="lang js"><a href="https://github.com/hypermodules/entypo">hypermodules/entypo</a></li>
-    </ul>
-  </div>
-
-  <div>
-    <h2 id="datcast"><a href="https://dat-cast.hashbase.io">Datcast</a></h2>
-    <figure>
-      <a href="https://dat-cast.hashbase.io"><img loading="auto" height="256" src="static/datcast.png" alt="Datcast logo"></a>
-      <figcaption>Podcast exploring the people building the p2p web with <a href="https://twitter.com/jimpick">@jimpick</a></figcaption>
-    </figure>
-    <ul>
-      <li class="lang twitter">Follow <a href="https://twitter.com/dat_cast">@dat_cast</a> on twitter</li>
-    </ul>
-    <a href="https://podcasts.apple.com/us/podcast/datcast/id1377475849?mt=2&app=podcast" style="display:inline-block;overflow:hidden;background:url(static/US_UK_Apple_Podcasts_Listen_Badge_RGB.svg) no-repeat;width:165px;height:40px;"></a>
-    <a href="https://dat-cast.hashbase.io/feed.xml">
-      <img height="40" src="static/atom.svg" />
-    </a>
-  </div>
-
-  <div>
-    <h2 id="netlify"><a href="/jobs/netlify/">Netlify Portfolio</a></h2>
-    <figure>
-      <a href="/jobs/netlify/"><img loading="auto" src="static/netlify.png" alt="Screenshot of Netlify website"></a>
-      <figcaption>I worked at <a href="https://www.netlify.com">Netlify</a> on product features, platform architecture and open-source.</figcaption>
-    </figure>
-    <ul>
-      <li class="lang docker"><a href="https://github.com/netlify/build-image">netlify/build-image</a></li>
-      <li class="lang go"><a href="https://godoc.org/github.com/netlify/open-api/go">netlify/open-api/go</a></li>
-      <li class="lang js"><a href="https://github.com/netlify/js-client">netlify/js-client</a></li>
-      <li class="lang js"><a href="http://github.com/netlify/cli">netlify/cli</a></li>
-      <li class="lang js"><a href="https://github.com/netlify/cli-utils">netlify/cli-utils</a></li>
-    </ul>
-  </div>
-
-  <div>
-    <h2 id="arch-arm"><a href="https://github.com/bcomnes/archlinux-arm-img">Archlinux Arm</a></h2>
-    <figure>
-      <a href="https://github.com/bcomnes/archlinux-arm-img"><img loading="auto" src="static/arch-arm-raspi.svg" alt="arch arm logo"></a>
-      <figcaption>Automated provisioning of <a href="https://archlinuxarm.org">Archlinx Arm</a> images for Rasberry Pi hardware with <a href="https://www.packer.io">Hashicorp's Packer</a> and other various micro-scale devops experiments.</figcaption>
-    </figure>
-    <ul>
-      <li class="lang sh"><a href="https://github.com/bcomnes/archlinux-arm-img">bcomnes/archlinux-arm-img</a></li>
-      <li class="lang go"><a href="https://github.com/bcomnes/raspi-packer">bcomnes/raspi-packer</a></li>
-      <li class="lang python"><a href="https://github.com/bcomnes/sbc-bootstrap">sbc-bootstrap</a></li>
-    </ul>
-  </div>
-
-  <div>
-    <h2 id="gumcast"><a href="https://github.com/bcomnes/gumcast-api">Gumcast</a></h2>
-    <figure>
-      <a href="https://github.com/bcomnes/gumcast-api"><img loading="auto" src="static/gumcast.svg" alt="gumcast logo"></a>
-      <figcaption>Custom API servce allowing you to subscrube to any product on <a href="https://gumroad.com">Gumroad</a> as a Podcast. (WIP)</figcaption>
-    </figure>
-    <ul>
-      <li class="lang js"><a href="https://github.com/bcomnes/gumcast-api">bcomnes/gumcast-api</a></li>
-    </ul>
-  </div>
-
-  <div>
-    <h2><a href="/projects/websockets/">Websockets</a></h2>
-    <figure>
-      <a href="/projects/websockets/"><img loading="auto" src="static/websockets.png" alt="Screenshot of Websockets writeup"></a>
-      <figcaption>Experiments and abstractions with Websockets and a write up of the discoveries made regarding universal Node.js/DOM modules.</figcaption>
-    </figure>
-    <ul>
-      <li class="lang js"><a href="https://github.com/bcomnes/universal-reconnecting-websocket">bcomnes/universal-reconnecting-websocket</a></li>
-      <li class="lang js"><a href="https://github.com/bcomnes/websocket-chat">bcomnes/websocket-chat</a></li>
-      <li class="lang js"><a href="https://github.com/bcomnes/websocket-chat-client">bcomnes/websocket-chat-client</a></li>
-      <li class="lang js"><a href="https://github.com/bcomnes/dom-event-handler">bcomnes/dom-event-handler</a></li>
-      <li class="lang js"><a href="https://github.com/bcomnes/node-event-handler">bcomnes/node-event-handler</a></li>
+      <li class="lang twitter">Follow <a href="https://twitter.com/hyperampapp">@hyperampapp</a> on twitter</li>
     </ul>
   </div>
 
@@ -141,15 +104,102 @@ title: null
   </div>
 
   <div>
+    <h2 id="arch-arm"><a href="https://github.com/bcomnes/archlinux-arm-img">Archlinux Arm</a></h2>
+    <figure>
+      <a href="https://github.com/bcomnes/archlinux-arm-img"><img loading="auto" src="static/arch-arm-raspi.svg" alt="arch arm logo"></a>
+      <figcaption>Automated provisioning of <a href="https://archlinuxarm.org">Archlinx Arm</a> images for Rasberry Pi hardware with <a href="https://www.packer.io">Hashicorp's Packer</a> and other various micro-scale devops experiments.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang sh"><a href="https://github.com/bcomnes/archlinux-arm-img">bcomnes/archlinux-arm-img</a></li>
+      <li class="lang go"><a href="https://github.com/bcomnes/raspi-packer">bcomnes/raspi-packer</a></li>
+      <li class="lang python"><a href="https://github.com/bcomnes/sbc-bootstrap">sbc-bootstrap</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 id="vhs-tape"><a href="https://github.com/hyperdivision/vhs-tape">vhs-tape</a></h2>
+    <figure>
+      <a href="https://github.com/hyperdivision/vhs-tape"><img loading="auto" src="static/vhs-tape.png" alt="VHS-Tape logo"></a>
+      <figcaption>Generic component unit testing with async/await. (Logo by <a href="https://github.com/tony-go">@tony-go</a>)</figcaption>
+    </figure>
+    <ul>
+      <li class="lang js"><a href="https://github.com/hyperdivision/vhs-tape">hyperdivision/vhs-tape</a></li>
+      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1153690382703693830">Announcement 📺</a></li>
+      <li class="lang twitter"><a href="https://twitter.com/bcomnes/status/1168462157777899527">Headless test runner 📺</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 id="rad-porfolio"><a href="./jobs/littlstar/">Littlstar Portfolio</a></h2>
+    <figure>
+      <a href="./jobs/littlstar/">
+        <img loading="auto" src="./static/rad-portfolio-preview.jpg" alt="rad screenshot">
+      </a>
+      <figcaption>A look at my work at Little Star Media Inc.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang js"><a href="https://github.com/bcomnes/async-folder-walker">bcomnes/async-folder-walker</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/netrc-creds">bcomnes/netrc-creds</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/get-git-tag">bcomnes/get-git-tag</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 id="netlify"><a href="/jobs/netlify/">Netlify Portfolio</a></h2>
+    <figure>
+      <a href="/jobs/netlify/"><img loading="auto" src="static/netlify.png" alt="Screenshot of Netlify website"></a>
+      <figcaption>I worked at <a href="https://www.netlify.com">Netlify</a> on product features, platform architecture and open-source.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang docker"><a href="https://github.com/netlify/build-image">netlify/build-image</a></li>
+      <li class="lang go"><a href="https://godoc.org/github.com/netlify/open-api/go">netlify/open-api/go</a></li>
+      <li class="lang js"><a href="https://github.com/netlify/js-client">netlify/js-client</a></li>
+      <li class="lang js"><a href="http://github.com/netlify/cli">netlify/cli</a></li>
+      <li class="lang js"><a href="https://github.com/netlify/cli-utils">netlify/cli-utils</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 id="datcast"><a href="https://dat-cast.hashbase.io">Datcast</a></h2>
+    <figure>
+      <a href="https://dat-cast.hashbase.io"><img loading="auto" height="256" src="static/datcast.png" alt="Datcast logo"></a>
+      <figcaption>Podcast exploring the people building the p2p web with <a href="https://twitter.com/jimpick">@jimpick</a></figcaption>
+    </figure>
+    <ul>
+      <li class="lang twitter">Follow <a href="https://twitter.com/dat_cast">@dat_cast</a> on twitter</li>
+    </ul>
+    <a href="https://podcasts.apple.com/us/podcast/datcast/id1377475849?mt=2&app=podcast" style="display:inline-block;overflow:hidden;background:url(static/US_UK_Apple_Podcasts_Listen_Badge_RGB.svg) no-repeat;width:165px;height:40px;"></a>
+    <a href="https://dat-cast.hashbase.io/feed.xml">
+      <img height="40" src="static/atom.svg" />
+    </a>
+  </div>
+
+  <div>
+    <h2><a href="/projects/websockets/">Websockets</a></h2>
+    <figure>
+      <a href="/projects/websockets/"><img loading="auto" src="static/websockets.png" alt="Screenshot of Websockets writeup"></a>
+      <figcaption>Experiments and abstractions with Websockets and a write up of the discoveries made regarding universal Node.js/DOM modules.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang js"><a href="https://github.com/bcomnes/universal-reconnecting-websocket">bcomnes/universal-reconnecting-websocket</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/websocket-chat">bcomnes/websocket-chat</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/websocket-chat-client">bcomnes/websocket-chat-client</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/dom-event-handler">bcomnes/dom-event-handler</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/node-event-handler">bcomnes/node-event-handler</a></li>
+    </ul>
+  </div>
+
+  <div>
     <h2 id="hypermodules"><a href="https://hypermodul.es">Hypermodul.es</a></h2>
     <figure>
       <a href="https://hypermodul.es"><img loading="auto" src="static/hypermodules.png" alt="Screenshot of hypermodules website"></a>
-      <figcaption>Open source <a href="https://github.com/hypermodules/">development studio</a> LLC.</figcaption>
+      <figcaption>Open source <a href="https://github.com/hypermodules/">development studio</a> LLC. (Closed 2021)</figcaption>
     </figure>
     <ul>
       <li class="lang html"><a href="https://github.com/hypermodules/hypermodul.es">hypermodules/hypermodul.es</a></li>
       <li class="lang js"><a href="https://github.com/hypermodules/changelog-init">hypermodules/changelog-init</a></li>
       <li class="lang html"><a href="https://github.com/hypermodules/irc.hypermodul.es">hypermodules/irc.hypermodul.es</a></li>
+      <li class="lang twitter">Follow <a href="https://twitter.com/hypermodul_es">@hypermodul_es</a> on twitter</li>
     </ul>
   </div>
 
