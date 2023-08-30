@@ -1,4 +1,4 @@
-# Hello world (again...) 🌎
+# Hello world (again) 🌎
 
 [![sunset](./sunset.jpeg)](./sunset.jpeg)
 
