@@ -14,14 +14,26 @@ Software engineer specializing in DevOps and modular open source Javascript and 
 - <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 
 <h2>
-  <a class="job-logo" id="socket" href="#socket">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/logo-80x80.png">
+  <a class="job-logo" id="socket-supply" href="#socket-supply">
+    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="28" width="100" src="img/socket-supply.svg">
   </a>
-  <a href="https://socket.dev">Socket</a>
+  <a href="https://socketsupply.co">Socket Supply Co.</a>
+  <small>Software Engineer • 2023 - Present</small>
+</h2>
+
+- Contributing to the [ssc](https://github.com/socketsupply/socket) runtime and p2p protocol enabling true write once, run anywhere apps using JS, CSS and HTML. (JS, C++)
+- Developing Socket Supply's flagship deployment product and testing tool.
+
+<h2>
+  <a class="job-logo" id="socket-dev" href="#socket-dev">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/socket-dev.png">
+  </a>
+  <a href="https://socket.dev">Socket Inc</a>
   <small>Software Engineer • 2021 - 2023</small>
 </h2>
 
-- Developing the platform to secure npm supply chains.
+- Developed [Socket.dev](https://socket.dev)'s [GitHub App](https://github.com/apps/socket-security), a primary driver of sales and platform adoption.
+- Business intelligence, data pipelines and analysis.
 
 <h2>
   <a class="job-logo" id="rainbow" href="#rainbow">
@@ -31,7 +43,7 @@ Software engineer specializing in DevOps and modular open source Javascript and 
   <small>Software Engineer • 2021</small>
 </h2>
 
-- Working on Rainbow, the #1 Etherium wallet of all time.
+- Working on Rainbow, the #1 Etherium wallet of all time. (React Native)
 
 <h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
