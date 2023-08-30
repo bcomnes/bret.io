@@ -1,8 +1,3 @@
----
-published: Wed Aug 30 11:06:24 2023
-type: blog
----
-
 # Hello world (again...) 🌎
 
 [![sunset](./sunset.jpeg)](./sunset.jpeg)
