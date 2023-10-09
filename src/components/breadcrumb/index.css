@@ -1,0 +1,23 @@
+.breadcrumb-nav {
+  margin-top: 1em;
+
+  & .list {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap; /* Prevents wrapping items to next line */
+  }
+
+  & .item {}
+
+  & .item + .item::before {
+    content: "/"; /* Adds a slash before each item except the first */
+    margin: 0 8px; /* Adjusts spacing around the slash */
+    color: var(--accent-midground); /* Adjusts the color of the slash */
+  }
+
+  & .item.active {
+    font-weight: bold; /* Highlights the active/current page */
+  }
+}

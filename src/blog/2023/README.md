@@ -1,4 +1,6 @@
-
-# 2023 Blog posts
+---
+title: 2023 Blog posts
+layout: blog-index
+---
 
 - [Hello world (again...) 🌎](./hello-world-again/) - Wed Aug 30 11:06:24 2023
