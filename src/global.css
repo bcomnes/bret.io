@@ -2,7 +2,7 @@
 @import 'mine.css/dist/mine.css';
 @import 'mine.css/dist/layout.css';
 @import 'top-bar.css';
-@import 'fragmentions';
+@import 'fragmentions/fragmention.css';
 
 /* Document level */
 body {

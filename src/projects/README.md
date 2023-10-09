@@ -1,4 +1,7 @@
-# Projects
+---
+title: Projects
+layout: blog-index
+---
 
 - [Websocket Ergonomics](./websockets)
 - [Package Automation](./package-automation)

@@ -1,4 +1,8 @@
-# Tron Legacy 2021
+---
+layout: article
+title: "Tron Legacy 2021"
+publishDate: "2021-08-05T23:09:46.781Z"
+---
 
 I updated the Sublime Text [`Tron Color Scheme`](https://packagecontrol.io/packages/Tron%20Color%20Scheme) today after a few weeks of reworking it for the recent [release of Sublime Text 4](https://www.sublimetext.com/blog/articles/sublime-text-4).
 

@@ -1,4 +1,8 @@
-# Hello world (again) 🌎
+---
+layout: article
+title: "Hello world (again) 🌎"
+publishDate: "2023-08-30T18:06:24.000Z"
+---
 
 [![sunset](./sunset.jpeg)](./sunset.jpeg)
 
@@ -35,11 +39,3 @@ Here are some updates from the last couple years that didn't make it onto this s
 - I'm very lucky to have a new office that is a 1 minute walk from home:
 
 [![pic of the office](./office.jpeg)](./office.jpeg)
-
-<p>
-  Published: <a href="/blog/2023/hello-world-again/">
-    <time datetime="2023-08-30T18:06:24.000Z">
-      Wed Aug 30 11:06:24 2023
-    </time>
-  </a>
-</p>
