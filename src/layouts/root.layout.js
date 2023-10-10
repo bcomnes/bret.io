@@ -22,16 +22,17 @@ export default async function rootLayout ({
     <link rel="manifest" href="/manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="bret.io">
+    <meta name="apple-mobile-web-app-title" content="${siteName}">
+    <meta itemprop="publisher" content="${siteName}">
+    <meta property="og:site_name" content="${siteName}">
 
-    <link rel="alternate" title="bret.io (JSON Feed)" type="application/json" href="/feed.json" />
-    <link rel="alternate" title="bret.io (JSON Feed)" type="application/feed+json" href="/feed.json" />
-    <link rel="alternate" title="bret.io (RSS Feed)" type="application/rss+xml"  href="/feed.xml" />
+    <link rel="alternate" title="${siteName} Blog (JSON Feed)" type="application/json" href="/feed.json" />
+    <link rel="alternate" title="${siteName} Blog (JSON Feed)" type="application/feed+json" href="/feed.json" />
+    <link rel="alternate" title="${siteName} Blog (RSS Feed)" type="application/rss+xml"  href="/feed.xml" />
 
     <meta name="google-site-verification" content="-gd5D4qtAADYPG5Iwbl7Z1265Dt6fzf1H5BQItIbsps" />
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-    <link rel="micropub" href="https://bret.io/.netlify/functions/micropub">
     <link rel="me" href="https://micro.blog/bret" />
 
     ${scripts
@@ -47,7 +48,7 @@ export default async function rootLayout ({
     <nav class="top-bar hide-print">
       <a href="/" class="top-bar-title" title="home">bret.io</a>
       <a href="/cv/" class="top-bar-link" title="resume">cv</a>
-      <a href="/blog/" class="top-bar-link" title="blog">blog</a>
+      <a href="/blog/2023/" class="top-bar-link" title="blog">blog</a>
       <a href="https://hifiwi.fi" class="top-bar-link" title="HifiWi.fi">hifiwi.fi</a>
       <span class="top-bar-right">
         <span class="top-bar-link" >
