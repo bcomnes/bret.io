@@ -1,9 +1,5 @@
-const logConfig = require('./src/log/config.json')
-const parseAuthor = require('parse-author')
-const author = parseAuthor(logConfig.author)
-
-module.exports = {
-  email: author.email,
+export default {
+  email: 'bcomnes' + '@' + 'gmail.com',
   dest: './public',
   faviconConfig: {
     path: '/', // Path for overriding default icons path. `string`
