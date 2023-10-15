@@ -11,12 +11,10 @@
     "test:build": "run-s build",
     "build": "npm run clean && run-p build:*",
     "build:siteup": "siteup",
-    "build:feed": "generate-feed src/log --dest public && cp public/feed.xml public/atom.xml",
     "build:icon": "gravatar-favicons --config favicon-config.js",
     "watch": "npm run clean && run-p watch:*",
     "watch:serve": "browser-sync start --server 'public' --files 'public'",
     "watch:siteup": "npm run build:siteup -- --watch",
-    "watch:feed": "run-s build:feed",
     "watch:icon": "run-s build:icon",
     "clean": "rm -rf public && mkdir -p public",
     "start": "npm run watch"
@@ -38,7 +36,7 @@
   },
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
-    "@siteup/cli": "^3.1.0",
+    "@siteup/cli": "^4.0.0-beta.0",
     "@tap-format/spec": "^0.2.0",
     "browser-sync": "^2.26.7",
     "classnames": "^2.3.2",
@@ -46,9 +44,11 @@
     "generate-feed": "^1.1.17",
     "gravatar-favicons": "^3.0.0",
     "highlight.js": "^11.0.1",
+    "jsonfeed-to-atom": "^1.2.4",
     "markdownlint-cli": "^0.37.0",
     "mine.css": "^9.0.1",
     "npm-run-all2": "^6.0.0",
+    "p-map": "^6.0.0",
     "snazzy": "^9.0.0",
     "standard": "^17.0.0",
     "tape": "^5.0.0",
@@ -58,8 +58,5 @@
   "engines": {
     "node": ">=16.0.0",
     "npm": "^8.3.1"
-  },
-  "dependencies": {
-    "uland-isomorphic": "^2.0.0"
   }
 }
