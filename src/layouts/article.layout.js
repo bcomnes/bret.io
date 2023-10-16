@@ -4,9 +4,10 @@ import { breadcrumb } from '../components/breadcrumb/index.js'
 
 import defaultRootLayout from './root.layout.js'
 
-export default function articleLayout (vars) {
-  const { children, page, ...rest } = vars
-  const pathSegments = page.path.split(sep)
+export default function articleLayout (args) {
+  const { children, ...rest } = args
+  const vars = args.vars
+  const pathSegments = args.page.path.split(sep)
   const wrappedChildren = html`
     ${breadcrumb({ pathSegments })}
     <article class="article-layout h-entry" itemscope itemtype="http://schema.org/NewsArticle">
@@ -14,8 +15,8 @@ export default function articleLayout (vars) {
         <h1 class="p-name article-title" itemprop="headline">${vars.title}</h1>
         <div class="metadata">
           <address class="author-info" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            ${vars.authoImgUrl
-              ? html`<img height="40" width="40"  src="${vars.authoImgUrl}" alt="${vars.authorImgAlt}" class="u-photo" itemprop="image">`
+            ${vars.authorImgUrl
+              ? html`<img height="40" width="40"  src="${vars.authorImgUrl}" alt="${vars.authorImgAlt}" class="u-photo" itemprop="image">`
               : null
             }
             ${vars.authorName && vars.authorUrl
