@@ -6,8 +6,8 @@ export default ({
     name: siteName,
     icons: [
       {
-        src: '/apple-touch-icon-180x180.png',
-        sizes: '180x180'
+        src: '/apple-touch-icon-1024x1024.png',
+        sizes: '1024x1024'
       }
     ],
     display: 'fullscreen'
