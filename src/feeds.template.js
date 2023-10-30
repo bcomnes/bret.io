@@ -33,8 +33,8 @@ export default async function * feedsTemplate (args) {
       return {
         date_published: page.vars.publishDate,
         title: page.vars.title,
-        url: `${siteUrl}/${page.page.path}/`,
-        id: `${siteUrl}/${page.page.path}/#${page.vars.publishDate}`,
+        url: `${siteUrl}/${page.pageInfo.path}/`,
+        id: `${siteUrl}/${page.pageInfo.path}/#${page.vars.publishDate}`,
         content_html: await page.renderInnerPage({ pages })
       }
     }, { concurrency: 4 })
