@@ -5,7 +5,7 @@ export default async function globalVars () {
     siteDescription: 'A running log of announcements, projects and accomplishments.',
     authorName: 'Bret Comnes',
     authorUrl: 'https://bret.io',
-    authorImgUrl: 'https://www.gravatar.com/avatar/8d8b82740cb7ca994449cccd1dfdef5f?s=500',
+    authorImgUrl: '/favicons/apple-touch-icon-1024x1024.png',
     authorImgAlt: 'Picture of author'
   }
 }

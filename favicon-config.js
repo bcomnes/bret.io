@@ -1,8 +1,8 @@
 export default {
   email: 'bcomnes' + '@' + 'gmail.com',
-  dest: './public',
+  dest: './src/favicons',
   faviconConfig: {
-    path: '/', // Path for overriding default icons path. `string`
+    path: '/favicons', // Path for overriding default icons path. `string`
     appName: 'bret.io', // Your application's name. `string`
     appDescription: 'Bret Comnes\'s website', // Your application's description. `string`
     developerName: 'Bret Comnes', // Your (or your developer's) name. `string`
@@ -30,7 +30,7 @@ export default {
       coast: false, // Create Opera Coast icon. `boolean` or `{ offset, background }`
       favicons: true, // Create regular favicons. `boolean`
       firefox: false, // Create Firefox OS icons. `boolean` or `{ offset, background }`
-      windows: true, // Create Windows 8 tile icons. `boolean` or `{ background }`
+      windows: false, // Create Windows 8 tile icons. `boolean` or `{ background }`
       yandex: false // Create Yandex browser icon. `boolean` or `{ background }`
     }
   }

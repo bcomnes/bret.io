@@ -31,4 +31,8 @@
     border-radius: 50%;
     padding: 4px;
   }
+
+  & .published-date {
+    font-family: var(--font-code);
+  }
 }

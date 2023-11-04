@@ -41,7 +41,6 @@ dist
 yarn.lock
 package-lock.json
 .vscode
-favicons
 functions
 .netlify
 public

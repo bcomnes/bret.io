@@ -2,8 +2,26 @@ import { html } from 'uhtml-isomorphic'
 import { sep } from 'node:path'
 import { breadcrumb } from '../components/breadcrumb/index.js'
 
+/**
+ * @template T
+ * @typedef {import('@siteup/cli').LayoutFunction<T>} LayoutFunction
+ */
+
+/**
+ * @typedef {import('./root.layout.js').RootLayoutVars} RootLayoutVars
+ */
+
+/**
+ * @typedef {RootLayoutVars & {
+ *  title: string,
+ *  publishDate: string,
+ *  [key: string]: any
+ * }} BlogIndexVars
+ */
+
 import defaultRootLayout from './root.layout.js'
 
+/** @type {LayoutFunction<BlogIndexVars>} */
 export default function blogIndexLayout (args) {
   const { children, ...rest } = args
   const pathSegments = args.page.path.split(sep)
@@ -16,5 +34,6 @@ export default function blogIndexLayout (args) {
     }
   `
 
+  // @ts-ignore
   return defaultRootLayout({ children: wrappedChildren, ...rest })
 }
