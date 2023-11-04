@@ -6,7 +6,7 @@ export default ({
     name: siteName,
     icons: [
       {
-        src: '/apple-touch-icon-1024x1024.png',
+        src: '/favicons/apple-touch-icon-1024x1024.png',
         sizes: '1024x1024'
       }
     ],

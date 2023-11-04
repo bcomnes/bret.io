@@ -29,7 +29,7 @@ export default function articleLayout (args) {
           </address>
           ${vars.publishDate
             ? html`
-              <time class="dt-published" itemprop="datePublished" datetime="${vars.publishDate}">
+              <time class="published-date dt-published" itemprop="datePublished" datetime="${vars.publishDate}">
                 <a href="#" class="u-url">
                   ${(new Date(vars.publishDate)).toLocaleString()}
                 </a>

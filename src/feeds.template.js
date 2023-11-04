@@ -1,18 +1,33 @@
 import pMap from 'p-map'
 import jsonfeedToAtom from 'jsonfeed-to-atom'
 
-export default async function * feedsTemplate (args) {
-  const {
-    vars: {
-      siteName,
-      siteDescription,
-      siteUrl,
-      authorName,
-      authorUrl,
-      authorImgUrl
-    },
-    pages
-  } = args
+/**
+ * @template T
+ * @typedef {import('@siteup/cli').TemplateAsyncIterator<T>} TemplateAsyncIterator
+ */
+
+/** @type {TemplateAsyncIterator<{
+ *  siteName: string,
+ *  siteDescription: string,
+ *  siteUrl: string,
+ *  authorName: string,
+ *  authorUrl: string,
+ *  authorImgUrl: string
+ *  layout: string,
+ *  publishDate: string
+ *  title: string
+ * }>} */
+export default async function * feedsTemplate ({
+  vars: {
+    siteName,
+    siteDescription,
+    siteUrl,
+    authorName,
+    authorUrl,
+    authorImgUrl
+  },
+  pages
+}) {
   const blogPosts = pages
     .filter(page => page.vars.layout === 'article')
     .sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
