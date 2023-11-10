@@ -13,7 +13,6 @@
     "build:siteup": "siteup",
     "generate-favicons": "gravatar-favicons --config favicon-config.js",
     "watch": "npm run clean && run-p watch:*",
-    "watch:serve": "browser-sync start --server 'public' --files 'public'",
     "watch:siteup": "npm run build:siteup -- --watch",
     "clean": "rm -rf public && mkdir -p public",
     "start": "npm run watch"
@@ -35,7 +34,7 @@
   },
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
-    "@siteup/cli": "^5.0.0",
+    "@siteup/cli": "^6.0.0",
     "@tap-format/spec": "^0.2.0",
     "@voxpelli/tsconfig": "^9.0.0",
     "browser-sync": "^2.26.7",
