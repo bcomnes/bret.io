@@ -68,7 +68,7 @@ footer > .top-bar-link:first-child {
   }
 }
 
-@media screen and (max-width: 65em) {
+@media screen and (max-width: 78em) {
   nav.top-bar {
     backdrop-filter: contrast(100%) blur(10px);
     z-index: 1; /* float over interactive content below */
