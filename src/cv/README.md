@@ -227,6 +227,8 @@ advanced topics like PID control theory.
 
 ## Media
 
+- [Socket Supply Co. - Improved File Resolution](https://socketsupply.co/blog/improved-file-resolution/)
+- [Socket Supply Co. - Frontend Testing with Socket](https://socketsupply.co/blog/frontend-testing-with-socket/)
 - [Socket - Github App Improvements](https://socket.dev/blog/github-app-improvements) 2022-07-26
 - [JS Party – Episode #227: JS logging & error handling](https://changelog.com/jsparty/219) 2022-05-27
 - [JS Party – Episode #219: Making moves on supply chain security](https://changelog.com/jsparty/219) 2022-03-24
