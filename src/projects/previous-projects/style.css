@@ -1,5 +1,7 @@
-@import './components/language-bullets.css';
-@import './components/blog-index-list/index.css';
+@import '../../components/language-bullets.css';
+@import '../../components/blog-index-list/index.css';
+
+/** Snapshot of the homepage style so I don't need to update it here too as it changes */
 
 /* Porfolio Header */
 .header {
@@ -35,14 +37,9 @@
 /* Portfolio grid */
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 1em;
 }
-
-.markdown-body {
-  max-width: 68em;
-}
-
 
 .recent-post-section {
   display: flex;

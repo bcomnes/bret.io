@@ -40,6 +40,10 @@ li.objc::before {
   color: #6866fb;
 }
 
+li.cpp::before {
+  color: #f34b7d;
+}
+
 li.docker::before {
   color: #384d54;
 }

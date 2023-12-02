@@ -60,7 +60,7 @@ footer > .top-bar-link:first-child {
   margin-left: unset;
 }
 
-@media screen and (max-width: 72em) {
+@media screen and (max-width: 106em) {
   footer.top-bar {
     position: inherit;
     top: inherit;
@@ -68,7 +68,7 @@ footer > .top-bar-link:first-child {
   }
 }
 
-@media screen and (max-width: 78em) {
+@media screen and (max-width: 106em) {
   nav.top-bar {
     backdrop-filter: contrast(100%) blur(10px);
     z-index: 1; /* float over interactive content below */

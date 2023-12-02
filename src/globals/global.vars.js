@@ -6,6 +6,7 @@ export default async function globalVars () {
     authorName: 'Bret Comnes',
     authorUrl: 'https://bret.io',
     authorImgUrl: '/favicons/apple-touch-icon-1024x1024.png',
-    authorImgAlt: 'Picture of author'
+    authorImgAlt: 'Picture of author',
+    githubRootUrl: 'https://github.com/bcomnes/bret.io/blob/master/src/'
   }
 }
