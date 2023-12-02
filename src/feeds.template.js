@@ -3,7 +3,7 @@ import jsonfeedToAtom from 'jsonfeed-to-atom'
 
 /**
  * @template T
- * @typedef {import('@siteup/cli').TemplateAsyncIterator<T>} TemplateAsyncIterator
+ * @typedef {import('top-bun').TemplateAsyncIterator<T>} TemplateAsyncIterator
  */
 
 /** @type {TemplateAsyncIterator<{
