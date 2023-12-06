@@ -44,7 +44,7 @@
     "markdownlint-cli": "^0.37.0",
     "mine.css": "^9.0.1",
     "npm-run-all2": "^6.0.0",
-    "p-map": "^6.0.0",
+    "p-map": "^7.0.0",
     "snazzy": "^9.0.0",
     "standard": "^17.0.0",
     "tape": "^5.0.0",
