@@ -1,12 +1,13 @@
 ---
 layout: article
+serif: true
 title: "Reintroducing top-bun 7 🥐"
 publishDate: "2023-11-23T15:14:54.910Z"
 ---
 
 After some unexpected weekends of downtime looking after sick toddlers, I'm happy to re-introduce [`top-bun` v7][tb].
 
-Re-introduce? Well, you may remember [`@siteup/cli`](https://github.com/bcomnes/top-bun/tree/v6.0.0), the spiritual offshoot of [`sitedown`](https://github.com/ungoldman/sitedown), the static site generator that turned a directory of markdown into a website.
+Re-introduce? Well, you may remember [`@siteup/cli`](https://github.com/bcomnes/top-bun/tree/v6.0.0), a spiritual offshoot of [`sitedown`](https://github.com/ungoldman/sitedown), the static site generator that turned a directory of markdown into a website.
 
 ## Whats new with `top-bun` v7? {#tb-v7}
 
