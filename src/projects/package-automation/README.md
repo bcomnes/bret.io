@@ -1,5 +1,6 @@
 ---
 layout: article
+serif: true
 title: "Fully Automated Luxury Space Age Package Maintenance"
 publishDate: "2020-09-29T17:50:58.562Z"
 ---

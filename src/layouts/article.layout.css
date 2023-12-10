@@ -27,12 +27,25 @@
   }
 
   & .author-info img {
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid var(--accent-background);
     border-radius: 50%;
     padding: 4px;
   }
 
   & .published-date {
     font-family: var(--font-code);
+  }
+}
+
+.article-serif {
+  font-family: var(--system-serif);
+
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    font-family: var(--system-serif);
   }
 }
