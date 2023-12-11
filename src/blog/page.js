@@ -8,7 +8,8 @@ import { dirname, basename } from 'node:path'
 
 export const vars = {
   title: 'Recent Blog Posts',
-  layout: 'blog-index'
+  layout: 'blog-index',
+  noindex: true
 }
 
 /**

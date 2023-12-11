@@ -41,7 +41,7 @@
     "gravatar-favicons": "^3.0.0",
     "highlight.js": "^11.0.1",
     "jsonfeed-to-atom": "^1.2.4",
-    "markdownlint-cli": "^0.37.0",
+    "markdownlint-cli": "^0.38.0",
     "mine.css": "^9.0.1",
     "npm-run-all2": "^6.0.0",
     "p-map": "^7.0.0",
@@ -51,7 +51,8 @@
     "top-bar.css": "^3.0.0",
     "top-bun": "^7.0.0",
     "typescript": "~5.2.2",
-    "uhtml-isomorphic": "^2.1.0"
+    "uhtml-isomorphic": "^2.1.0",
+    "xmlbuilder": "^15.1.1"
   },
   "engines": {
     "node": ">=16.0.0",
