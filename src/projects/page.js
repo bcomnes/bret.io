@@ -5,7 +5,8 @@
 
 export const vars = {
   title: 'Projects',
-  layout: 'blog-auto-index'
+  layout: 'blog-auto-index',
+  noindex: true
 }
 
 /**
