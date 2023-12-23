@@ -88,7 +88,7 @@ Professional & amateur computer programmer specializing in software engineering,
 - Electron application development using a [custom frontend framework](https://github.com/hyperdivision/hui).
 - [VHS-Tape](https://github.com/hyperdivision/vhs-tape): frontend component unit testing with async/await.
 - Cryptographic focused native Node.js module development ([prebuildify](https://github.com/prebuild/prebuildify), [libsodium](https://github.com/sodium-friends/sodium-native)).
-- Webassembly module development ([wat2js](http://ghub.io/wat2js))
+- Webassembly module development ([wat2js](https://github.com/mafintosh/wat2js))
 
 <h2>
   <a class="job-logo" class="job-logo" id="netlify-platform" href="#netlify-platform">
@@ -104,9 +104,9 @@ Professional & amateur computer programmer specializing in software engineering,
 - Joined Netlify's DevOps focused platform team.
 - Maintain and develop [Netlify's CI build environment](https://www.netlify.com/docs/continuous-deployment/), built with [Docker](https://www.docker.com), [Go](https://golang.org), [Jenkins](https://jenkins.io) and [Kubernetes](https://kubernetes.io).
 - Launch Netlify's selectable build-image infrastructure and interface.
-- Develop and maintain [Netlify's Open-api](http://github.com/netlify/open-api) Go client, and architect and rewrite the [Javascript client](http://github.com/netlify/js-client).
+- Develop and maintain [Netlify's Open-api](https://github.com/netlify/open-api) Go client, and architect and rewrite the [Javascript client](https://github.com/netlify/js-client).
 - 24h on-call duties
-- Monitor and maintain the health of Netlify's multi-cloud infrastructure using [Humio](http://humio.com) and [Datadog](http://datadoghq.com).
+- Monitor and maintain the health of Netlify's multi-cloud infrastructure using [Humio](http://humio.com) and [Datadog](https://www.datadoghq.com).
 - Scale and deploy infrastructure with GitOps via [Ansible](https://www.ansible.com), bash and [Terraform](http://terraform.io).
 - See [Netlify portfolio](/jobs/netlify/#platform) for more examples.
 
@@ -214,7 +214,7 @@ advanced topics like PID control theory.
   <a class="job-logo" id="naic" href="#naic">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/naic.png">
   </a>
-  <a href="http://egg.astro.cornell.edu/index.php/">National Astronomy and Ionosphere Center</a>
+  <a href="https://egg.astro.cornell.edu/index.php/">National Astronomy and Ionosphere Center</a>
   <small>Arecibo Guest Researcher • 2009</small>
 </h2>
 

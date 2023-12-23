@@ -60,7 +60,7 @@ This is a prototype grade example of a real time chat app that uses `universal-r
 
 [![](./dom-event-handler.png)](https://github.com/bcomnes/dom-event-handler)
 
-This is module of a [WebReflection article](https://medium.com/@WebReflection/dom-handleevent-a-cross-platform-standard-since-year-2000-5bf17287fd38) discussing the ancient and often forgotten detail of the [EventLister](https://developer.mozilla.org/en-US/docs/Web/API/EventListener) api.  Unfortunately the author of that article would probably disapprove of this module due to lack of semicolons.  C'est la vie.  (I still have mad respect for your work Andrea!)
+This is module of a [WebReflection article](https://webreflection.medium.com/dom-handleevent-a-cross-platform-standard-since-year-2000-5bf17287fd38) discussing the ancient and often forgotten detail of the [EventLister](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) api.  Unfortunately the author of that article would probably disapprove of this module due to lack of semicolons.  C'est la vie.  (I still have mad respect for your work Andrea!)
 
 Essentially: it lets you write class methods and use them as event handler functions, without binding.  This has some performance implications if you have many event handler functions, and arguably some ergonomic gains.
 
@@ -117,7 +117,7 @@ Isn't that nice?
 
 [![](./node-event-handler.png)](https://github.com/bcomnes/node-event-handler)
 
-When implementing `universal-reconnecting-websocket`, it was assumed that the [EventLister](https://developer.mozilla.org/en-US/docs/Web/API/EventListener) api could be mocked for the `ws` client events.  It turns out, this wasn't easy.
+When implementing `universal-reconnecting-websocket`, it was assumed that the [EventLister](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) api could be mocked for the `ws` client events.  It turns out, this wasn't easy.
 
 Node.js and DOM event systems are just too different.  Here some some challenges in making them overlap:
 
@@ -128,7 +128,7 @@ Node.js and DOM event systems are just too different.  Here some some challenges
 These differences broguht me to the following conclusions.
 
 - When Node.js was the hot new thing, it was in vogue to implement Node compatible API layers for the browser.  It was usually straight forward, but inevitably a userspace solution.  This had a lot of advantages (like nice and simple APIs that worked effectively) and little drawbacks other than a bit of extra bundle size and lack of a standards authority dictating how things should work.  [`browserify`](http://browserify.org) used this strategey to great effect, and it still works great today.
-- As Node.js aged, and its opponents slowly regained power to push back against its influence, and as Node.js's innovations slowly sublimated into implemented, yet incompatible "standards", it became fashionable to implement DOM apis compatible for node.  The sudden interest in [node-fetch](https://github.com/bitinn/node-fetch) is testament to this trend, despite many [bugs](https://github.com/bitinn/node-fetch/search?l=Markdown&p=2&q=clone&type=Issues), and awkward differences between it and the real DOM API.
+- As Node.js aged, and its opponents slowly regained power to push back against its influence, and as Node.js's innovations slowly sublimated into implemented, yet incompatible "standards", it became fashionable to implement DOM apis compatible for node.  The sudden interest in [node-fetch](https://github.com/node-fetch/node-fetch) is testament to this trend, despite many [bugs](https://github.com/search?q=repo%3Anode-fetch%2Fnode-fetch+clone+&type=issues), and awkward differences between it and the real DOM API.
 - Porting Node.js APIs to the browser is easy, since they are fundamentally simple, userspace derived APIs.
 - Porting Browser APIs to Node in userspace is not easy, complex and error prone.  Avoid doing it.  See the key takeaways from `urws` above for the proper way to handle IO abstractions.
 - Node events are simpler to understand, but lack the handle event API found in the DOM.  Maybe a userspace event system could accommodate this a bit better, and still remain simple and compatible with Node.js events.

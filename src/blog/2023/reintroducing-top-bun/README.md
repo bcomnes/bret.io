@@ -33,7 +33,7 @@ The kids have a recent obsession with [Wallace & Gromit](https://wallaceandgromi
 
 `top-bun` now builds it's own repo into a docs website. It's slightly better than the GitHub README.md view, so go check it out! It even has a real domain name so you know its for real.
 
-- 🌎 [top-bun.org](http://top-bun.org)
+- 🌎 [top-bun.org](https://top-bun.org)
 
 
 <figure>
@@ -494,7 +494,7 @@ The current plan is to keep sitting on this feature set for a while. But I have 
 - More web-component examples? `top-bun` is already one of the best environments for implementing sites that use web-components. Page bundles are a perfect place to register components!
 - Comparisons with other tools in the "enterprise-js" ecosystem?
 
-If you try out `top-bun`, I would love to hear about your experience. Do you like it? Do you hate it? [Open an discussion item.](https://github.com/bcomnes/top-bun/discussions/landing) or reach out privately.
+If you try out `top-bun`, I would love to hear about your experience. Do you like it? Do you hate it? [Open an discussion item.](https://github.com/bcomnes/top-bun/discussions) or reach out privately.
 
 
 ## History of `top-bun` {#history}
@@ -527,10 +527,10 @@ What does this idea look like? See this snippet of a `package.json`:
 ```
 
 - I have [`postcss`](https://postcss.org) building css bundles, enabling an `@import` based workflow for css, as well as providing various transforms I found useful.
-- The markdown is built with [`sitedown`](https://ghub.io/sitedown).
-- I wrote a tool to generate a RSS feed from markdown called [`generate-feed`](http://ghub.io/generate-feed)
-- I generate favicons from a gravatar identifier with [`gravatar-favicons`](http://ghub.io/generate-feed).
-- `js` bundling could easily be added in here with [`esbuild`][esbuild] or [rollup](http://ghub.io/rollup).
+- The markdown is built with [`sitedown`](https://github.com/ungoldman/sitedown).
+- I wrote a tool to generate a RSS feed from markdown called [`generate-feed`](https://github.com/bcomnes/generate-feed)
+- I generate favicons from a gravatar identifier with [`gravatar-favicons`](https://github.com/bcomnes/gravatar-favicons).
+- `js` bundling could easily be added in here with [`esbuild`][esbuild] or [rollup](https://ghub.io/rollup).
 - Steps are grouped into `build` and `watch` prefixes, and managed with [npm-run-all2](https://github.com/bcomnes/npm-run-all2) which provides shortcuts to running these tasks in parallel.
 
 I successfully implemented this pattern across 4-5 different websites I manged. It work beautifully. Some of the things I liked about it:
@@ -554,7 +554,7 @@ Because it was clear `sitedown` provided the core structure of this pattern (mak
 
 - Variable cascade + frontmatter: You could define global and page variables used to customize parts of the site layout. This lets you set the title, or other parts of the `<head>` tag easily from the [frontmatter](https://jekyllrb.com/docs/front-matter/) section of markdown pages.
 - A `js` layout: This let you write a simple JS program that receives the variable cascade and child content of the page as a function argument, and return the contents of the page after applying any kind of template tool available in JS.
-- `html` pages: [CommonMark](http://commonmark.org) supports `html` in markdown, but it also has some funny rules that makes it more picky about how the `html` is used. I wanted a way to access the full power of `html` without the overhead of markdown, and this page type unlocked that.
+- `html` pages: [CommonMark](https://commonmark.org) supports `html` in markdown, but it also has some funny rules that makes it more picky about how the `html` is used. I wanted a way to access the full power of `html` without the overhead of markdown, and this page type unlocked that.
 - `js` pages: Since I enjoy writing JavaScript, I also wanted a way to support generating pages using any templating system and data source imaginable so I also added support to generate pages from the return value of a JS function.
 - JavaScript bundling: I wanted to make it super easy to include client side JavaScript, so it included some conventions for setting that up quickly and easily.
 - CSS bundling: Instead of adding the complexity of css-modules or other transform-based scoped css solution, `siteup` opted to make it super easy to add a global `css` bundle, and page scoped `css` bundles, which both supported a `postcss` `@import` workflow and provided a few common transforms to make working with `css` tolerable (nesting, prefixing etc).
@@ -568,5 +568,5 @@ I enjoyed how `@siteup/cli` came out, and have been using it for 2 year now. Tha
 ![contribution graph](./img/contribs.png)
 
 [tb]: https://github.com/bcomnes/top-bun
-[esbuild]: http://esbuild.github.io
+[esbuild]: https://esbuild.github.io
 [types-in-js]: https://github.com/voxpelli/types-in-js

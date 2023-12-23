@@ -124,7 +124,7 @@ There are lots of other easy tests you can throw at your package testing step th
 
 - [Linting](https://en.wikipedia.org/wiki/Lint_(software)) ([`standard`](https://standardjs.com), [`eslint`](https://eslint.org) etc)
   - Enforce code style and catch errors!  Basically spell check on code.  This should really be the very first test on every package, since it helps you write correct code.
-- [`dependency-check`](http://ghub.io/dependency-check)
+- [`dependency-check`](https://github.com/dependency-check-team/dependency-check)
   - Verify dependencies listed in `package.json` matches usage in the actual code.
   - This test fails if it finds packages in `package.json` that are no longer used in code or if it finds pacakges in use in the code that are not listed in `package.json` which would cause a runtime error.
 - Running a build
@@ -672,7 +672,7 @@ Hopefully they can can provide some insights into the capabilities and common pr
 Additionally, this documents my personal suite of tools and processes that I have developed to automate package maintenance, and is by no means normative.  Modification and experimentation is always encouraged.
 
 There are many subtle layers to the Node.js programming system, and this just covers the maintenance automation layer that can exist around a package.
-Much more could be said about the versioned development tooling, standardized scripting hooks, diamond dependency problem solutions, localized dependencies, upstream package hacking/debugging conveniences and local package linking.  An even deeper dive could be made on the overlap these patterns have (and don't) have in other JS runtimes like [Deno](https://deno.land) which standardizes a lot around Level 1, or even other languages like Go or Rust.
+Much more could be said about the versioned development tooling, standardized scripting hooks, diamond dependency problem solutions, localized dependencies, upstream package hacking/debugging conveniences and local package linking.  An even deeper dive could be made on the overlap these patterns have (and don't) have in other JS runtimes like [Deno](https://deno.com) which standardizes a lot around Level 1, or even other languages like Go or Rust.
 
 If you enjoyed this article, have suggestions or feedback, or think I'm full of it, follow me on twitter ([@bcomnes][twitter]) and feel free to hop in the the accompanying thread.  I would love to hear your thoughts, ideas and examples!  Also subscribe to my [RSS](http://bret-dk.local:3000/feed.xml)/[JSON](http://bret-dk.local:3000/feed.json) Feed in your favorite RSS reader.
 
@@ -690,9 +690,9 @@ If you enjoyed this article, have suggestions or feedback, or think I'm full of 
 
 [keepachangelog]: https://keepachangelog.com/en/1.0.0/
 [git]: https://git-scm.com
-[nyc]: http://ghub.io/nyc
+[nyc]: https://github.com/istanbuljs/nyc
 [npm-run-all]: http://ghub.io/npm-run-all
-[npm-run-all2]: http://ghub.io/npm-run-all2
+[npm-run-all2]: https://github.com/bcomnes/npm-run-all2
 [travis]: https://travis-ci.org
 [dependabot]: https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates
 [auto-changelog]: https://ghub.io/auto-changelog
