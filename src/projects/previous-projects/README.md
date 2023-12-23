@@ -38,9 +38,9 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
   </div>
 
   <div>
-    <h2 id="choo"><a href="https://choo.io">Choo</a></h2>
+    <h2 id="choo"><a href="https://www.choo.io">Choo</a></h2>
     <figure>
-      <a href="https://choo.io"><img loading="auto" src="static/choo.png" alt="Choo website screenshot"></a>
+      <a href="https://www.choo.io"><img loading="auto" src="static/choo.png" alt="Choo website screenshot"></a>
       <figcaption>Maintainer and core contributor to the choo framework and ecosystem, a lightweight and decomposable alternative to frameworks like React.</figcaption>
     </figure>
     <ul>
@@ -70,7 +70,7 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
     <h2 id="datproject"><a href="https://datproject.org">Dat</a></h2>
     <figure>
       <a href="https://github.com/bcomnes/flattree"><img loading="auto" src="static/flattree.png" alt="Screenshot of flattree website"></a>
-      <figcaption>Contributing to the <a href="https://github.com/random-access-storage">Dat module ecosystem</a> and provided early review of the <a href="https://github.com/datproject/docs/blob/master/papers/dat-paper.md">hypercore protocol spec</a>.</figcaption>
+      <figcaption>Contributing to the <a href="https://github.com/random-access-storage">Dat module ecosystem</a> and provided early review of the <a href="https://github.com/dat-ecosystem-archive/docs/blob/5b37b1b8bd0615c1d487abfc4b1543dfdacbfd36/papers/dat-paper.md">hypercore protocol spec</a>.</figcaption>
     </figure>
     <ul>
       <li class="lang go"><a href="https://github.com/bcomnes/flattree">bcomnes/flattree</a></li>
@@ -81,20 +81,20 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
   </div>
 
   <div>
-    <h2 id="leveldb"><a href="http://leveldb.org">Leveldb</a></h2>
+    <h2 id="leveldb"><a href="https://leveljs.org">Leveldb</a></h2>
     <figure>
       <a href="https://github.com/hypermodules/level-auto-index/"><img loading="auto" src="static/leveldb.png" alt="Screenshot of level-auto-index"></a>
-      <figcaption>level-auto-index creates and maintains supplementary <a href="http://leveldb.org">LevelDB</a> indexes automatically.</figcaption>
+      <figcaption>level-auto-index creates and maintains supplementary <a href="https://leveljs.org">LevelDB</a> indexes automatically.</figcaption>
     </figure>
     <ul>
-      <li class="lang js"><a href="https://github.com/hypermodules/level-idx">hypermodules/level-idx</a></li>
-      <li class="lang js"><a href="https://github.com/hypermodules/level-auto-index">hypermodules/level-auto-index</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/level-idx">hypermodules/level-idx</a></li>
+      <li class="lang js"><a href="https://github.com/bcomnes/level-auto-index">hypermodules/level-auto-index</a></li>
       <li class="lang js"><a href="https://github.com/hypermodules/level-hookdown">hypermodules/level-hookdown</a></li>
     </ul>
   </div>
 
   <div>
-    <h2 id="electron"><a href="https://electronjs.org">Electron</a></h2>
+    <h2 id="electron"><a href="https://www.electronjs.org">Electron</a></h2>
     <figure>
       <a href="https://github.com/bcomnes/mooon"><img loading="auto" src="static/mooon.png" alt="Screenshot of Mooon.app"></a>
       <figcaption>Creating Electron apps, developer tools and contributing to the Electron prebuild ecosystem to help improve native modules in Electron.</figcaption>

@@ -26,6 +26,6 @@ function generateRelativePathSegment (segment, index, segmentLength) {
   for (let i = 0; i < segmentCount; i++) {
     segments.push(relativePathSegment)
   }
-  segments.push(segment)
+  segments.push(segment.endsWith('.html') ? segment : `${segment}/`)
   return segments.join('')
 }

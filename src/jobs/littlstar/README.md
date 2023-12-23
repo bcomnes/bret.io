@@ -17,7 +17,7 @@ I joined Littlstar during a transitional period of the company and help them tra
   <figcaption>NYCPF used a local process talking over websocket RPC to a webapp running in a local browser.</figcaption>
 </figure>
 
-My first project was picking up on an agency style project developing a novel VR reality training platform for [NYCPF](https://www.nycpolicefoundation.org), powered by a custom [hypercore](https://ghub.io/hypercore) p2p file sharing network, delivering in-house developed unity VR scenarios.
+My first project was picking up on an agency style project developing a novel VR reality training platform for [NYCPF](https://www.nycpolicefoundation.org), powered by a custom [hypercore](https://github.com/holepunchto/hypercore) p2p file sharing network, delivering in-house developed unity VR scenarios.
 These scenarios could then be brought to various locations like schools or events where NYCPF could guide participants through various law enforcement scenarios with different outcomes based on participant choices within the simulation.
 
 By utilizing a p2p and offline first design approach, we were able to deliver an incredibly flexible and robust delivery platform that had all sorts of difficult features to develop for traditional file distribution platforms such as:
@@ -37,7 +37,7 @@ While the project was built on the backs of giants like the [Hypercore protocol]
 - Implement offline mode via Service workers in conjunction with Hypercore.
 - Packaging and delivery tasks.
 - Improved progress UI/UX.
-- Contribute to native packaging tools build with [pkg](https://ghub.io/pkg) and [tiny-module-compiler](https://github.com/little-core-labs/tiny-module-compiler).
+- Contribute to native packaging tools build with [pkg](https://github.com/vercel/pkg) and [tiny-module-compiler](https://github.com/little-core-labs/tiny-module-compiler).
 
 ![Tiny Module Compiler](./tmc.png)
 

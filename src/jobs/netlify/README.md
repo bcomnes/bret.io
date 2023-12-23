@@ -4,7 +4,7 @@ title: "Netlify Portfolio"
 publishDate: "2020-01-16T22:19:35.001Z"
 ---
 
-I was lucky to be able to contribute to many features and experiences that affected [Netlify](http://www.netlify.com)'s massive user base.  Here are some examples of things that I worked on.  If this kind of work looks interesting to you, Netlify is a fantastic team to join: [netlify.com/careers](https://www.netlify.com/careers/).  Questions and comments can be sent via email or [twitter](https://twitter.com/bcomnes/status/1111324728277368832).
+I was lucky to be able to contribute to many features and experiences that affected [Netlify](https://www.netlify.com)'s massive user base.  Here are some examples of things that I worked on.  If this kind of work looks interesting to you, Netlify is a fantastic team to join: [netlify.com/careers](https://www.netlify.com/careers/).  Questions and comments can be sent via email or [twitter](https://twitter.com/bcomnes/status/1111324728277368832).
 
 ## Platform
 
@@ -16,7 +16,7 @@ One of my primary responsibilities upon joining the team is to maintain the Buil
 
 <ul>
   <li class="lang docker"><a href="https://github.com/netlify/build-image">netlify/build-image</a> - Docker file which defines the container builds run in.</li>
-  <li class="lang go"><a href="https://godoc.org/github.com/netlify/open-api/go">netlify/open-api/go</a> - Go open-api client used in the bot.</li>
+  <li class="lang go"><a href="https://pkg.go.dev/github.com/netlify/open-api/go">netlify/open-api/go</a> - Go open-api client used in the bot.</li>
 </ul>
 
 [![screenshot of buildbot logs](./buildbot.png)](./buildbot.png)
@@ -45,8 +45,8 @@ I help maintain and further develop Netlify's Open-API (aka Swagger) API definit
 ### Other platform projects I work on
 
 <ul>
-  <li class="lang go"><a href="http://github.com/netlify/gotrue">netlify/gotrue</a> - Netlify's Identity service</li>
-  <li class="lang go"><a href="http://github.com/netlify/gocommerce">netlify/gocommerce</a> - Netlify's Commerce service</li>
+  <li class="lang go"><a href="https://github.com/netlify/gotrue">netlify/gotrue</a> - Netlify's Identity service</li>
+  <li class="lang go"><a href="https://github.com/netlify/gocommerce">netlify/gocommerce</a> - Netlify's Commerce service</li>
   <li class="lang js"><a href="https://github.com/netlify/zip-it-and-ship-it">netlify/zip-it-and-ship-it</a> - Netlify's Lambda function packaging algorithm</li>
 </ul>
 
@@ -59,7 +59,7 @@ I worked on Neltify's Product team for a bit over a year and completed many succ
 I was primary author on Netlify's current CLI codebase.
 
 <ul>
-  <li class="lang js"><a href="http://github.com/netlify/cli">netlify/cli</a> - Netlify's extensible CLI</li>
+  <li class="lang js"><a href="https://github.com/netlify/cli">netlify/cli</a> - Netlify's extensible CLI</li>
   <li class="lang js"><a href="https://github.com/netlify/js-client">netlify/js-client</a> - The API client used to make all API calls in the CLI</li>
   <li class="lang js"><a href="https://github.com/netlify/cli-utils">netlify/cli-utils</a> - A common utility class for loading and saving configuration from a CLI command</li>
   <li class="lang js"><a href="https://github.com/bcomnes/netlify-lambda-builder">bcomnes/netlify-lambda-builder</a> - I wrote a CLI that packaged Netlify functions in a convenient manner in order to communicate the idea clearly as a possible direction to take.</li>
@@ -72,9 +72,9 @@ I was primary author on Netlify's current CLI codebase.
   <figcaption>Build image selection UI.</figcaption>
 </figure>
 
-[![screenshot of the cli announcement blog post](./cli-blog.png)](https://www.netlify.com/blog/2018/09/10/netlify-cli-2.0-now-in-beta-/)
+[![screenshot of the cli announcement blog post](./cli-blog.png)](https://www.netlify.com/blog/2018/09/10/netlify-cli-2.0-now-in-beta/)
 
-### [JAMStack slides](https://brets-jamstack-pdx-slides.netlify.com/#0)
+### [JAMStack slides](https://brets-jamstack-pdx-slides.netlify.app/#0)
 
 I gave a talk on some ideas and concepts I came across working with Netlify's platform and general JAMStack architecture at a local Portland JAMStack meetup.
 
@@ -82,7 +82,7 @@ I gave a talk on some ideas and concepts I came across working with Netlify's pl
   <li class="lang html"><a href="https://github.com/bcomnes/jamstack-pdx-slides">bcomnes/jamstack-pdx-slides</a></li>
 </ul>
 
-[![jamstack-slides](./jam-slides.png)](https://brets-jamstack-pdx-slides.netlify.com/#0)
+[![jamstack-slides](./jam-slides.png)](https://brets-jamstack-pdx-slides.netlify.app/#0)
 
 ### [Domains](https://www.netlify.com/blog/2018/06/19/buy-and-secure-a-custom-domain-through-netlify/)
 
