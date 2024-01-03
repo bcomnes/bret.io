@@ -244,8 +244,6 @@ advanced topics like PID control theory.
 - [WebRTC Camp](https://twitter.com/WebRTCCamp) <small class="subdue">Speaker (2013)</small>
 - [Indieweb Camp](https://indieweb.org) <small class="subdue">Organizer & Mentor (2012 - 2014)</small>
 
-<!-- [Intro to Choo](https://github.com/bcomnes/choo-6-talk/) <small class="subdue">Speaker (2017)</small> -->
-
 *[HPC]: High Performance Computing
 *[PSU]: Portland State University
 *[ARC]: Academic Research Computing
