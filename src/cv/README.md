@@ -3,9 +3,7 @@ title: 'Bret Comnes Resume & CV'
 ---
 # Bret Comnes
 
-**Not responding to recruiters at the moment, sorry :(**
-
-Professional & amateur computer programmer specializing in software engineering, DevOps and modular open source Javascript and Go, with an interest in product development and team building, P2P and cryptography.
+Professional & amateur computer programmer specializing in software and platform engineering, modular open source Javascript/Typescript and Go, with an interest in product development and team building, P2P and cryptography.
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
 - <span class="subdue">email:</span> [bcomnes at gmail dot com](mailto:bcomnes+website@gmail.com)
@@ -23,7 +21,8 @@ Professional & amateur computer programmer specializing in software engineering,
 </h2>
 
 - Contributing to the [ssc](https://github.com/socketsupply/socket) runtime and p2p protocol enabling true write once, run anywhere apps using JS, CSS and HTML. (JS, C++)
-- Developing Socket Supply's flagship deployment product and testing tool.
+- Developing Socket Supply's deployment product and testing tool.
+- Individual contributor to Relay: a completely peer to peer messaging app.
 
 <h2>
   <a class="job-logo" id="socket-dev" href="#socket-dev">
@@ -33,7 +32,7 @@ Professional & amateur computer programmer specializing in software engineering,
   <small>Software Engineer • 2021 - 2023</small>
 </h2>
 
-- Developed [Socket.dev](https://socket.dev)'s [GitHub App](https://github.com/apps/socket-security), a primary driver of sales and platform adoption.
+- Developed [Socket.dev](https://socket.dev)'s [GitHub App](https://github.com/apps/socket-security), a primary driver of sales and platform adoption and a [$20M Series A raise](https://socket.dev/blog/series-a).
 - Business intelligence, data pipelines and analysis.
 
 <h2>
@@ -44,7 +43,8 @@ Professional & amateur computer programmer specializing in software engineering,
   <small>Software Engineer • 2021</small>
 </h2>
 
-- Working on Rainbow, the #1 Etherium wallet of all time. (React Native)
+- React Native app development [#1 etherium wallet](https://github.com/rainbow-me/rainbow) of all time.
+- Develop [RainbowKit](https://www.rainbowkit.com).
 
 <h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
@@ -169,22 +169,16 @@ Professional & amateur computer programmer specializing in software engineering,
 
 - Web applications and systems programming with Python and Django.
 - Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics
-- Responsible for building, automating and monitoring PSU’s research servers and HPC Linux Clusters.
+- Responsible for building, automating and monitoring PSU’s research servers and HPC Linux Clusters and colocation.
 - Initiated efforts to automate cluster deployment and management using Ansible.
 - Trained and introduced new users to ARC's resources and shared unix computing environments.
 
 <h3>
-  <a class="job-logo" href="http://www.pdx.edu/nano-development-lab">Sánchez Nano Development Lab</a>
-  <small>Research Assistant • 2013 - 2015</small>
+  <a href="http://www.pdx.edu/physics/">PSU Physics Department</a>
+  <small>Lab Instructor & TA+RA • 2012 - 2014</small>
 </h3>
 
 - Wrote custom control software and a web application that enabled remote viewing and operation of a Scanning Electron Microscope over the Internet using React, Web Sockets and WebRTC.
-
-<h3>
-  <a href="http://www.pdx.edu/physics/">PSU Physics Department</a>
-  <small>Lab Instructor & TA • 2012 - 2014</small>
-</h3>
-
 - Instructed PSU’s General Physics Labs and assisted in the upper division Experimental Physics Labs.
 - Developed two novel labs on the use of micro-controllers and FPGAs covering basic concepts to
 advanced topics like PID control theory.
