@@ -22,7 +22,7 @@ If you think any of my qualities line up with your hiring needs, [please let me 
   </a>
 </figure>
 
-Birds eye view: I have a variety of experiences building software/SAAS infrastructure from the ground up and contributing to large existing codebase and orgs. I generate between 1500 and 3000+ contributions a year, some of which are captured for public scrutiny.
+Birds eye view: I have a variety of experience building software/SAAS infrastructure from the ground up and contributing to large existing codebase and orgs. I generate between 1500 and 3000+ contributions a year, some of which are captured for public scrutiny.
 
 I work primarily in [Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript), and now [Typescript](https://www.typescriptlang.org) for frontend and backend, but I also really love working in [Go](https://go.dev).
 
@@ -37,7 +37,7 @@ I work primarily in [Javascript](https://developer.mozilla.org/en-US/docs/Web/ja
   </figure>
 </figure>
 
-In addition to my professional work, I work on a variety of open source tools and products while my kids are napping on the weekend. My latest project is 🥖 [breadcrum.net]() which lets you extract articles and media from around the web so that you can read/listen/watch them in your preferred podcast app and reader device. It's free right now too! You should check it out.
+In addition to my professional work, I work on open source tools and products while my kids are napping on the weekend. My latest project is 🥖 [breadcrum.net](https://breadcrum.net) which lets you extract articles and media from around the web so that you can read/listen/watch them in your preferred podcast app and reader device. It's free right now too! You should check it out.
 
 <figure>
   <a href="/">
