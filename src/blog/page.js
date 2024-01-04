@@ -33,7 +33,7 @@ export default async function blogIndex2023 ({
     .filter(page => page.vars.layout === 'article')
     // @ts-ignore
     .sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
-    .slice(0, 50)
+    .slice(0, 100)
 
   const folderPages = pages.filter(folderPage => {
     const dir = dirname(folderPage.pageInfo.path)
