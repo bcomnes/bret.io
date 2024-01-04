@@ -11,7 +11,7 @@ My contract at Socket Supply Co is wrapping up after a productive 6 months of co
 Please check out [my resume](/cv/) to see what I've been up to and enjoy some highlights below.
 If you think any of my qualities line up with your hiring needs, [please let me know](mailto:bcomnes+ofw@fastmail.com)!
 
-(Spare a click? Please boost! [x.com](https://twitter.com/bcomnes/status/1743027108044300528), [bsky](https://bsky.app/profile/bret.io/post/3ki6rjh3mns2m)<!--, [mastodon](), , [linkedin]() -->)
+(Spare a click? Please boost! [x.com](https://twitter.com/bcomnes/status/1743027108044300528), [bsky](https://bsky.app/profile/bret.io/post/3ki6rjh3mns2m), [mastodon](https://fosstodon.org/@bcomnes/111699965788623357)<!--, , [linkedin]() -->
 
 <figure>
   <a href="/cv/">
