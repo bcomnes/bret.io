@@ -22,17 +22,6 @@ If you think any of my qualities line up with your hiring needs, [please let me 
   </a>
 </figure>
 
-In addition to my professional work, I work on a variety of open source tools and products while my kids are napping on the weekend. My latest project is 🥖 [breadcrum.net]() which lets you extract articles and media from around the web so that you can read/listen/watch them in your preferred podcast app and reader device. It's free right now too! You should check it out.
-
-<figure>
-  <a href="/">
-    <picture>
-      <source srcset="./img/personal-dark.png" media="(prefers-color-scheme: dark)">
-      <img loading="auto" src="./img/personal.png" alt="Image of personal projects">
-    </picture>
-  </a>
-</figure>
-
 Birds eye view: I have a variety of experiences building software/SAAS infrastructure from the ground up and contributing to large existing codebase and orgs. I generate between 1500 and 3000+ contributions a year, some of which are captured for public scrutiny.
 
 I work primarily in [Javascript](https://developer.mozilla.org/en-US/docs/Web/javascript), and now [Typescript](https://www.typescriptlang.org) for frontend and backend, but I also really love working in [Go](https://go.dev).
@@ -46,6 +35,17 @@ I work primarily in [Javascript](https://developer.mozilla.org/en-US/docs/Web/ja
   </a>
   <figcaption>A diagram of my publicly visible GitHub contributions for all time.</figcaption>
   </figure>
+</figure>
+
+In addition to my professional work, I work on a variety of open source tools and products while my kids are napping on the weekend. My latest project is 🥖 [breadcrum.net]() which lets you extract articles and media from around the web so that you can read/listen/watch them in your preferred podcast app and reader device. It's free right now too! You should check it out.
+
+<figure>
+  <a href="/">
+    <picture>
+      <source srcset="./img/personal-dark.png" media="(prefers-color-scheme: dark)">
+      <img loading="auto" src="./img/personal.png" alt="Image of personal projects">
+    </picture>
+  </a>
 </figure>
 
 I enjoy working within the GitHub open source model, and have publisher status on over [300 npm packages](https://www.npmjs.com/~bret), some of which I even originated. There is a decent chance I could push code changes into your web projects!
