@@ -88,6 +88,10 @@ footer > .top-bar-link:first-child {
   }
 }
 
+.hide {
+  display: none;
+}
+
 @media print {
   nav.top-bar, footer.top-bar {
     position: inherit;
