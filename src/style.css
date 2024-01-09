@@ -39,12 +39,15 @@
   grid-column-gap: 1em;
 }
 
+.grid-center-start {
+  grid-column-start: 2;
+}
+
 .grid-container-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1em;
 }
-
 
 .markdown-body {
   max-width: 68em;
@@ -67,7 +70,8 @@
 
 @media screen and (max-width: 45em) {
   .grid-container,
-  .grid-container-2 {
+  .grid-container-2,
+  .grid-container-1 {
     grid-template-columns: 1fr;
   }
 }
