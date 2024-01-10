@@ -17,7 +17,7 @@ Professional & amateur computer programmer specializing in software and platform
     <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="28" width="100" src="img/socket-supply.svg">
   </a>
   <a href="https://socketsupply.co">Socket Supply Co.</a>
-  <small>Consultant • 2023 - Present</small>
+  <small>Software Engineer • 2023 - 2024</small>
 </h2>
 
 - Contributing to the [ssc](https://github.com/socketsupply/socket) runtime and p2p protocol enabling true write once, run anywhere apps using JS, CSS and HTML. (JS, C++)
