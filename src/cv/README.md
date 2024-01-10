@@ -3,7 +3,7 @@ title: 'Bret Comnes Resume & CV'
 ---
 # Bret Comnes
 
-Professional & amateur computer programmer specializing in software and platform engineering, modular open source Javascript/Typescript and Go, with an interest in product development, engineering team building, P2P and cryptography.
+Professional software developer specializing in distributed systems and platform engineering, modular open source Javascript/Typescript and Go, with an interest in product development, engineering team building, P2P and cryptography.
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
 - <span class="subdue">email:</span> [bcomnes at gmail dot com](mailto:bcomnes+website@gmail.com)
