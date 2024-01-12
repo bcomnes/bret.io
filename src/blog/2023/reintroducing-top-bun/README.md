@@ -303,7 +303,7 @@ My overall conclusions are:
 - The final api documentation features are nice.
 - The internal types feel good, but were mostly a waste of time being introduced after the fact.
 - I wish there was a way to strictly introduce types on just the public interfaces and work back, but this is challenging because many details come from deep within the program.
-- Typescript puts upper limits on the dynamism normal allowed with JS. It's a superset syntax, that forces a subset of language functionality.
+- Typescript puts upper limits on the dynamism normally allowed with JS. It's a superset syntax, that forces a subset of language functionality.
 - `@ts-ignore` liberally. Take a pass or two to remove some later.
 
 ### Handlebars support in `md` and `html`
