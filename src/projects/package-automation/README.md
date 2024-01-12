@@ -222,7 +222,7 @@ For more information on Action syntax and directives, see:
 
 ### Automated Checks
 
-Once you have a test suite set up, running in CI, any pull request to you package features the results of the "Checks API".
+Once you have a test suite set up, running in CI, any pull request to your package features the results of the "Checks API".
 Various tests and integrations will post their results on every change to the pull request in the form of "running", "pass" or "fail".
 
 The benefit to the checks status in the pull request UI is, depending on the quality and robustness of your test suite, you can have some amount of confidence that you can safely merge the proposed changes, while still having things work the way you expect, including the newly proposed changes.
