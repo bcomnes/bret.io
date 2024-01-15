@@ -15,7 +15,9 @@
     "watch": "npm run clean && run-p watch:*",
     "watch:tb": "npm run build:tb -- --watch",
     "clean": "rm -rf public && mkdir -p public",
-    "start": "npm run watch"
+    "start": "npm run watch",
+    "deploy": "run-s build deploy:*",
+    "deploy:async-neocities": "async-neocities --src public --cleanup"
   },
   "repository": {
     "type": "git",
@@ -36,6 +38,7 @@
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
     "@voxpelli/tsconfig": "^9.0.0",
+    "async-neocities": "^3.0.1",
     "classnames": "^2.3.2",
     "fragmentions": "^1.1.3",
     "gravatar-favicons": "^3.0.0",
