@@ -34,21 +34,8 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{env.node-version}}
-    - name: npm install and build
-      run: |
-        npm i
-        npm run build
+    - run: npm i
+    - run: npm run build
+    - run: npm run deploy
       env:
-        CI: true
-    - name: Create deployment
-      uses: bobheadxi/deployments@v1
-      id: deployment
-      with:
-        step: start
-        token: ${{ secrets.GITHUB_TOKEN }}
-        env: neocities
-    - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@v1
-      with:
-        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-        cleanup: true
+        NEOCITIES_API_TOKEN: ${{ secrets.NEOCITIES_API_TOKEN }}
