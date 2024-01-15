@@ -35,7 +35,6 @@ jobs:
       with:
         node-version: ${{env.node-version}}
     - run: npm i
-    - run: npm run build
     - run: npm run deploy
       env:
         NEOCITIES_API_TOKEN: ${{ secrets.NEOCITIES_API_TOKEN }}
