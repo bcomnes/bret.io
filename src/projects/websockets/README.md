@@ -49,7 +49,7 @@ It's not much but it acts as a handy reference on how to implement a naive chat 
 
 ## [`websocket-chat-client`](https://github.com/bcomnes/websocket-chat-client)
 
-[![](./websocket-chat-client.png)](https://websocket-chat-client.netlify.com)
+[![Screenshot of websocket client UI](./websocket-chat-client.jpg)](https://websocket-chat-client.netlify.com)
 
 - 🌎[Live Demo](https://websocket-chat-client.netlify.com)
 - 🛠[Code](https://github.com/bcomnes/websocket-chat-client)
