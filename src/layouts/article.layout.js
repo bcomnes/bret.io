@@ -11,6 +11,7 @@ export default function articleLayout (args) {
   const wrappedChildren = html`
     ${breadcrumb({ pathSegments })}
     <article class="article-layout h-entry" itemscope itemtype="${vars.articleType ?? 'http://schema.org/BlogPosting'}">
+      ${vars.published === false ? html`<div><br><strong>DRAFT POST</strong><br></div>` : null}
       <header class="article-header">
         <h1 class="p-name article-title" itemprop="headline">${vars.title}</h1>
         <div class="metadata">

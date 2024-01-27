@@ -23,7 +23,7 @@ export default function blogAutoIndexLayout (args) {
   const folderPages = args.pages.filter(folderPage => {
     const dir = dirname(folderPage.pageInfo.path)
     const path = args.page.path
-    return dir === path
+    return dir === path && folderPage.vars.published !== false
   }).sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
 
   const wrappedChildren = html`
