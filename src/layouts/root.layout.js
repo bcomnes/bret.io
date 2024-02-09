@@ -1,4 +1,5 @@
 import { html } from 'uhtml-isomorphic'
+import cn from 'classnames'
 
 /**
  * @template T
@@ -10,6 +11,7 @@ import { html } from 'uhtml-isomorphic'
  *  title: string,
  *  siteName: string,
  *  githubRootUrl: string,
+ *  serif: boolean,
  *  [key: string]: any
  * }} RootLayoutVars
  */
@@ -19,7 +21,8 @@ export default async function rootLayout ({
   vars: {
     title,
     siteName,
-    githubRootUrl
+    githubRootUrl,
+    serif
   },
   scripts,
   styles,
@@ -95,7 +98,7 @@ export default async function rootLayout ({
         </span>
       </span>
     </nav>
-    <main class="markdown-body mine-layout">
+    <main class="${cn(['markdown-body', 'mine-layout', { serif }])}" >
       ${typeof children === 'string' ? html([children]) : children /* Support both uhtml and string children. Optional. */}
     </main>
     <footer class="top-bar hide-print">
