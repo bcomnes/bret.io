@@ -1,12 +1,13 @@
 ---
 title: 'Bret Comnes Resume & CV'
+serif: true
 ---
 # Bret Comnes
 
-Professional software developer specializing in distributed systems and platform engineering, modular open source Javascript/Typescript and Go, with an interest in product development, engineering team building, P2P and cryptography.
+Professional Software Engineer experienced in Full-Stack Product Development, Infra/Ops/Platform Engineering and Cloud Archetecture. Specialized in Open Source Tooling in Javascript/Typescript and Go.
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
-- <span class="subdue">email:</span> [bcomnes at gmail dot com](mailto:bcomnes+website@gmail.com)
+- <span class="subdue">email:</span> [bcomnes@gmail.com](mailto:bcomnes+website@gmail.com)
 - <span class="subdue">location:</span> 🌎 US Remote (Arcata CA)
 - <span class="subdue">github:</span> [github.com/bcomnes](https://github.com/bcomnes)
 - <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
@@ -20,9 +21,7 @@ Professional software developer specializing in distributed systems and platform
   <small>Software Engineer • 2023 - 2024</small>
 </h2>
 
-- Contributing to the [ssc](https://github.com/socketsupply/socket) runtime and p2p protocol enabling true write once, run anywhere apps using JS, CSS and HTML. (JS, C++)
-- Developing Socket Supply's deployment product and testing tool.
-- Individual contributor to Relay: a completely peer to peer messaging app.
+- IC to the [ssc](https://github.com/socketsupply/socket) runtime, a webview-based application platform targeting macOS, Windows, Linux, iOS, Android and Xbox. (C++, TypeScript, Objective-C)
 
 <h2>
   <a class="job-logo" id="socket-dev" href="#socket-dev">
@@ -32,19 +31,9 @@ Professional software developer specializing in distributed systems and platform
   <small>Software Engineer • 2021 - 2023</small>
 </h2>
 
-- Developed [Socket.dev](https://socket.dev)'s [GitHub App](https://github.com/apps/socket-security), a primary driver of sales and platform adoption and a [$20M Series A raise](https://socket.dev/blog/series-a).
-- Business intelligence, data pipelines and analysis.
-
-<h2>
-  <a class="job-logo" id="rainbow" href="#rainbow">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/rainbow.png">
-  </a>
-  <a href="https://rainbow.me">Rainbow</a>
-  <small>Software Engineer • 2021</small>
-</h2>
-
-- React Native app development [#1 etherium wallet](https://github.com/rainbow-me/rainbow) of all time.
-- Develop [RainbowKit](https://www.rainbowkit.com).
+- Developed [Socket.dev](https://socket.dev)'s security scanner [GitHub App](https://github.com/apps/socket-security), a primary driver of platform adoption and a contrubuting factor in a [$20M Series A raise](https://socket.dev/blog/series-a). (Typescript, React, Next.js)
+- Introduced service observability practices. (Grafana, Prometheus, Datadog, Pino)
+- Rapid gathering if business intelligence, developed data pipelines and analysis. (PostgreSQL, Retool)
 
 <h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
@@ -62,19 +51,19 @@ Professional software developer specializing in distributed systems and platform
   <small>Principal Engineer • 2021</small>
 </h3>
 
-- Design and implment NFT minting and auction platform in \~10 weeks.
+- Design and implment NFT minting and auction platform in \~10 weeks. (Next.js/GraphQL)
 - See [Littlstar portfilio](https://bret.io/jobs/littlstar/) for more info.
 
 <h3>
   <small>Senior Software Engineer • 2019 - 2021</small>
 </h3>
 
-- Developing next gen IAC and delivery pipelines with Terraform and Github Actions deployed to AWS.
+- Developed full IAC provisioning and depoyment pipelines with Terraform and Github Actions targeting AWS.
 - Develop [Little Core Labs](https://github.com/little-core-labs) peer to peer content delivery system.
 - Implement a rebrand of Littlstar to [Rad.live](https://rad.live).
 - Design and reboot product website using [next.js](https://nextjs.org) and [swr](https://swr.vercel.app).
 - Designed and implemented an organizational microservice pattern.
-- Develop centralized JWT authorization strategy for all services.
+- Develop organizational JWT authorization microservice strategy.
 
 <h2>
   <a class="job-logo" id="hyperdivision" href="#hyperdivision">
@@ -84,11 +73,8 @@ Professional software developer specializing in distributed systems and platform
   <small>Software Engineer • 2019 🇩🇰</small>
 </h2>
 
-- Leading development on Heimdall, a cryptographically secure, p2p ledger and proposal system used to securely manage cryptographic assets used for cryptocurrency exchange asset management and other financial technologies.
-- Electron application development using a [custom frontend framework](https://github.com/hyperdivision/hui).
-- [VHS-Tape](https://github.com/hyperdivision/vhs-tape): frontend component unit testing with async/await.
-- Cryptographic focused native Node.js module development ([prebuildify](https://github.com/prebuild/prebuildify), [libsodium](https://github.com/sodium-friends/sodium-native)).
-- Webassembly module development ([wat2js](https://github.com/mafintosh/wat2js))
+- Leading developer on Heimdall, a cryptographically secure, p2p ledger and proposal system used to securely manage cryptographic assets used for cryptocurrency exchange asset management and other financial technologies. (Electron, Node.js, JavaScript)
+- Develop security-critical native and webassembly Node.js cryptography bindings. ([prebuildify](https://github.com/prebuild/prebuildify), [libsodium](https://github.com/sodium-friends/sodium-native), [wat2js](https://github.com/mafintosh/wat2js))
 
 <h2>
   <a class="job-logo" class="job-logo" id="netlify-platform" href="#netlify-platform">
@@ -124,13 +110,13 @@ Professional software developer specializing in distributed systems and platform
     <img style="display: inline-block; vertical-align: middle" height="25" width="32" src="img/zhealth.svg">
   </a>
   <a href="http://www.zhealthconsulting.com">ZHealth</a>
-  <small>Electron Developer • 2016 - 2017</small>
+  <small>Software Engineer • 2016 - 2017</small>
 </h2>
 
-- Developing next generation structured documentation [EtchCV](https://zhealthdocumentation.com/etch-suite/) suite for Cardiac Surgeons and Hospitals.
+- Developed structured documentation [EtchCV](https://zhealthdocumentation.com/etch-suite/) suite for Cardiac Surgeons and Hospitals.
 - API and microservice design + implementation.
 - Cross Platform Desktop software using Electron, HTML, CSS and SVG powered by React + Redux.
-- Modular development using github, npm and continuous delivery using TravisCI, Appveyor and S3/AWS.
+- Implemented continuous Electron App delivery using TravisCI, Appveyor and S3/AWS.
 
 <h2>
   <a class="job-logo" id="jlr" href="#jlr">
@@ -143,17 +129,6 @@ Professional software developer specializing in distributed systems and platform
 - Mobile app, infotainment and OS development using JS + Node.js, HTML and CSS.
 - Targed in-vehicle embeded systems fully utlizing the onboard can bus.
 - Architected a single sign-on service and documentation server for internal documents and project planning using Express.js.
-
-<h2>
-  <a class="job-logo" id="airship" href="#airship">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/airship.svg">
-  </a>
-  <a href="https://www.airship.com">Airship</a>
-  <small>Technical Support Engineer • 2015</small>
-</h2>
-
-- Support developers implementing with Urban Airships SDK.
-- Developed a specialized customer analytic and messaging system.
 
 <h2>
   <a class="job-logo" id="psu" href="#psu">
@@ -217,7 +192,7 @@ advanced topics like PID control theory.
 ## Education
 
 - [Humboldt State University](http://www2.humboldt.edu/physics/) <small class="subdue">B.S. Physics 2011 </small>
-- [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (Completed coursework, no diploma)</small>
+- [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (Completed coursework, No diploma)</small>
 
 ## Media
 
@@ -247,3 +222,4 @@ advanced topics like PID control theory.
 *[PSU]: Portland State University
 *[ARC]: Academic Research Computing
 *[IAC]: Infrastructure as code
+*[IC]: Individual Contributor

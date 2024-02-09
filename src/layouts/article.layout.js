@@ -11,7 +11,7 @@ export default function articleLayout (args) {
   const pathSegments = args.page.path.split(sep)
   const wrappedChildren = html`
     ${breadcrumb({ pathSegments })}
-    <article class="${cn(['article-layout', 'h-entry', { 'article-serif': vars.serif }])}" itemscope itemtype="http://schema.org/NewsArticle">
+    <article class="${cn(['article-layout', 'h-entry'])}" itemscope itemtype="http://schema.org/NewsArticle">
       <header class="article-header">
         <h1 class="p-name article-title" itemprop="headline">${vars.title}</h1>
         <div class="metadata">
