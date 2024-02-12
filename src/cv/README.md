@@ -17,7 +17,7 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
   <a class="job-logo" id="socket-supply" href="#socket-supply">
     <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="28" width="100" src="img/socket-supply.svg">
   </a>
-  <a href="https://socketsupply.co">Socket Supply Co.</a>
+  <a href="https://socketsupply.co">Socket Supply</a>
   <small>Software Engineer • 2023 - 2024</small>
 </h2>
 
