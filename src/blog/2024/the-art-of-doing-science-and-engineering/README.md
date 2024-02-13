@@ -36,7 +36,7 @@ Having a DOA physics degree myself, and also finding myself periodically ruminat
 The book is filled with nuggets of wisdom and illustrates a career of move-the-needle science and engineering at Bell Labs.
 I didn't personally find much value in many of the algebraic walk-through's of various topics like information theory, but learning about how Hamming discovered error correcting codes definitely was interesting and worth a read.
 
-The highlight of book comes in the second half where he includes interesting stories, observations and other nuggets of wisdom on nearly every page. Below are my highlights I pulled while reading.
+The highlight of book comes in the second half where he includes interesting stories, analogies and observations on nearly every page. Below are my highlights I pulled while reading.
 
 ## On What Makes Good Design
 
@@ -181,7 +181,7 @@ Understand when you are generalist and a specialist.
 >
 > -- p.336
 
-Anyone wading into a technical will encounter experts at every turn.
+Anyone wading into a technical field will encounter experts at every turn.
 They have valuable information, but they are also going to give you dated, myopic advice (gatekeeping?).
 I like Hamming's framing here and it reflects my experience when weighing expert opinion.
 
