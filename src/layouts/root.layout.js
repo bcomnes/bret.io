@@ -20,6 +20,8 @@ import cn from 'classnames'
 export default async function rootLayout ({
   vars: {
     title,
+    description,
+    image,
     siteName,
     githubRootUrl,
     serif
@@ -59,6 +61,19 @@ export default async function rootLayout ({
     <meta name="apple-mobile-web-app-title" content="${siteName}">
     <meta itemprop="publisher" content="${siteName}">
     <meta property="og:site_name" content="${siteName}">
+
+    <meta name="twitter:image:src" content="${image ?? '/globals/static/preview.png'}">
+    <meta name="twitter:site" content="@bcomnes">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${title ?? 'bret.io'}">
+    <meta name="twitter:description" content="${description ?? 'Bret\'s personal website'}">
+    <meta property="og:image" content="${image ?? '/globals/static/preview.png'}">
+    <meta property="og:image:alt" content="${description ?? 'Bret\'s personal website'}">
+    <meta property="og:site_name" content="bret.io">
+    <meta property="og:type" content="object">
+    <meta property="og:title" content="${title ?? 'bret.io'}">
+    <meta property="og:url" content="https://bret.io/TODO">
+    <meta property="og:description" content="${description ?? 'Bret\'s personal website'}">
 
     <link rel="alternate" title="${siteName} Blog (JSON Feed)" type="application/json" href="/feed.json" />
     <link rel="alternate" title="${siteName} Blog (JSON Feed)" type="application/feed+json" href="/feed.json" />

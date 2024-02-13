@@ -1,0 +1,6 @@
+@import './article.layout.css';
+
+.star-review {
+  margin-left:10px;
+  display:inline-block;
+}
