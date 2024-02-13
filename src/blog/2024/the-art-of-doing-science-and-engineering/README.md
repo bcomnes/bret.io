@@ -5,6 +5,8 @@ subtitle: "Learning To Learn: A few quotes and thoughts"
 publishDate: "2024-02-13T18:24:49.707Z"
 readDate: "2023-12-02T20:49:41.713Z"
 serif: true
+description: "A bunch of choice quotes from Richard W. Hamming's book"
+image: ./img/og.jpeg
 
 book:
   title: "The art of doing science and engineering : Learning to Learn"

@@ -5,7 +5,7 @@
 
 /** @type {TemplateFunction<{
  *  siteName: string,
- *  siteDescription: string,
+ *  description: string,
  *  siteUrl: string,
  *  authorName: string,
  *  authorUrl: string,
