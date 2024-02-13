@@ -1,6 +1,5 @@
 import { html } from 'uhtml-isomorphic'
 import { sep } from 'node:path'
-import cn from 'classnames'
 import { breadcrumb } from '../components/breadcrumb/index.js'
 
 import defaultRootLayout from './root.layout.js'
@@ -11,7 +10,7 @@ export default function articleLayout (args) {
   const pathSegments = args.page.path.split(sep)
   const wrappedChildren = html`
     ${breadcrumb({ pathSegments })}
-    <article class="${cn(['article-layout', 'h-entry'])}" itemscope itemtype="http://schema.org/NewsArticle">
+    <article class="article-layout h-entry" itemscope itemtype="${vars.articleType ?? 'http://schema.org/BlogPosting'}">
       <header class="article-header">
         <h1 class="p-name article-title" itemprop="headline">${vars.title}</h1>
         <div class="metadata">
@@ -44,7 +43,7 @@ export default function articleLayout (args) {
         </div>
       </header>
 
-      <section class="e-content" itemprop="articleBody">
+      <section class="e-content" itemprop="${vars.bodyType ?? 'articleBody'}">
         ${typeof children === 'string'
           ? html([children])
           : children /* Support both uhtml and string children. Optional. */

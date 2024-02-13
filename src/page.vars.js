@@ -8,7 +8,7 @@ export async function postVars ({
   pages
 }) {
   const blogPosts = pages
-    .filter(page => page.vars.layout === 'article')
+    .filter(page => ['article', 'book-review'].includes(page.vars.layout))
     .sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
     .slice(0, 5)
 
