@@ -2,7 +2,9 @@ export default async function globalVars () {
   return {
     siteName: 'bret.io',
     siteUrl: 'https://bret.io',
-    siteDescription: 'A running log of announcements, projects and accomplishments.',
+    description: 'A running log of announcements, projects and accomplishments.',
+    image: '/globals/static/preview.png',
+    siteTwitter: '@bcomnes',
     authorName: 'Bret Comnes',
     authorUrl: 'https://bret.io',
     authorImgUrl: '/favicons/apple-touch-icon-1024x1024.png',

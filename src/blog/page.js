@@ -15,7 +15,7 @@ export const vars = {
 /**
  * @type {PageFunction<{
  *  siteName: string,
- *  siteDescription: string,
+ *  description: string,
  *  siteUrl: string,
  *  authorName: string,
  *  authorUrl: string,

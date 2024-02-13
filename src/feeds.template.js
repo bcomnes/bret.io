@@ -8,7 +8,7 @@ import jsonfeedToAtom from 'jsonfeed-to-atom'
 
 /** @type {TemplateAsyncIterator<{
  *  siteName: string,
- *  siteDescription: string,
+ *  description: string,
  *  siteUrl: string,
  *  authorName: string,
  *  authorUrl: string,
@@ -20,7 +20,7 @@ import jsonfeedToAtom from 'jsonfeed-to-atom'
 export default async function * feedsTemplate ({
   vars: {
     siteName,
-    siteDescription,
+    description,
     siteUrl,
     authorName,
     authorUrl,
@@ -38,7 +38,7 @@ export default async function * feedsTemplate ({
     title: siteName,
     home_page_url: siteUrl,
     feed_url: `${siteUrl}/feed.json`,
-    description: siteDescription,
+    description,
     author: {
       name: authorName,
       url: authorUrl,
