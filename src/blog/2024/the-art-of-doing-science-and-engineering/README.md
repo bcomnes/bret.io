@@ -33,7 +33,7 @@ review:
 Richard Hamming's "The Art of Doing Science and Engineering" is a book capturing the lessons he taught in a course he gave at the U.S. Navy Postgraduate School in Monterey, CA.
 He characterizes what he was trying to teach was "style" of thinking in science and engineering.
 
-Having a DOA physics degree myself, and also finding myself periodically ruminating on the agony of professional software development and hoping to find some overlap between my professional field and Hamming's life experience, I gave the book a read.
+Having a physics degree myself, and also finding myself periodically ruminating on the agony of professional software development and hoping to find some overlap between my professional field and Hamming's life experience, I gave the book a read.
 
 The book is filled with nuggets of wisdom and illustrates a career of move-the-needle science and engineering at Bell Labs.
 I didn't personally find much value in many of the algebraic walk-through's of various topics like information theory, but learning about how Hamming discovered error correcting codes definitely was interesting and worth a read.

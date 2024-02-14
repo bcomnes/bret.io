@@ -9,7 +9,13 @@
     flex-wrap: nowrap; /* Prevents wrapping items to next line */
   }
 
-  & .item {}
+  & .item {
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-overflow: ellipsis;
+  }
 
   & .item + .item::before {
     content: "/"; /* Adds a slash before each item except the first */
@@ -19,5 +25,6 @@
 
   & .item.active {
     font-weight: bold; /* Highlights the active/current page */
+    flex-shrink: 1;
   }
 }
