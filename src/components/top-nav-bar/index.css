@@ -1,0 +1,173 @@
+.top-bar {
+  padding:0 1rem;
+  margin:0 0 2rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.top-bar::-webkit-scrollbar {
+  display: none;
+}
+
+nav.top-bar {
+  position: sticky;
+  top: 0px;
+}
+
+footer.top-bar {
+  position: sticky;
+  bottom: 0px;
+}
+
+footer > .top-bar-link:first-child {
+  margin-left: unset;
+}
+
+footer > .top-bar-link:first-child {
+  margin-left: unset;
+}
+
+.top-bar-link,
+.top-bar-title {
+    color:#aaa;
+    cursor:pointer;
+    float:left;
+    font-size:1rem;
+    text-decoration:none;
+    padding:1rem 0;
+}
+
+.top-bar-link.current-page,
+.top-bar-link.current-page:hover,
+.top-bar-title.current-page,
+.top-bar-title.current-page:hover {
+    cursor:default;
+}
+
+.top-bar-link{
+    font-weight:200;
+    margin-left:1rem;
+}
+
+.top-bar-link.current-page,
+.top-bar-link.current-page:hover,
+.top-bar-link:hover {
+    color:#555;
+}
+
+.top-bar-title{
+    color:#555;
+    font-weight:600;
+}
+
+.top-bar-right{
+    float:right;
+}
+
+.top-bar-link {
+  color: var(--accent-foreground);
+  font-weight: unset;
+}
+
+.top-bar-right,
+.top-bar-left {
+  flex-shrink: 0;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 106em) {
+  .top-bar {
+    backdrop-filter: contrast(100%) blur(10px);
+    z-index: 1; /* float over interactive content below */
+    background-color: hsla(360, 100%, 100%, 0.75);
+    transition: box-shadow 0.1s ease-in-out;
+
+    &:hover {
+      box-shadow: 0px 2px 10px 0px rgba(0,0,0, 0.2);
+      transition: box-shadow 0.1s ease-in-out;
+    }
+  }
+
+  .dark-mode:not(.light-mode) {
+    & .top-bar {
+      background-color: hsla(213, 22%, 10%, 0.75);
+    }
+  }
+}
+
+.dark-mode:not(.light-mode) {
+  & .dark-icon {
+    filter: invert(95%);
+  }
+
+  & .top-bar-title {
+    color: #C7F026;
+  }
+}
+
+@media print {
+  .top-bar {
+    position: inherit;
+    top: inherit;
+    bottom: inherit;
+  }
+}
+
+.rounded-icon {
+  border-radius: 3px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-click {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(540deg);
+  }
+}
+
+@keyframes spin-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.light-dark-button {
+  animation-name: spin-reverse;
+  animation-duration: 0.2s;
+  touch-action: manipulation;
+}
+
+.light-dark-button:hover {
+  animation-name: spin;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.light-dark-button:active {
+  animation-name: spin-click;
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+}
+
