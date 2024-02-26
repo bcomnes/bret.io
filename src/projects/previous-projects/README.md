@@ -4,9 +4,26 @@ title: "Previously Featured Projects"
 publishDate: "2023-12-02T18:07:13.956Z"
 ---
 
-I felt bad deleting old projects off my landing page, so made a page to stash them so I can reference them later. So, if you happen to be here, enjoy my ancient, old projects that I no longer intend to bug people with.
+I felt bad deleting old projects off my landing page, so made a page to stash them so I can reference them later. So, if you happen to be here, enjoy some pointers to old projects.
 
 <section class="portfolio grid-container">
+  <div>
+    <h3 id="ssc"><a href="https://socketsupply.co">Socket Supply Co.</a></h3>
+    <figure>
+      <a href="https://socketsupply.co">
+        <picture>
+          <source srcset="./static/ssc-dark.png" media="(prefers-color-scheme: dark)">
+          <img loading="auto" src="./static/ssc-light.png" alt="Screenshot of the Socket Supply Co. Website">
+        </picture>
+      </a>
+      <figcaption><a href="https://socketsupply.co">Socket Supply Co.</a>: Build native apps for desktop and mobile with HTML, CSS & JS.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang html"><a href="https://socketsupply.co">socketsupply.co</a></li>
+      <li class="lang cpp"><a href="https://github.com/socketsupply/socket">socketsupply/socket</a></li>
+    </ul>
+  </div>
+
   <div>
     <h2><a href="/projects/websockets/">Websockets</a></h2>
     <figure>
