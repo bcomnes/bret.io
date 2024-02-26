@@ -14,6 +14,18 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 - <span class="subdue">linkedin:</span> [linkedin.com/in/bcomnes](https://www.linkedin.com/in/bcomnes/)
 
 <h2>
+  <a class="job-logo" id="socket-dev" href="#socket-dev">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/socket-dev.png">
+  </a>
+  <a href="https://socket.dev">Socket Inc</a>
+  <small>Senior Software Engineer • 2021 - 2024</small>
+</h2>
+
+- Developed [Socket.dev](https://socket.dev)'s security scanner [GitHub App](https://github.com/apps/socket-security), a primary driver of platform adoption and a contrubuting factor in a [$20M Series A raise](https://socket.dev/blog/series-a). (Typescript, React, Next.js)
+- Introduced service observability practices. (Grafana, Prometheus, Datadog, Pino)
+- Rapid gathering if business intelligence, developed data pipelines and analysis. (PostgreSQL, Retool)
+
+<h2>
   <a class="job-logo" id="socket-supply" href="#socket-supply">
     <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="28" width="100" src="img/socket-supply.svg">
   </a>
@@ -22,18 +34,6 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 </h2>
 
 - IC to the [ssc](https://github.com/socketsupply/socket) runtime, a webview-based application platform targeting macOS, Windows, Linux, iOS, Android and Xbox. (C++, TypeScript, Objective-C)
-
-<h2>
-  <a class="job-logo" id="socket-dev" href="#socket-dev">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/socket-dev.png">
-  </a>
-  <a href="https://socket.dev">Socket Inc</a>
-  <small>Software Engineer • 2021 - 2023</small>
-</h2>
-
-- Developed [Socket.dev](https://socket.dev)'s security scanner [GitHub App](https://github.com/apps/socket-security), a primary driver of platform adoption and a contrubuting factor in a [$20M Series A raise](https://socket.dev/blog/series-a). (Typescript, React, Next.js)
-- Introduced service observability practices. (Grafana, Prometheus, Datadog, Pino)
-- Rapid gathering if business intelligence, developed data pipelines and analysis. (PostgreSQL, Retool)
 
 <h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
