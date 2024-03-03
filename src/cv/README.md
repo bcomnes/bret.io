@@ -18,7 +18,7 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/socket-dev.png">
   </a>
   <a href="https://socket.dev">Socket Inc</a>
-  <small>Senior Software Engineer • 2021 - 2024</small>
+  <small>Senior Software Engineer • 2021 - Present</small>
 </h2>
 
 - Developed [Socket.dev](https://socket.dev)'s security scanner [GitHub App](https://github.com/apps/socket-security), a primary driver of platform adoption and a contrubuting factor in a [$20M Series A raise](https://socket.dev/blog/series-a). (Typescript, React, Next.js)
@@ -30,7 +30,7 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
     <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="28" width="100" src="img/socket-supply.svg">
   </a>
   <a href="https://socketsupply.co">Socket Supply</a>
-  <small>Software Engineer • 2023 - Present</small>
+  <small>Software Engineer • 2023 - 2024</small>
 </h2>
 
 - IC to the [ssc](https://github.com/socketsupply/socket) runtime, a webview-based application platform targeting macOS, Windows, Linux, iOS, Android and Xbox. (C++, TypeScript, Objective-C)
