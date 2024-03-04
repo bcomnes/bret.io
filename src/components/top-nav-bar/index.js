@@ -5,7 +5,7 @@ export const topNavBar = () => {
   <nav class="top-bar hide-print">
     <span class="top-bar-left">
       <a href="/" class="top-bar-title" title="home">bret.io</a>
-      <a href="/cv/" class="top-bar-link" title="resume">resume</a>
+      <a href="/cv/" class="top-bar-link" title="resume">cv</a>
       <a href="/blog/" class="top-bar-link" title="blog">blog</a>
     </span>
     <span class="top-bar-right">
