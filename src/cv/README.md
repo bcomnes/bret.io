@@ -22,7 +22,7 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 </h2>
 
 - Developed [Socket.dev](https://socket.dev)'s security scanner [GitHub App](https://github.com/apps/socket-security), a primary driver of platform adoption and a contrubuting factor in a [$20M Series A raise](https://socket.dev/blog/series-a). (Typescript, React, Next.js)
-- Introduced service observability practices. (Grafana, Prometheus, Datadog, Pino)
+- Introduced service observability practices. (Datadog, Structured logging, service metrics)
 - Rapid gathering if business intelligence, developed data pipelines and analysis. (PostgreSQL, Retool)
 
 <h2>
