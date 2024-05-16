@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "Stupid Lockfile Tricks"
+title: "Lockfiles Are Trash"
 serif: true
 publishDate: "2024-02-15T19:35:38.818Z"
 published: false
-description: "Stupid lockfile tricks and some history."
+description: "Lockfiles are install receipts. Receipts are trash and therefore so are lockfiles."
 image: ./img/og.jpeg
 ---
 
