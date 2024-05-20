@@ -51,12 +51,30 @@ export default function articleLayout (args) {
         }
       </section>
 
-      <!--
-        <footer>
-            <p>Footer notes or related info here...</p>
-        </footer>
-      -->
+    <!--
+    <footer>
+
+    </footer>
+    -->
+
     </article>
+
+    <hr/>
+    <giscus-widget
+      id="comments"
+      repo="bcomnes/bret.io"
+      repoid="MDEwOlJlcG9zaXRvcnk3MjgwNzcxMg=="
+      category="Announcements"
+      categoryid="DIC_kwDOBFb1IM4CN-FH"
+      mapping="og:title"
+      strict="0"
+      reactionsenabled="1"
+      emitmetadata="0"
+      inputposition="top"
+      theme="preferred_color_scheme"
+      lang="en"
+      loading="lazy"
+    ></giscus-widget>
     ${breadcrumb({ pathSegments })}
   `
 
