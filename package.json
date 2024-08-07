@@ -51,7 +51,7 @@
     "snazzy": "^9.0.0",
     "standard": "^17.0.0",
     "tape": "^5.0.0",
-    "top-bun": "^7.0.0",
+    "top-bun": "^8.0.0",
     "typescript": "~5.2.2",
     "uhtml-isomorphic": "^2.1.0",
     "xmlbuilder": "^15.1.1"
