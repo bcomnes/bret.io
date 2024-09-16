@@ -10,7 +10,7 @@
     "test:tape": "tape test.js | tap-format-spec",
     "test:build": "run-s build",
     "build": "npm run clean && run-p build:*",
-    "build:tb": "top-bun",
+    "build:tb": "top-bun --target ios17",
     "generate-favicons": "gravatar-favicons --config favicon-config.js",
     "watch": "npm run clean && run-p watch:*",
     "watch:tb": "npm run build:tb -- --watch",
