@@ -15,7 +15,6 @@ import { breadcrumb } from '../components/breadcrumb/index.js'
  * @typedef {RootLayoutVars & {
  *  title: string,
  *  publishDate: string,
- *  published?: boolean,
  *  [key: string]: any
  * }} BlogIndexVars
  */

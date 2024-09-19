@@ -13,7 +13,7 @@
     "build:tb": "top-bun --target ios17",
     "generate-favicons": "gravatar-favicons --config favicon-config.js",
     "watch": "npm run clean && run-p watch:*",
-    "watch:tb": "npm run build:tb -- --watch",
+    "watch:tb": "npm run build:tb -- --watch --drafts",
     "clean": "rm -rf public && mkdir -p public",
     "start": "npm run watch",
     "deploy": "run-s build deploy:*",
@@ -50,7 +50,7 @@
     "p-map": "^7.0.0",
     "neostandard": "^0.11.2",
     "tape": "^5.0.0",
-    "top-bun": "^9.0.1",
+    "top-bun": "^9.1.0",
     "typescript": "~5.6.2",
     "uhtml-isomorphic": "^2.1.0",
     "xmlbuilder": "^15.1.1"

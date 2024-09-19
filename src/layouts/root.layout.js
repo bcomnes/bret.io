@@ -103,6 +103,7 @@ export default async function rootLayout ({
   <body class="safe-area-inset">
     ${topNavBar()}
     <main class="${cn(['markdown-body', 'mine-layout', { serif }])}" >
+      ${page.draft ? html`<div>DRAFT</div>` : null}
       ${typeof children === 'string' ? html([children]) : children /* Support both uhtml and string children. Optional. */}
     </main>
     ${bottomFotterBar({

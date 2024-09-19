@@ -14,7 +14,6 @@ import builder from 'xmlbuilder'
  *  authorImgUrl: string
  *  layout: string,
  *  publishDate: string
- *  published?: boolean,
  *  title: string,
  *  noindex?: boolean
  * }>} */
@@ -27,7 +26,7 @@ export default async ({
   const sitemapObj = {
     urlset: {
       '@xmlns': 'http://www.sitemaps.org/schemas/sitemap/0.9',
-      url: pages.filter(page => !page.vars.noindex && page.vars.published !== false).map(page => ({
+      url: pages.filter(page => !page.vars.noindex).map(page => ({
         loc: `${siteUrl}/${page.pageInfo.path}${page.pageInfo.path && !page.pageInfo.path.endsWith('.html') ? '/' : ''}`
       }))
     }

@@ -3,7 +3,6 @@ layout: article
 title: "Thoughts on monorepos"
 serif: true
 publishDate: "2024-05-11T21:53:29.639Z"
-published: false
 description: "I finally came around to monorepos. Here is what I think about them."
 image: ./img/og.jpeg
 ---

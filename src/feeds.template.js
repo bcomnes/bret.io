@@ -15,7 +15,6 @@ import jsonfeedToAtom from 'jsonfeed-to-atom'
  *  authorImgUrl: string
  *  layout: string,
  *  publishDate: string,
- *  published?: boolean,
  *  title: string
  * }>} */
 export default async function * feedsTemplate ({
@@ -30,7 +29,7 @@ export default async function * feedsTemplate ({
   pages
 }) {
   const blogPosts = pages
-    .filter(page => ['article', 'book-review'].includes(page.vars.layout) && page.vars.published !== false)
+    .filter(page => ['article', 'book-review'].includes(page.vars.layout))
     .sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
     .slice(0, 10)
 
