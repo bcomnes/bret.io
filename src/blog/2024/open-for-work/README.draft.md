@@ -3,7 +3,6 @@ layout: article
 title: "Open for Work 2024"
 serif: true
 publishDate: "2024-01-04T19:15:53.198Z"
-published: false
 ---
 
 Happy New Year!

@@ -23,7 +23,6 @@ export const vars = {
  *  layout: string,
  *  publishDate: string
  *  title: string
- *  published?: boolean
  * }>}
  */
 export default async function blogIndex2023 ({
@@ -31,7 +30,7 @@ export default async function blogIndex2023 ({
   page
 }) {
   const blogPosts = pages
-    .filter(page => ['article', 'book-review'].includes(page.vars.layout) && page.vars.published !== false)
+    .filter(page => ['article', 'book-review'].includes(page.vars.layout))
     // @ts-ignore
     .sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
     .slice(0, 100)

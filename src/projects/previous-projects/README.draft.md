@@ -2,7 +2,6 @@
 layout: article
 title: "Previously Featured Projects"
 publishDate: "2023-12-02T18:07:13.956Z"
-published: false
 ---
 
 I felt bad deleting old projects off my landing page, so made a page to stash them so I can reference them later. So, if you happen to be here, enjoy some pointers to old projects.
