@@ -15,9 +15,7 @@ npm run build # build snapshot from src to public
 
 ## Screenshot
 
-(may be out of date)
-
-![screenshot](screenshot.png)
+![screenshot](https://neocities.org/site_screenshots/28/35/bret/index.html.540x405.webp)
 
 ## License
 
