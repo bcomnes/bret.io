@@ -17,7 +17,8 @@
     "clean": "rm -rf public && mkdir -p public",
     "start": "npm run watch",
     "deploy": "run-s build deploy:*",
-    "deploy:async-neocities": "async-neocities --src public --cleanup --supporter"
+    "deploy:async-neocities": "async-neocities --src public --cleanup --supporter",
+    "new-blogpost": "node scripts/create-blogpost.js --title"
   },
   "repository": {
     "type": "git",
