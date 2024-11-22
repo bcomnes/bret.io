@@ -82,9 +82,9 @@ export default async function rootLayout ({
     <meta property="og:url" content="${resolvedURL}">
     <meta property="og:description" content="${description}">
 
-    <link rel="alternate" title="${siteName} Blog (JSON Feed)" type="application/json" href="/feed.json" />
-    <link rel="alternate" title="${siteName} Blog (JSON Feed)" type="application/feed+json" href="/feed.json" />
-    <link rel="alternate" title="${siteName} Blog (RSS Feed)" type="application/rss+xml"  href="/feed.xml" />
+    <link rel="alternate" title="${`${siteName} Blog (JSON Feed)`}" type="application/json" href="/feed.json" />
+    <link rel="alternate" title="${`${siteName} Blog (JSON Feed)`}" type="application/feed+json" href="/feed.json" />
+    <link rel="alternate" title="${`${siteName} Blog (RSS Feed)`}" type="application/rss+xml"  href="/feed.xml" />
 
     <meta name="google-site-verification" content="-gd5D4qtAADYPG5Iwbl7Z1265Dt6fzf1H5BQItIbsps" />
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
