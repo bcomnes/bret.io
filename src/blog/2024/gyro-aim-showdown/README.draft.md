@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Gyro Aim Controllers 2024"
+title: "Gyro Aim Showdown"
 serif: false
 publishDate: "2024-11-21T01:28:08.526Z"
 handlebars: false
