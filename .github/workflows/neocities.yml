@@ -6,9 +6,9 @@ on:
       - master
 
 env:
-  node-version: 22
-  FORCE_COLOR: 2
-  
+  node-version: lts/*
+  FORCE_COLOR: 1
+
 concurrency: # prevent concurrent deploys doing starnge things
   group: deploy-to-neocities
   cancel-in-progress: true
