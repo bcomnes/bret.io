@@ -1,10 +1,7 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import { fileURLToPath } from 'node:url'
 import { parseArgs } from 'node:util'
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
+import { BLOGPOST_DIR } from './BLOGPOST_DIR.js'
 
 const args = parseArgs({
   allowPositionals: true
@@ -17,8 +14,8 @@ if (!slug) {
 }
 
 const currentYear = new Date().getFullYear()
-const readmeDraftPath = path.join(__dirname, '../src', 'blog', currentYear.toString(), slug, 'README.draft.md')
-const readmePath = path.join(__dirname, '../src', 'blog', currentYear.toString(), slug, 'README.md')
+const readmeDraftPath = path.join(BLOGPOST_DIR, `${currentYear.toString()}/${slug}/README.draft.md`)
+const readmePath = path.join(BLOGPOST_DIR, `${currentYear.toString()}/${slug}/README.md`)
 
 try {
   let content = await fs.readFile(readmeDraftPath, 'utf8')

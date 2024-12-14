@@ -2,9 +2,10 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parseArgs } from 'node:util'
+import { BLOGPOST_DIR } from './BLOGPOST_DIR.js'
 
 const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
+export const __dirname = path.dirname(__filename)
 
 const args = parseArgs({
   options: {
@@ -23,7 +24,7 @@ if (!title) {
 
 const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '')
 const currentYear = new Date().getFullYear()
-const blogPostDir = path.join(__dirname, '../src', 'blog', currentYear.toString(), slug)
+const blogPostDir = path.join(BLOGPOST_DIR, `${currentYear.toString()}/${slug}`)
 const readmePath = path.join(blogPostDir, 'README.draft.md')
 const imgDir = path.join(blogPostDir, 'img')
 
