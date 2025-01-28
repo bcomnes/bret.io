@@ -46,7 +46,7 @@
     "gravatar-favicons": "^3.0.0",
     "highlight.js": "^11.0.1",
     "jsonfeed-to-atom": "^1.2.4",
-    "markdownlint-cli": "^0.43.0",
+    "markdownlint-cli": "^0.44.0",
     "mine.css": "^10.0.0",
     "npm-run-all2": "^7.0.1",
     "p-map": "^7.0.0",
