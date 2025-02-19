@@ -37,6 +37,8 @@ main {
   flex-grow: 1;
 }
 
+@view-transition { navigation: auto; }
+
 /* List styles */
 ul {
   list-style-type: circle;
