@@ -53,7 +53,7 @@
     "neostandard": "^0.12.0",
     "tape": "^5.0.0",
     "top-bun": "^10.0.0",
-    "typescript": "~5.7.2",
+    "typescript": "~5.8.2",
     "uhtml-isomorphic": "^2.1.0",
     "xmlbuilder": "^15.1.1"
   },
