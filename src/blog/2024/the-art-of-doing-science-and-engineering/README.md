@@ -58,7 +58,7 @@ In my experience, the tighter the runtime dependency specifications, the faster 
 
 > Good design protects you from the need for too many highly accurate components in the system. But such design principals are still, to this date, ill understood and need to be researched extensively. Not that good designers do not understand this intuitively, merely it is not easily incorporated into the design methods you were thought in school.
 >
-> Good minds are still need in spite of all the computing tools we have developed. The best mind will be the one who gets the principle into the design methods taught so it will be automatically available for lesser minds!.
+> Good minds are still needed in spite of all the computing tools we have developed. The best mind will be the one who gets the principle into the design methods taught so it will be automatically available for lesser minds!.
 >
 > -- p.268
 
