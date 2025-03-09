@@ -1,20 +1,20 @@
 ---
 layout: article
-title: "I Love Monorepos Except for When They Are Annoying"
+title: "I Love Monorepos—Except When They Are Annoying"
 serif: true
-publishDate: "2025-03-04T23:49:38.390Z"
+publishDate: "2025-03-09T21:53:14.740Z"
 description: "All the ways monorepos are annoying, and also how they can be useful."
-image: ./img/og.jpeg
+image: ./img/og.jpg
 ---
 
 I love monorepos, but monorepos can be annoying, especially in open source.
-They make sense in some cases, but they have a lot of baggage and patterns I've noticed over the years, and I need to write about it.
+They make sense in some cases, but they come with a lot of baggage and patterns I’ve noticed over the years—so I need to write about them.
 
 I'm primarily talking about JS-based "monorepos," a.k.a. workspaces when used in open source packages, but the whole space is confused enough that I might stray a bit.
 
 ## Historical Context
 
-JS Monorepos (or "workspaces") emerged with tools like `lerna`, later influencing similar features in `npm`, `yarn` and `pnpm`. At their core, they allow developers to:
+JS monorepos (or "workspaces") emerged with tools like [`lerna`](https://github.com/lerna/lerna), later influencing similar features in [`npm`](https://docs.npmjs.com/cli/v11/using-npm/workspaces), [`yarn`](https://classic.yarnpkg.com/en/docs/workspaces#search) and [`pnpm`](https://pnpm.io/npmrc#workspace-settings). At their core, they allow developers to:
 
 - Develop and publish multiple `npm` packages from a single `git` repository
 - Streamline dependency management with automatic linking and consolidated lockfiles
@@ -22,25 +22,28 @@ JS Monorepos (or "workspaces") emerged with tools like `lerna`, later influencin
 
 This approach gained popularity largely as a response to:
 - The frustrating fragility of `npm link`
-- React's unique constraints that caused errors when linked across packages
+- React's "unique" constraints that caused errors when linked across packages
 - The exponential growth of tooling complexity costs (Babel, Webpack, CSS-in-JS, TS)
 - The promise of O(1) tooling changes instead of O(n²) updates across multiple repositories
+
+<figure>
+  <img loading="auto" src="./img/og.jpg" alt="A picture of the tower of Babel">
+  <figcaption>Babel is probably the most appropriately named project in open source history.</figcaption>
+</figure>
 
 ## What I Love About Monorepos
 
 Monorepos have utility in some circumstances.
 
-When you need to split a single process into two or more individual processes and need to share code between them, a monorepo workspace streamlines the workflow to facilitate development on shared code living between two independent process targets.
-Additionally, the shared code should generally lack value outside of this shared context (no need to publish discrete versions). Otherwise, it may be beneficial to develop it as a standalone module.
-
-Workspaces are especially useful if multiple people are working on multiple sub-projects together.
-They can facilitate a simpler, single-command `npm start` dev environment and allow sub-projects to update their dependencies without interfering with the parts of the project they lack context on.
+Monorepos are ideal for scenarios like this: a project with a series of APIs, a website, and background worker processes where a team of developers works on the codebase together
+Each process has its own set of unique and shared dependencies, and also has a set of common queries and types shared between the two services.
+The primary trade-off of course is that any changes to shared code has to be reflected in all dependents at the time of introduction.
 
 Outside of this context, it's mostly just misery for dependents and contributors.
 
 ## All the Ways Monorepos (and Adjacent Hypertooling) Are Annoying
 
-Most of the issues stem from hyper-devtooling, a generally bigger issue in the JS ecosystem, but they manifest at scale in the monorepo arrangement, so it's a useful vehicle to point out these issues.
+Most of the issues stem from "hypertooling", a generally bigger issue in all development ecosystems, but they manifest at scale in the monorepo arrangement, so it's a useful vehicle to point out these issues.
 
 ### "Let Me Just Fix This Little Bug"
 
@@ -50,7 +53,7 @@ Node.js was designed with the intention that you could just open up `node_module
 
 With packages sourced from monorepos, this is not the case!
 
-You open up the code in `node_modules` now, and it's some franken-compile-to-es-1-ts-rollupvite-webpack-babeldegook-lerna-pnpm-berry-workzone-playplace that has also been pre-minified for some reason. The sourcemaps and ESM type exports are broken.
+You open up the code in `node_modules` now, and it's some franken-compile-to-es-1-ts-rollupviteparcel-webpack-babeldegook-lerna-pnpm-berry-workzone-playplace that has also been pre-minified for some reason. Also the sourcemaps and ESM type exports are broken for some reason.
 
 ### Packages Published from Monorepos Have More Bugs
 
@@ -59,11 +62,11 @@ Packages published from monorepos have more defects, and finding and fixing the 
 I believe this is due to two factors:
 
 - The development environment (the monorepo) varies more from the deployment environment (`node_modules/foo`) than single repo = single package project organization.
-- The developer is prioritizing the monorepo DX over the consumption DX, has gone out of their way to avoid working in the deployment environment, and therefore fails to test things in realistic deployments.
+- The developer who is prioritizing the monorepo DX over the consumption DX, has gone out of their way to avoid working in the deployment environment, and therefore fails to test things in realistic deployments.
 
 These two factors, plus the inherent complexity of all the tools required to make monorepos work, lead to encountering more defects in monorepo-published packages.
 
-Also, trying to fix or upstream work to monorepo packages is memorably miserable and painful.
+Also, trying to fix or upstream work to monorepo packages is memorably more miserable and painful.
 
 This really comes down to thermodynamics—more entropy, more problems—and it's true!
 
@@ -74,7 +77,7 @@ This leads to many additional challenges in monorepos!
 
 ### Package Metadata Is Often Stripped from `package.json`
 
-Because you can't simply publish packages from a monorepo without a mountain of scripts and tooling, monorepo-sourced packages often rewrite `package.json` (we have to differentiate which `package.json` we're talking about in monorepos!) in a way that accidentally (or intentionally, for devs who prefer to move a bespoke minification step into the `npm publish` lifecycle for no stated reason) strips useful and important metadata.
+Because you can't simply publish packages from a monorepo without a mountain of scripts and tooling, monorepo-sourced packages often rewrite `package.json` (we have to differentiate which package.json we’re talking about in a monorepo!) in a way that accidentally (or intentionally, for devs who prefer to move a bespoke minification step into the `npm publish` lifecycle for no stated reason) [strips useful and important metadata](https://docs.npmjs.com/cli/v6/configuring-npm/package-json#repository).
 
 ### Package Metadata Is Often Wrong or Incomplete
 
@@ -82,7 +85,11 @@ Okay, so we're lucky—this monorepo-published package has some metadata about t
 But it only takes us to the repo homepage.
 Now we have to find out if the package name matches the directory name used in the monorepo or how this thing is put together at all to hunt down the source code of the package.
 
-Next point:
+### They probably don't have a README.md
+
+The package probably has a super sub-par README.md or something that points to some random permutation of a (probably incomplete) docs website (that will go offline when the maintainer gets busy and forgets to renew the domain). If you are lucky you might get a generate typedoc website (good), but with zero JSDoc description  annotations (the part that describes things for humans) (bad).
+
+Obviously, nothing in monorepos requires this to be the case, but the tools seem to facilitate this outcome.
 
 ### Each Monorepo Is a Unique Permutation of Opinion and Entropy
 
@@ -95,7 +102,7 @@ Okay, so the package itself has no hard requirements on which package manager yo
 No, wait, it requires `yarn`.
 Oh, wait, not Yarn 1—why is that still the default? It needs Berry.
 Why does this repo have more than one lockfile?!?
-Oh crap, what is `corepack`, do I need that?
+Oh crap, what is [`corepack`](https://nodejs.org/api/corepack.html), do I need that?
 
 ### Now You Have to Install More Tools
 
@@ -108,13 +115,13 @@ By the way, Node.js ships with `npm`. It literally could be that easy—this is 
 `npm` ships workspaces.
 Nothing uses them.
 To their credit, `npm` workspaces leave a lot to be desired.
-Tools that support `workspaces` will only work with `lerna` 1 workspaces or something like that, not `npm` workspaces for some reason.
+Tools that support `workspaces` will often only work with `lerna` 1 workspaces or something like that, not `npm` workspaces for some reason.
 Sad situation.
 
 ### The Monorepo Install Step Will Probably Fail
 
-Because you have to install dependencies for N packages instead of 1 in a monorepo, and the chances of a monorepo dev running Gentoo or nix or something elite and weird are much higher than normal, don't expect this to work everywhere.
-The external native dependencies are probably not documented anywhere!
+Because you have to install dependencies for N packages instead of 1 in a monorepo, and the chances of a monorepo dev running Gentoo or nix or something elite and weird are much higher than normal, don't expect this to work on your machine.
+The external native dependencies are probably not documented anywhere, or buried in a README in one of the packages.!
 
 Remember, at scale, rare events become common! More dependencies, more  places to break.
 
@@ -122,7 +129,7 @@ Remember, at scale, rare events become common! More dependencies, more  places t
 
 We got through the install step.
 We had to switch Node versions or install `pkgconfig` or something.
-We go to land our patch, but before we do, we run `npm test`.
+We go to land our patch, but before we do, we run `yarn test`.
 The tests fail!
 Not on the package we want to work on, but somewhere else.
 
@@ -133,7 +140,7 @@ Now we get to look into how to narrow the test harness and see if the relevant s
 We submit the PR upstream, and CI fails—again, for the same unrelated package that we saw locally.
 I'm not here for that, and fixing it looks hairy.
 The maintainer merges your changes anyway.
-Oof, let's hope they have it under control despite appearances.
+Oof. Let's hope they have it under control despite appearances.
 
 Isolated changes aren't actually isolated at all in monorepos.
 They end up requiring the whole suite to pass.
@@ -144,7 +151,7 @@ Depending on the nature of your contribution, it may come down to you to look in
 The scale of monorepos will often far exceed the performance envelope that the devtools were targeting (small to medium-sized repos).
 JS and TS require dev tooling.
 JS requires a parsing linter to catch well-known but easy-to-miss language hazards.
-TS requires tools to type-check.
+TS requires tools to type-check and build.
 
 These tools operate fine at a specific range of scale and get extremely slow and crappy beyond that scale.
 Monorepos are an excellent pattern to follow if you want to exceed that scale quickly.
@@ -172,7 +179,7 @@ Because any singular tooling change in a monorepo has to cover the workflow for 
 This often leads to it never happening.
 
 Remember the argument that monorepos promised O(1) tooling changes?
-Well, that one change can't go in until N packages are modified to work with that change.
+Well, that one change can't go in until N packages (* N times you have to make updates) are modified to work with that change.
 This distinction is always overlooked.
 Centralizing tooling means every change requires mass coordination.
 If each package were in its own repo, you could selectively apply the tooling changes to the 2-3 you are actively working on and get around to the rest when it matters.
@@ -196,11 +203,18 @@ Monorepos inadvertently create several versioning challenges that single-package
 
 - **Cross-Module Side Effects**: Changes in unrelated modules in monorepos can introduce defects in the modules you depend on, something far less likely with separate repositories.
 
+### Overmodularized internals
+
+Overmodularizing (adding versioned module boundaries between code where just a separate file or export in the same module would do) is a hazard in general, but it seems to often be worse in monorepos.
+This tends to be a mistake you see less experienced developers make, but monorepos deserve unique recognition here: by lowering the spin-up cost of modules, monorepos make this mistake easier and more common.
+
 ### Monorepos Break GitHub and Tooling
 
-Because N projects run out of one repo, the entire GitHub resource model is invalidated.
+Because N projects run out of one repo, the entire GitHub resource model (One project = one repo) is made largely useless.
 Issues, CI, and permissions now have to scale down to the folder level instead of hanging off the repo resource boundary.
 This has incredible implementation costs for the entire tooling ecosystem as they attempt to accommodate large monorepos.
+
+Most tools just simply fail to work by default in the monorepo arrangement because your monorepo is unique and bespoke compared to all the others. Because of its sheer size, tools have to implement complex scaling solutions just to listen to webhooks off monorepos. It really sucks.
 
 ### "But Google Does It!"
 
@@ -210,7 +224,7 @@ Google doesn't use JS-based workspaces or monorepos in their organization (at le
 Google has invested millions in proprietary build systems and infrastructure that most teams simply don't have access to.
 The contexts are so different that the comparison provides little practical value for most JavaScript projects.
 
-Your startup or open-source project operates under completely different constraints and with different goals than Google's engineering organization.
+Your startup or open-source project operates under completely different constraints and with different goals than Google's engineering organization, on top of the fact Google isn't really a great company to emulate these days.
 
 ### "But `npm link` Sucks"
 
@@ -232,7 +246,8 @@ Okay, sure, as long as you can live with the above issues!
 
 If all those repos are owned by the same person, I don't really see the issue.
 
-Generally though, Small modules aren't annoying, annoying modules are annoying.
+Generally though, small modules aren't annoying because they are small, (they are annoying because their they lack [API depth](https://web.stanford.edu/~ouster/cgi-bin/aposd.php)).
+Annoying modules are annoying.
 Get rid of your annoying dependencies, and cross your fingers the replacement is less annoying.
 
 ### "All of These Problems Apply to Single-Package Repos Too!"
@@ -264,7 +279,7 @@ Single module repo strategies are sadly very underdeveloped and misunderstood.
 
 ## Conclusion
 
-Monorepos have legitimate uses in specific contexts—particularly when sharing code between multiple processes in a single project or coordinating work across closely related sub-projects and teams. In these situations, they can remove barriers to a developer workflow, that would otherwise be very necessary in open source.
+Monorepos have legitimate uses in specific contexts—particularly when sharing code between multiple processes in a single project or coordinating work across closely related sub-projects and teams. In these situations, they can remove barriers to a developer workflow that would otherwise be necessary in open source.
 
 But for open-source modules, the costs often outweigh the benefits and are actually creating a reputational hazard for an otherwise completely functional and scalable module system. Instead of defaulting to monorepos, consider these alternatives:
 
@@ -273,7 +288,7 @@ But for open-source modules, the costs often outweigh the benefits and are actua
 - **Minimal Dependencies**: Rather than splitting functionality across numerous tiny packages that require a monorepo to manage, consider whether your design truly benefits from such granular separation.
 
 - **Strategic Module Boundaries**: Create module boundaries only where they provide genuine benefits—at natural seams in your architecture rather than arbitrary divisions.
-Cross boundary linking indicates unnecessary boundaries.
+Frequent cross boundary linking indicates unnecessary boundaries.
 
 The JavaScript ecosystem moves quickly, but we should be careful not to adopt complex solutions for problems that could be solved more elegantly with simpler approaches. Sometimes the answer isn't more tooling or more packages—it's thoughtful design and careful consideration of the downstream experience.
 
