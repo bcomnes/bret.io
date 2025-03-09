@@ -57,7 +57,7 @@ You open up the code in `node_modules` now, and it's some franken-compile-to-es-
 
 ### Packages Published from Monorepos Have More Bugs
 
-This is completely anecdotal and based on lived experience.
+This is completely anecdotal but also completely true.
 Packages published from monorepos have more defects, and finding and fixing the defects is more challenging for dependents.
 I believe this is due to two factors:
 
@@ -77,7 +77,7 @@ This leads to many additional challenges in monorepos!
 
 ### Package Metadata Is Often Stripped from `package.json`
 
-Because you can't simply publish packages from a monorepo without a mountain of scripts and tooling, monorepo-sourced packages often rewrite `package.json` (we have to differentiate which package.json we’re talking about in a monorepo!) in a way that accidentally (or intentionally, for devs who prefer to move a bespoke minification step into the `npm publish` lifecycle for no stated reason) [strips useful and important metadata](https://docs.npmjs.com/cli/v6/configuring-npm/package-json#repository).
+Because you can't simply publish packages from a monorepo without a mountain of scripts and tooling, monorepo-sourced packages often rewrite `package.json` (we have to differentiate which `package.json` we’re talking about in a monorepo!) in a way that accidentally (or intentionally, for devs who prefer to move a bespoke minification step into the `npm publish` lifecycle for no stated reason) [strips useful and important metadata](https://docs.npmjs.com/cli/v6/configuring-npm/package-json#repository).
 
 ### Package Metadata Is Often Wrong or Incomplete
 
@@ -87,7 +87,7 @@ Now we have to find out if the package name matches the directory name used in t
 
 ### They probably don't have a README.md
 
-The package probably has a super sub-par README.md or something that points to some random permutation of a (probably incomplete) docs website (that will go offline when the maintainer gets busy and forgets to renew the domain). If you are lucky you might get a generate typedoc website (good), but with zero JSDoc description  annotations (the part that describes things for humans) (bad).
+The package probably has a super sub-par README.md or something that points to some random permutation of a (probably incomplete) docs website (that will go offline when the maintainer gets busy and forgets to renew the domain). If you are lucky you might get a generated typedoc website (good), but with zero JSDoc description  annotations (the part that describes things for humans) (bad).
 
 Obviously, nothing in monorepos requires this to be the case, but the tools seem to facilitate this outcome.
 
