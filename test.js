@@ -1,6 +1,6 @@
-import test from 'tape'
+import test from 'node:test'
+import assert from 'node:assert'
 
-test('testing is set up and works', function (t) {
-  t.pass('yup')
-  t.end()
+test('testing is set up and works', (t) => {
+  assert.ok(true, 'yup')
 })

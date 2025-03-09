@@ -7,7 +7,7 @@
   "scripts": {
     "test": "run-s test:*",
     "test:neostandard": "eslint .",
-    "test:tape": "tape test.js | tap-format-spec",
+    "test:node-test": "c8 node --test --test-reporter spec",
     "test:build": "run-s build",
     "build": "npm run clean && run-p build:*",
     "build:tb": "top-bun --target ios17",
@@ -38,7 +38,6 @@
   },
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
-    "@tap-format/spec": "^0.2.0",
     "@voxpelli/tsconfig": "^15.0.0",
     "async-neocities": "^4.0.3",
     "classnames": "^2.3.2",
@@ -50,8 +49,8 @@
     "mine.css": "^10.0.0",
     "npm-run-all2": "^7.0.1",
     "p-map": "^7.0.0",
+    "c8": "^10.0.0",
     "neostandard": "^0.12.0",
-    "tape": "^5.0.0",
     "top-bun": "^10.0.0",
     "typescript": "~5.8.2",
     "uhtml-isomorphic": "^2.1.0",
