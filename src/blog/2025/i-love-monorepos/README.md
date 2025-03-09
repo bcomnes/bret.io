@@ -208,6 +208,11 @@ Monorepos inadvertently create several versioning challenges that single-package
 Overmodularizing (adding versioned module boundaries between code where just a separate file or export in the same module would do) is a hazard in general, but it seems to often be worse in monorepos.
 This tends to be a mistake you see less experienced developers make, but monorepos deserve unique recognition here: by lowering the spin-up cost of modules, monorepos make this mistake easier and more common.
 
+### Probably overusing peerDependencies
+
+I actually don't understand this one, but modules out of monorepos tend to heavily utilize peer dependencies, where regular dependencies would actually be preferable.
+I suspect its some frontend bundler need that somehow has leaked into the Node.js module graph but I haven't ever gotten an answer that makes sense on this one.
+
 ### Monorepos Break GitHub and Tooling
 
 Because N projects run out of one repo, the entire GitHub resource model (One project = one repo) is made largely useless.
@@ -247,7 +252,7 @@ Okay, sure, as long as you can live with the above issues!
 If all those repos are owned by the same person, I don't really see the issue.
 
 Generally though, small modules aren't annoying because they are small, (they are annoying because their they lack [API depth](https://web.stanford.edu/~ouster/cgi-bin/aposd.php)).
-Annoying modules are annoying.
+Annoying modules are annoying
 Get rid of your annoying dependencies, and cross your fingers the replacement is less annoying.
 
 ### "All of These Problems Apply to Single-Package Repos Too!"
@@ -259,18 +264,11 @@ Monorepos act as a multiplier on these hazards on top of their own set of issues
 
 ### "[Insert New Runtime] Fixes This!"
 
-Give any JS ecosystem incumbent some time in the wild, and you will be surprised at the wild ideas people will come up with!
+Give any JS ecosystem incumbent some time in the spotlight, and you will be surprised at the "wild" ideas people will come up with to make peoples lives more complicated!
 
 ### "I'm an overworked, underpaid maintainer, I need this"
 
 This is probably true. Do whatever you need. Just enumerating a few common hazards to avoid.
-
-### "I Love Monorepos, and This Is Deeply Offensive"
-
-I'm really sorry.
-Please don't take this personally.
-These are all just silly little tools people wrote up to try something new/nice.
-I just have to write down all of these frustrations in hopes that we can make things better going forward.
 
 ### "You or someone should write up single package repo hazards"
 
