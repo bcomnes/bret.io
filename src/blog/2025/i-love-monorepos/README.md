@@ -36,7 +36,7 @@ This approach gained popularity largely as a response to:
 Monorepos have utility in some circumstances.
 
 Monorepos are ideal for scenarios like this: a project with a series of APIs, a website, and background worker processes where a team of developers works on the codebase together
-Each process has its own set of unique and shared dependencies, and also has a set of common queries and types shared between the two services.
+Each process has its own set of unique and shared dependencies, and also has a set of common queries and types shared between two or more services.
 The primary trade-off of course is that any changes to shared code has to be reflected in all dependents at the time of introduction.
 
 Outside of this context, it's mostly just misery for dependents and contributors.
