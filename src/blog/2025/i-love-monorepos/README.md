@@ -251,7 +251,7 @@ Okay, sure, as long as you can live with the above issues!
 
 If all those repos are owned by the same person, I don't really see the issue.
 
-Generally though, small modules aren't annoying because they are small, (they are annoying because their they lack [API depth](https://web.stanford.edu/~ouster/cgi-bin/aposd.php)).
+Generally though, small modules aren't annoying because they live in a singularly scoped repo, (they are annoying because their they lack [API depth](https://web.stanford.edu/~ouster/cgi-bin/aposd.php)).
 Annoying modules are annoying
 Get rid of your annoying dependencies, and cross your fingers the replacement is less annoying.
 
