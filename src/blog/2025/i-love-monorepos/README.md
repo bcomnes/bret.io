@@ -291,3 +291,15 @@ Frequent cross boundary linking indicates unnecessary boundaries.
 The JavaScript ecosystem moves quickly, but we should be careful not to adopt complex solutions for problems that could be solved more elegantly with simpler approaches. Sometimes the answer isn't more tooling or more packages—it's thoughtful design and careful consideration of the downstream experience.
 
 Monorepos aren't inherently bad, but they're also not a silver bullet. Understanding when they help and when they hinder is key to using them effectively.
+
+### Syndications
+
+- <a href="https://news.ycombinator.com/item?id=43314580" rel="syndication" class="u-syndication">Hacker News</a>
+- <a href="https://bsky.app/profile/bret.io/post/3ljy3huggns22" rel="syndication" class="
+u-syndication">Bsky:bret.io</a>
+- <a href="https://bsky.app/profile/ecmascript.news/post/3ljzzbe3rks2w" rel="syndication" class="u-syndication">Bsky:ECMASCript.news</a>
+- <a href="https://x.com/bcomnes/status/1898863058015158590" rel="syndication" class="u-syndication">X:@bcomnes</a>
+- <a href="https://fosstodon.org/@bcomnes/114134823764166508" rel="syndication" class="u-syndication">Mastodon:@bcomnes</a>
+- <a href="https://fosstodon.org/@ecmascript_news@mastodon.online/114139170554774533" rel="syndication" class="u-syndication">Mastodon:@ecmascript_news</a>
+- <a href="https://www.reddit.com/r/node/comments/1j7jk05/i_love_monorepos_except_when_they_are_annoying/">reddit.com/r/node</a>
+- <a href="https://ecmascript.news/archive/es-next-news-2025-03-12.html">ecmascript.news 2025-03-12</a>
