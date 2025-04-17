@@ -369,16 +369,6 @@ If you aren't familiar with browser-sync, here are some screenshots of fun featu
 </figure>
 
 <figure class="borderless">
-  <a href="./img/bs-depth.png">
-    <picture>
-      <!-- <source srcset="./static/breadcrum-dark.png" media="(prefers-color-scheme: dark)"> -->
-      <img loading="auto" src="./img/bs-depth.png" alt="Screenshot of Browser Sync css depth">
-    </picture>
-  </a>
-  <figcaption>BrowserSync CSS depth</figcaption>
-</figure>
-
-<figure class="borderless">
   <a href="./img/bs-network-throttle.png">
     <picture>
       <!-- <source srcset="./static/breadcrum-dark.png" media="(prefers-color-scheme: dark)"> -->
