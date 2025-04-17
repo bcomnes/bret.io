@@ -496,22 +496,23 @@ I ran some experiments with orthogonal tool composition a few years ago. I reali
 What does this idea look like? See this snippet of a `package.json`:
 
 ```json
- { "scripts": {
-    "build": "npm run clean && run-p build:*",
-    "build:css": "postcss src/index.css -o public/bundle.css",
-    "build:md": "sitedown src -b public -l src/layout.html",
-    "build:feed": "generate-feed src/log --dest public && cp public/feed.xml public/atom.xml",
-    "build:static": "cpx 'src/**/*.{png,svg,jpg,jpeg,pdf,mp4,mp3,js,json,gif}' public",
-    "build:icon": "gravatar-favicons --config favicon-config.js",
-    "watch": "npm run clean && run-p watch:* build:static",
-    "watch:css": "run-s 'build:css -- --watch'",
-    "watch:serve": "browser-sync start --server 'public' --files 'public'",
-    "watch:md": "npm run build:md -- -w",
-    "watch:feed": "run-s build:feed",
-    "watch:static": "npm run build:static -- --watch",
-    "watch:icon": "run-s build:icon",
-    "clean": "rimraf public && mkdirp public",
-    "start": "npm run watch"
+ {
+    "scripts": {
+      "build": "npm run clean && run-p build:*",
+      "build:css": "postcss src/index.css -o public/bundle.css",
+      "build:md": "sitedown src -b public -l src/layout.html",
+      "build:feed": "generate-feed src/log --dest public && cp public/feed.xml public/atom.xml",
+      "build:static": "cpx 'src/**/*.{png,svg,jpg,jpeg,pdf,mp4,mp3,js,json,gif}' public",
+      "build:icon": "gravatar-favicons --config favicon-config.js",
+      "watch": "npm run clean && run-p watch:* build:static",
+      "watch:css": "run-s 'build:css -- --watch'",
+      "watch:serve": "browser-sync start --server 'public' --files 'public'",
+      "watch:md": "npm run build:md -- -w",
+      "watch:feed": "run-s build:feed",
+      "watch:static": "npm run build:static -- --watch",
+      "watch:icon": "run-s build:icon",
+      "clean": "rimraf public && mkdirp public",
+      "start": "npm run watch"
   }
 }
 ```
