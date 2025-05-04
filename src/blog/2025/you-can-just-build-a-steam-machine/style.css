@@ -1,0 +1,52 @@
+@import 'photoswipe/style.css';
+@import 'photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.css';
+
+/* shared tuning knob */
+:root { --min-tile: 12.5rem }   /* ≈220 px – tweak to taste */
+
+/* ---------- fallback: multi‑column ---------- */
+.figure-grid {
+  column-width: var(--min-tile);   /* browser decides how many fit */
+  column-gap: 1rem;
+}
+
+.figure-grid > figure {
+  break-inside: avoid;
+  margin: 0 0 1rem;
+  /* display: inline-block; */
+  width: 100%;
+}
+
+/* ---------- modern browsers: CSS Grid masonry ---------- */
+@supports (grid-template-rows: masonry) {
+  .figure-grid {
+    display: grid;
+    gap: 1rem;
+
+    /* responsive number of tracks, same as before */
+    grid-template-columns: repeat(auto-fill, minmax(var(--min-tile), 1fr));
+
+    grid-template-rows: masonry;
+
+    /* 👇 NEW: place auto‑flow items column‑wise instead of the default row‑wise */
+    grid-auto-flow: column;
+  }
+
+  .figure-grid > figure { margin: 0 }
+}
+
+/* ---------- hygiene ---------- */
+.figure-grid img { width: 100%; display: block }
+
+/* optional: single column on very narrow phones */
+@media (max-width: 600px) {
+  .figure-grid { column-width: 100% }         /* multicol path  */
+  @supports (grid-template-rows: masonry) {
+    .figure-grid { grid-template-columns: 1fr }  /* grid path */
+  }
+}
+
+/* prevent long captions from blowing out a column */
+.figure-grid figcaption {
+  overflow-wrap: anywhere;   /* break long words/URLs */
+}
