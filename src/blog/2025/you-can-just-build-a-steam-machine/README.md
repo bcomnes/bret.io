@@ -374,8 +374,10 @@ The following are helpful resources when trying to run games on it:
 - [ProtonDB](https://www.protondb.com/) – Compatibility reports for games running on Linux in Proton. Any Deck Verified game will also run great.
 - [Are We Anti-Cheat Yet?](https://areweanticheatyet.com/) – If you must play multiplayer with cheating competitors who require kernel modules to stop them, you will run into some compatibility issues versus Windows. This site tracks those.
 - [GamingOnLinux](https://www.gamingonlinux.com/) – This has consistently been the best news site focusing on gaming on Linux.
+  - [GoL AntiCheat Tracker](https://www.gamingonlinux.com/anticheat/) - GoL also has it's own excellet data on Linux anti-cheat stats.
 - [SteamDB](https://steamdb.info/) – General player and game price tracking on Steam.
 - [/r/GyroGaming/](https://www.reddit.com/r/GyroGaming/) – The GyroGaming subreddit can often be helpful when figuring out gyro on games with poor mouse and controller inputs.
+- [/r/SteamDeck/](https://www.reddit.com/r/SteamDeck/) - The SteamDeck subreddit is also a decent source of news fore SteamOS related info.
 
 If you end up building a Steam Machine or something similar, please share your results!
 If you want to chat or ask more questions about the process, you can [join the former SteamFork Discord](https://discord.gg/5KmBn5ttCa), where there are still a bunch of users of SteamFork migrating to SteamOS and facing similar issues and questions.
