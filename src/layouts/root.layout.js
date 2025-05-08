@@ -87,6 +87,7 @@ export default async function rootLayout ({
     <link rel="alternate" title="${`${siteName} Blog (RSS/Atom Feed)`}" type="application/atom+xml"  href="/feed.xml">
 
     <meta name="google-site-verification" content="-gd5D4qtAADYPG5Iwbl7Z1265Dt6fzf1H5BQItIbsps">
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="RQVWUFuNiizmLsWSn/+roA" async></script>
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
     <link rel="me" href="https://micro.blog/bret">

@@ -17,8 +17,8 @@ Here’s my procedure and notes.
 ### Prep Tips
 
 - The recovery image installs SteamOS 3.5.
-- SteamOS 3.5 has limited hardware support. On desktop systems, enable integrated graphics and plug your monitor directly into the integrated HDMI or DisplayPort.
-- Some discrete GPUs I tested failed to boot SteamOS 3.5. I don’t recommend trying them. Use iGPUs for the initial install, then switch back to discrete graphics once you’re on 3.7.
+- SteamOS 3.5 has limited hardware support. On desktop systems, enable integrated graphics and plug your monitor directly into the integrated HDMI or DisplayPort during installation.
+- Some discrete GPUs I tested failed to boot SteamOS 3.5. I don’t recommend trying them. Use iGPUs for the initial install, then switch back to a discrete GPU once you’re on 3.7.
 
 ### Procedure
 
@@ -30,7 +30,8 @@ Here’s my procedure and notes.
 - In system settings, set your update channel to **beta**. This will update the system to SteamOS 3.6.
 - Once on 3.6, switch your update channel to **preview**. This will upgrade you to SteamOS 3.7.
   - **EDIT**: As of writing this, [3.7 has been promoted to **BETA**](https://store.steampowered.com/news/app/1675200/view/529845510803031952), so check the system version you get on the hop to Beta. If you get to 3.7, you are good to go!
-- Congrats! You’re now running SteamOS 3.7. Head back into your BIOS, disable integrated graphics, and test your discrete GPU.
+- Congrats! You’re now running SteamOS 3.7. 
+- Head back into your BIOS, disable integrated graphics, and test your discrete GPU. It will probably work now!
 - SteamOS 3.7 should now be running on your hardware of choice!
 
 ## Why SteamOS Now?

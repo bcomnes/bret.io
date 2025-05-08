@@ -29,7 +29,7 @@ I hope that after reading this, you’ll be encouraged to build one too!
   <figcaption>Why yes, that is a 65&quot;, HDR OLED Steam Deck in my living room.</figcaption>
 </figure>
 
-I'm running the latest [Steam OS 3.7](its-time-to-install-steamos-3.7) (the OS running on the [Steam Deck](https://en.wikipedia.org/wiki/Steam_Deck)) on conventional AMD desktop hardware, running at equal or improved performance over Windows.
+I'm running the latest [Steam OS 3.7](../its-time-to-install-steamos-3.7/) (the OS running on the [Steam Deck](https://en.wikipedia.org/wiki/Steam_Deck)) on conventional AMD desktop hardware, running at equal or improved performance over Windows.
 
 We're here! You can just build a Steam Machine now, and get a console-like experience running PC games in your living room, on Linux, with great controllers, on your 4K OLED TV (and surround sound if you have it), running in parity with your Steam Deck.
 
@@ -381,3 +381,10 @@ The following are helpful resources when trying to run games on it:
 
 If you end up building a Steam Machine or something similar, please share your results!
 If you want to chat or ask more questions about the process, you can [join the former SteamFork Discord](https://discord.gg/5KmBn5ttCa), where there are still a bunch of users of SteamFork migrating to SteamOS and facing similar issues and questions.
+
+### Syndications
+
+- <a href="https://www.reddit.com/r/SteamDeck/comments/1khhamn/you_can_just_build_a_steam_machine_now/" rel="syndication" class="u-syndication">/r/SteamDeck</a>
+- <a href="https://x.com/bcomnes/status/1920686026185408584" rel="syndication" class="u-syndication">X</a>
+- <a href="https://fosstodon.org/@bcomnes/114475809790803818" rel="syndication" class="u-syndication">fosstodon</a>
+- <a href="https://bsky.app/profile/bret.io/post/3lopj5jivd22a" rel="syndication" class="u-syndication">https://bsky.app/profile/bret.io/post/3lopj5jivd22a</a>
