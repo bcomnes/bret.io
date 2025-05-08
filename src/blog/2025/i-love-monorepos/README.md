@@ -4,7 +4,7 @@ title: "I Love Monorepos—Except When They Are Annoying"
 serif: true
 publishDate: "2025-03-09T21:53:14.740Z"
 description: "All the ways monorepos are annoying, and also how they can be useful."
-image: ./img/og.jpg
+image: img/og.jpg
 ---
 
 I love monorepos, but monorepos can be annoying, especially in open source.
