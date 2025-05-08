@@ -5,7 +5,12 @@
     "erasableSyntaxOnly": true,
     "allowImportingTsExtensions": true,
     "rewriteRelativeImportExtensions": true,
-    "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": true,
+    "lib": [
+      "ES2023",
+      "DOM",
+      "DOM.Iterable"
+    ]
   },
   "include": [
     "src/**/*"

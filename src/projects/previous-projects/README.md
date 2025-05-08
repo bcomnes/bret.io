@@ -8,22 +8,21 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
 
 <section class="portfolio grid-container">
   <div>
-    <h3 id="ssc"><a href="https://socketsupply.co">Socket Supply Co.</a></h3>
+    <h3 id="ssc"><a rel="nofollow" href="https://socketsupply.co">Socket Supply Co.</a></h3>
     <figure>
-      <a href="https://socketsupply.co">
+      <a rel="nofollow" href="https://socketsupply.co">
         <picture>
           <source srcset="./static/ssc-dark.png" media="(prefers-color-scheme: dark)">
           <img loading="auto" src="./static/ssc-light.png" alt="Screenshot of the Socket Supply Co. Website">
         </picture>
       </a>
-      <figcaption><a href="https://socketsupply.co">Socket Supply Co.</a>: Build native apps for desktop and mobile with HTML, CSS & JS.</figcaption>
+      <figcaption><a rel="nofollow" href="https://socketsupply.co">Socket Supply Co.</a>: Build native apps for desktop and mobile with HTML, CSS & JS.</figcaption>
     </figure>
     <ul>
-      <li class="lang html"><a href="https://socketsupply.co">socketsupply.co</a></li>
-      <li class="lang cpp"><a href="https://github.com/socketsupply/socket">socketsupply/socket</a></li>
+      <li class="lang html"><a rel="nofollow" href="https://socketsupply.co">socketsupply.co</a></li>
+      <li class="lang cpp"><a rel="nofollow" href="https://github.com/socketsupply/socket">socketsupply/socket</a></li>
     </ul>
   </div>
-
   <div>
     <h2><a href="/projects/websockets/">Websockets</a></h2>
     <figure>
@@ -38,7 +37,6 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
       <li class="lang js"><a href="https://github.com/bcomnes/node-event-handler">bcomnes/node-event-handler</a></li>
     </ul>
   </div>
-
   <div>
     <h2 id="css"><a href="https://css-pkg.github.io">css-pkg</a></h2>
     <figure>
@@ -53,7 +51,6 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
       <li class="lang html"><a href="https://github.com/css-pkg/css-pkg.github.io">css-pkg/css-pkg.github.io</a></li>
     </ul>
   </div>
-
   <div>
     <h2 id="choo"><a href="https://www.choo.io">Choo</a></h2>
     <figure>
@@ -66,7 +63,6 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
       <li class="lang js"><a href="https://github.com/shama/bel">shama/bel</a></li>
     </ul>
   </div>
-
   <div>
     <h2 id="nanocomponent"><a href="https://github.com/choojs/nanocomponent">Nanocomponent</a></h2>
     <figure>
@@ -82,7 +78,6 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
       <li class="lang js"><a href="https://github.com/bcomnes/nanomap">bcomnes/nanomap</a></li>
     </ul>
   </div>
-
   <div>
     <h2 id="datproject"><a href="https://datproject.org">Dat</a></h2>
     <figure>
@@ -96,7 +91,6 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
       <li class="lang js"><a href="https://github.com/mafintosh/hyperirc">mafintosh/hyperirc</a></li>
     </ul>
   </div>
-
   <div>
     <h2 id="leveldb"><a href="https://leveljs.org">Leveldb</a></h2>
     <figure>
@@ -109,7 +103,6 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
       <li class="lang js"><a href="https://github.com/hypermodules/level-hookdown">hypermodules/level-hookdown</a></li>
     </ul>
   </div>
-
   <div>
     <h2 id="electron"><a href="https://www.electronjs.org">Electron</a></h2>
     <figure>
@@ -123,7 +116,6 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
       <li class="lang js"><a href="https://github.com/prebuild">Home Prebuilders Association</a></li>
     </ul>
   </div>
-
   <div>
     <h2 id="2016-reading"><a href="https://gist.github.com/bcomnes/6d76c3ace861d4d0ed57f2cde2346ffe">Late 2016 Reading List</a></h2>
     <figure>
@@ -131,5 +123,4 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
       <figcaption>A list of things I was reading in late 2016.</figcaption>
     </figure>
   </div>
-
 </section>
