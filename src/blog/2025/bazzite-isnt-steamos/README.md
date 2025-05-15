@@ -187,4 +187,4 @@ See what works best for your goals and your hardware.
 If you enjoyed this post, you might also like:
 
 - [You can just build a Steam Machine](../you-can-just-build-a-steam-machine/) — A look at building a “Steam Machine” with SteamOS
-- [It's time to install SteamOS 3.7](http://localhost:3000/blog/2025/its-time-to-install-steamos-3.7/) — My notes on installing SteamOS on non–Steam Deck hardware
+- [It's time to install SteamOS 3.7](../its-time-to-install-steamos-3.7/) — My notes on installing SteamOS on non–Steam Deck hardware
