@@ -26,21 +26,11 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 - Rapid gathering if business intelligence, developed data pipelines and analysis. (PostgreSQL, Retool)
 
 <h2>
-  <a class="job-logo" id="socket-supply" href="#socket-supply">
-    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="28" width="100" src="img/socket-supply.svg">
-  </a>
-  <a href="https://socketsupply.co">Socket Supply</a>
-  <small>Software Engineer • 2023 - 2024</small>
-</h2>
-
-- IC to the [ssc](https://github.com/socketsupply/socket) runtime, a webview-based application platform targeting macOS, Windows, Linux, iOS, Android and Xbox. (C++, TypeScript, Objective-C)
-
-<h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/littlstar-logo.svg">
   </a>
   <a href="https://littlstar.info">Littlstar</a>
-  +
+  →
   <a class="job-logo" id="rad" href="#rad">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/rad.svg">
   </a>
