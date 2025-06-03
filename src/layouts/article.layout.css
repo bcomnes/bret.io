@@ -32,7 +32,8 @@
     padding: 4px;
   }
 
-  & .published-date {
+  & .published-date,
+  & .updated-date,{
     font-family: var(--font-code);
   }
 }
