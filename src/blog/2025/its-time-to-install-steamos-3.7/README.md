@@ -15,7 +15,7 @@ Here’s my procedure and notes.
 
 (This will go stale quickly, but as of this writing, it works.)
 
-  - **EDIT 2**: [3.7 Has been released to the stable channel](https://store.steampowered.com/news/app/1675200?emclan=103582791470414830&emgid=820329049655084700). Running updates on the stable channel will get you to a working state. 
+  - **EDIT 2**: [3.7 Has been released to the stable channel](https://store.steampowered.com/news/app/1675200/view/529845510803031952). Running updates on the stable channel will get you to a working state. 
   - **EDIT 1**: As of writing this, [3.7 has been promoted to **BETA**](https://store.steampowered.com/news/app/1675200/view/529845510803031952), so check the system version you get on the hop to Beta. If you get to 3.7, you are good to go!
 
 ### Prep Tips
