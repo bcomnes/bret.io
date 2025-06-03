@@ -14,6 +14,9 @@ Here’s my procedure and notes.
 
 (This will go stale quickly, but as of this writing, it works.)
 
+  - **EDIT 2**: [3.7 Has been released to the stable channel](https://store.steampowered.com/news/app/1675200?emclan=103582791470414830&emgid=820329049655084700). Running updates on the stable channel will get you to a working state. 
+  - **EDIT 1**: As of writing this, [3.7 has been promoted to **BETA**](https://store.steampowered.com/news/app/1675200/view/529845510803031952), so check the system version you get on the hop to Beta. If you get to 3.7, you are good to go!
+
 ### Prep Tips
 
 - The recovery image installs SteamOS 3.5.
@@ -27,9 +30,7 @@ Here’s my procedure and notes.
 - Boot the USB drive on your "Steam Machine" and "re-flash" your "Deck"—i.e., whatever hardware manages to boot the recovery image.
 - It flashes the primary NVMe drive, **deleting everything on it**. Be careful!
 - After flashing, reboot, remove the USB drive, and sign in.
-- In system settings, set your update channel to **beta**. This will update the system to SteamOS 3.6.
-- Once on 3.6, switch your update channel to **preview**. This will upgrade you to SteamOS 3.7.
-  - **EDIT**: As of writing this, [3.7 has been promoted to **BETA**](https://store.steampowered.com/news/app/1675200/view/529845510803031952), so check the system version you get on the hop to Beta. If you get to 3.7, you are good to go!
+- In system settings, run updates on the **stable** channel to update to SteamOS 3.7 or later. You can also test the Beta and Preview channels if you wish.
 - Congrats! You’re now running SteamOS 3.7. 
 - Head back into your BIOS, disable integrated graphics, and test your discrete GPU. It will probably work now!
 - SteamOS 3.7 should now be running on your hardware of choice!
