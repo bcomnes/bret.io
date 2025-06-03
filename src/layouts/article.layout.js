@@ -38,7 +38,7 @@ export default function articleLayout (args) {
             : null
           }
           ${vars.updatedDate
-            ? html`<time class="dt-updated" itemprop="dateModified" datetime="${vars.updatedDate}">Updated ${(new Date(vars.updatedDate)).toLocaleString()}</time>`
+            ? html`<time class="updated-date dt-updated" itemprop="dateModified" datetime="${vars.updatedDate}">Updated ${(new Date(vars.updatedDate)).toLocaleString()}</time>`
             : null
           }
         </div>
