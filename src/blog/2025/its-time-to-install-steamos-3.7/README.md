@@ -3,6 +3,7 @@ layout: article
 title: "It's Time to Install SteamOS 3.7"
 serif: false
 publishDate: "2025-05-08T02:48:57.527Z"
+updatedDate: "2025-06-03T16:57:00.428Z"
 description: "Instructions and note on installing SteamOS 3.7 on anyting"
 image: img/steam-deck-recovery-new.webp
 ---
