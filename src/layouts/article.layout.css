@@ -33,7 +33,7 @@
   }
 
   & .published-date,
-  & .updated-date,{
+  & .updated-date {
     font-family: var(--font-code);
   }
 }
