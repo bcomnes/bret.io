@@ -68,6 +68,7 @@ I wrote up the build on [PCPartPicker](https://pcpartpicker.com/b/h7QD4D) too, b
 - Top Fans: 3 × [ARCTIC P8 Slim PWM](https://amzn.to/4jvN0i2)
 - Fan Hub: [Noctua NA-FH1, 8 Channel Fan Hub](https://amzn.to/4cT1A0R)
 - [WiFi Antennas](https://amzn.to/4lUtu0s) (I don't have Ethernet near my TV)
+- [Left Angle IEC C14 to C13 Power Adapter](https://amzn.to/3Hq8Pld) (Helpful to turn the power cable on the Ridge case)
 
 <div class="figure-grid">
   <figure class="borderless">
