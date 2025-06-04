@@ -3,7 +3,7 @@ layout: article
 title: "It's Time to Install SteamOS 3.7"
 serif: false
 publishDate: "2025-05-08T02:48:57.527Z"
-updatedDate: "2025-06-03T16:57:00.428Z"
+updatedDate: "2025-06-04T00:27:17.508Z"
 description: "Instructions and note on installing SteamOS 3.7 on anyting"
 image: img/steam-deck-recovery-new.webp
 ---
@@ -15,6 +15,7 @@ Here’s my procedure and notes.
 
 (This will go stale quickly, but as of this writing, it works.)
 
+  - **EDIT 3**: A [New SteamOS Home Page](https://store.steampowered.com/steamos) has been released echoing most of the information written here.
   - **EDIT 2**: [3.7 Has been released to the stable channel](https://store.steampowered.com/news/app/1675200/view/529845510803031952). Running updates on the stable channel will get you to a working state. 
   - **EDIT 1**: As of writing this, [3.7 has been promoted to **BETA**](https://store.steampowered.com/news/app/1675200/view/529845510803031952), so check the system version you get on the hop to Beta. If you get to 3.7, you are good to go!
 
