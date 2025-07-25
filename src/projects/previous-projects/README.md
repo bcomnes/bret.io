@@ -8,22 +8,6 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
 
 <section class="portfolio grid-container">
   <div>
-    <h3 id="ssc"><a rel="nofollow" href="https://socketsupply.co">Socket Supply Co.</a></h3>
-    <figure>
-      <a rel="nofollow" href="https://socketsupply.co">
-        <picture>
-          <source srcset="./static/ssc-dark.png" media="(prefers-color-scheme: dark)">
-          <img loading="auto" src="./static/ssc-light.png" alt="Screenshot of the Socket Supply Co. Website">
-        </picture>
-      </a>
-      <figcaption><a rel="nofollow" href="https://socketsupply.co">Socket Supply Co.</a>: Build native apps for desktop and mobile with HTML, CSS & JS.</figcaption>
-    </figure>
-    <ul>
-      <li class="lang html"><a rel="nofollow" href="https://socketsupply.co">socketsupply.co</a></li>
-      <li class="lang cpp"><a rel="nofollow" href="https://github.com/socketsupply/socket">socketsupply/socket</a></li>
-    </ul>
-  </div>
-  <div>
     <h2><a href="/projects/websockets/">Websockets</a></h2>
     <figure>
       <a href="/projects/websockets/"><img loading="auto" src="static/websockets.png" alt="Screenshot of Websockets writeup"></a>
