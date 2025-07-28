@@ -21,7 +21,7 @@ Here’s my procedure and notes.
 
 ### Prep Tips
 
-- The recovery image installs SteamOS 3.5.
+- The recovery image installs SteamOS ~~3.5~~ 3.7 or later. Descrete GPUs just work now.
 - SteamOS 3.5 has limited hardware support. On desktop systems, enable integrated graphics and plug your monitor directly into the integrated HDMI or DisplayPort during installation.
 - Some discrete GPUs I tested failed to boot SteamOS 3.5. I don’t recommend trying them. Use iGPUs for the initial install, then switch back to a discrete GPU once you’re on 3.7.
 
