@@ -3,6 +3,7 @@ layout: article
 title: "You can just build a Steam Machine"
 serif: false
 publishDate: "2025-05-08T02:49:10.637Z"
+updatedDate: "2025-07-28T18:45:54.176Z"
 description: "I built a Steam Machine and so can you!"
 image: img/thumbs/home-day@1x.webp
 ---
@@ -382,6 +383,10 @@ The following are helpful resources when trying to run games on it:
 
 If you end up building a Steam Machine or something similar, please share your results!
 If you want to chat or ask more questions about the process, you can [join the former SteamFork Discord](https://discord.gg/5KmBn5ttCa), where there are still a bunch of users of SteamFork migrating to SteamOS and facing similar issues and questions.
+
+## Updates
+
+- Josh Nichols [wrote up](https://blog.joshnichols.com/post/ditch-the-console-build-a-steam-machine/) his Steam Machine build with great photos and information. Check it out! 
 
 ### Syndications
 
