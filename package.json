@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
-    "@voxpelli/tsconfig": "^15.0.0",
+    "@voxpelli/tsconfig": "^16.1.0",
     "async-neocities": "^4.0.3",
     "c8": "^10.0.0",
     "classnames": "^2.3.2",
@@ -52,7 +52,7 @@
     "npm-run-all2": "^8.0.1",
     "p-map": "^7.0.0",
     "top-bun": "^10.0.0",
-    "typescript": "~5.8.2",
+    "typescript": "~5.9.3",
     "uhtml-isomorphic": "^2.1.0",
     "xmlbuilder": "^15.1.1"
   },
