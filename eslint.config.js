@@ -4,4 +4,5 @@ export default neostandard({
   ignores: [
     ...resolveIgnoresFromGitignore(),
   ],
+  env: ['browser']
 })
