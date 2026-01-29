@@ -1,6 +1,9 @@
 import PhotoSwipeLightbox from 'photoswipe/lightbox'
 // @ts-expect-error
 import PhotoSwipeDynamicCaption from 'photoswipe-dynamic-caption-plugin'
+import { initMasonryGrids } from '../../../lib/masonry/index.js'
+
+initMasonryGrids()
 
 const lightbox = new PhotoSwipeLightbox({
   gallery: '.article-layout',
