@@ -3,9 +3,18 @@ layout: article
 title: Simple TanStack Query with Preact
 serif: false
 publishDate: "2026-02-07T20:35:20.001Z"
+updatedDate: "2026-02-12T16:22:51.308Z"
 handlebars: false
 description: "Use npm package aliases to get @tanstack/react-query working in Preact without any bundler config."
 image: ./img/preact-tanstack.jpg
+---
+
+**UPDATE**
+
+About 3 days after writing this, Tanstack [realeased a native preact tanstack query adapter](https://github.com/TanStack/query/pull/9935)! Just use that and ignore the rest. Thanks to everyone invovled in that.
+
+- ([`@tanstack/preact-query`](https://www.npmjs.com/package/@tanstack/preact-query))
+
 ---
 
 ![](./img/preact-tanstack.jpg)
