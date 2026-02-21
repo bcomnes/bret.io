@@ -3,7 +3,7 @@ import { dirname, basename } from 'node:path'
 
 /**
  * @template T
- * @typedef {import('top-bun').PageFunction<T>} PageFunction
+ * @typedef {import('@domstack/static').PageFunction<T>} PageFunction
  */
 
 export const vars = {
