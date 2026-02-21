@@ -4,7 +4,7 @@ import { topNavBar, bottomFotterBar } from '../components/top-nav-bar/index.js'
 
 /**
  * @template T
- * @typedef {import('top-bun').LayoutFunction<T>} LayoutFunction
+ * @typedef {import('@domstack/static').LayoutFunction<T>} LayoutFunction
  */
 
 /**

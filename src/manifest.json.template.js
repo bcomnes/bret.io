@@ -1,6 +1,6 @@
 /**
  * @template T
- * @typedef {import('top-bun').TemplateFunction<T>} TemplateFunction
+ * @typedef {import('@domstack/static').TemplateFunction<T>} TemplateFunction
  */
 
 /** @type {TemplateFunction<{

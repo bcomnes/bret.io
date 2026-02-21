@@ -4,7 +4,7 @@ import { breadcrumb } from '../components/breadcrumb/index.js'
 
 /**
  * @template T
- * @typedef {import('top-bun').LayoutFunction<T>} LayoutFunction
+ * @typedef {import('@domstack/static').LayoutFunction<T>} LayoutFunction
  */
 
 /**
