@@ -51,7 +51,7 @@
     "markdownlint-cli": "^0.48.0",
     "masonry-layout": "^4.2.2",
     "mine.css": "^10.0.0",
-    "neostandard": "^0.12.0",
+    "neostandard": "^0.13.0",
     "npm-run-all2": "^8.0.1",
     "p-map": "^7.0.0",
     "typescript": "~5.9.3",
