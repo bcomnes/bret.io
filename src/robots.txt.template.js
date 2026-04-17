@@ -22,4 +22,6 @@ export default async ({
 Allow: /
 
 Sitemap: ${siteUrl}/sitemap.xml
+
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 `

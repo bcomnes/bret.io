@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:domstack.net)",
-      "mcp__acp__Edit"
-    ]
-  }
-}
