@@ -1,10 +1,12 @@
 ---
 layout: article
-title: "Buy my graphics card"
+title: "(Sold) Buy my graphics card"
 serif: false
 publishDate: "2026-03-27T17:00:20.676Z"
 handlebars: false
 ---
+
+**Update**: Sold!
 
 I'm selling my graphics card from my [You can just build a Steam Machine]('../../2025/you-can-just-build-a-steam-machine/') blogpost.
 
