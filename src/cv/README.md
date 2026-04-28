@@ -8,7 +8,7 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
 - <span class="subdue">email:</span> [bcomnes@gmail.com](mailto:bcomnes+website@gmail.com)
-- <span class="subdue">location:</span> 🌎 US Remote (Arcata CA)
+- <span class="subdue">location:</span> [Sutter Creek, CA](https://www.openstreetmap.org/relation/11049834)
 - <span class="subdue">github:</span> [github.com/bcomnes](https://github.com/bcomnes)
 - <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
 - <span class="subdue">linkedin:</span> [linkedin.com/in/bcomnes](https://www.linkedin.com/in/bcomnes/)
