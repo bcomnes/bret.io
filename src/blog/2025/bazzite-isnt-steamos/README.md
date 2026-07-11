@@ -25,11 +25,11 @@ graph TD
   Bazzite["🔧 Bazzite"]
 
   SteamOSDebian
-  SteamOSArch <-->|derived from| SteamFork
-  SteamOSArch <-->|derived from| HoloISO
+  SteamOSArch &lt;--&gt;|derived from| SteamFork
+  SteamOSArch &lt;--&gt;|derived from| HoloISO
 
-  ChimeraOS <-.->|pulls from| SteamOSArch
-  Bazzite <-.->|pulls from| SteamOSArch
+  ChimeraOS &lt;-.-&gt;|pulls from| SteamOSArch
+  Bazzite &lt;-.-&gt;|pulls from| SteamOSArch
 </pre>
 
 <figure class="">
@@ -119,7 +119,7 @@ They boot into [**Gamescope**](https://github.com/ValveSoftware/gamescope) and u
 Gamescope is the layer that the Steam 10-foot UI and games run inside on Linux.
 It handles resolution scaling, performance overlays, FSR upscaling, and other key features made popular by the Steam Deck.
 
-**We’ll call non-SteamOS-derivative distros that boot into Gamescope “Gamescope distros.”**
+<p><strong>We’ll call non-SteamOS-derivative distros that boot into Gamescope “Gamescope distros.”</strong></p>
 
 ### ChimeraOS
 

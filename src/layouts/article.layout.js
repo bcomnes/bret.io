@@ -4,12 +4,18 @@ import { breadcrumb } from '../components/breadcrumb/index.js'
 
 import defaultRootLayout from './root.layout.js'
 
+const dateFormatter = new Intl.DateTimeFormat('en-US', {
+  dateStyle: 'medium',
+  timeStyle: 'short',
+  timeZone: 'UTC'
+})
+
 export default function articleLayout (args) {
   const { children, ...rest } = args
   const vars = args.vars
   const pathSegments = args.page.path.split(sep)
   const wrappedChildren = html`
-    ${breadcrumb({ pathSegments })}
+    ${breadcrumb({ pathSegments, label: 'Breadcrumb at top' })}
     <article class="article-layout h-entry" itemscope itemtype="${vars.articleType ?? 'http://schema.org/BlogPosting'}">
       ${vars.published === false ? html`<div><br><strong>DRAFT POST</strong><br></div>` : null}
       <header class="article-header">
@@ -32,13 +38,13 @@ export default function articleLayout (args) {
             ? html`
               <time class="published-date dt-published" itemprop="datePublished" datetime="${vars.publishDate}">
                 <a href="#" class="u-url">
-                  ${(new Date(vars.publishDate)).toLocaleString()}
+                  ${dateFormatter.format(new Date(vars.publishDate))}
                 </a>
               </time>`
             : null
           }
           ${vars.updatedDate
-            ? html`<time class="updated-date dt-updated" itemprop="dateModified" datetime="${vars.updatedDate}">Updated ${(new Date(vars.updatedDate)).toLocaleString()}</time>`
+            ? html`<time class="updated-date dt-updated" itemprop="dateModified" datetime="${vars.updatedDate}">Updated ${dateFormatter.format(new Date(vars.updatedDate))}</time>`
             : null
           }
         </div>
@@ -59,7 +65,7 @@ export default function articleLayout (args) {
 
     </article>
 
-    <hr/>
+    <hr>
     <giscus-widget
       id="comments"
       repo="bcomnes/bret.io"
@@ -75,7 +81,7 @@ export default function articleLayout (args) {
       lang="en"
       loading="lazy"
     ></giscus-widget>
-    ${breadcrumb({ pathSegments })}
+    ${breadcrumb({ pathSegments, label: 'Breadcrumb at bottom' })}
   `
 
   return defaultRootLayout({ children: wrappedChildren, ...rest })

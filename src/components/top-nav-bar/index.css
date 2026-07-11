@@ -154,9 +154,16 @@ footer > .top-bar-link:first-child {
 }
 
 .light-dark-button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  line-height: 1;
+  padding: 0;
   animation-name: spin-reverse;
   animation-duration: 0.2s;
   touch-action: manipulation;
+  vertical-align: middle;
 }
 
 .light-dark-button:hover {
@@ -170,4 +177,3 @@ footer > .top-bar-link:first-child {
   animation-duration: 0.2s;
   animation-fill-mode: both;
 }
-

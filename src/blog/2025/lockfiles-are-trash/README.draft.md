@@ -28,7 +28,7 @@ A short while later, npm responded with their version of a lockfile `package-loc
 
 <figure>
   <a href="https://blog.npmjs.org/post/161081169345/v500.html">
-    <img loading="auto" src="./img/npm-5.png" alt="Screenshot of npm@5 anouncement blogpost">
+    <img loading="auto" src="./img/npm-5.png" alt="Screenshot of npm@5 announcement blog post">
   </a>
   <figcaption>npm followed suit with <code>package-lock.json</code>.</figcaption>
 </figure>
@@ -53,7 +53,7 @@ follow the lockfile minimal update "happy path".
 
 <figure class="borderless">
   <a href="https://github.com/sindresorhus/ama/issues/479#issuecomment-310661514">
-    <img loading="auto" src="./img/sindre.png" alt="Screenshot of why sindre doen't use lockfiles.">
+    <img loading="auto" src="./img/sindre.png" alt="Screenshot of why Sindre doesn't use lockfiles.">
   </a>
   <figcaption>Module developers ~17x more likely to choose to not use lockfiles in module development.</figcaption>
 </figure>
@@ -81,7 +81,7 @@ In a perfect world, the lockfile workflow would look something like this:
 
 ## The Realistic Lockfile Lifecycle
 
-As you perform mutations, either directly with `npm` ors use something like [Dependabot](https://docs.github.com/en/code-security/dependabot/working-with-dependabot) or [Renovate](https://docs.renovatebot.com), these lockfiles end up capturing resolution state.
+As you perform mutations, either directly with `npm` or using something like [Dependabot](https://docs.github.com/en/code-security/dependabot/working-with-dependabot) or [Renovate](https://docs.renovatebot.com), these lockfiles end up capturing resolution state.
 
 The de-duplication algorithms end up solving your dependency tree resolutions in different arrangements according to the application of tree manipulations relative to what a fresh, full resolution would generate without a lockfile on a given date.
 
@@ -102,13 +102,13 @@ This situation is more common than "in-range breaking changes".
 So in reality the lockfile workflow looks more like:
 
 - Generate a fresh lockfile from a set of top level dependencies in `package.json`.
-- Capture the `pacakge-lock.json` into git, 'freezing' the dependency resolution in **time**.
+- Capture the `package-lock.json` in git, 'freezing' the dependency resolution in **time**.
 - Perform these dependency mutations on this initial resolution state to try and keep up to date with your upstream dependencies, all the while further diverging from the 'ideal' semver specification that evolves through time.
 - Eventually run into some odd permutation of dependency resolutions and declare lockfile bankruptcy[^lfbank] and regenerate your lockfile.
 
-Oh, and also don't forget, despite looking like a text file that its comitted into git, it's unwise to allow git to attempt automatic merges of lockfiles, because this could introduce resolution errors. Be sure to add the following to your `.gitattributes` so git treats it like a binary file:
+Oh, and also don't forget: despite looking like a text file that is committed to git, it's unwise to allow git to attempt automatic merges of lockfiles because this could introduce resolution errors. Be sure to add the following to your `.gitattributes` so git treats it like a binary file:
 
-```
+```gitattributes
 pnpm-lock.yaml               merge=binary
 shrinkwrap.yaml              merge=binary
 npm-shrinkwrap.json          merge=binary
@@ -125,7 +125,7 @@ This is a problem because locking your tests to a specific and unique resolution
 
 To take this approach you simply add lockfiles to your `.gitignore`:
 
-```
+```gitignore
 yarn.lock
 package-lock.json
 pnpm-lock.yaml
@@ -133,7 +133,7 @@ pnpm-lock.yaml
 
 You can optionally disable lockfile generation for the repo by adding an `.npmrc` file to the repo with the following setting:
 
-```
+```ini
 package-lock=false
 ```
 
@@ -169,7 +169,7 @@ To strategically archive lockfiles from test runs, you can add a step similar th
     - name: Archive lockfile
       uses: actions/upload-artifact@v4
       with:
-        name: pacakge-lock.json
+        name: package-lock.json
         path: package-lock.json
 ```
 
@@ -198,7 +198,7 @@ If `lockfiles` are a "lightweight" 25k line text file that can recreate `node_mo
 
 If you are crazy, you can even commit this to your git repo in the form of an `.npmrc`:
 
-```
+```ini
 #.npmrc
 before=2021-01-27T19:04:22.125Z
 ```
@@ -226,7 +226,7 @@ Hey fair enough, I've been there. But there is a more human-centric solution ava
 
 Where you might have previously performed strategic lockfile surgery or upgrade or downgraded transitive dependencies on an existing resolution tree and committed those mutations to a lockfile, you now have the ability to apply specific override patterns to your entire dependency tree.
 
-```
+```json
 {
   "overrides": {
     "foo": "1.0.0"
@@ -264,12 +264,11 @@ Imagine the wider set of possible solutions for this one specific problem:
 - What if `node_modules` was virtualized? Is there a fundamental reason that Node.js has to perform a Rube Goldberg resolution algorithm against a directory structure on disk?
 - What if instead of defaulting to lockfiles, projects used "lockdates" + strategic `overrides`? What would a purely `before` + `overrides` workflow look like.
 
-Ah one can only imagine the possibilities. In the meantime, give some of these simplifcations a shot and see what you think!
+Ah, one can only imagine the possibilities. In the meantime, give some of these simplifications a shot and see what you think!
 Maybe you've been making dependency management harder than it needs to be all these years.
-
 
 [^transitive]: Transitive dependencies are dependencies of your direct dependencies, so on and so forth. In older versions of `npm`, it was difficult for top-level dependents to customize how these resolved and there was a sense of 'loss of control' of ones dependency tree.
 
 [^lfbank]: Lockfile bankruptcy: when no matter the mutational operation you take on your lockfile, you cannot get a working dependency resolution for a variety of reasons. The easiest solution is deleting the lockfile and starting over.
 
-[^deptree]: For the purpose of this post, dependency tree refers to the the final state that the `npm` or `yarn` package managers construct in a projects `node_modules` folder (the folder full of all of your projects shared libraries and dependencies).
+[^deptree]: For the purpose of this post, dependency tree refers to the final state that the `npm` or `yarn` package managers construct in a project's `node_modules` folder (the folder full of all of your project's shared libraries and dependencies).

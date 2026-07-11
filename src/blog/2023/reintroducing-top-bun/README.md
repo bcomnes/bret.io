@@ -31,10 +31,9 @@ The kids have a recent obsession with [Wallace & Gromit](https://wallaceandgromi
 
 ### A Docs Website
 
-`top-bun` now builds it's own repo into a docs website. It's slightly better than the GitHub README.md view, so go check it out! It even has a real domain name so you know its for real.
+`top-bun` now builds its own repo into a docs website. It's slightly better than the GitHub README.md view, so go check it out! It even has a real domain name, so you know it's for real.
 
 - 🌎 [top-bun.org](https://top-bun.org)
-
 
 <figure>
   <a href="./img/docs-site.png">
@@ -48,7 +47,7 @@ The kids have a recent obsession with [Wallace & Gromit](https://wallaceandgromi
 
 ### `css` bundling is now handled by `esbuild`
 
-`esbuild` is an amazing tool. `postcss` is a useful tool, but its slow and hard to keep up with. In `top-bun`, `css` bundling is now handled by [`esbuild`](https://esbuild.github.io/content-types/#css).
+`esbuild` is an amazing tool. `postcss` is a useful tool, but it's slow and hard to keep up with. In `top-bun`, `css` bundling is now handled by [`esbuild`](https://esbuild.github.io/content-types/#css).
 `css` bundling is now faster and less fragile, and still supports many of the same transforms that `siteup` had before. [CSS nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting) is now supported in every modern browser so we don't even need a transform for that. Some basic transforms and prefixes are auto-applied by setting a relatively modern browser target.
 
 `esbuild` doesn't support import chunking on css yet though, so each `css` entrypoint becomes its own bundle. If `esbuild` ever gets this optimization, so will `top-bun`. In the meantime, `global.css`, `style.css` and now `layout.style.css` give you ample room to generally optimize your scoped css loading by hand. It's simpler and has less moving parts!
@@ -158,7 +157,6 @@ Prior the `global.css` and `global.client.js` bundles served this need.
   <figcaption>Layouts introduce a new asset scope in the form of layout clients and style.</figcaption>
 </figure>
 
-
 ### Layouts and Global Assets live anywhere
 
 Layouts, and `global.client.js`, etc used to have to live at the root of the project `src` directory. This made it simple to find them when building, and eliminated duplicate singleton errors, but the root of websites is already crowded. It was easy enough to find these things anywhere, so now you can organize these special files in any way you like. I've been using:
@@ -181,7 +179,6 @@ Layouts, and `global.client.js`, etc used to have to live at the root of the pro
 Given the `top-bun` variable cascade system, and not all website files are html, it made sense to include a templating system for generating any kind of file from the `global.vars.js` variable set. This lets you generate random website "sidefiles" from your site variables.
 
 It works great for generating RSS feeds for websites built with `top-bun`. Here is the template file that generates the RSS feed for this website:
-
 
 ```js
 import pMap from 'p-map'
@@ -260,7 +257,6 @@ export default async function * feedsTemplate ({
 }
 ```
 
-
 ### Page Introspection
 
 Pages, Layouts and Templates can now introspect every other page in the `top-bun` build.
@@ -297,7 +293,7 @@ This was the first major dive I did into a project with [`types-in-js`][types-in
 My overall conclusions are:
 
 - `types-in-js` provides a superior development experience to developing in `.ts` by eliminating the development loop build step.
-- [JSDoc](https://jsdoc.app) and `types-in-js` are in conflict with each other. `types-in-js` should win, its better than JSDoc in almost every way (but you still use both).
+- [JSDoc](https://jsdoc.app) and `types-in-js` are in conflict with each other. `types-in-js` should win; it's better than JSDoc in almost every way (but you still use both).
 - Most of the JSDoc auto-generating documentation ecosystem doesn't support `types-in-js`. Find something that consumes the generated types instead of consuming the JSDoc blocs.
 - There are a number of rough edges around importing types.
 - The final api documentation features are nice.
@@ -484,8 +480,7 @@ The current plan is to keep sitting on this feature set for a while. But I have 
 - More web-component examples? `top-bun` is already one of the best environments for implementing sites that use web-components. Page bundles are a perfect place to register components!
 - Comparisons with other tools in the "enterprise-js" ecosystem?
 
-If you try out `top-bun`, I would love to hear about your experience. Do you like it? Do you hate it? [Open an discussion item.](https://github.com/bcomnes/top-bun/discussions) or reach out privately.
-
+If you try out `top-bun`, I would love to hear about your experience. Do you like it? Do you hate it? [Open a discussion item](https://github.com/bcomnes/top-bun/discussions) or reach out privately.
 
 ## History of `top-bun` {#history}
 
@@ -519,7 +514,7 @@ What does this idea look like? See this snippet of a `package.json`:
 
 - I have [`postcss`](https://postcss.org) building css bundles, enabling an `@import` based workflow for css, as well as providing various transforms I found useful.
 - The markdown is built with [`sitedown`](https://github.com/ungoldman/sitedown).
-- I wrote a tool to generate a RSS feed from markdown called [`generate-feed`](https://github.com/bcomnes/generate-feed)
+- I wrote a tool to generate an RSS feed from markdown called [`generate-feed`](https://github.com/bcomnes/generate-feed).
 - I generate favicons from a gravatar identifier with [`gravatar-favicons`](https://github.com/bcomnes/gravatar-favicons).
 - `js` bundling could easily be added in here with [`esbuild`][esbuild] or [rollup](https://ghub.io/rollup).
 - Steps are grouped into `build` and `watch` prefixes, and managed with [npm-run-all2](https://github.com/bcomnes/npm-run-all2) which provides shortcuts to running these tasks in parallel.
@@ -554,7 +549,7 @@ Because it was clear `sitedown` provided the core structure of this pattern (mak
 
 After sitting on the idea of `siteup` for over a year, by the time I published it to `npm`, the name was taken, so I used the npm org name hack to get a similar name `@siteup/cli`. **SILLY NPM!**
 
-I enjoyed how `@siteup/cli` came out, and have been using it for 2 year now. Thank you of course to [ungoldman](https://ungoldman.com) for laying the foundation of most of these tools and patterns. Onward and upward to `top-bun`!
+I enjoyed how `@siteup/cli` came out and have been using it for two years now. Thank you, of course, to [ungoldman](https://ungoldman.com) for laying the foundation of most of these tools and patterns. Onward and upward to `top-bun`!
 
 ![contribution graph](./img/contribs.png)
 

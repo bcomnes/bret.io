@@ -11,7 +11,7 @@ My contract at Socket Supply Co is wrapping up after a productive 6 months of co
 Please check out [my resume](/cv/) to see what I've been up to and enjoy some highlights below.
 If you think any of my qualities line up with your hiring needs, [please let me know](mailto:bcomnes+ofw@fastmail.com)!
 
-(Spare a click? Please boost! [x.com](https://twitter.com/bcomnes/status/1743027108044300528), [bsky](https://bsky.app/profile/bret.io/post/3ki6rjh3mns2m), [mastodon](https://fosstodon.org/@bcomnes/111699965788623357), [linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7148799710118502400/))
+(Spare a click? Please boost! [Bluesky](https://bsky.app/profile/bret.io/post/3ki6rjh3mns2m), [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7148799710118502400/))
 
 <figure>
   <a href="/cv/">
@@ -34,7 +34,6 @@ I work primarily in [Javascript](https://developer.mozilla.org/en-US/docs/Web/ja
     </picture>
   </a>
   <figcaption>A diagram of my publicly visible GitHub contributions for all time.</figcaption>
-  </figure>
 </figure>
 
 In addition to my professional work, I work on open source tools and products while my kids are napping on the weekend. My latest project is 🥖 [breadcrum.net](https://breadcrum.net) which lets you extract articles and media from around the web so that you can read/listen/watch them in your preferred podcast app and reader device. It's free right now too! You should check it out.
@@ -56,7 +55,6 @@ I enjoy working within the GitHub open source model, and have publisher status o
       <img loading="auto" src="./img/npm.png" alt="Image of npm packages">
     </picture>
   </a>
-  </figure>
 </figure>
 
 One of my most recent package adoptions, [npm-run-all2](https://github.com/bcomnes/npm-run-all2), grew from 1000 to over 11,000 dependents over the last few months. Incredible growth that hasn't slowed down. I am pleased to contribute back a small portion of the work that I benefit from when building with the open source ecosystem.
@@ -68,7 +66,6 @@ One of my most recent package adoptions, [npm-run-all2](https://github.com/bcomn
       <img loading="auto" src="./img/npm-run-all.png" alt="Image of npm-run-all2 dependents">
     </picture>
   </a>
-  </figure>
 </figure>
 
 I will be reaching out to a bunch of you individually, but in the meantime if you are seeing this, please reach out! I would love to reconnect to personally catch up and also chat about ideas for work.

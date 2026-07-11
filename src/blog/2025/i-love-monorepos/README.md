@@ -21,6 +21,7 @@ JS monorepos (or "workspaces") emerged with tools like [`lerna`](https://github.
 - Allow for varying direct dependency versions in a single repo
 
 This approach gained popularity largely as a response to:
+
 - The frustrating fragility of `npm link`
 - React's "unique" constraints that caused errors when linked across packages
 - The exponential growth of tooling complexity costs (Babel, Webpack, CSS-in-JS, TS)
@@ -251,7 +252,7 @@ Okay, sure, as long as you can live with the above issues!
 
 If all those repos are owned by the same person, I don't really see the issue.
 
-Generally though, small modules aren't annoying because they live in a singularly scoped repo, (they are annoying because their they lack [API depth](https://web.stanford.edu/~ouster/cgi-bin/aposd.php)).
+Generally though, small modules aren't annoying because they live in a singularly scoped repo (they are annoying because they lack [API depth](https://web.stanford.edu/~ouster/cgi-bin/aposd.php)).
 Annoying modules are annoying
 Get rid of your annoying dependencies, and cross your fingers the replacement is less annoying.
 
@@ -295,9 +296,8 @@ Monorepos aren't inherently bad, but they're also not a silver bullet. Understan
 ### Syndications
 
 - <a href="https://news.ycombinator.com/item?id=43314580" rel="syndication" class="u-syndication">Hacker News</a>
-- <a href="https://bsky.app/profile/bret.io/post/3ljy3huggns22" rel="syndication" class="
-u-syndication">Bsky:bret.io</a>
-- <a href="https://bsky.app/profile/ecmascript.news/post/3ljzzbe3rks2w" rel="syndication" class="u-syndication">Bsky:ECMASCript.news</a>
+- <a href="https://bsky.app/profile/bret.io/post/3ljy3huggns22" rel="syndication" class="u-syndication">Bluesky:bret.io</a>
+- <a href="https://bsky.app/profile/ecmascript.news/post/3ljzzbe3rks2w" rel="syndication" class="u-syndication">Bluesky:ECMAScript.news</a>
 - <a href="https://x.com/bcomnes/status/1898863058015158590" rel="syndication" class="u-syndication">X:@bcomnes</a>
 - <a href="https://fosstodon.org/@bcomnes/114134823764166508" rel="syndication" class="u-syndication">Mastodon:@bcomnes</a>
 - <a href="https://fosstodon.org/@ecmascript_news@mastodon.online/114139170554774533" rel="syndication" class="u-syndication">Mastodon:@ecmascript_news</a>

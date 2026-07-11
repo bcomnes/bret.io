@@ -16,7 +16,7 @@ export default function bookReviewLayout (args) {
         <meta content="1" itemprop="worstRating">
         <meta content="${vars.review?.rating}" itemprop="ratingValue">
         <meta content="5" itemprop="bestRating">
-        <div class="star-review" title="${vars.review?.rating}" >${Array.from({ length: vars.review?.rating }).fill('⭐️')}</div>
+        <span class="star-review" title="${vars.review?.rating}" >${Array.from({ length: vars.review?.rating }).fill('⭐️')}</span>
       </h3>
 
       <h3>Details</h3>
@@ -48,7 +48,7 @@ export default function bookReviewLayout (args) {
         </li>
         <li>${'Look up with:'}
           <ul>
-            ${Object.entries(vars.book?.reference).map(
+            ${Object.entries(vars.book?.reference ?? {}).map(
               ([name, link]) => html`<li><a href=${link}>${name}</a></li>`
             )}
           </ul>
@@ -70,9 +70,12 @@ export default function bookReviewLayout (args) {
   `
 
   return articleLayout({
+    ...rest,
     children: wrappedChildren,
-    articleType: 'http://schema.org/Review',
-    bodyType: 'description',
-    ...rest
+    vars: {
+      ...rest.vars,
+      articleType: 'http://schema.org/Review',
+      bodyType: 'description'
+    }
   })
 }

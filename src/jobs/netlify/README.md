@@ -23,7 +23,7 @@ One of my primary responsibilities upon joining the team is to maintain the Buil
 
 #### [Selectable build images](https://www.netlify.com/blog/2019/03/14/a-more-flexible-build-architecture-with-updated-linux/)
 
-One of the first feature additions I launched for the Buidlbot was selectable build images.  This project required adding the concept of additional build images to the API and UI and to develop an upgrade path allowing users to migrate their websites to the new build image image wile also allowing them to roll back to the old image if they needed more time to accommodate the update.
+One of the first feature additions I launched for Buildbot was selectable build images. This project required adding the concept of additional build images to the API and UI and developing an upgrade path that allowed users to migrate their websites to the new build image while still allowing them to roll back if they needed more time to accommodate the update.
 
 Additionally, I performed intake on a number of user contributed build-image additions and merged other various potential breaking changes within a development window before releasing.  I also helped develop the changes to the Ruby on Rails API, additions to the React UI, as well as write the user documentation.  It was widely cross cutting project.
 
@@ -52,7 +52,7 @@ I help maintain and further develop Netlify's Open-API (aka Swagger) API definit
 
 ## Product
 
-I worked on Neltify's Product team for a bit over a year and completed many successful user facing projects.  Here are just a few examples:
+I worked on Netlify's product team for a bit over a year and completed many successful user-facing projects. Here are just a few examples:
 
 ### [CLI](https://cli.netlify.com)
 
@@ -102,11 +102,11 @@ I implemented the application UI for Netlify's Lambda functions and logging infr
 
 [![functions](./functions.png)](https://www.netlify.com/blog/2018/03/20/netlifys-aws-lambda-functions-bring-the-backend-to-your-frontend-workflow/)
 
-### [Identity Widget](https://identity.netlify.com)
+### [Identity Widget](https://github.com/netlify/netlify-identity-widget)
 
 I helped architect and implement Netlify's Identity widget.
 
-[![identity widget](./identity-widget.png)](https://identity.netlify.com)
+[![Identity widget](./identity-widget.png)](https://github.com/netlify/netlify-identity-widget)
 
 ### [Dashboard](https://www.netlify.com/blog/2017/08/22/introducing-site-dashboards/)
 

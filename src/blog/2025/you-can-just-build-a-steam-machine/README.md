@@ -66,7 +66,7 @@ I wrote up the build on [PCPartPicker](https://pcpartpicker.com/b/h7QD4D) too, b
 - Case: [Fractal Design Ridge](https://amzn.to/42zzyUt)
 - PSU: [CORSAIR SF750](https://amzn.to/3RFKsSl) (Avoid bulky, cheaper SFX-L PSUs in this case)
 - Case Fans: 4 × [Noctua NF-A6x25](https://amzn.to/4iCUK0o)
-- Top Fans: 3 × [ARCTIC P8 Slim PWM](https://amzn.to/4jvN0i2)
+- Top Fans: 3 × ARCTIC P8 Slim PWM
 - Fan Hub: [Noctua NA-FH1, 8 Channel Fan Hub](https://amzn.to/4cT1A0R)
 - [WiFi Antennas](https://amzn.to/4lUtu0s) (I don't have Ethernet near my TV)
 - [Left Angle IEC C14 to C13 Power Adapter](https://amzn.to/3Hq8Pld) (Helpful to turn the power cable on the Ridge case)
@@ -376,17 +376,17 @@ The following are helpful resources when trying to run games on it:
 - [ProtonDB](https://www.protondb.com/) – Compatibility reports for games running on Linux in Proton. Any Deck Verified game will also run great.
 - [Are We Anti-Cheat Yet?](https://areweanticheatyet.com/) – If you must play multiplayer with cheating competitors who require kernel modules to stop them, you will run into some compatibility issues versus Windows. This site tracks those.
 - [GamingOnLinux](https://www.gamingonlinux.com/) – This has consistently been the best news site focusing on gaming on Linux.
-  - [GoL AntiCheat Tracker](https://www.gamingonlinux.com/anticheat/) - GoL also has it's own excellet data on Linux anti-cheat stats.
+  - [GoL AntiCheat Tracker](https://www.gamingonlinux.com/anticheat/) - GoL also has its own excellent data on Linux anti-cheat stats.
 - [SteamDB](https://steamdb.info/) – General player and game price tracking on Steam.
 - [/r/GyroGaming/](https://www.reddit.com/r/GyroGaming/) – The GyroGaming subreddit can often be helpful when figuring out gyro on games with poor mouse and controller inputs.
-- [/r/SteamDeck/](https://www.reddit.com/r/SteamDeck/) - The SteamDeck subreddit is also a decent source of news fore SteamOS related info.
+- [/r/SteamDeck/](https://www.reddit.com/r/SteamDeck/) - The Steam Deck subreddit is also a decent source of news for SteamOS-related info.
 
 If you end up building a Steam Machine or something similar, please share your results!
 If you want to chat or ask more questions about the process, you can [join the former SteamFork Discord](https://discord.gg/5KmBn5ttCa), where there are still a bunch of users of SteamFork migrating to SteamOS and facing similar issues and questions.
 
 ## Updates
 
-- Josh Nichols [wrote up](https://blog.joshnichols.com/post/ditch-the-console-build-a-steam-machine/) his Steam Machine build with great photos and information. Check it out! 
+- Josh Nichols [wrote up](https://blog.joshnichols.com/post/ditch-the-console-build-a-steam-machine/) his Steam Machine build with great photos and information. Check it out!
 
 ### Syndications
 

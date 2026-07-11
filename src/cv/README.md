@@ -4,7 +4,7 @@ serif: true
 ---
 # Bret Comnes
 
-Professional Software Engineer experienced in Full-Stack Product Development, Infra/Ops/Platform Engineering and Cloud Archetecture. Specialized in Open Source Tooling in Javascript/Typescript and Go.
+Professional Software Engineer experienced in full-stack product development, infrastructure, operations, platform engineering, and cloud architecture. Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
 - <span class="subdue">email:</span> [bcomnes@gmail.com](mailto:bcomnes+website@gmail.com)
@@ -15,24 +15,24 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 
 <h2>
   <a class="job-logo" id="socket-dev" href="#socket-dev">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/socket-dev.png">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/socket-dev.png" alt="Socket logo">
   </a>
   <a href="https://socket.dev">Socket Inc</a>
   <small>Senior Software Engineer • 2021 - Present</small>
 </h2>
 
-- Developed [Socket.dev](https://socket.dev)'s security scanner [GitHub App](https://github.com/apps/socket-security), a primary driver of platform adoption and a contrubuting factor in a [$20M Series A raise](https://socket.dev/blog/series-a). (Typescript, React, Next.js)
+- Developed [Socket.dev](https://socket.dev)'s security scanner [GitHub App](https://github.com/apps/socket-security), a primary driver of platform adoption and a contributing factor in a [$20M Series A raise](https://socket.dev/blog/series-a). (TypeScript, React, Next.js)
 - Introduced service observability practices. (Datadog, Structured logging, service metrics)
-- Rapid gathering if business intelligence, developed data pipelines and analysis. (PostgreSQL, Retool)
+- Rapidly gathered business intelligence and developed data pipelines and analysis. (PostgreSQL, Retool)
 
 <h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/littlstar-logo.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/littlstar-logo.svg" alt="Littlstar logo">
   </a>
   <a href="https://littlstar.info">Littlstar</a>
   →
   <a class="job-logo" id="rad" href="#rad">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/rad.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/rad.svg" alt="Rad logo">
   </a>
   <a href="https://rad.live">Rad.live</a>
 </h2>
@@ -41,14 +41,14 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
   <small>Principal Engineer • 2021</small>
 </h3>
 
-- Design and implment NFT minting and auction platform in \~10 weeks. (Next.js/GraphQL)
-- See [Littlstar portfilio](https://bret.io/jobs/littlstar/) for more info.
+- Designed and implemented an NFT minting and auction platform in \~10 weeks. (Next.js/GraphQL)
+- See [Littlstar portfolio](https://bret.io/jobs/littlstar/) for more info.
 
 <h3>
   <small>Senior Software Engineer • 2019 - 2021</small>
 </h3>
 
-- Developed full IAC provisioning and depoyment pipelines with Terraform and Github Actions targeting AWS.
+- Developed full IAC provisioning and deployment pipelines with Terraform and GitHub Actions targeting AWS.
 - Develop [Little Core Labs](https://github.com/little-core-labs) peer to peer content delivery system.
 - Implement a rebrand of Littlstar to [Rad.live](https://rad.live).
 - Design and reboot product website using [next.js](https://nextjs.org) and [swr](https://swr.vercel.app).
@@ -57,7 +57,7 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 
 <h2>
   <a class="job-logo" id="hyperdivision" href="#hyperdivision">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hyperdivision-logo.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hyperdivision-logo.svg" alt="Hyperdivision logo">
   </a>
   <a href="https://archive.ph/m8Igr">Hyperdivision</a>
   <small>Software Engineer • 2019 🇩🇰</small>
@@ -67,8 +67,8 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 - Develop security-critical native and webassembly Node.js cryptography bindings. ([prebuildify](https://github.com/prebuild/prebuildify), [libsodium](https://github.com/sodium-friends/sodium-native), [wat2js](https://github.com/mafintosh/wat2js))
 
 <h2>
-  <a class="job-logo" class="job-logo" id="netlify-platform" href="#netlify-platform">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/netlify.svg">
+  <a class="job-logo" id="netlify-platform" href="#netlify-platform">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/netlify.svg" alt="Netlify logo">
   </a>
   <a href="https://www.netlify.com">Netlify</a>
 </h2>
@@ -97,32 +97,32 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 
 <h2>
   <a class="job-logo" id="zhealth" href="#zhealth">
-    <img style="display: inline-block; vertical-align: middle" height="25" width="32" src="img/zhealth.svg">
+    <img style="display: inline-block; vertical-align: middle" height="25" width="32" src="img/zhealth.svg" alt="ZHealth logo">
   </a>
   <a href="http://www.zhealthconsulting.com">ZHealth</a>
   <small>Software Engineer • 2016 - 2017</small>
 </h2>
 
-- Developed structured documentation [EtchCV](https://zhealthdocumentation.com/etch-suite/) suite for Cardiac Surgeons and Hospitals.
+- Developed the structured-documentation EtchCV suite for cardiac surgeons and hospitals.
 - API and microservice design + implementation.
 - Cross Platform Desktop software using Electron, HTML, CSS and SVG powered by React + Redux.
 - Implemented continuous Electron App delivery using TravisCI, Appveyor and S3/AWS.
 
 <h2>
   <a class="job-logo" id="jlr" href="#jlr">
-    <img style="display: inline-block; vertical-align: middle" height="28" width="113" src="img/jlr.png">
+    <img style="display: inline-block; vertical-align: middle" height="28" width="113" src="img/jlr.png" alt="Jaguar Land Rover logo">
   </a>
   <a href="https://www.jaguarlandrover.com">Jaguar Land Rover</a>
   <small>OS & Application Engineering • 2015 - 2016</small>
 </h2>
 
 - Mobile app, infotainment and OS development using JS + Node.js, HTML and CSS.
-- Targed in-vehicle embeded systems fully utlizing the onboard can bus.
+- Targeted in-vehicle embedded systems, fully utilizing the onboard CAN bus.
 - Architected a single sign-on service and documentation server for internal documents and project planning using Express.js.
 
 <h2>
   <a class="job-logo" id="psu" href="#psu">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/psu.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/psu.svg" alt="Portland State University logo">
   </a>
   <a href="https://www.pdx.edu/">Portland State University</a>
 </h2>
@@ -150,8 +150,8 @@ advanced topics like PID control theory.
 - Teaching introductory electronics and debugging skills to students.
 
 <h2>
-  <a class="job-logo" id="wiley" href="#wiley">
-    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/wiley.svg">
+  <a class="job-logo" id="hsu" href="#hsu">
+    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/wiley.svg" alt="Wiley logo">
   </a>
   <a href="https://www.wiley.com/en-us">Wiley</a>
   <small>Textbook Development Consultant • 2012</small>
@@ -161,9 +161,9 @@ advanced topics like PID control theory.
 
 <h2>
   <a class="job-logo" id="wiley" href="#wiley">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hsu.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hsu.svg" alt="Humboldt State University logo">
   </a>
-  <a href="http://www2.humboldt.edu/physics/gravitational-lab.html">HSU Gravitational Research Laboratory</a>
+  <a href="https://www.humboldt.edu/physics-astronomy">HSU Gravitational Research Laboratory</a>
   <small>Research Assistant • 2009 - 2011</small>
 </h2>
 
@@ -171,23 +171,23 @@ advanced topics like PID control theory.
 
 <h2>
   <a class="job-logo" id="naic" href="#naic">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/naic.png">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/naic.png" alt="National Astronomy and Ionosphere Center logo">
   </a>
   <a href="https://egg.astro.cornell.edu/index.php/">National Astronomy and Ionosphere Center</a>
   <small>Arecibo Guest Researcher • 2009</small>
 </h2>
 
-- Trained and operated the worlds largest radio telescope and analyzed the collected data searching for previously undiscovered galaxies.
+- Trained and operated the world's largest radio telescope and analyzed the collected data, searching for previously undiscovered galaxies.
 
 ## Education
 
-- [Humboldt State University](http://www2.humboldt.edu/physics/) <small class="subdue">B.S. Physics 2011 </small>
+- [Humboldt State University](https://www.humboldt.edu/physics-astronomy) <small class="subdue">B.S. Physics 2011 </small>
 - [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (Completed coursework, No diploma)</small>
 
 ## Media
 
 - [Socket - Github App Improvements](https://socket.dev/blog/github-app-improvements) 2022-07-26
-- [JS Party – Episode #227: JS logging & error handling](https://changelog.com/jsparty/219) 2022-05-27
+- [JS Party – Episode #227: JS logging & error handling](https://changelog.com/jsparty/227) 2022-05-27
 - [JS Party – Episode #219: Making moves on supply chain security](https://changelog.com/jsparty/219) 2022-03-24
 - [Netlify Blog: A more flexible build architecture with updated Linux](https://www.netlify.com/blog/2019/03/14/a-more-flexible-build-architecture-with-updated-linux/) 2019-03-14
 - [Netlify Blog: Fearless deploys for your lingering processes](https://www.netlify.com/blog/2018/11/28/fearless-deploys-for-your-lingering-processes/) 2018-11-28
@@ -199,7 +199,7 @@ advanced topics like PID control theory.
 
 ## Community
 
-- [Datcast](https://dat-cast.hashbase.io) <small class="subdue">Podcast (2018 - 2019)</small>
+- Datcast <small class="subdue">Podcast (2018 - 2019)</small>
 - [PDX Node](https://www.meetup.com/pdxnode/) <small class="subdue">Organizer Meetup (2015 - 2017)</small>
 - [Node School](https://nodeschool.io) <small class="subdue">Organizer & Mentor (2016)</small>
 - [Code for Portland](http://www.codeforportland.org) <small class="subdue">Organizer & Mentor • Open Civic Data Initiative (2014 - 2015)</small>

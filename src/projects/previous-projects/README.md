@@ -96,7 +96,7 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
     <ul>
       <li class="lang js"><a href="https://github.com/hypermodules/dti">hypermodules/dti</a></li>
       <li class="lang js"><a href="https://github.com/bcomnes/mooon">bcomnes/mooon</a></li>
-      <li class="lang js"><a href="https://zhealthdocumentation.com/etch-suite/">zhealthdocumentation.com/etch-suite</a></li>
+      <li class="lang js">Etch Suite documentation</li>
       <li class="lang js"><a href="https://github.com/prebuild">Home Prebuilders Association</a></li>
     </ul>
   </div>

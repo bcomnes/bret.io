@@ -8,7 +8,7 @@ handlebars: false
 
 **Update**: Sold!
 
-I'm selling my graphics card from my [You can just build a Steam Machine]('../../2025/you-can-just-build-a-steam-machine/') blogpost.
+I'm selling my graphics card from my [You can just build a Steam Machine](../../2025/you-can-just-build-a-steam-machine/) blog post.
 
 [GIGABYTE Radeon RX 7700 XT GAMING OC 12GB GDDR6 Graphics Card](https://www.ebay.com/itm/298164483067)
 

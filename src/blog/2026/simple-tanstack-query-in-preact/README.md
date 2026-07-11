@@ -9,15 +9,15 @@ description: "Use npm package aliases to get @tanstack/react-query working in Pr
 image: ./img/preact-tanstack.jpg
 ---
 
-**UPDATE**
+## Update
 
-About 3 days after writing this, Tanstack [realeased a native preact tanstack query adapter](https://github.com/TanStack/query/pull/9935)! Just use that and ignore the rest. Thanks to everyone invovled in that.
+About three days after writing this, TanStack [released a native Preact TanStack Query adapter](https://github.com/TanStack/query/pull/9935)! Just use that and ignore the rest. Thanks to everyone involved in that.
 
 - ([`@tanstack/preact-query`](https://www.npmjs.com/package/@tanstack/preact-query))
 
 ---
 
-![](./img/preact-tanstack.jpg)
+![Preact and TanStack Query logos](./img/preact-tanstack.jpg)
 
 Here is a simple approach to getting [`@tanstack/react-query`](https://tanstack.com/query/latest) working in a [preact](https://preactjs.com/guide/v10/differences-to-react#features-exclusive-to-preactcompat) project.
 I'm certain I'm not the only person to arrive at this, but I also didn't manage to find anyone suggesting this under the noise of your usual bundlerslop tutorials.
@@ -140,8 +140,8 @@ const out = render(html`<${App} />`)
 
 ## Where this might not work
 
-If you are importing a wide array of react components from npm, and any of them erroneously define a direct dependency on `react`, something else may download a second copy of `react`. 
-`react` hates it when there is more than one copy of `react` in your bundle, so if you find yourself in this case, 
+If you are importing a wide array of react components from npm, and any of them erroneously define a direct dependency on `react`, something else may download a second copy of `react`.
+`react` hates it when there is more than one copy of `react` in your bundle, so if you find yourself in this case,
 you may need to introduce bundler config to solve that.
 The more general package manager override directives might also work if you have transitive copies of `react` you want to hammer out, however these are specific to the package manager you use ([npm](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#overrides), [pnpm](https://pnpm.io/settings#overrides) etc).
 

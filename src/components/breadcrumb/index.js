@@ -2,10 +2,11 @@ import { html } from 'uhtml-isomorphic'
 import cn from 'classnames'
 
 export const breadcrumb = ({
-  pathSegments
+  pathSegments,
+  label = 'Breadcrumb'
 }) => {
   return html`
-  <nav class="breadcrumb-nav" aria-label="breadcrumb">
+  <nav class="breadcrumb-nav" aria-label="${label}">
         <ol class="list">
             ${pathSegments.map((segment, i, segments) =>
               html`

@@ -4,7 +4,7 @@ title: "It's Time to Install SteamOS 3.7"
 serif: false
 publishDate: "2025-05-08T02:48:57.527Z"
 updatedDate: "2025-06-04T00:27:17.508Z"
-description: "Instructions and note on installing SteamOS 3.7 on anyting"
+description: "Instructions and notes on installing SteamOS 3.7 on anything"
 image: img/steam-deck-recovery-new.webp
 ---
 
@@ -15,25 +15,25 @@ Here’s my procedure and notes.
 
 (This will go stale quickly, but as of this writing, it works.)
 
-  - **EDIT 3**: A [New SteamOS Home Page](https://store.steampowered.com/steamos) has been released echoing most of the information written here.
-  - **EDIT 2**: [3.7 Has been released to the stable channel](https://store.steampowered.com/news/app/1675200/view/529845510803031952). Running updates on the stable channel will get you to a working state. 
-  - **EDIT 1**: As of writing this, [3.7 has been promoted to **BETA**](https://store.steampowered.com/news/app/1675200/view/529845510803031952), so check the system version you get on the hop to Beta. If you get to 3.7, you are good to go!
+- **EDIT 3**: A [New SteamOS Home Page](https://store.steampowered.com/steamos) has been released echoing most of the information written here.
+- **EDIT 2**: [3.7 Has been released to the stable channel](https://store.steampowered.com/news/app/1675200/view/529845510803031952). Running updates on the stable channel will get you to a working state.
+- **EDIT 1**: As of writing this, [3.7 has been promoted to **BETA**](https://store.steampowered.com/news/app/1675200/view/529845510803031952), so check the system version you get on the hop to Beta. If you get to 3.7, you are good to go!
 
 ### Prep Tips
 
-- The recovery image installs SteamOS ~~3.5~~ 3.7 or later. Descrete GPUs just work now.
+- The recovery image installs SteamOS ~~3.5~~ 3.7 or later. Discrete GPUs just work now.
 - SteamOS 3.5 has limited hardware support. On desktop systems, enable integrated graphics and plug your monitor directly into the integrated HDMI or DisplayPort during installation.
 - Some discrete GPUs I tested failed to boot SteamOS 3.5. I don’t recommend trying them. Use iGPUs for the initial install, then switch back to a discrete GPU once you’re on 3.7.
 
 ### Procedure
 
-- Download the Steam Deck Recovery Image from: https://help.steampowered.com/en/faqs/view/1b71-edf2-eb6d-2bb3
+- Download the Steam Deck Recovery Image from: <https://help.steampowered.com/en/faqs/view/1b71-edf2-eb6d-2bb3>
 - Flash the recovery image to a USB drive.
 - Boot the USB drive on your "Steam Machine" and "re-flash" your "Deck"—i.e., whatever hardware manages to boot the recovery image.
 - It flashes the primary NVMe drive, **deleting everything on it**. Be careful!
 - After flashing, reboot, remove the USB drive, and sign in.
 - In system settings, run updates on the **stable** channel to update to SteamOS 3.7 or later. You can also test the Beta and Preview channels if you wish.
-- Congrats! You’re now running SteamOS 3.7. 
+- Congrats! You’re now running SteamOS 3.7.
 - Head back into your BIOS, disable integrated graphics, and test your discrete GPU. It will probably work now!
 - SteamOS 3.7 should now be running on your hardware of choice!
 
@@ -41,7 +41,7 @@ Here’s my procedure and notes.
 
 It’s been rumored for a while that SteamOS—the [Arch](https://archlinux.org)-based Linux distro powering the Steam Deck—is moving toward becoming a general-purpose Linux OS for any device.
 
-![](./img/linus.webp)
+![Linus Tech Tips holding a Steam Deck](./img/linus.webp)
 
 I tried installing SteamOS on conventional hardware a few months ago without much success:
 

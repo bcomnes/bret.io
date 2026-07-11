@@ -2,6 +2,27 @@ import pMap from 'p-map'
 import jsonfeedToAtom from 'jsonfeed-to-atom'
 
 /**
+ * @param {string} content
+ * @param {string} baseUrl
+ * @returns {string}
+ */
+export function absoluteHtmlUrls (content, baseUrl) {
+  return content
+    .replace(/(\s(?:href|src|poster)=)(["'])(.*?)\2/gi, (match, prefix, quote, url) => {
+      if (/^(?:data|javascript):/i.test(url)) return match
+      return `${prefix}${quote}${new URL(url, baseUrl).href}${quote}`
+    })
+    .replace(/(\ssrcset=)(["'])(.*?)\2/gi, (match, prefix, quote, srcset) => {
+      if (/^\s*data:/i.test(srcset)) return match
+      const absoluteSrcset = srcset.split(',').map((/** @type {string} */ candidate) => {
+        const [, url, descriptor = ''] = candidate.trim().match(/^(\S+)(.*)$/) ?? []
+        return url ? `${new URL(url, baseUrl).href}${descriptor}` : candidate
+      }).join(', ')
+      return `${prefix}${quote}${absoluteSrcset}${quote}`
+    })
+}
+
+/**
  * @template T
  * @typedef {import('@domstack/static').TemplateAsyncIterator<T>} TemplateAsyncIterator
  */
@@ -45,12 +66,13 @@ export default async function * feedsTemplate ({
       avatar: authorImgUrl
     },
     items: await pMap(blogPosts, async (page) => {
+      const url = `${siteUrl}/${page.pageInfo.path}/`
       return {
         date_published: page.vars.publishDate,
         title: page.vars.title,
-        url: `${siteUrl}/${page.pageInfo.path}/`,
-        id: `${siteUrl}/${page.pageInfo.path}/#${page.vars.publishDate}`,
-        content_html: await page.renderInnerPage({ pages })
+        url,
+        id: `${url}#${page.vars.publishDate}`,
+        content_html: absoluteHtmlUrls(await page.renderInnerPage({ pages }), url)
       }
     }, { concurrency: 4 })
   }

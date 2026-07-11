@@ -61,6 +61,6 @@ Here a few more relevant links and please let me know what you think if you try 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sublime Tron Legacy color scheme fully updated for <a href="https://twitter.com/sublimehq?ref_src=twsrc%5Etfw">@sublimehq</a> Text 4. Full syntax support, lots of other small improvements. Also it supports &#39;glow&#39; text✌️ <a href="https://t.co/vShbGThgDF">pic.twitter.com/vShbGThgDF</a></p>&mdash; 🌌🌵🛸Bret🏜👨‍👩‍👧🚙 (@bcomnes) <a href="https://twitter.com/bcomnes/status/1423418998725742602?ref_src=twsrc%5Etfw">August 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<small><date>2021-08-05T23:09:46.781Z</date></small>
+<small><time datetime="2021-08-05T23:09:46.781Z">2021-08-05</time></small>
 
 *[ST4]: Sublime Text 4

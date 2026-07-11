@@ -72,7 +72,7 @@ export default async function blogIndex2023 ({
         <li>
           <a href="/jobs/">jobs</a>
         </li>
-      <ul>
+      </ul>
     </footer>
     `
 }

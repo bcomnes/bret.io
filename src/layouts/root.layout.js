@@ -1,6 +1,6 @@
 import { html } from 'uhtml-isomorphic'
 import cn from 'classnames'
-import { topNavBar, bottomFotterBar } from '../components/top-nav-bar/index.js'
+import { topNavBar, bottomFooterBar } from '../components/top-nav-bar/index.js'
 
 /**
  * @template T
@@ -46,7 +46,7 @@ export default async function rootLayout ({
   <head>
     <meta charset="utf-8">
     <title>${title ? `${title} | ` : ''}${siteName}</title>
-    <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
     <link rel="icon" type="image/x-icon" href="/favicons/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
@@ -93,7 +93,7 @@ export default async function rootLayout ({
     <link rel="me" href="https://micro.blog/bret">
 
     ${scripts
-      ? scripts.map(script => html`<script src="${script}" type='module'></script>`)
+      ? scripts.map(script => html`<script src="${script}" type="module"></script>`)
       : null
     }
     ${styles
@@ -107,7 +107,7 @@ export default async function rootLayout ({
       ${page.draft ? html`<div>DRAFT</div>` : null}
       ${typeof children === 'string' ? html([children]) : children /* Support both uhtml and string children. Optional. */}
     </main>
-    ${bottomFotterBar({
+    ${bottomFooterBar({
       githubRootUrl,
       page
     })}
