@@ -2,10 +2,7 @@ import { html } from 'uhtml-isomorphic'
 import { sep } from 'node:path'
 import { breadcrumb } from '../components/breadcrumb/index.js'
 
-/**
- * @template T
- * @typedef {import('@domstack/static').LayoutFunction<T>} LayoutFunction
- */
+/** @import { LayoutFunction } from '@domstack/static' */
 
 /**
  * @typedef {import('./root.layout.js').RootLayoutVars} RootLayoutVars
@@ -21,7 +18,7 @@ import { breadcrumb } from '../components/breadcrumb/index.js'
 
 import defaultRootLayout from './root.layout.js'
 
-/** @type {LayoutFunction<BlogIndexVars>} */
+/** @type {LayoutFunction<BlogIndexVars, string | import('uhtml-isomorphic').Hole, import('uhtml-isomorphic').Hole>} */
 export default function blogIndexLayout (args) {
   const { children, ...rest } = args
   const pathSegments = args.page.path.split(sep)
@@ -34,6 +31,5 @@ export default function blogIndexLayout (args) {
     }
   `
 
-  // @ts-ignore
   return defaultRootLayout({ children: wrappedChildren, ...rest })
 }

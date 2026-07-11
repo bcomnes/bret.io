@@ -1,10 +1,7 @@
 import { html } from 'uhtml-isomorphic'
 import { dirname } from 'node:path'
 
-/**
- * @template T
- * @typedef {import('@domstack/static').LayoutFunction<T>} LayoutFunction
- */
+/** @import { LayoutFunction } from '@domstack/static' */
 
 /**
  * @typedef {import('./blog-index.layout.js').BlogIndexVars} BlogIndexVars
@@ -16,15 +13,15 @@ import { dirname } from 'node:path'
 
 import blogIndexLayout from './blog-index.layout.js'
 
-/** @type {LayoutFunction<AutoBlogIndexVars>} */
+/** @type {LayoutFunction<AutoBlogIndexVars, string | import('uhtml-isomorphic').Hole, import('uhtml-isomorphic').Hole>} */
 export default function blogAutoIndexLayout (args) {
   const { children, ...rest } = args
 
   const folderPages = args.pages.filter(folderPage => {
     const dir = dirname(folderPage.pageInfo.path)
     const path = args.page.path
-    return dir === path && folderPage.vars.published !== false
-  }).sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
+    return dir === path && folderPage.vars['published'] !== false
+  }).sort((a, b) => Date.parse(b.vars.publishDate) - Date.parse(a.vars.publishDate))
 
   const wrappedChildren = html`
     <ul class="blog-index-list">

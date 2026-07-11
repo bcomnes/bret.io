@@ -2,6 +2,25 @@ import { html } from 'uhtml-isomorphic'
 
 import articleLayout from './article.layout.js'
 
+/** @import { LayoutFunction } from '@domstack/static' */
+
+/**
+ * @typedef {import('./article.layout.js').ArticleLayoutVars & {
+ *  review?: { rating: number },
+ *  book?: {
+ *    title: string,
+ *    author: string,
+ *    ISBN?: string,
+ *    ISBN13?: string,
+ *    OCLC?: string,
+ *    publishDate?: string,
+ *    publisher?: string,
+ *    reference?: Record<string, string>
+ *  }
+ * }} BookReviewLayoutVars
+ */
+
+/** @type {LayoutFunction<BookReviewLayoutVars, string | import('uhtml-isomorphic').Hole, import('uhtml-isomorphic').Hole>} */
 export default function bookReviewLayout (args) {
   const { children, ...rest } = args
   const vars = args.vars
@@ -16,7 +35,7 @@ export default function bookReviewLayout (args) {
         <meta content="1" itemprop="worstRating">
         <meta content="${vars.review?.rating}" itemprop="ratingValue">
         <meta content="5" itemprop="bestRating">
-        <span class="star-review" title="${vars.review?.rating}" >${Array.from({ length: vars.review?.rating }).fill('⭐️')}</span>
+        <span class="star-review" title="${vars.review?.rating}" >${Array.from({ length: vars.review?.rating ?? 0 }).fill('⭐️')}</span>
       </h3>
 
       <h3>Details</h3>

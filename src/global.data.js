@@ -1,11 +1,20 @@
 import { html, render } from 'uhtml-isomorphic'
 
+/** @import { AsyncGlobalDataFunction } from '@domstack/static' */
+
+/**
+ * @typedef {{
+ *  blogPostsHtml: string
+ * }} GlobalData
+ */
+
+/** @type {AsyncGlobalDataFunction<GlobalData>} */
 export default async function globalData ({
   pages
 }) {
   const blogPosts = pages
     .filter(page => ['article', 'book-review'].includes(page.vars.layout))
-    .sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
+    .sort((a, b) => Date.parse(b.vars.publishDate) - Date.parse(a.vars.publishDate))
     .slice(0, 5)
 
   const blogpostsHtml = render(String, html`<ul class="blog-index-list">

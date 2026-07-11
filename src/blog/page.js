@@ -1,10 +1,7 @@
 import { html } from 'uhtml-isomorphic'
 import { dirname, basename } from 'node:path'
 
-/**
- * @template T
- * @typedef {import('@domstack/static').PageFunction<T>} PageFunction
- */
+/** @import { PageFunction } from '@domstack/static' */
 
 export const vars = {
   title: 'Blog Posts',
@@ -23,16 +20,15 @@ export const vars = {
  *  layout: string,
  *  publishDate: string
  *  title: string
- * }>}
+ * }, import('uhtml-isomorphic').Hole>}
  */
-export default async function blogIndex2023 ({
+export default function blogIndex ({
   pages,
   page
 }) {
   const blogPosts = pages
     .filter(page => ['article', 'book-review'].includes(page.vars.layout))
-    // @ts-ignore
-    .sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
+    .sort((a, b) => Date.parse(b.vars.publishDate) - Date.parse(a.vars.publishDate))
     .slice(0, 100)
 
   const folderPages = pages.filter(folderPage => {

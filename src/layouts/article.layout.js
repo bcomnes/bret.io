@@ -4,12 +4,30 @@ import { breadcrumb } from '../components/breadcrumb/index.js'
 
 import defaultRootLayout from './root.layout.js'
 
+/** @import { LayoutFunction } from '@domstack/static' */
+
+/**
+ * @typedef {import('./root.layout.js').RootLayoutVars & {
+ *  title: string,
+ *  published?: boolean,
+ *  articleType?: string,
+ *  bodyType?: string,
+ *  authorImgUrl?: string,
+ *  authorImgAlt?: string,
+ *  authorName?: string,
+ *  authorUrl?: string,
+ *  publishDate?: string,
+ *  updatedDate?: string
+ * }} ArticleLayoutVars
+ */
+
 const dateFormatter = new Intl.DateTimeFormat('en-US', {
   dateStyle: 'medium',
   timeStyle: 'short',
   timeZone: 'UTC'
 })
 
+/** @type {LayoutFunction<ArticleLayoutVars, string | import('uhtml-isomorphic').Hole, import('uhtml-isomorphic').Hole>} */
 export default function articleLayout (args) {
   const { children, ...rest } = args
   const vars = args.vars

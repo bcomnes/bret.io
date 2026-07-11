@@ -26,6 +26,12 @@ export const topNavBar = () => {
   `
 }
 
+/**
+ * @param {{
+ *  githubRootUrl: string,
+ *  page: { pageFile: { relname: string } }
+ * }} options
+ */
 export const bottomFooterBar = ({
   githubRootUrl,
   page

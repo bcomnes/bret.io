@@ -22,10 +22,7 @@ export function absoluteHtmlUrls (content, baseUrl) {
     })
 }
 
-/**
- * @template T
- * @typedef {import('@domstack/static').TemplateAsyncIterator<T>} TemplateAsyncIterator
- */
+/** @import { TemplateAsyncIterator } from '@domstack/static' */
 
 /** @type {TemplateAsyncIterator<{
  *  siteName: string,
@@ -51,7 +48,7 @@ export default async function * feedsTemplate ({
 }) {
   const blogPosts = pages
     .filter(page => ['article', 'book-review'].includes(page.vars.layout))
-    .sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
+    .sort((a, b) => Date.parse(b.vars.publishDate) - Date.parse(a.vars.publishDate))
     .slice(0, 10)
 
   const jsonFeed = {

@@ -1,7 +1,4 @@
-/**
- * @template T
- * @typedef {import('@domstack/static').PageFunction<T>} PageFunction
- */
+/** @import { PageFunction } from '@domstack/static' */
 
 export const vars = {
   title: 'Projects',
@@ -15,6 +12,6 @@ export const vars = {
  *       publishDate: string
  * }>}
  */
-export default async function projectIndex () {
+export default function projectIndex () {
   return ''
 }

@@ -1,9 +1,6 @@
 import builder from 'xmlbuilder'
 
-/**
- * @template T
- * @typedef {import('@domstack/static').TemplateFunction<T>} TemplateFunction
- */
+/** @import { TemplateFunction } from '@domstack/static' */
 
 /** @type {TemplateFunction<{
  *  siteName: string,

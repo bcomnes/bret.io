@@ -2,10 +2,7 @@ import { html } from 'uhtml-isomorphic'
 import cn from 'classnames'
 import { topNavBar, bottomFooterBar } from '../components/top-nav-bar/index.js'
 
-/**
- * @template T
- * @typedef {import('@domstack/static').LayoutFunction<T>} LayoutFunction
- */
+/** @import { LayoutFunction } from '@domstack/static' */
 
 /**
  * @typedef {{
@@ -21,8 +18,12 @@ import { topNavBar, bottomFooterBar } from '../components/top-nav-bar/index.js'
  * }} RootLayoutVars
  */
 
-/** @type {LayoutFunction<RootLayoutVars>} */
-export default async function rootLayout ({
+/**
+ * @template {RootLayoutVars} Vars
+ * @param {Parameters<LayoutFunction<Vars, string | import('uhtml-isomorphic').Hole, import('uhtml-isomorphic').Hole>>[0]} args
+ * @returns {import('uhtml-isomorphic').Hole}
+ */
+export default function rootLayout ({
   vars: {
     title,
     description,
