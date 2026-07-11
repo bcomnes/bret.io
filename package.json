@@ -8,6 +8,7 @@
     "test": "run-s test:*",
     "test:neostandard": "eslint .",
     "test:node-test": "c8 node --test --test-reporter spec",
+    "test:types": "tsc --noEmit",
     "test:build": "run-s build",
     "build": "npm run clean && run-p build:*",
     "build:tb": "domstack --target ios17",
@@ -59,8 +60,8 @@
     "xmlbuilder": "^15.1.1"
   },
   "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.3.1"
+    "node": ">=24 <25",
+    "npm": ">=11"
   },
   "dependencies": {
     "giscus": "^1.5.0",
