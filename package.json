@@ -50,7 +50,7 @@
     "jsonfeed-to-atom": "^1.2.4",
     "markdownlint-cli": "^0.49.0",
     "masonry-layout": "^4.2.2",
-    "mine.css": "^10.0.0",
+    "mine.css": "^11.0.5",
     "neostandard": "^0.13.0",
     "npm-run-all2": "^9.0.0",
     "p-map": "^7.0.0",
