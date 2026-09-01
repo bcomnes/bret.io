@@ -137,7 +137,7 @@ Finding decent controllers that work well enough for PC games on the couch has b
 It's surprising and hard to explain to people unfamiliar with the issue just how important of a development Gyro Aim is.
 This thesis is required watching if you haven't had hands-on time with a Gyro input:
 
-<figure class="borderless">
+<figure class="borderless video-figure">
   <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/binPB4YbWmM?si=YZsQxKNbD9u3GwqV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
