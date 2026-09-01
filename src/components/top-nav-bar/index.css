@@ -1,5 +1,5 @@
 .site-top-bar {
-  padding:0 1rem;
+  padding:0.5rem 1rem;
   margin:0 0 2rem;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -39,7 +39,6 @@ footer > .site-top-bar-link:first-child {
     float:left;
     font-size:1rem;
     text-decoration:none;
-    padding:1rem 0;
 }
 
 .site-top-bar-link.current-page,
@@ -79,6 +78,22 @@ footer > .site-top-bar-link:first-child {
   flex-shrink: 0;
   white-space: nowrap;
   max-width: 100%;
+}
+
+.site-top-bar-social-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-top-bar-social-links a,
+.site-top-bar-social-links img {
+  display: block;
+}
+
+.site-top-bar-social-links img {
+  width: 18px;
+  height: 18px;
 }
 
 @media screen and (max-width: 106em) {

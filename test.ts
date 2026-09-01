@@ -40,11 +40,18 @@ test('builds generated blog indexes and variable-driven redirects', async (t) =>
     assert.match(redirect, /<link rel="canonical" href="\/blog\/">/)
   }
 
+  const resumeRedirect = await build.readOutput('cv/index.html')
+  assert.match(resumeRedirect, /<meta name="robots" content="noindex">/)
+  assert.match(resumeRedirect, /<meta http-equiv="refresh" content="0;url=\/resume\/">/)
+  assert.match(resumeRedirect, /<link rel="canonical" href="\/resume\/">/)
+  assert.match(await build.readOutput('resume/index.html'), /Bret Comnes Resume/)
+
   const sitemap = await build.readOutput('sitemap.xml')
   for (const [legacyOutput, , canonicalUrl] of movedPages) {
     const legacyUrl = `/${legacyOutput.replace(/index\.html$/, '')}`
     assert.doesNotMatch(sitemap, new RegExp(`<loc>https://bret\\.io${legacyUrl}</loc>`))
     assert.match(sitemap, new RegExp(`<loc>https://bret\\.io${canonicalUrl}</loc>`))
   }
-  assert.doesNotMatch(sitemap, /<loc>https:\/\/bret\.io\/(?:projects|jobs)\/<\/loc>/)
+  assert.doesNotMatch(sitemap, /<loc>https:\/\/bret\.io\/(?:projects|jobs|cv)\/<\/loc>/)
+  assert.match(sitemap, /<loc>https:\/\/bret\.io\/resume\/<\/loc>/)
 })
