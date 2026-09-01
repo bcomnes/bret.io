@@ -1,12 +1,34 @@
-@import 'highlight.js/styles/github-dark-dimmed.css';
-@import 'mine.css/dist/mine.css';
+@import 'mine.css';
+@import 'mine.css/dist/themes/tron-legacy.css';
+@import 'mine.css/dist/highlight.js/tron-legacy/index.css';
 @import 'mine.css/dist/layout.css';
 @import 'fragmentions/fragmention.css';
 @import '../components/top-nav-bar/index.css';
 
+/* Preserve the site's v10-era Tron palette within v11's named theme API. */
+:root[data-mine-theme='tron'] {
+  --font-size-body: 1.1rem;
+  --light-text: #121212;
+  --light-background: #fff;
+  --light-accent-midground: #d6d6d6;
+  --light-control-border: #d6d6d6;
+  --light-link-text: #08f;
+  --light-code-border: #d6d6d6;
+  --dark-accent-background: #242d39;
+  --dark-accent-midground: #4d4d4d;
+  --dark-accent-foreground: rgb(154, 154, 154);
+  --dark-control-border: #4d4d4d;
+  --dark-link-text: #267fb5;
+  --dark-code-text: #7d8b9f;
+  --dark-code-border: #4d4d4d;
+}
+
 /* Document level */
 body {
   min-height: 100vh;
+  padding: 0;
+  padding-right: 0;
+  padding-left: 0;
   display: flex;
   flex-direction: column;
 }
@@ -35,6 +57,10 @@ h6 {
 
 main {
   flex-grow: 1;
+}
+
+.mine-layout {
+  margin-block: 2em;
 }
 
 @view-transition { navigation: auto; }
@@ -81,17 +107,3 @@ ul {
     color: var(--accent-foreground);
   }
 }
-
-:root {
-  /* main colors */
-  --dark-text: #aec2e0;
-  --dark-background: #14191f;
-
-  --dark-accent-background: #242d39;
-  --dark-accent-foreground: rgb(154, 154, 154);
-
-  /* misc colors */
-  --dark-link-text: #267fb5;
-  --dark-code-text: #7d8b9f;
-}
-

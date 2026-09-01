@@ -22,6 +22,7 @@
 }
 
 .header .subtitle {
+  max-inline-size: none;
   color: var(--accent-foreground);
   font-size: .8em;
 }
