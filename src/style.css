@@ -1,6 +1,17 @@
 @import './components/language-bullets.css';
 @import './components/blog-index-list/index.css';
 
+@font-face {
+  font-family: 'DSWeiss-Gotisch';
+  src: url('./portfolio-img/DSWeiss-Gotisch.ttf') format('truetype');
+  font-display: swap;
+}
+
+.domstack-heading,
+.domstack-heading a {
+  font-family: 'DSWeiss-Gotisch', serif;
+}
+
 /* Porfolio Header */
 .header {
   text-align: center;
