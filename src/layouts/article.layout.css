@@ -36,4 +36,11 @@
   & .updated-date {
     font-family: var(--font-code);
   }
+
+  & iframe[src*='youtube.com'],
+  & iframe[src*='youtube-nocookie.com'] {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
 }
