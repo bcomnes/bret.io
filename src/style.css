@@ -7,100 +7,372 @@
   font-display: swap;
 }
 
+:root {
+  --home-border: color-mix(in srgb, var(--accent-foreground) 28%, transparent);
+  --home-surface: color-mix(in srgb, var(--background) 94%, var(--link-text));
+  --home-surface-raised: color-mix(in srgb, var(--background) 97%, var(--link-text));
+  --home-muted: var(--accent-foreground);
+  --home-radius: 0.75rem;
+}
+
+.markdown-body {
+  max-width: 76rem;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: clamp(6.5rem, 11vw, 8.5rem) minmax(0, 46rem);
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  align-items: center;
+  justify-content: center;
+  padding: clamp(2rem, 4vw, 3.25rem) 0;
+  border-bottom: 1px solid var(--home-border);
+}
+
+.header .avatar {
+  display: block;
+  width: clamp(6.5rem, 11vw, 8.5rem);
+  height: auto;
+  padding: 0.35rem;
+  border: 1px solid var(--home-border);
+  border-radius: 50%;
+  background: var(--background);
+}
+
+.eyebrow {
+  max-inline-size: none;
+  margin: 0 0 0.7rem;
+  color: var(--home-muted);
+  font-family: var(--font-code);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.header .title {
+  margin: 0;
+  border: 0;
+  font-size: clamp(3rem, 8vw, 6.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.065em;
+}
+
+.header .title a,
+.section-header a {
+  text-decoration: none;
+}
+
+.header .title a {
+  background-color: transparent;
+  box-shadow: none;
+  transition: opacity 0.1s ease;
+}
+
+.header .title a:hover {
+  opacity: 0.78;
+}
+
+
+.header .subtitle {
+  max-inline-size: 40rem;
+  margin: 1.5rem 0 0;
+  color: var(--home-muted);
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  line-height: 1.55;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.75rem;
+}
+
+.hero-links a {
+  padding: 0.42rem 0.78rem;
+  border: 1px solid var(--home-border);
+  border-radius: 999px;
+  font-family: var(--font-code);
+  font-size: 0.78rem;
+  text-decoration: none;
+  transition: border-color 120ms ease, color 120ms ease, transform 120ms ease;
+}
+
+.hero-links a:hover {
+  border-color: var(--link-text);
+  transform: translateY(-1px);
+}
+
+.recent-post-section,
+.projects-section {
+  padding-block: clamp(3.5rem, 7vw, 6rem);
+}
+
+.recent-post-section {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.65fr) minmax(20rem, 1.35fr);
+  gap: clamp(2rem, 6vw, 7rem);
+  align-items: start;
+  border-bottom: 1px solid var(--home-border);
+}
+
+.section-heading {
+  min-width: 0;
+}
+
+.section-header {
+  margin: 0;
+  border: 0;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.section-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-family: var(--font-code);
+  font-size: 0.8rem;
+}
+
+.section-link,
+.archive-link a {
+  color: var(--home-muted);
+}
+
+.section-link:hover,
+.archive-link a:hover {
+  color: var(--link-text);
+}
+
+.section-note {
+  max-inline-size: 42rem;
+  margin: 1rem 0 0;
+  color: var(--home-muted);
+}
+
+.recent-post-container {
+  width: 100%;
+  min-width: 0;
+}
+
+.recent-post-container .blog-index-list {
+  margin: 0;
+}
+
+.recent-post-container .blog-entry {
+  gap: 2rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--home-border);
+}
+
+.recent-post-container .blog-entry:first-child {
+  padding-top: 0;
+}
+
+.recent-post-container .blog-entry-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.projects-section > .section-heading {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.65fr) minmax(20rem, 1.35fr);
+  column-gap: clamp(2rem, 6vw, 7rem);
+  align-items: end;
+  margin-bottom: 2.25rem;
+}
+
+
+.projects-section > .section-heading .section-header {
+  grid-column: 1;
+}
+
+.projects-section > .section-heading .section-note {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: end;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.portfolio > div {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--home-border);
+  border-radius: var(--home-radius);
+  background: var(--home-surface-raised);
+  transition: border-color 140ms ease, transform 140ms ease, box-shadow 140ms ease;
+}
+
+.portfolio > div:hover {
+  border-color: color-mix(in srgb, var(--link-text) 55%, var(--home-border));
+  box-shadow: 0 0.8rem 2.5rem color-mix(in srgb, var(--text) 9%, transparent);
+  transform: translateY(-2px);
+}
+
+.portfolio > div > h3 {
+  order: 2;
+  margin: 1.15rem 1.25rem 0;
+  border: 0;
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+
+.portfolio > div > h3 a {
+  text-decoration: none;
+}
+
+.portfolio figure {
+  display: contents;
+}
+
+.portfolio figure > a,
+.portfolio figure > picture,
+.portfolio figure > img {
+  order: 1;
+}
+
+.portfolio figure > a {
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid var(--home-border);
+  border-radius: calc(var(--home-radius) - 1px) calc(var(--home-radius) - 1px) 0 0;
+  background: var(--home-surface);
+}
+
+.portfolio figure > a > picture {
+  display: block;
+}
+
+.portfolio figure img {
+  display: block;
+  width: 100%;
+  height: 12rem;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  object-fit: cover;
+  background: transparent;
+  box-shadow: none;
+  transition: transform 220ms ease;
+}
+
+.portfolio > div:hover figure a img {
+  transform: scale(1.015);
+}
+
+.portfolio figcaption {
+  order: 3;
+  margin: 0.65rem 1.25rem 0;
+  color: var(--home-muted);
+  font-size: 0.82rem;
+  font-weight: normal;
+  line-height: 1.55;
+}
+
+.portfolio > div > ul {
+  order: 4;
+  margin: auto 1.25rem 1.1rem;
+  padding-top: 1rem;
+  font-family: var(--font-code);
+  font-size: 0.72rem;
+  line-height: 1.55;
+}
+
+
+footer.site-top-bar {
+  position: static;
+  border-top: 1px solid var(--home-border);
+}
+
 .domstack-heading,
 .domstack-heading a {
   font-family: 'DSWeiss-Gotisch', serif;
 }
 
-/* Porfolio Header */
-.header {
-  text-align: center;
-  padding-bottom: 1em;
+.archive-link {
+  margin: 0 0 clamp(3rem, 8vw, 6rem);
+  text-align: right;
 }
 
-.header .avatar {
-  border: 1px solid var(--accent-background);
-  border-radius: 50%;
-  padding: 4px;
+.archive-link a {
+  font-family: var(--font-code);
+  font-size: 0.8rem;
 }
 
-.header .title {
-  margin: 0;
-  font-size: 3em;
-  /* border-bottom: 1px solid rgba(0,0,0,.1); */
-  /* margin-bottom: .25em; */
-  /* padding-bottom: .25em; */
-}
-
-.header .subtitle {
-  max-inline-size: none;
-  color: var(--accent-foreground);
-  font-size: .8em;
-}
-
-.portfolio figcaption {
-  font-size: 0.8em;
-  font-weight: unset;
-  color: var(--accent-foreground);
-}
-
-/* Portfolio grid */
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 1em;
-}
-
-.grid-center-start {
-  grid-column-start: 2;
-}
-
-.grid-container-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1em;
-}
-
-.markdown-body {
-  max-width: 68em;
-}
-
-
-.recent-post-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.recent-post-container {
-  max-width: 45em;
-}
-
-.section-header {
-  text-align: center;
-}
-
-@media screen and (max-width: 45em) {
-  .grid-container,
-  .grid-container-2,
-  .grid-container-1 {
-    grid-template-columns: 1fr;
+@media screen and (max-width: 62em) {
+  .grid-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-/* Print specifics */
+@media screen and (max-width: 45em) {
+  .header {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding-block: 2.5rem 3rem;
+  }
+
+  .header .avatar {
+    width: 6.5rem;
+  }
+
+  .recent-post-section,
+  .projects-section > .section-heading {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .projects-section > .section-heading .section-note {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .recent-post-container .blog-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio figure img {
+    height: auto;
+    max-height: 20rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-links a,
+  .portfolio > div,
+  .portfolio figure img {
+    transition: none;
+  }
+}
+
 @media print {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .grid-container > div {
     page-break-inside: avoid;
   }
 
-  .header .subtitle,
-  .portfolio figcaption {
-    color: var(--accent-foreground);
-  }
-
-  .avatar {
-    height: 5em;
-    width: 5em;
+  .hero-links,
+  .archive-link {
+    display: none;
   }
 }

@@ -273,4 +273,55 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
       <li class="lang python"><a href="https://github.com/bcomnes/sbc-bootstrap">sbc-bootstrap</a></li>
     </ul>
   </div>
+  <div>
+    <h3 id="hifiwifi"><a href="https://hifiwi.fi">HifiWi.fi</a></h3>
+    <figure>
+      <a href="https://hifiwi.fi">
+        <picture>
+          <source srcset="/portfolio-img/hifiwifi-dark.png" media="(prefers-color-scheme: dark)">
+          <img loading="auto" src="/portfolio-img/hifiwifi-light.png" alt="Screenshot of hifiwi.fi">
+        </picture>
+      </a>
+      <figcaption>HifiWi.fi: High fidelity internet products. Catchall <abbr title="Doing Buisness As">DBA</abbr> opensource/professional contracting entity.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang html"><a href="https://hifiwi.fi">hifiwi.fi</a></li>
+      <li class="lang html"><a href="https://github.com/hifiwi-fi/hifiwi.fi">hifiwi-fi/hifiwi.fi</a></li>
+      <li class="lang twitter">Follow <a href="https://twitter.com/hifiwi_fi">@hifiwi_fi</a> on twitter</li>
+    </ul>
+  </div>
+  <div>
+    <h3 id="brwoserify"><a href="https://browserify.org">Browserify</a></h3>
+    <figure>
+      <a href="https://browserify.org"><img loading="auto" src="/portfolio-img/browserify.png" alt="Screenshot of Browserify website"></a>
+      <figcaption>Maintainer and contributor to Browserify and ecosystem.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang js"><a href="https://github.com/orgs/browserify/people">browserify/people</a></li>
+      <li class="lang js"><a href="https://github.com/browserify/browserify">browserify/browserify</a></li>
+      <li class="lang js"><a href="https://github.com/browserify/browserify-handbook">browserify/browserify-handbook</a></li>
+    </ul>
+  </div>
+  <div>
+    <h3 id="node-handbook"><a href="https://github.com/bcomnes/node-handbook">node-handbook</a></h3>
+    <figure>
+      <a href="https://github.com/bcomnes/node-handbook"><img loading="auto" src="/portfolio-img/node-handbook.png" alt="Screenshot of Node.js handbook"></a>
+      <figcaption>The <a href="https://github.com/bcomnes/node-handbook">Node.js handbook</a> captures resources and anthropological artifacts relevant to learning Node.js.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang js"><a href="https://github.com/bcomnes/node-handbook">bcomnes/node-handbook</a></li>
+      <li class="lang js"><a href="https://github.com/max-mapper/mississippi">max-mapper/mississippi</a></li>
+    </ul>
+  </div>
+  <div id="golang">
+    <h3><a href="https://github.com/bcomnes/goref/">goref</a></h3>
+    <figure>
+      <a href="https://github.com/bcomnes/goref/"><img loading="auto" src="/portfolio-img/goref.png" alt="Screenshot of goref"></a>
+      <figcaption>A Golang concentrate for refreshing your memory on the go programming language.</figcaption>
+    </figure>
+    <ul>
+      <li class="lang go"><a href="https://github.com/bcomnes/goref">bcomnes/goref</a></li>
+      <li class="lang css"><a href="https://github.com/css-pkg/go-fonts.css">css-pkg/go-fonts.css</a></li>
+    </ul>
+  </div>
 </section>

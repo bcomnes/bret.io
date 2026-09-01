@@ -1,20 +1,36 @@
 <header itemscope itemtype="http://schema.org/Person" class="header h-card">
-  <img loading="auto" class="avatar u-photo" src="/favicons/apple-touch-icon-1024x1024.png" itemprop="image" alt="avatar" height="128" width="128">
-  <h1 class="title p-name" itemprop="name"><a class="u-url" rel="me" href="/">Bret Comnes</a></h1>
-  <p class="subtitle p-job-title p-note" itemprop="jobTitle">
-    Software Engineer
-  </p>
+  <div class="header-portrait">
+    <img loading="auto" class="avatar u-photo" src="/favicons/apple-touch-icon-1024x1024.png" itemprop="image" alt="Portrait of Bret Comnes" height="128" width="128">
+  </div>
+  <div class="header-intro">
+    <p class="eyebrow">Software engineer · Open source maintainer</p>
+    <h1 class="title p-name" itemprop="name"><a class="u-url" rel="me" href="/">Bret Comnes</a></h1>
+
+    <nav class="hero-links" aria-label="Profile links">
+      <a href="/resume/">Résumé</a>
+      <a href="https://github.com/bcomnes" rel="me">GitHub</a>
+      <a href="mailto:bcomnes+website@gmail.com">Email</a>
+    </nav>
+  </div>
 </header>
 
-<section class="recent-post-section">
-  <h2 id="recent-posts" class="section-header"><a href="#recent-posts">Posts</a></h2>
+<section class="recent-post-section" aria-labelledby="recent-posts">
+  <div class="section-heading">
+
+    <h2 id="recent-posts" class="section-header"><a href="#recent-posts">Blog</a></h2>
+    <a class="section-link" href="/blog/">All posts →</a>
+  </div>
   <div class="recent-post-container">
     {{{ vars.blogPostsHtml }}}
   </div>
 </section>
 
-<section>
-  <h2 id="current" class="section-header"><a href="#current">Projects</a></h2>
+<section class="projects-section" aria-labelledby="current">
+  <div class="section-heading">
+
+    <h2 id="current" class="section-header"><a href="#current">Projects</a></h2>
+    <p class="section-note">Products, libraries, tools, and experiments I’ve built or helped maintain.</p>
+  </div>
 
   <div class="portfolio grid-container">
     <div>
@@ -39,7 +55,11 @@
       <h3 id="domstack" class="domstack-heading"><a href="https://domstack.net">domstack</a></h3>
       <figure>
         <a href="https://domstack.net"><img loading="auto" src="./portfolio-img/domstack-dependencygraph.svg" alt="DOMStack dependency graph"></a>
-        <figcaption>DOMStack is a static site generator for websites made with HTML, CSS, JavaScript, and Markdown.</figcaption>
+        <figcaption>
+          DOMStack is a static site generator for websites made with HTML, CSS, JavaScript, and Markdown. Used to make this website and breadcrum.net.
+          It scales from zero conf markdown doc sites to complex multi-page webapps with isomorphic functional reactive template rendering.
+          It event supports webworkers, service workers and pretty much anything else you can think of.
+        </figcaption>
       </figure>
       <ul>
         <li class="lang html"><a href="https://domstack.net">domstack.net</a></li>
@@ -90,6 +110,28 @@
       </figure>
       <ul>
         <li class="lang js"><a href="https://github.com/bcomnes/cpx2">bcomnes/cpx2</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 id="gogogo"><a href="https://github.com/bcomnes/gogogo">gogogo</a></h3>
+      <figure>
+        <a href="https://github.com/bcomnes/gogogo"><img loading="auto" src="./portfolio-img/gogogo.jpg" alt="Gophers on a mission with the gogogo logo"></a>
+        <figcaption><code>gogogo</code> creates Go projects from tar-based templates, initializes Git, and can publish a new repository through the GitHub CLI.</figcaption>
+      </figure>
+      <ul>
+        <li class="lang go"><a href="https://github.com/bcomnes/gogogo">bcomnes/gogogo</a></li>
+        <li class="lang go"><a href="https://pkg.go.dev/github.com/bcomnes/gogogo/pkg">Go package</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 id="goversion"><a href="https://github.com/bcomnes/goversion">goversion</a></h3>
+      <figure>
+        <a href="https://github.com/bcomnes/goversion"><img loading="auto" src="./portfolio-img/goversion.png" alt="Goversion gopher operating a semantic version machine"></a>
+        <figcaption><code>goversion</code> bumps semantic versions and publishes Go releases, including commits, tags, GitHub Releases, and Go module proxy seeding.</figcaption>
+      </figure>
+      <ul>
+        <li class="lang go"><a href="https://github.com/bcomnes/goversion">bcomnes/goversion</a></li>
+        <li class="lang go"><a href="https://pkg.go.dev/github.com/bcomnes/goversion/v2">Go package</a></li>
       </ul>
     </div>
     <div>
@@ -161,24 +203,8 @@
         <li class="lang js"><a href="https://www.npmjs.com/package/neostandard">neostandard on npm</a></li>
       </ul>
     </div>
+
     <div>
-      <h3 id="hifiwifi"><a href="https://hifiwi.fi">HifiWi.fi</a></h3>
-      <figure>
-        <a href="https://hifiwi.fi">
-          <picture>
-            <source srcset="./portfolio-img/hifiwifi-dark.png" media="(prefers-color-scheme: dark)">
-            <img loading="auto" src="./portfolio-img/hifiwifi-light.png" alt="Screenshot of hifiwi.fi">
-          </picture>
-        </a>
-        <figcaption>HifiWi.fi: High fidelity internet products. Catchall <abbr title="Doing Buisness As">DBA</abbr> opensource/professional contracting entity.</figcaption>
-      </figure>
-      <ul>
-        <li class="lang html"><a href="https://hifiwi.fi">hifiwi.fi</a></li>
-        <li class="lang html"><a href="https://github.com/hifiwi-fi/hifiwi.fi">hifiwi-fi/hifiwi.fi</a></li>
-        <li class="lang twitter">Follow <a href="https://twitter.com/hifiwi_fi">@hifiwi_fi</a> on twitter</li>
-      </ul>
-    </div>
-    <div></div>
       <h3 id="hyperamp"><a href="https://github.com/hypermodules/hyperamp">Hyperamp</a></h3>
       <figure>
         <a href="https://github.com/hypermodules/hyperamp"><img loading="auto" src="portfolio-img/hyperamp.png" alt="Screenshot of Hyperamp"></a>
@@ -201,18 +227,7 @@
         <li class="lang html"><a href="https://github.com/ecomnes/elenacomnes.com">ecomnes/elenacomnes.com</a></li>
       </ul>
     </div>
-    <div>
-      <h3 id="brwoserify"><a href="https://browserify.org">Browserify</a></h3>
-      <figure>
-        <a href="https://browserify.org"><img loading="auto" src="portfolio-img/browserify.png" alt="Screenshot of Browserify website"></a>
-        <figcaption>Maintainer and contributor to Browserify and ecosystem.</figcaption>
-      </figure>
-      <ul>
-        <li class="lang js"><a href="https://github.com/orgs/browserify/people">browserify/people</a></li>
-        <li class="lang js"><a href="https://github.com/browserify/browserify">browserify/browserify</a></li>
-        <li class="lang js"><a href="https://github.com/browserify/browserify-handbook">browserify/browserify-handbook</a></li>
-      </ul>
-    </div>
+
     <div>
       <h3 id="dotfiles"><a href="https://github.com/bcomnes/.dotfiles">.dotfiles</a></h3>
       <figure>
@@ -239,29 +254,8 @@
         <li class="lang js"><a href="https://github.com/bcomnes/atom-tron-legacy">bcomnes/atom-tron-legacy</a></li>
       </ul>
     </div>
-    <div>
-      <h3 id="node-handbook"><a href="https://github.com/bcomnes/node-handbook">node-handbook</a></h3>
-      <figure>
-        <a href="https://github.com/bcomnes/node-handbook"><img loading="auto" src="portfolio-img/node-handbook.png" alt="Screenshot of Node.js handbook"></a>
-        <figcaption>The <a href="https://github.com/bcomnes/node-handbook">Node.js handbook</a> captures resources and anthropological artifacts relevant to learning Node.js.</figcaption>
-      </figure>
-      <ul>
-        <li class="lang js"><a href="https://github.com/bcomnes/node-handbook">bcomnes/node-handbook</a></li>
-        <li class="lang js"><a href="https://github.com/max-mapper/mississippi">max-mapper/mississippi</a></li>
-      </ul>
-    </div>
-    <div id="golang">
-      <h3><a href="https://github.com/bcomnes/goref/">goref</a></h3>
-      <figure>
-        <a href="https://github.com/bcomnes/goref/"><img loading="auto" src="portfolio-img/goref.png" alt="Screenshot of goref"></a>
-        <figcaption>A Golang concentrate for refreshing your memory on the go programming language.</figcaption>
-      </figure>
-      <ul>
-        <li class="lang go"><a href="https://github.com/bcomnes/goref">bcomnes/goref</a></li>
-        <li class="lang css"><a href="https://github.com/css-pkg/go-fonts.css">css-pkg/go-fonts.css</a></li>
-      </ul>
-    </div>
+
   </div>
 </section>
 
-<h4 class="section-header"><a href="/blog/2023/previous-projects/">Previously Featured Items...</a></h4>
+<p class="archive-link"><a href="/blog/2023/previous-projects/">Browse previously featured projects →</a></p>

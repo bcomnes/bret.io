@@ -1,0 +1,32 @@
+/* bret.io's adaptive Mine.css palette, based on Tron Legacy. */
+:root[data-mine-theme='bret-io'] {
+  --light-text: #121212;
+  --light-background: #fff;
+  --light-layer-background: #e8ecf2;
+  --light-accent-background: #e8ecf2;
+  --light-accent-midground: #d6d6d6;
+  --light-control-border: #d6d6d6;
+  --light-accent-foreground: #526073;
+  --light-link-text: #08f;
+  --light-valid: #5a8b2c;
+  --light-invalid: #c03;
+  --light-mark-background: #dbb200;
+  --light-code-text: #1a2530;
+  --light-code-background: #e8ecf2;
+  --light-code-border: #d6d6d6;
+
+  --dark-text: #aec2e0;
+  --dark-background: #14191f;
+  --dark-layer-background: #1c2128;
+  --dark-accent-background: #242d39;
+  --dark-accent-midground: #4d4d4d;
+  --dark-control-border: #4d4d4d;
+  --dark-accent-foreground: rgb(154, 154, 154);
+  --dark-link-text: #267fb5;
+  --dark-valid: #c7f026;
+  --dark-invalid: #f92672;
+  --dark-mark-background: #ff660040;
+  --dark-code-text: #7d8b9f;
+  --dark-code-background: #1c2128;
+  --dark-code-border: #4d4d4d;
+}
