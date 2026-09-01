@@ -2,6 +2,8 @@
 layout: article
 title: "Littlstar Portfolio"
 publishDate: "2021-07-16T19:20:44.161Z"
+redirectFrom:
+  - /jobs/littlstar/
 ---
 
 <img src="./littlstar-logo.svg" height=100 width=100 style='float: left; margin-right: 1em;'>

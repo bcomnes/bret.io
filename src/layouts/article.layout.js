@@ -1,6 +1,6 @@
 import { html } from 'uhtml-isomorphic'
 import { sep } from 'node:path'
-import { breadcrumb } from '../components/breadcrumb/index.js'
+import { breadcrumb } from '#components/breadcrumb/index.js'
 
 import defaultRootLayout from './root.layout.js'
 

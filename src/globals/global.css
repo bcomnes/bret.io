@@ -3,7 +3,7 @@
 @import 'mine.css/dist/highlight.js/tron-legacy/index.css';
 @import 'mine.css/dist/layout.css';
 @import 'fragmentions/fragmention.css';
-@import '../components/top-nav-bar/index.css';
+@import '#components/top-nav-bar/index.css';
 
 /* Preserve the site's v10-era Tron palette within v11's named theme API. */
 :root[data-mine-theme='tron'] {

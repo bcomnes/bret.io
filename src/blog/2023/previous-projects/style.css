@@ -1,5 +1,5 @@
-@import '../../components/language-bullets.css';
-@import '../../components/blog-index-list/index.css';
+@import '#components/language-bullets.css';
+@import '#components/blog-index-list/index.css';
 
 /** Snapshot of the homepage style so I don't need to update it here too as it changes */
 

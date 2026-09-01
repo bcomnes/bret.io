@@ -1,10 +1,7 @@
 import pMap from 'p-map'
 import jsonfeedToAtom from 'jsonfeed-to-atom'
 
-/**
- * @template T
- * @typedef {import('@domstack/static').TemplateAsyncIterator<T>} TemplateAsyncIterator
- */
+/** @import { TemplateAsyncIterator } from '@domstack/static/types.js' */
 
 /** @type {TemplateAsyncIterator<{
  *  siteName: string,
@@ -15,7 +12,8 @@ import jsonfeedToAtom from 'jsonfeed-to-atom'
  *  authorImgUrl: string
  *  layout: string,
  *  publishDate: string,
- *  title: string
+ *  title: string,
+ *  blogPosts: Array<{ path: string, url: string, title: string, publishDate: string }>
  * }>} */
 export default async function * feedsTemplate ({
   vars: {
@@ -24,14 +22,12 @@ export default async function * feedsTemplate ({
     siteUrl,
     authorName,
     authorUrl,
-    authorImgUrl
+    authorImgUrl,
+    blogPosts
   },
   pages
 }) {
-  const blogPosts = pages
-    .filter(page => ['article', 'book-review'].includes(page.vars.layout))
-    .sort((a, b) => new Date(b.vars.publishDate) - new Date(a.vars.publishDate))
-    .slice(0, 10)
+  const feedPosts = blogPosts.slice(0, 10)
 
   const jsonFeed = {
     version: 'https://jsonfeed.org/version/1',
@@ -44,12 +40,15 @@ export default async function * feedsTemplate ({
       url: authorUrl,
       avatar: authorImgUrl
     },
-    items: await pMap(blogPosts, async (page) => {
+    items: await pMap(feedPosts, async (post) => {
+      const page = pages.find(candidate => candidate.pageInfo.path === post.path)
+      if (!page) throw new Error(`Unable to render feed post "${post.path}"`)
+
       return {
-        date_published: page.vars.publishDate,
-        title: page.vars.title,
-        url: `${siteUrl}/${page.pageInfo.path}/`,
-        id: `${siteUrl}/${page.pageInfo.path}/#${page.vars.publishDate}`,
+        date_published: post.publishDate,
+        title: post.title,
+        url: `${siteUrl}${post.url}`,
+        id: `${siteUrl}${post.url}#${post.publishDate}`,
         content_html: await page.renderInnerPage({ pages })
       }
     }, { concurrency: 4 })

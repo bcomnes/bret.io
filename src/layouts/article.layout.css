@@ -1,4 +1,4 @@
-@import '../components/breadcrumb/index.css';
+@import '#components/breadcrumb/index.css';
 
 .article-layout {
   & .article-title {

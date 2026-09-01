@@ -3,6 +3,8 @@ layout: article
 serif: true
 title: "Fully Automated Luxury Space Age Package Maintenance"
 publishDate: "2020-09-29T17:50:58.562Z"
+redirectFrom:
+  - /projects/package-automation/
 ---
 
 <small>tldr;</small> The full package maintenance life cycle should be automated and can be broken down into the following levels of automation sophistication:

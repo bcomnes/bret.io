@@ -2,15 +2,17 @@
 layout: article
 title: "Previously Featured Projects"
 publishDate: "2023-12-02T18:07:13.956Z"
+redirectFrom:
+  - /projects/previous-projects/
 ---
 
 I felt bad deleting old projects off my landing page, so made a page to stash them so I can reference them later. So, if you happen to be here, enjoy some pointers to old projects.
 
 <section class="portfolio grid-container">
   <div>
-    <h2><a href="/projects/websockets/">Websockets</a></h2>
+    <h2><a href="/blog/2019/websockets/">Websockets</a></h2>
     <figure>
-      <a href="/projects/websockets/"><img loading="auto" src="static/websockets.png" alt="Screenshot of Websockets writeup"></a>
+      <a href="/blog/2019/websockets/"><img loading="auto" src="static/websockets.png" alt="Screenshot of Websockets writeup"></a>
       <figcaption>Experiments and abstractions with Websockets and a write up of the discoveries made regarding universal Node.js/DOM modules.</figcaption>
     </figure>
     <ul>
