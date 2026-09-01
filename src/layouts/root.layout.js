@@ -42,10 +42,11 @@ export default async function rootLayout ({
   const resolvedURL = `${siteUrl}/${page.path}${page.path.endsWith('.html') ? '' : '/'}`
   return html`
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-mine-theme="tron">
   <head>
     <meta charset="utf-8">
     <title>${title ? `${title} | ` : ''}${siteName}</title>
+    <meta name="color-scheme" content="light dark">
     <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 
     <link rel="icon" type="image/x-icon" href="/favicons/favicon.ico">
