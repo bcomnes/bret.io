@@ -1,6 +1,8 @@
 ---
-title: 'Bret Comnes Resume & CV'
+title: 'Bret Comnes Resume'
 serif: true
+redirectFrom:
+  - /cv/
 ---
 # Bret Comnes
 
