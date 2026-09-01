@@ -529,7 +529,7 @@ I successfully implemented this pattern across 4-5 different websites I manged. 
 - ✅ Tools could be swapped out easily.
 - ✅ I could experiment individual ideas on individual sites, without forcing them on every other project.
 - ✅ All of the tools were versioned gated, and I could update them as I had time.
-- ✅ It worked very well with [release automation](/projects/package-automation/README.md).
+- ✅ It worked very well with [release automation](/blog/2020/package-automation/).
 
 But it had a few drawbacks:
 

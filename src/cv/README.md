@@ -42,7 +42,7 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 </h3>
 
 - Design and implment NFT minting and auction platform in \~10 weeks. (Next.js/GraphQL)
-- See [Littlstar portfilio](https://bret.io/jobs/littlstar/) for more info.
+- See [Littlstar portfilio](https://bret.io/blog/2021/littlstar/) for more info.
 
 <h3>
   <small>Senior Software Engineer • 2019 - 2021</small>
@@ -84,7 +84,7 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 - 24h on-call duties
 - Monitor and maintain the health of Netlify's multi-cloud infrastructure using [Humio](http://humio.com) and [Datadog](https://www.datadoghq.com).
 - Scale and deploy infrastructure with GitOps via [Ansible](https://www.ansible.com), bash and [Terraform](http://terraform.io).
-- See [Netlify portfolio](/jobs/netlify/#platform) for more examples.
+- See [Netlify portfolio](/blog/2020/netlify/#platform) for more examples.
 
 <h3>
   <small>Product Engineering • 2017 - 2018</small>
@@ -93,7 +93,7 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 - Plan, design, implement, test and iterate on new features for [Netlify's React based webapp](https://app.netlify.com).
 - Support, maintain, test and release Netlify's [open source JS and Go libraries](https://github.com/netlify).
 - Architect and build Netlify's next generation, extensible [CLI](https://github.com/netlify/cli).
-- See [Netlify portfolio](/jobs/netlify/#product) for more examples.
+- See [Netlify portfolio](/blog/2020/netlify/#product) for more examples.
 
 <h2>
   <a class="job-logo" id="zhealth" href="#zhealth">

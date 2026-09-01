@@ -1,15 +1,9 @@
 import { html } from 'uhtml-isomorphic'
 import { sep } from 'node:path'
-import { breadcrumb } from '../components/breadcrumb/index.js'
+import { breadcrumb } from '#components/breadcrumb/index.js'
 
-/**
- * @template T
- * @typedef {import('@domstack/static').LayoutFunction<T>} LayoutFunction
- */
-
-/**
- * @typedef {import('./root.layout.js').RootLayoutVars} RootLayoutVars
- */
+/** @import { LayoutFunction } from '@domstack/static/types.js' */
+/** @import { RootLayoutVars } from './root.layout.js' */
 
 /**
  * @typedef {RootLayoutVars & {

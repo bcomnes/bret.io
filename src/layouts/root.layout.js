@@ -1,11 +1,8 @@
 import { html } from 'uhtml-isomorphic'
 import cn from 'classnames'
-import { topNavBar, bottomFotterBar } from '../components/top-nav-bar/index.js'
+import { topNavBar, bottomFotterBar } from '#components/top-nav-bar/index.js'
 
-/**
- * @template T
- * @typedef {import('@domstack/static').LayoutFunction<T>} LayoutFunction
- */
+/** @import { LayoutFunction } from '@domstack/static/types.js' */
 
 /**
  * @typedef {{

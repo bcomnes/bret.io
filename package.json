@@ -4,16 +4,20 @@
   "description": "profesh website",
   "main": "index.js",
   "type": "module",
+  "imports": {
+    "#components/*": "./src/components/*",
+    "#lib/*": "./src/lib/*"
+  },
   "scripts": {
     "test": "run-s test:*",
     "test:neostandard": "eslint .",
     "test:node-test": "c8 node --test --test-reporter spec",
     "test:build": "run-s build",
     "build": "npm run clean && run-p build:*",
-    "build:tb": "domstack --target ios17",
+    "build:domstack": "domstack",
     "generate-favicons": "gravatar-favicons --config favicon-config.js",
     "watch": "npm run clean && run-p watch:*",
-    "watch:tb": "npm run build:tb -- --watch --drafts",
+    "watch:domstack": "npm run build:domstack -- --watch --drafts",
     "clean": "rm -rf public && mkdir -p public",
     "start": "npm run watch",
     "deploy": "run-s build deploy:*",
@@ -38,7 +42,7 @@
   },
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
-    "@domstack/static": "^11.0.1",
+    "@domstack/static": "^12.0.0-beta.1",
     "@types/masonry-layout": "^4.2.8",
     "@voxpelli/tsconfig": "^16.1.0",
     "async-neocities": "^4.0.3",
@@ -59,7 +63,7 @@
     "xmlbuilder": "^15.1.1"
   },
   "engines": {
-    "node": ">=22",
+    "node": "^22.0.0 || >=24.0.0",
     "npm": ">=10"
   },
   "dependencies": {
