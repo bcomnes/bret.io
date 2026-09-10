@@ -4,6 +4,9 @@ serif: true
 redirectFrom:
   - /cv/
 ---
+<!-- The root layout uses the front-matter title as metadata, not a visible heading. -->
+<!-- markdownlint-configure-file { "MD025": { "front_matter_title": "" } } -->
+
 # Bret Comnes
 
 Professional software engineer experienced in full-stack product development, infrastructure, operations, platform engineering, and cloud architecture.
@@ -18,7 +21,7 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 <h2>
   <a class="job-logo" id="socket-dev" href="#socket-dev">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/socket-dev.png">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/socket-dev.png" alt="Socket logo">
   </a>
   <a href="https://socket.dev">Socket Inc</a>
 </h2>
@@ -39,12 +42,12 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 <h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/littlstar-logo.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/littlstar-logo.svg" alt="Littlstar logo">
   </a>
   <a href="https://littlstar.info">Littlstar</a>
   →
   <a class="job-logo" id="rad" href="#rad">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/rad.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/rad.svg" alt="Rad logo">
   </a>
   <a href="https://rad.live">Rad.live</a>
 </h2>
@@ -69,7 +72,7 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 <h2>
   <a class="job-logo" id="hyperdivision" href="#hyperdivision">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hyperdivision-logo.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hyperdivision-logo.svg" alt="Hyperdivision logo">
   </a>
   <a href="https://archive.ph/m8Igr">Hyperdivision</a>
   <small>Software Engineer • 2019 🇩🇰</small>
@@ -80,7 +83,7 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 <h2>
   <a class="job-logo" id="netlify-platform" href="#netlify-platform">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/netlify.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/netlify.svg" alt="Netlify logo">
   </a>
   <a href="https://www.netlify.com">Netlify</a>
 </h2>
@@ -109,20 +112,20 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 <h2>
   <a class="job-logo" id="zhealth" href="#zhealth">
-    <img style="display: inline-block; vertical-align: middle" height="25" width="32" src="img/zhealth.svg">
+    <img style="display: inline-block; vertical-align: middle" height="25" width="32" src="img/zhealth.svg" alt="ZHealth logo">
   </a>
   <a href="http://www.zhealthconsulting.com">ZHealth</a>
   <small>Software Engineer • 2016 - 2017</small>
 </h2>
 
-- Developed [EtchCV](https://zhealthdocumentation.com/etch-suite/), a structured documentation suite for cardiac surgeons and hospitals.
+- Developed EtchCV, a structured documentation suite for cardiac surgeons and hospitals.
 - Designed and implemented APIs and microservices.
 - Developed cross-platform desktop software using Electron, HTML, CSS, and SVG, powered by React and Redux.
 - Implemented continuous Electron app delivery using Travis CI, AppVeyor, and S3/AWS.
 
 <h2>
   <a class="job-logo" id="jlr" href="#jlr">
-    <img style="display: inline-block; vertical-align: middle" height="28" width="113" src="img/jlr.png">
+    <img style="display: inline-block; vertical-align: middle" height="28" width="113" src="img/jlr.png" alt="Jaguar Land Rover logo">
   </a>
   <a href="https://www.jaguarlandrover.com">Jaguar Land Rover</a>
   <small>OS & Application Engineering • 2015 - 2016</small>
@@ -134,7 +137,7 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 <h2>
   <a class="job-logo" id="psu" href="#psu">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/psu.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/psu.svg" alt="Portland State University logo">
   </a>
   <a href="https://www.pdx.edu/">Portland State University</a>
 </h2>
@@ -162,7 +165,7 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 <h2>
   <a class="job-logo" id="wiley" href="#wiley">
-    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/wiley.svg">
+    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/wiley.svg" alt="Wiley logo">
   </a>
   <a href="https://www.wiley.com/en-us">Wiley</a>
   <small>Textbook Development Consultant • 2012</small>
@@ -172,9 +175,9 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 <h2>
   <a class="job-logo" id="hsu" href="#hsu">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hsu.svg">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hsu.svg" alt="Humboldt State University logo">
   </a>
-  <a href="http://www2.humboldt.edu/physics/gravitational-lab.html">HSU Gravitational Research Laboratory</a>
+  <a href="https://www.humboldt.edu/physics-astronomy">HSU Gravitational Research Laboratory</a>
   <small>Research Assistant • 2009 - 2011</small>
 </h2>
 
@@ -182,7 +185,7 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 <h2>
   <a class="job-logo" id="naic" href="#naic">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/naic.png">
+    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/naic.png" alt="National Astronomy and Ionosphere Center logo">
   </a>
   <a href="https://egg.astro.cornell.edu/index.php/">National Astronomy and Ionosphere Center</a>
   <small>Arecibo Guest Researcher • 2009</small>
@@ -192,7 +195,7 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 ## Education
 
-- [Humboldt State University](http://www2.humboldt.edu/physics/) <small class="subdue">B.S. Physics 2011 </small>
+- [Humboldt State University](https://www.humboldt.edu/physics-astronomy) <small class="subdue">B.S. Physics 2011 </small>
 - [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (completed coursework; degree not awarded)</small>
 
 ## Media
@@ -210,7 +213,7 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 ## Community
 
-- [Datcast](https://dat-cast.hashbase.io) <small class="subdue">Podcast (2018 - 2019)</small>
+- Datcast <small class="subdue">Podcast (2018 - 2019)</small>
 - [PDX Node](https://www.meetup.com/pdxnode/) <small class="subdue">Meetup organizer (2015 - 2017)</small>
 - [Node School](https://nodeschool.io) <small class="subdue">Organizer & Mentor (2016)</small>
 - [Code for Portland](http://www.codeforportland.org) <small class="subdue">Organizer & Mentor • Open Civic Data Initiative (2014 - 2015)</small>

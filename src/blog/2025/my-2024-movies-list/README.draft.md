@@ -25,7 +25,7 @@ handlebars: false
 - Twin Peaks: The Missing Pieces
 - Hideo Kojima: Connecting Worlds
 - The Mosquito Coast
-- Ereaserhead
+- Eraserhead
 - Manon of the Spring
 - Escape from New York
 - Cure
@@ -36,8 +36,8 @@ handlebars: false
 - Incredible but True
 - Smoking Causes Coughing
 - Steak
-- Daiary of a chambermaid (1946,2015,1964)
-- Killing of a Chinnese Bookie
+- Diary of a Chambermaid (1946, 2015, 1964)
+- The Killing of a Chinese Bookie
 - The Zero Theorem
 - Crimes of the Future
 - Belle de Jour
@@ -53,17 +53,17 @@ handlebars: false
 - The Duellists
 - Seven Samurai
 - Never Ending Man Hayao Miyazaki
-- Princess Monoke
+- Princess Mononoke
 - Mad Max
-- Bram Stokers Gracula
+- Bram Stoker's Dracula
 - The velvet Queen
-- Uktraine on Fire
+- Ukraine on Fire
 - Twin Peaks
 - 12 Monkeys
 - Top Gun Maverick + Top Gun
 - The Wind Rises
 - Kingdom of Dreams and madness
-- Porco Roso
+- Porco Rosso
 - Castle in the Sky
 - Howl'es Moving Castle
 - Frantic

@@ -22,13 +22,19 @@ import { breadcrumb } from '#components/breadcrumb/index.js'
 
 export const parentLayout = 'root'
 
+const dateFormatter = new Intl.DateTimeFormat('en-US', {
+  dateStyle: 'medium',
+  timeStyle: 'short',
+  timeZone: 'UTC'
+})
+
 /** @type {LayoutFunction<ArticleLayoutVars, LayoutChildren, HtmlResult>} */
 export default function articleLayout (args) {
   const { children } = args
   const vars = args.vars
   const pathSegments = args.page.path.split(sep)
   return html`
-    ${breadcrumb({ pathSegments })}
+    ${breadcrumb({ pathSegments, label: 'Breadcrumb at top' })}
     <article class="article-layout h-entry" itemscope itemtype="${vars.articleType ?? 'http://schema.org/BlogPosting'}">
 
       <header class="article-header">
@@ -51,13 +57,13 @@ export default function articleLayout (args) {
             ? html`
               <time class="published-date dt-published" itemprop="datePublished" datetime="${vars.publishDate}">
                 <a href="#" class="u-url">
-                  ${(new Date(vars.publishDate)).toLocaleString()}
+                  ${dateFormatter.format(new Date(vars.publishDate))}
                 </a>
               </time>`
             : null
           }
           ${vars.updatedDate
-            ? html`<time class="updated-date dt-updated" itemprop="dateModified" datetime="${vars.updatedDate}">Updated ${(new Date(vars.updatedDate)).toLocaleString()}</time>`
+            ? html`<time class="updated-date dt-updated" itemprop="dateModified" datetime="${vars.updatedDate}">Updated ${dateFormatter.format(new Date(vars.updatedDate))}</time>`
             : null
           }
         </div>
@@ -91,6 +97,6 @@ export default function articleLayout (args) {
       lang="en"
       loading="lazy"
     ></giscus-widget>
-    ${breadcrumb({ pathSegments })}
+    ${breadcrumb({ pathSegments, label: 'Breadcrumb at bottom' })}
   `
 }

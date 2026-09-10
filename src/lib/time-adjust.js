@@ -35,7 +35,6 @@ export function localiseTimes (options = {}) {
     if (!iso) return
 
     // @ts-ignore
-    // eslint-disable-next-line no-undef
     const instant = Temporal.Instant.from(iso)
     const zoned = instant.toZonedDateTimeISO(tz)
 

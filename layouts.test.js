@@ -9,6 +9,8 @@ import redirectLayout, { parentLayout as redirectParent, vars as redirectDefault
 import globalVars from './src/globals/global.vars.js'
 import blogPages from './src/blog.pages.js'
 import { renderBlogIndexList } from './src/components/blog-index-list/index.js'
+import { breadcrumb } from './src/components/breadcrumb/index.js'
+import { topNavBar, bottomFooterBar } from './src/components/top-nav-bar/index.js'
 
 const defaults = await globalVars()
 
@@ -46,6 +48,70 @@ test('root preserves trusted child HTML and escapes ordinary substitutions', asy
   const nested = render(await rootLayout(args({}, html`<p>${'<unsafe>'}</p>`)))
   assert.match(nested, /<p>&lt;unsafe&gt;<\/p>/)
   assert.doesNotMatch(nested, /&amp;lt;unsafe/)
+})
+
+test('navigation names its landmark and every decorative icon link', () => {
+  const output = render(topNavBar())
+  assert.match(output, /<nav class="site-top-bar hide-print" aria-label="Main navigation">/)
+  const iconLinks = [...output.matchAll(/<a\b([^>]*)>(<img\b[^>]*>)<\/a>/g)]
+  assert.equal(iconLinks.length, 9)
+  assert.deepEqual(iconLinks.map(([, attributes]) => attributes.match(/aria-label="([^"]+)"/)?.[1]), [
+    'Bret on Neocities',
+    'Bret on Mastodon',
+    'Bret on GitHub',
+    'Contact Bret on Signal',
+    'Bret on npm',
+    'Bret on Bluesky',
+    'Bret on X',
+    'JSON Feed',
+    'Atom feed'
+  ])
+  for (const [, , image] of iconLinks) {
+    assert.match(image, / alt=""/)
+    assert.match(image, / height="18" width="18"/)
+  }
+  assert.match(output, /id="mastodon"/)
+  assert.match(output, /href="\/resume\/"/)
+  assert.doesNotMatch(output, /mastadon|toggleTheme|light-dark-button/)
+})
+
+test('root includes a device-width viewport and the renamed footer component', async () => {
+  const context = args({ githubRootUrl: 'https://github.com/bcomnes/bret.io/blob/master/src/' })
+  const footer = render(bottomFooterBar({ githubRootUrl: context.vars.githubRootUrl, page: context.page }))
+  const output = render(await rootLayout(context))
+  assert.match(output, /<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">/)
+  assert.ok(output.includes(footer))
+  assert.equal((output.match(/<footer\b/g) ?? []).length, 1)
+  assert.match(footer, /href="https:\/\/github\.com\/bcomnes\/bret\.io\/blob\/master\/src\/page\.html"/)
+})
+
+test('breadcrumbs default their label and escape custom labels without changing links', () => {
+  const pathSegments = ['blog', '2026', 'example']
+  const output = render(breadcrumb({ pathSegments }))
+  assert.match(output, /aria-label="Breadcrumb"/)
+  assert.deepEqual([...output.matchAll(/href="([^"]+)"/g)].map(match => match[1]), [
+    '../../../blog/', '../../2026/', './'
+  ])
+  const custom = render(breadcrumb({ pathSegments, label: 'Breadcrumb "top" <nav>' }))
+  assert.match(custom, /aria-label="Breadcrumb &quot;top&quot; &lt;nav&gt;"/)
+  assert.match(render(blogIndexLayout(args())), /aria-label="Breadcrumb"/)
+})
+
+test('articles distinguish breadcrumbs and format dates consistently in en-US UTC', () => {
+  const publishDate = '2024-02-13T17:24:49.707-08:00'
+  const updatedDate = '2024-02-15T09:05:00+09:00'
+  const output = render(articleLayout(args({ publishDate, updatedDate })))
+  assert.deepEqual([...output.matchAll(/<nav\b[^>]*aria-label="([^"]+)"/g)].map(match => match[1]), [
+    'Breadcrumb at top', 'Breadcrumb at bottom'
+  ])
+  assert.ok(output.indexOf('Breadcrumb at top') < output.indexOf('<article'))
+  assert.ok(output.indexOf('Breadcrumb at bottom') > output.indexOf('</giscus-widget>'))
+  assert.match(output, /loading="lazy"\s*><\/giscus-widget>/)
+  assert.ok(output.includes(`datetime="${publishDate}"`))
+  assert.ok(output.includes(`datetime="${updatedDate}"`))
+  assert.match(output, /<a href="#" class="u-url">\s*Feb 14, 2024, 1:24 AM\s*<\/a>/)
+  assert.match(output, />Updated Feb 15, 2024, 12:05 AM<\/time>/)
+  assert.doesNotMatch(render(articleLayout(args())), /<time\b/)
 })
 
 test('root emits correct homepage, nested, and HTML-file URLs', async () => {
@@ -91,6 +157,10 @@ test('book review nests through article and root without escaping or duplicating
   assert.match(output, /href="https:\/\/example\.com\/\?q=&quot;book&quot;&amp;x=1"/)
   assert.match(output, /<meta content="4" itemprop="ratingValue">/)
   assert.equal((output.match(/⭐️/gu) ?? []).length, 4)
+  const ratingHeading = output.match(/<h3 itemprop="reviewRating"[^>]*>([\s\S]*?)<\/h3>/)?.[1]
+  assert.ok(ratingHeading)
+  assert.match(ratingHeading, /<span class="star-review" title="4"\s*>(?:⭐️\s*){4}<\/span>/u)
+  assert.doesNotMatch(ratingHeading, /<div\b/)
   assert.doesNotMatch(output, /&lt;article|&lt;footer|\[object Object\]/)
 })
 

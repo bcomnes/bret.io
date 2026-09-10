@@ -73,25 +73,29 @@ Here Hamming is describing H.S. Black's feedback circuit's tolerance for low acc
 I appreciated his observations on committees, and their tendency to launder responsibility.
 They serve a purpose, but its important to understand their nature.
 
-
 ## On Data and Observation
 
 > The Hawthorne effect strongly suggests the proper teaching method will always to be in a state of experimental change, and it hardly matters just what is done; all that matters is both the professor and the students believe in the change.
 >
 > -- p.288
 
+<!-- Separate quotations. -->
+
 > It has been my experience, as well as the experience of many others who have looked, that data is generally much less accurate than it is advertised to be. This is not a trivial point—we depend on initial data for many decisions, as well as for the input data for simulations which result in decisions.
 >
 > -- p.345
+
+<!-- Separate quotations. -->
 
 > Averages are meaningful for homogeneous groups (homogeneous with respect to the actions that may later be taken), but for diverse groups averages are often meaningless. As earlier remarked, the average adult has one breast and one testicle, but that does not represent the average person in our society.
 >
 > -- p.356
 
+<!-- Separate quotations. -->
+
 > You may think the title means that if you measure accurately you will get an accurate measurement, and if not then not, but it refers to a much more subtle thing—the way you choose to measure things controls to a large extent what happens. I repeat the story Eddington told about the fishermen who went fishing with a net. They examined the size of the fish they caught and concluded there was a minimum size to the fish in the sea. The instrument you use clearly affects what you see.
 >
 > -- p.373
-
 
 Intuitively I think many people who attempt to measure anything understand that their approach reflects in the results to some degree.
 I hadn't heard of the [Hawthorne effect](https://en.wikipedia.org/wiki/Hawthorne_effect) before, but intuitively it makes sense.
@@ -109,6 +113,8 @@ Anyway, just another thing to factor for when data is plopped in your lap.
 > Moral: there need not be a unique form of a theory to account for a body of observations; instead, two rather different-looking theories can agree on all the predicted details. You cannot go from a body of data to a unique theory! I noted this in the last chapter.
 >
 > --p.314
+
+<!-- Separate quotations. -->
 
 > Heisenberg derived the uncertainty principle that conjugate variables, meaning Fourier transforms, obeyed a condition in which the product of the uncertainties of the two had to exceed a fixed number, involving Planck's constant. I earlier commented, Chapter 17, this is a theorem in Fourier transforms-any linear theory must have a corresponding uncertainty principle, but among physicists it is still widely regarded as a physical effect from nature rather than a mathematical effect of the model.
 >
@@ -179,7 +185,7 @@ Understand when you are generalist and a specialist.
 
 > Experts, in looking at something new, always bring their expertise with them, as well as their particular way of looking at things. Whatever does not fit into their frame of reference is dismissed, not seen, or forced to fit into their beliefs. Thus really new ideas seldom arise from the experts in the field. You cannot blame them too much, since it is more economical to try the old, successful ways before trying to find new ways of looking and thinking.
 >
->   **If an expert says something can be done he is probably correct, but if he says it is impossible then consider getting another opinion.**
+> **If an expert says something can be done he is probably correct, but if he says it is impossible then consider getting another opinion.**
 >
 > -- p.336
 

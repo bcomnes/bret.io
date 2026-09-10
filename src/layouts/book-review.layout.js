@@ -41,7 +41,7 @@ export default function bookReviewLayout (args) {
         <meta content="1" itemprop="worstRating">
         <meta content="${vars.review?.rating}" itemprop="ratingValue">
         <meta content="5" itemprop="bestRating">
-        <div class="star-review" title="${vars.review?.rating}" >${Array.from({ length: vars.review?.rating }).fill('⭐️')}</div>
+        <span class="star-review" title="${vars.review?.rating}" >${Array.from({ length: vars.review?.rating }).fill('⭐️')}</span>
       </h3>
 
       <h3>Details</h3>

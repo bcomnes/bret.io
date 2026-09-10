@@ -6,7 +6,7 @@ redirectFrom:
   - /jobs/littlstar/
 ---
 
-<img src="./littlstar-logo.svg" height=100 width=100 style='float: left; margin-right: 1em;'>
+<img src="./littlstar-logo.svg" height=100 width=100 style='float: left; margin-right: 1em;' alt="Littlstar logo">
 
 After a short sabbatical in Denmark at [Hyperdivision](https://archive.ph/m8Igr), I joined [Littlstar][ls].
 Here is a quick overview of some of the more interesting projects I worked on.
@@ -39,7 +39,7 @@ While the project was built on the backs of giants like the [Hypercore protocol]
 - Implement offline mode via Service workers in conjunction with Hypercore.
 - Packaging and delivery tasks.
 - Improved progress UI/UX.
-- Contribute to native packaging tools build with [pkg](https://github.com/vercel/pkg) and [tiny-module-compiler](https://github.com/little-core-labs/tiny-module-compiler).
+- Contribute to native packaging tools built with [pkg](https://github.com/vercel/pkg) and [tiny-module-compiler](https://github.com/little-core-labs/tiny-module-compiler).
 
 ![Tiny Module Compiler](./tmc.png)
 
@@ -64,7 +64,7 @@ This project was a refactor of an existing project called [folder-walker](https:
 
 <figure>
   <img src="./afw.jpeg" alt="Async folder walker">
-  <figcaption><a href="https://github.com/bcomnes/async-folder-walker">Async folder walker</a> provides a modern api to folder and filer walking of a directory.</figcaption>
+  <figcaption><a href="https://github.com/bcomnes/async-folder-walker">Async folder walker</a> provides a modern API for walking the files and folders in a directory.</figcaption>
 </figure>
 
 ### [`unpacker-with-progress`](https://github.com/little-core-labs/unpacker-with-progress)
@@ -91,7 +91,7 @@ I utilized a technique I learned about at Hyperdivision where one can write web 
 While the WAT was written for HChaCha20, the effort was quite laborious and it kicked off a debate as to whether it would be better to just wrap [libsodium-js](https://github.com/jedisct1/libsodium.js) (the official libsodium js port) in a wrapper that provided the [sodium-universal](https://github.com/sodium-friends/sodium-universal) API.  This was achieved by another group in [geut/sodium-javascript-plus](https://github.com/geut/sodium-javascript-plus) which successfully ran hypercores in the browser using that wrapper.
 
 Ultimately, this effort was scrapped, determining that noise peer connections in the browser are redundant to webRTC encryption and https sockets.
-It was a fun and interesting project none the less.
+It was a fun and interesting project nonetheless.
 
 <figure class="borderless">
   <img src="./hchacha.png" alt="Some HChacha WAT Code">
@@ -114,7 +114,7 @@ I implemented a generic reconnecting state machine that could accept any type of
 
 ## Little Core Labs
 
-<img src="./lcl.png" width=100 height=100 style='float: left; margin-right: 1em;'>
+<img src="./lcl.png" width=100 height=100 style='float: left; margin-right: 1em;' alt="Little Core Labs logo">
 
 After working on various agency projects at Littlstar, we formed a separate organization to start a fresh rewrite of the technology stack.
 
@@ -143,10 +143,10 @@ A culmination of ingesting the ["Terraform: Up & Running"](https://amzn.to/3er6l
 
 <div style='display: grid; grid-template-columns: 1fr 1fr; justify-items: center;'>
   <div>
-    <img widht='199.5' height='250' src='./aws.jpg'/>
+    <img width='200' height='250' src='./aws.jpg' alt="AWS Certified Solutions Architect Study Guide book cover">
   </div>
   <div>
-    <img width='190.5' height='250' src='./terraform.jpg'/>
+    <img width='191' height='250' src='./terraform.jpg' alt="Terraform: Up & Running book cover">
   </div>
 </div>
 
@@ -158,15 +158,15 @@ A quick overview of how its arrange:
 - We have a global terraform repository with segmented terraform files for various services.
 - The `ops` global repo runs terraform in a bootstrapped GitHub actions environment.
 - We can create service level repos from the `ops` terraform repo, that in turn contain their own Terraform files specific to that service.
-- One of the benefits was that the GitHub environment worked along side a local environment, due to the use of AWS secrets manager and GitHub actions secrets (all managed in Terraform), so debugging was easy and flexible.
+- One of the benefits was that the GitHub environment worked alongside a local environment, due to the use of AWS Secrets Manager and GitHub Actions secrets (all managed in Terraform), so debugging was easy and flexible.
 
-## Github actions
+## GitHub Actions
 
 <img width='140' height='140' src='./actions.svg' alt='Actions logo' style='float: left; margin-right: 1em;' />
 
 One of the drawbacks of rolling our own Terraform CI infrastructure was that we had to tackle many small edge cases inside the GitHub actions environment.
 
-It was nice to learn about the various types of custom GitHub actions one can write, as well as expand that knowlege to the rest of the org, but it also ate up a number of days focusing on DevOps problems specific to our CI environment.
+It was nice to learn about the various types of custom GitHub Actions one can write, as well as expand that knowledge to the rest of the organization, but it also ate up a number of days focusing on DevOps problems specific to our CI environment.
 
 Here are some of the problems I helped solve in the actions environment.
 
@@ -179,7 +179,6 @@ Here are some of the problems I helped solve in the actions environment.
 ## sdk-js
 
 I helped lay the framework for the initial version of `sdk-js`, the Little Core Labs unified library used to talk to the various back-end services at Little Core Labs.
-
 
 One of underlying design goals was to solve for the [newly introduced native ESM features in node](https://nodejs.org/api/esm.html), in such a way that the package could be consumed directly in the browser, natively as ESM in node, but also work in dual CJS/ESM environments like Next.js.
 While this did add some extra overhead to the project, it serves as a design pattern we can pull from in the future, as well as a provide a highly compatible but modern API client.
@@ -261,16 +260,15 @@ These changes would have unlikely been accepted upstream, so by forking we are a
 
 ### [`local-storage-proxy`](https://github.com/bcomnes/local-storage-proxy)
 
-![](./lsp.gif)
+![Local storage proxy demo](./lsp.gif)
 
 A configuration solution that allows for persistent overrides stored in [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), including cache busting capabilities.  Implemented with a recursive [JS proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) to simulate native object interactions over a window.localstorage interface.
 
 - [`local-storage-proxy`](https://github.com/bcomnes/local-storage-proxy)
 
-
 ### Community maintenance
 
-We ended up taking on maintainence of a few other packages, providing fixes and improvements where the original authors seem to have left off.
+We ended up taking on maintenance of a few other packages, providing fixes and improvements where the original authors seem to have left off.
 
 - [little-core-labs/date-input-polyfill](https://github.com/little-core-labs/date-input-polyfill) - Polyfill for HTML5 date input element.
 - [little-core-labs/chromafi](https://github.com/little-core-labs/chromafi)
@@ -279,32 +277,31 @@ We ended up taking on maintainence of a few other packages, providing fixes and 
 
 Here are some snapshots of the video platform we launched.
 
-![](./channels.jpg)
+![Rad channels interface](./channels.jpg)
 
-![](./player.jpg)
+![Rad video player](./player.jpg)
 
 ### NFT Auction Platform
 
 Here are some screenshots of the NFT auction platform I helped build.
 The UI was fully responsive and updated on the fly to new results, thanks to the powers of SWR.
 
-![](./auction.jpg)
+![Rad NFT auction interface](./auction.jpg)
 
 ### Marketing pages
 
 I did a few marketing pages as well.
 
-![](./marketing-rad.jpg)
+![Rad marketing page](./marketing-rad.jpg)
 
-![](./marketing-nft.jpg)
+![Rad NFT marketing page](./marketing-nft.jpg)
 
-![](./marketing-onnit.jpg)
+![Onnit marketing page](./marketing-onnit.jpg)
 
-![](./marketing-ps.jpg)
+![PlayStation marketing page](./marketing-ps.jpg)
 
 ## Conclusion
 
 While this isn't everything I did at Littlstar, it captures many of the projects I enjoyed working on, and can hopefully provide some insights into my skills, interests and experiences from the past year.
-
 
 [ls]: https://littlstar.info

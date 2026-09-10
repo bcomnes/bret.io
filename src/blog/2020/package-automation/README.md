@@ -16,7 +16,7 @@ redirectFrom:
 - <a href="#level-4">Level 4</a>: Human triggered, bot-run version cutting and publishing
 - <a href="#level-5">Level 5</a>: Capture common automations into a boiler plate generator
 
-==These solutions focus on Node.js + npm packages, automated on Github Actions, but the underlying principals are general to any language or automation platform.==
+==These solutions focus on Node.js + npm packages, automated on GitHub Actions, but the underlying principles are general to any language or automation platform.==
 
 ## Background
 
@@ -32,12 +32,12 @@ Long `CONTRIBUTING.md` files are often the goto solution, but are easily overloo
 In the end, automating the package life cycle so that it can maintain itself, is the only way to realistically scale a large set of packages in a maintainable way.
 
 <figure>
-  <img src="./forerunner_structure.jpg" alt="Forerunne Archetecture">
-  <figcaption>A fully automated luxury space age package maintains itself, re-activating after years of abandonment to operate the same as it did the day of its creation. This is about as much value I can get out of this silly analogy. (<a href="https://lortarkam.wordpress.com/2017/04/12/how-should-the-forerunners-really-look/">Img Source</a>)</figcaption>
+  <img src="./forerunner_structure.jpg" alt="Forerunner Architecture">
+  <figcaption>A fully automated luxury space age package maintains itself, reactivating after years of abandonment to operate the same as it did the day of its creation. This is about as much value I can get out of this silly analogy. (<a href="https://lortarkam.wordpress.com/2017/04/12/how-should-the-forerunners-really-look/">Img Source</a>)</figcaption>
 </figure>
 
 For a long time I didn't seek out automation solutions for package maintenance beyond a few simple solutions like testing and CI.
-Instead I had a lengthly ritual that looked approximately like this:
+Instead I had a lengthy ritual that looked approximately like this:
 
 ```console
 # 🔮
@@ -128,13 +128,13 @@ There are lots of other easy tests you can throw at your package testing step th
   - Enforce code style and catch errors!  Basically spell check on code.  This should really be the very first test on every package, since it helps you write correct code.
 - [`dependency-check`](https://github.com/dependency-check-team/dependency-check)
   - Verify dependencies listed in `package.json` matches usage in the actual code.
-  - This test fails if it finds packages in `package.json` that are no longer used in code or if it finds pacakges in use in the code that are not listed in `package.json` which would cause a runtime error.
+  - This test fails if it finds packages in `package.json` that are no longer used in code or if it finds packages in use in the code that are not listed in `package.json`, which would cause a runtime error.
 - Running a build
   - Simply make `npm run build` part of your test life cycle.
   - If your package has some sort of build step, simply running a build and checking if it runs without error is a very helpful test. It's also simple to set up.
 - Code Coverage metrics
   - [nyc][nyc] is the defacto test coverage tool (built into tap).
-  - [c8](https://github.com/bcoe/c8) is a native V8 coverage tool, but is lest robust than nyc.
+  - [c8](https://github.com/bcoe/c8) is a native V8 coverage tool, but is less robust than nyc.
   - These don't need to be pass/fail in terms of coverage going up or down (but they can be).
   - These metrics help you validate the tests you wrote are actually running the parts of the code you expect (or don't expect).
   - Platform integration for ingesting these metrics are available, but usually not worth it.  Simply having console output is sufficient most of the time.
@@ -239,7 +239,7 @@ No matter the reliability of the test suite, it is still important to read and r
 
 ## <span id="level-2">Level 2</span>: Dependency Bots
 
-Your package has dependences.  Be it your test runner, or other packages imported or required into your package.  They help provide valuable function with little upfront cost.
+Your package has dependencies, whether they are your test runner or other packages imported or required by your package. They provide valuable functionality with little upfront cost.
 
 Dependencies form the foundation that your package is built upon.  But that foundation is made of shifting sands⏳.
 Dependencies have their own dependencies, which all have to slowly morph and change with the underlying platform and dependency changes.
@@ -277,7 +277,7 @@ Level 1 automation isn't required to use a dependency bot, but you won't have an
 
 ### Dependabot
 
-<img height="275" src="./dependabot.svg">
+<img height="275" src="./dependabot.svg" alt="Dependabot logo">
 
 Github now has a dependency bot built in called [dependabot][dependabot].
 To turn it on, create the following file in your packages Github repo:
@@ -357,7 +357,7 @@ This is a tedious process.  If you work with other people, they might not be as 
 ### [`auto-changelog`][auto-changelog]
 
 [`auto-changelog`][auto-changelog] is a tool that takes your git history and generates a CHANGELOG that is almost-just-as-good as the artisan handcrafted one.  Hooking this tool into your package's [`version` life cycle][npm-scripts] enforces that it is run when a new version is generated with `npm version {major,minor,patch}`.
-While [keepachangelog.com][keepachangelog] advocates for the handcrafted version, and discourages 'git commit dumps', as long as you are halfway concious of your `git` commit logs (as you should be), the `auto-changelog` output is generally still useful.
+While [keepachangelog.com][keepachangelog] advocates for the handcrafted version and discourages 'git commit dumps', as long as you are halfway conscious of your `git` commit logs (as you should be), the `auto-changelog` output is generally still useful.
 You can even follow [conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0/) if you want an even more structured git log.
 
 Automating `auto-changelog` to run during `npm version`^[Just as a refresher, `npm version` is a command that bumps the version in `package.json`, creates a commit with that change titled `0.0.0`, then tags it `v0.0.0`. See [npm][npm-scripts] docs for more info.] is easy.
@@ -462,7 +462,7 @@ Some packages have builds steps.  No problem, these are easily incorporated into
 
 Since version becomes a bit more complex, we can break it down into pieces with [`npm-run-all2`][npm-run-all2] as we did in the testing step.  We ensure we run fresh builds on development install (`prepare`), and also when we `version`.  We capture any updated build outputs in `git` during the version step by staging the `dist` folder (or whatever else you want to capture in your `git` version commit).
 
-This pattern was documented well by [@swyx](http://twitter.com/swyx): [Semi-Automatic npm and GitHub Releases with `gh-release` and `auto-changelog`](https://dev.to/swyx/semi-automatic-npm-and-github-releases-with-gh-release-and-auto-changelog-4b5a).
+This pattern was documented well by [@swyx](https://x.com/swyx): [Semi-Automatic npm and GitHub Releases with `gh-release` and `auto-changelog`](https://dev.to/swyx/semi-automatic-npm-and-github-releases-with-gh-release-and-auto-changelog-4b5a).
 
 ## <span id="level-4">Level 4</span>: Publishing Bots 🤖
 
@@ -532,7 +532,7 @@ Then set that token as a [repo secret][gh-secrets] called `NPM_TOKEN`.
     <source srcset="./secrets-dark.png" media="(prefers-color-scheme: dark)">
     <img src="./secrets-light.png" alt="Screenshot of Github secrets">
   </picture>
-  <figcaption><a href="https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets"><code>GitHub</code></a> secrets allows you to securely store tokens for use in your GitHub Actions runs.  It's not bulletproof, bit its pretty good.</figcaption>
+  <figcaption><a href="https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets"><code>GitHub</code></a> secrets allow you to securely store tokens for use in your GitHub Actions runs. It's not bulletproof, but it's pretty good.</figcaption>
 </figure>
 
 Now you can visit the actions tab on the repo, select the `npm version && npm publish` action, and press run, passing in either `major`, `minor`, or `patch` as the input, and a GitHub action will kick off running our Level 3 version and release automations along with publishing a release to npm and GitHub.
@@ -669,14 +669,14 @@ If you want to see a complete level 0 through level 5 example, check out my `cre
 ## Final thoughts
 
 This collection is written in the context of the Node.js programming system, however the class of tools discussed apply to every other language ecosystem and these automation levels could serve as a framework for assessing the maturity of automation capabilities of other programming language systems.
-Hopefully they can can provide some insights into the capabilities and common practices around modern JavaScript development for those unfamiliar with this ecosystem.
+Hopefully they can provide some insights into the capabilities and common practices around modern JavaScript development for those unfamiliar with this ecosystem.
 
 Additionally, this documents my personal suite of tools and processes that I have developed to automate package maintenance, and is by no means normative.  Modification and experimentation is always encouraged.
 
 There are many subtle layers to the Node.js programming system, and this just covers the maintenance automation layer that can exist around a package.
 Much more could be said about the versioned development tooling, standardized scripting hooks, diamond dependency problem solutions, localized dependencies, upstream package hacking/debugging conveniences and local package linking.  An even deeper dive could be made on the overlap these patterns have (and don't) have in other JS runtimes like [Deno](https://deno.com) which standardizes a lot around Level 1, or even other languages like Go or Rust.
 
-If you enjoyed this article, have suggestions or feedback, or think I'm full of it, follow me on twitter ([@bcomnes][twitter]) and feel free to hop in the the accompanying thread.  I would love to hear your thoughts, ideas and examples!  Also subscribe to my [RSS](http://bret-dk.local:3000/feed.xml)/[JSON](http://bret-dk.local:3000/feed.json) Feed in your favorite RSS reader.
+If you enjoyed this article, have suggestions or feedback, or think I'm full of it, follow me on Twitter ([@bcomnes][twitter]) and feel free to hop in the accompanying thread. I would love to hear your thoughts, ideas, and examples! Also subscribe to my [RSS](https://bret.io/feed.xml)/[JSON](https://bret.io/feed.json) feed in your favorite feed reader.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Fully Automated Luxury Space Age Package Maintenance&quot;<br><br>I wrote up how tedious package maintenance tasks can be fully automated. <br><br>Hope someone enjoys!<a href="https://t.co/fvYIu2Wq0r">https://t.co/fvYIu2Wq0r</a> <a href="https://t.co/q220LTax8X">pic.twitter.com/q220LTax8X</a></p>&mdash; 🌌🌵🛸Bret🏜👨‍👩‍👧🚙 (@bcomnes) <a href="https://twitter.com/bcomnes/status/1311034520305569800?ref_src=twsrc%5Etfw">September 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -693,7 +693,6 @@ If you enjoyed this article, have suggestions or feedback, or think I'm full of 
 [keepachangelog]: https://keepachangelog.com/en/1.0.0/
 [git]: https://git-scm.com
 [nyc]: https://github.com/istanbuljs/nyc
-[npm-run-all]: http://ghub.io/npm-run-all
 [npm-run-all2]: https://github.com/bcomnes/npm-run-all2
 [travis]: https://travis-ci.org
 [dependabot]: https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates
