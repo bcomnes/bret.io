@@ -1,7 +1,10 @@
-import pMap from 'p-map'
 import jsonfeedToAtom from 'jsonfeed-to-atom'
 
-/** @import { TemplateAsyncIterator } from '@domstack/static/types.js' */
+/** @import { DataDeps, TemplateAsyncIterator } from '@domstack/static/types.js' */
+/** @import { FeedData } from './global.data.js' */
+
+/** @satisfies {DataDeps<FeedData>} */
+export const dataDeps = ['feedPosts']
 
 /** @type {TemplateAsyncIterator<{
  *  siteName: string,
@@ -12,9 +15,8 @@ import jsonfeedToAtom from 'jsonfeed-to-atom'
  *  authorImgUrl: string
  *  layout: string,
  *  publishDate: string,
- *  title: string,
- *  blogPosts: Array<{ path: string, url: string, title: string, publishDate: string }>
- * }>} */
+ *  title: string
+ * }, FeedData>} */
 export default async function * feedsTemplate ({
   vars: {
     siteName,
@@ -22,13 +24,10 @@ export default async function * feedsTemplate ({
     siteUrl,
     authorName,
     authorUrl,
-    authorImgUrl,
-    blogPosts
+    authorImgUrl
   },
-  pages
+  data: { feedPosts }
 }) {
-  const feedPosts = blogPosts.slice(0, 10)
-
   const jsonFeed = {
     version: 'https://jsonfeed.org/version/1',
     title: siteName,
@@ -40,18 +39,13 @@ export default async function * feedsTemplate ({
       url: authorUrl,
       avatar: authorImgUrl
     },
-    items: await pMap(feedPosts, async (post) => {
-      const page = pages.find(candidate => candidate.pageInfo.path === post.path)
-      if (!page) throw new Error(`Unable to render feed post "${post.path}"`)
-
-      return {
-        date_published: post.publishDate,
-        title: post.title,
-        url: `${siteUrl}${post.url}`,
-        id: `${siteUrl}${post.url}#${post.publishDate}`,
-        content_html: await page.renderInnerPage({ pages })
-      }
-    }, { concurrency: 4 })
+    items: feedPosts.map(post => ({
+      date_published: post.publishDate,
+      title: post.title,
+      url: `${siteUrl}${post.url}`,
+      id: `${siteUrl}${post.url}#${post.publishDate}`,
+      content_html: post.contentHtml
+    }))
   }
 
   yield {

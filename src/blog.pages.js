@@ -1,11 +1,11 @@
 import { html, render } from 'uhtml-isomorphic'
 import { renderBlogIndexList } from './components/blog-index-list/index.js'
 
-/** @import { PagesFunction } from '@domstack/static/types.js' */
+/** @import { DataDeps, PagesFunction } from '@domstack/static/types.js' */
+/** @import { BlogData, BlogIndex } from './global.data.js' */
 
-/** @typedef {{ path: string, url: string, title: string, publishDate: string }} BlogPost */
-/** @typedef {{ year: number, posts: BlogPost[] }} BlogIndex */
-/** @typedef {{ blogPosts: BlogPost[], blogIndexes: BlogIndex[] }} BlogData */
+/** @satisfies {DataDeps<BlogData>} */
+export const dataDeps = ['blogPosts', 'blogIndexes']
 
 /** @param {BlogIndex[]} indexes */
 function renderArchiveLinks (indexes) {
@@ -19,11 +19,8 @@ function renderArchiveLinks (indexes) {
   `)
 }
 
-/** @type {PagesFunction<Record<string, any>, string, BlogData>} */
-export default function blogPages ({ vars }) {
-  const blogPosts = vars.blogPosts ?? []
-  const blogIndexes = vars.blogIndexes ?? []
-
+/** @type {PagesFunction<Record<string, any>, string, Record<string, any>, BlogData>} */
+export default function blogPages ({ data: { blogPosts, blogIndexes } }) {
   return [
     {
       outputName: 'blog/index.html',
@@ -32,7 +29,7 @@ export default function blogPages ({ vars }) {
         layout: 'blog-index',
         noindex: true
       },
-      children: `${renderBlogIndexList(blogPosts)}${renderArchiveLinks(blogIndexes)}`
+      children: `${renderBlogIndexList(blogPosts, { yearSeparators: true })}${renderArchiveLinks(blogIndexes)}`
     },
     ...blogIndexes.map(({ year, posts }) => ({
       outputName: `blog/${year}/index.html`,
@@ -41,7 +38,7 @@ export default function blogPages ({ vars }) {
         layout: 'blog-index',
         noindex: true
       },
-      children: renderBlogIndexList(posts)
+      children: `${renderBlogIndexList(posts)}${renderArchiveLinks(blogIndexes)}`
     }))
   ]
 }

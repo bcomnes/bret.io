@@ -6,7 +6,35 @@
     display: inline-flex;
     justify-content: space-between;
   }
+  & .blog-entry[data-year] {
+    flex-wrap: wrap;
+
+    &::before {
+      content: attr(data-year);
+      flex: 0 0 100%;
+      margin-block: 1.75rem 0.65rem;
+      text-align: center;
+      background: linear-gradient(
+        to right,
+        color-mix(in srgb, var(--accent-foreground) 28%, transparent) calc(50% - 3ch),
+        transparent calc(50% - 3ch),
+        transparent calc(50% + 3ch),
+        color-mix(in srgb, var(--accent-foreground) 28%, transparent) calc(50% + 3ch)
+      ) center / 100% 1px no-repeat;
+      color: var(--accent-foreground);
+      font-family: var(--font-code);
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    &:first-child::before {
+      margin-block-start: 0;
+    }
+  }
   & .blog-entry-link {}
+  & .blog-entry-draft {
+    margin-inline-start: 0.5em;
+  }
   & .blog-entry-date {
     color: var(--accent-foreground);
     font-family: var(--font-code);

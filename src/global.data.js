@@ -1,13 +1,15 @@
+import pMap from 'p-map'
 import { renderBlogIndexList } from './components/blog-index-list/index.js'
 
-/** @import { GlobalDataFunction, GlobalDataFunctionParams } from '@domstack/static/types.js' */
+/** @import { AsyncGlobalDataFunction, GlobalDataFunctionParams } from '@domstack/static/types.js' */
 
 /**
  * @typedef {{
  *   path: string,
  *   url: string,
  *   title: string,
- *   publishDate: string
+ *   publishDate: string,
+ *   draft: boolean
  * }} BlogPost
  */
 
@@ -19,6 +21,22 @@ import { renderBlogIndexList } from './components/blog-index-list/index.js'
  */
 
 /** @typedef {{ from: string, to: string }} PageRedirect */
+/** @typedef {BlogPost & { contentHtml: string }} FeedPost */
+/**
+ * @typedef {{
+ *   blogPosts: BlogPost[],
+ *   blogIndexes: BlogIndex[],
+ *   redirects: PageRedirect[],
+ *   recentBlogPosts: BlogPost[],
+ *   blogPostsHtml: string,
+ *   feedPosts: FeedPost[],
+ *   sitemapUrls: string[]
+ * }} GlobalData
+ */
+/** @typedef {Pick<GlobalData, 'blogPosts' | 'blogIndexes'>} BlogData */
+/** @typedef {Pick<GlobalData, 'redirects'>} RedirectData */
+/** @typedef {Pick<GlobalData, 'feedPosts'>} FeedData */
+/** @typedef {Pick<GlobalData, 'sitemapUrls'>} SitemapData */
 
 /**
  * @param {GlobalDataFunctionParams['pages']} pages
@@ -90,7 +108,8 @@ function collectBlogPosts (pages) {
         path: page.pageInfo.path,
         url: page.pageInfo.url,
         title: String(page.vars.title ?? 'Untitled'),
-        publishDate: publishDate.toISOString()
+        publishDate: publishDate.toISOString(),
+        draft: page.pageInfo.draft
       }
     })
     .sort((a, b) => b.publishDate.localeCompare(a.publishDate))
@@ -114,16 +133,27 @@ function collectBlogIndexes (blogPosts) {
     .sort((a, b) => b.year - a.year)
 }
 
-/** @type {GlobalDataFunction} */
-export default function globalData ({ pages }) {
+/** @type {AsyncGlobalDataFunction<GlobalData>} */
+export default async function globalData ({ pages }) {
   const blogPosts = collectBlogPosts(pages)
   const blogIndexes = collectBlogIndexes(blogPosts)
   const redirects = collectRedirects(pages)
+  const feedPosts = await pMap(blogPosts.slice(0, 10), async (post) => {
+    const page = pages.find(candidate => candidate.pageInfo.path === post.path)
+    if (!page) throw new Error(`Unable to render feed post "${post.path}"`)
+
+    return { ...post, contentHtml: String(await page.renderInnerPage()) }
+  }, { concurrency: 4 })
+  const sitemapUrls = pages
+    .filter(page => !page.vars.noindex)
+    .map(page => page.pageInfo.url)
 
   return {
     blogPosts,
     blogIndexes,
     redirects,
+    feedPosts,
+    sitemapUrls,
     recentBlogPosts: blogPosts.slice(0, 5),
     blogPostsHtml: renderBlogIndexList(blogPosts.slice(0, 5), { more: true })
   }

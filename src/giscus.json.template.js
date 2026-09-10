@@ -1,5 +1,5 @@
 /**
- * @import { TemplateFunction } from '@domstack/static';
+ * @import { TemplateFunction } from '@domstack/static/types.js'
  */
 
 /** @type {TemplateFunction<{
