@@ -96,7 +96,7 @@ footer > .site-top-bar-link:first-child {
   height: 18px;
 }
 
-@media screen and (max-width: 106em) {
+@media screen and (max-width: 120em) {
   .site-top-bar {
     backdrop-filter: contrast(100%) blur(10px);
     z-index: 1; /* float over interactive content below */

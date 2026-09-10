@@ -267,6 +267,11 @@
   transition: transform 220ms ease;
 }
 
+.portfolio figure img.portfolio-logo {
+  object-fit: contain;
+  padding: 1rem;
+}
+
 .portfolio > div:hover figure a img {
   transform: scale(1.015);
 }
@@ -298,7 +303,7 @@
 
 .archive-link {
   margin: 0 0 clamp(3rem, 8vw, 6rem);
-  text-align: center;
+  text-align: right;
 }
 
 .archive-link a {

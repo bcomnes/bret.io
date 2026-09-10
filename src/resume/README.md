@@ -20,12 +20,21 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/socket-dev.png">
   </a>
   <a href="https://socket.dev">Socket Inc</a>
-  <small>Senior Software Engineer • 2021 - Present</small>
 </h2>
 
-- Developed [Socket.dev](https://socket.dev)'s security scanner [GitHub App](https://github.com/apps/socket-security), a primary driver of platform adoption and a contrubuting factor in a [$20M Series A raise](https://socket.dev/blog/series-a). (Typescript, React, Next.js)
-- Introduced service observability practices. (Datadog, Structured logging, service metrics)
-- Rapid gathering if business intelligence, developed data pipelines and analysis. (PostgreSQL, Retool)
+<h3>
+  <small>Member of Technical Staff • May 2026 - Present · 5 mos</small>
+</h3>
+
+- Tech lead of Developer Surfaces: Socket's public customer facing API, GitHub app and Integrations ecosystem.
+
+<h3>
+  <small>Member of Technical Staff • Nov 2021 - Present · 4 yrs 11 mos</small>
+</h3>
+
+- Developed [Socket.dev](https://socket.dev)’s [GitHub App](https://github.com/apps/socket-security), a primary driver of sales and platform adoption and contributing factor in a [$20M Series A raise](https://socket.dev/blog/series-a).
+- Business intelligence, data pipelines and analysis.
+- Employee #5
 
 <h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
