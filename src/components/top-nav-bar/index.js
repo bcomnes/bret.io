@@ -9,7 +9,7 @@ export const topNavBar = () => {
   <nav class="site-top-bar hide-print" aria-label="Main navigation">
     <span class="site-top-bar-left">
       <a href="/" class="site-top-bar-title" title="home">bret.io</a>
-      <a href="/resume/" class="site-top-bar-link" title="resume">resume</a>
+      <a href="/resume/" class="site-top-bar-link" title="résumé">résumé</a>
       <a href="/blog/" class="site-top-bar-link" title="blog">blog</a>
     </span>
     <span class="site-top-bar-right">

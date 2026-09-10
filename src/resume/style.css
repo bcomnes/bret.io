@@ -1,17 +1,167 @@
-/* Random Text Modifiers */
 .subdue {
   color: var(--accent-foreground);
 }
 
+.markdown-body h1 {
+  letter-spacing: -0.035em;
+}
+
+.markdown-body .resume-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+  max-width: none;
+  padding: 0;
+  margin-block: 1.25rem 0;
+  list-style: none;
+  font-family: var(--system-sans);
+  font-size: 0.85rem;
+}
+
+.markdown-body .resume-contact > li {
+  max-width: 100%;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.markdown-body h2 {
+  margin-block: 2.75rem 1rem;
+  padding-block-end: 0.65rem;
+  border-block-end: 1px solid var(--accent-midground);
+  break-after: avoid;
+}
+
+.markdown-body h2:not(.job-heading) {
+  font-family: var(--system-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.markdown-body .job-heading,
+.markdown-body .job-role {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.35rem 1.5rem;
+}
+
+.markdown-body .job-heading {
+  align-items: center;
+  font-size: clamp(1.2rem, 3vw, 1.55rem);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+.job-employer {
+  display: flex;
+  flex: 1 1 20rem;
+  align-items: center;
+  gap: 0.6rem;
+  min-width: 0;
+}
+
+.job-employer > a:not(.job-logo) {
+  min-width: 0;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.job-employer > a:not(.job-logo):is(:hover, :focus-visible) {
+  color: var(--link-text);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 .job-logo {
   display: inline-flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
-  height: 52px;
+}
+
+.job-logo img {
+  display: block;
+  margin: 0;
+}
+
+.markdown-body .job-role {
+  margin-block: 1.5rem 0.65rem;
+  font-family: var(--system-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.45;
+  break-after: avoid;
+}
+
+.markdown-body .job-heading + .job-role {
+  margin-block-start: 1rem;
+}
+
+.markdown-body .job-dates {
+  flex-shrink: 0;
+  color: var(--accent-foreground);
+  font-family: var(--system-sans);
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.markdown-body .job-role:has(+ h4) {
+  margin-block-end: 0;
+}
+
+.markdown-body h3 + h4 {
+  margin-block: 0.2rem 0.75rem;
+  color: var(--accent-foreground);
+  font-family: var(--system-sans);
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.5;
+  break-after: avoid;
+}
+
+.markdown-body h3 + h4 small {
+  font-size: inherit;
+}
+
+.markdown-body h3 + h4 a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.markdown-body h3 + h4 a:is(:hover, :focus-visible) {
+  color: var(--link-text);
+}
+
+@media screen and (max-width: 40rem) {
+  .markdown-body .job-heading,
+  .markdown-body .job-role {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+  }
+
+  .job-employer {
+    flex-basis: auto;
+  }
 }
 
 /* Print specifics */
 @media print {
+  .markdown-body h2 {
+    margin-block-start: 1.75rem;
+  }
+
+  .markdown-body .job-employer {
+    flex-basis: auto;
+  }
 
   .subdue,
   .header .subtitle,
