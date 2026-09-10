@@ -1,0 +1,127 @@
+.markdown-body:has(.redirect-page) {
+  display: grid;
+  align-content: center;
+  padding-block: clamp(2rem, 8vh, 5rem);
+}
+
+.redirect-page {
+  box-sizing: border-box;
+  width: 100%;
+  max-inline-size: 36rem;
+  min-width: 0;
+  margin-inline: auto;
+  padding: clamp(1.25rem, 5vw, 3rem);
+  border: 1px solid color-mix(in srgb, var(--accent-foreground) 28%, transparent);
+  border-radius: 0.9rem;
+  background: color-mix(in srgb, var(--background) 97%, var(--link-text));
+  box-shadow: 0 1rem 3rem color-mix(in srgb, var(--text) 5%, transparent);
+}
+
+.redirect-symbol {
+  display: inline-grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-block-end: 1.5rem;
+  border: 1px solid var(--accent-midground);
+  border-radius: 0.65rem;
+  color: var(--text);
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.redirect-page .redirect-eyebrow,
+.redirect-label {
+  color: var(--accent-foreground);
+  font-family: var(--font-code);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.redirect-page .redirect-eyebrow {
+  margin: 0;
+}
+
+.redirect-page h1 {
+  margin-block: 0.65rem 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+
+.redirect-page .redirect-description {
+  margin: 0;
+  color: var(--accent-foreground);
+  line-height: 1.6;
+}
+
+.redirect-destination {
+  display: grid;
+  gap: 0.5rem;
+  margin-block: 1.75rem;
+  padding: 1rem;
+  border: 1px solid var(--accent-midground);
+  border-radius: 0.5rem;
+  background: var(--background);
+}
+
+.redirect-destination a {
+  min-width: 0;
+  font-family: var(--font-code);
+  font-size: 0.85rem;
+  overflow-wrap: anywhere;
+}
+
+.redirect-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.5rem;
+  font-size: 0.85rem;
+}
+
+.redirect-actions .redirect-continue {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-height: 2.75rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--text);
+  border-radius: 0.5rem;
+  background: var(--text);
+  color: var(--background);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.redirect-actions .redirect-continue:hover {
+  background: var(--background);
+  color: var(--text);
+}
+
+.redirect-actions .redirect-home {
+  color: var(--accent-foreground);
+  text-underline-offset: 0.2em;
+}
+
+.redirect-actions a:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 4px;
+}
+
+@media screen and (max-width: 30rem) {
+  .redirect-actions {
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media print {
+  .redirect-page {
+    box-shadow: none;
+  }
+}
