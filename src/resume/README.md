@@ -6,7 +6,8 @@ redirectFrom:
 ---
 # Bret Comnes
 
-Professional Software Engineer experienced in Full-Stack Product Development, Infra/Ops/Platform Engineering and Cloud Archetecture. Specialized in Open Source Tooling in Javascript/Typescript and Go.
+Professional software engineer experienced in full-stack product development, infrastructure, operations, platform engineering, and cloud architecture.
+Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 - <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
 - <span class="subdue">email:</span> [bcomnes@gmail.com](mailto:bcomnes+website@gmail.com)
@@ -23,18 +24,18 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
 </h2>
 
 <h3>
-  <small>Member of Technical Staff • May 2026 - Present · 5 mos</small>
+  <small>Member of Technical Staff • May 2026 - Present</small>
 </h3>
 
-- Tech lead of Developer Surfaces: Socket's public customer facing API, GitHub app and Integrations ecosystem.
+- Tech lead of Developer Surfaces: Socket’s public customer-facing API, GitHub App, and integrations ecosystem.
 
 <h3>
-  <small>Member of Technical Staff • Nov 2021 - Present · 4 yrs 11 mos</small>
+  <small>Member of Technical Staff • Nov 2021 - Present</small>
 </h3>
 
-- Developed [Socket.dev](https://socket.dev)’s [GitHub App](https://github.com/apps/socket-security), a primary driver of sales and platform adoption and contributing factor in a [$20M Series A raise](https://socket.dev/blog/series-a).
-- Business intelligence, data pipelines and analysis.
-- Employee #5
+- Developed [Socket.dev](https://socket.dev)’s [GitHub App](https://github.com/apps/socket-security), a primary driver of sales and platform adoption and a contributing factor in a [$20M Series A raise](https://socket.dev/blog/series-a).
+- Business intelligence, data pipelines, and analysis.
+- Employee #5.
 
 <h2>
   <a class="job-logo" id="littlstar" href="#littlstar">
@@ -52,19 +53,19 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
   <small>Principal Engineer • 2021</small>
 </h3>
 
-- Design and implment NFT minting and auction platform in \~10 weeks. (Next.js/GraphQL)
-- See [Littlstar portfilio](https://bret.io/blog/2021/littlstar/) for more info.
+- Designed and implemented an NFT minting and auction platform in approximately 10 weeks (Next.js/GraphQL).
+- See [Littlstar portfolio](https://bret.io/blog/2021/littlstar/) for more information.
 
 <h3>
   <small>Senior Software Engineer • 2019 - 2021</small>
 </h3>
 
-- Developed full IAC provisioning and depoyment pipelines with Terraform and Github Actions targeting AWS.
-- Develop [Little Core Labs](https://github.com/little-core-labs) peer to peer content delivery system.
-- Implement a rebrand of Littlstar to [Rad.live](https://rad.live).
-- Design and reboot product website using [next.js](https://nextjs.org) and [swr](https://swr.vercel.app).
+- Developed full IAC provisioning and deployment pipelines with Terraform and GitHub Actions targeting AWS.
+- Developed [Little Core Labs](https://github.com/little-core-labs)’ peer-to-peer content delivery system.
+- Implemented a rebrand of Littlstar to [Rad.live](https://rad.live).
+- Redesigned and relaunched the product website using [Next.js](https://nextjs.org) and [SWR](https://swr.vercel.app).
 - Designed and implemented an organizational microservice pattern.
-- Develop organizational JWT authorization microservice strategy.
+- Developed an organizational strategy for JWT authorization across microservices.
 
 <h2>
   <a class="job-logo" id="hyperdivision" href="#hyperdivision">
@@ -74,11 +75,11 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
   <small>Software Engineer • 2019 🇩🇰</small>
 </h2>
 
-- Leading developer on Heimdall, a cryptographically secure, p2p ledger and proposal system used to securely manage cryptographic assets used for cryptocurrency exchange asset management and other financial technologies. (Electron, Node.js, JavaScript)
-- Develop security-critical native and webassembly Node.js cryptography bindings. ([prebuildify](https://github.com/prebuild/prebuildify), [libsodium](https://github.com/sodium-friends/sodium-native), [wat2js](https://github.com/mafintosh/wat2js))
+- Led development of Heimdall, a cryptographically secure, peer-to-peer ledger and proposal system for managing cryptographic assets in cryptocurrency exchanges and other financial technologies (Electron, Node.js, JavaScript).
+- Developed security-critical native and WebAssembly Node.js cryptography bindings ([prebuildify](https://github.com/prebuild/prebuildify), [libsodium](https://github.com/sodium-friends/sodium-native), [wat2js](https://github.com/mafintosh/wat2js)).
 
 <h2>
-  <a class="job-logo" class="job-logo" id="netlify-platform" href="#netlify-platform">
+  <a class="job-logo" id="netlify-platform" href="#netlify-platform">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/netlify.svg">
   </a>
   <a href="https://www.netlify.com">Netlify</a>
@@ -88,22 +89,22 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
   <small>Platform Engineering • 2018 - 2019</small>
 </h3>
 
-- Joined Netlify's DevOps focused platform team.
-- Maintain and develop [Netlify's CI build environment](https://www.netlify.com/docs/continuous-deployment/), built with [Docker](https://www.docker.com), [Go](https://golang.org), [Jenkins](https://jenkins.io) and [Kubernetes](https://kubernetes.io).
-- Launch Netlify's selectable build-image infrastructure and interface.
-- Develop and maintain [Netlify's Open-api](https://github.com/netlify/open-api) Go client, and architect and rewrite the [Javascript client](https://github.com/netlify/js-client).
-- 24h on-call duties
-- Monitor and maintain the health of Netlify's multi-cloud infrastructure using [Humio](http://humio.com) and [Datadog](https://www.datadoghq.com).
-- Scale and deploy infrastructure with GitOps via [Ansible](https://www.ansible.com), bash and [Terraform](http://terraform.io).
+- Joined Netlify's DevOps-focused platform team.
+- Maintained and developed [Netlify's CI build environment](https://www.netlify.com/docs/continuous-deployment/), built with [Docker](https://www.docker.com), [Go](https://golang.org), [Jenkins](https://jenkins.io), and [Kubernetes](https://kubernetes.io).
+- Launched Netlify's selectable build-image infrastructure and interface.
+- Developed and maintained [Netlify's OpenAPI](https://github.com/netlify/open-api) Go client, and architected and rewrote the [JavaScript client](https://github.com/netlify/js-client).
+- Performed 24-hour on-call duties.
+- Monitored and maintained the health of Netlify's multi-cloud infrastructure using [Humio](http://humio.com) and [Datadog](https://www.datadoghq.com).
+- Scaled and deployed infrastructure with GitOps via [Ansible](https://www.ansible.com), Bash, and [Terraform](http://terraform.io).
 - See [Netlify portfolio](/blog/2020/netlify/#platform) for more examples.
 
 <h3>
   <small>Product Engineering • 2017 - 2018</small>
 </h3>
 
-- Plan, design, implement, test and iterate on new features for [Netlify's React based webapp](https://app.netlify.com).
-- Support, maintain, test and release Netlify's [open source JS and Go libraries](https://github.com/netlify).
-- Architect and build Netlify's next generation, extensible [CLI](https://github.com/netlify/cli).
+- Planned, designed, implemented, tested, and iterated on new features for [Netlify's React-based web app](https://app.netlify.com).
+- Supported, maintained, tested, and released Netlify's [open-source JS and Go libraries](https://github.com/netlify).
+- Architected and built Netlify's next-generation, extensible [CLI](https://github.com/netlify/cli).
 - See [Netlify portfolio](/blog/2020/netlify/#product) for more examples.
 
 <h2>
@@ -114,10 +115,10 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
   <small>Software Engineer • 2016 - 2017</small>
 </h2>
 
-- Developed structured documentation [EtchCV](https://zhealthdocumentation.com/etch-suite/) suite for Cardiac Surgeons and Hospitals.
-- API and microservice design + implementation.
-- Cross Platform Desktop software using Electron, HTML, CSS and SVG powered by React + Redux.
-- Implemented continuous Electron App delivery using TravisCI, Appveyor and S3/AWS.
+- Developed [EtchCV](https://zhealthdocumentation.com/etch-suite/), a structured documentation suite for cardiac surgeons and hospitals.
+- Designed and implemented APIs and microservices.
+- Developed cross-platform desktop software using Electron, HTML, CSS, and SVG, powered by React and Redux.
+- Implemented continuous Electron app delivery using Travis CI, AppVeyor, and S3/AWS.
 
 <h2>
   <a class="job-logo" id="jlr" href="#jlr">
@@ -127,8 +128,8 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
   <small>OS & Application Engineering • 2015 - 2016</small>
 </h2>
 
-- Mobile app, infotainment and OS development using JS + Node.js, HTML and CSS.
-- Targed in-vehicle embeded systems fully utlizing the onboard can bus.
+- Developed mobile apps, infotainment systems, and OS software using JavaScript, Node.js, HTML, and CSS.
+- Targeted in-vehicle embedded systems, fully utilizing the onboard CAN bus.
 - Architected a single sign-on service and documentation server for internal documents and project planning using Express.js.
 
 <h2>
@@ -143,22 +144,21 @@ Professional Software Engineer experienced in Full-Stack Product Development, In
   <small>HPC Operations & Python Development • 2013 - 2015</small>
 </h3>
 
-- Web applications and systems programming with Python and Django.
-- Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics
-- Responsible for building, automating and monitoring PSU’s research servers and HPC Linux Clusters and colocation.
+- Developed web applications and performed systems programming with Python and Django.
+- Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics.
+- Built, automated, and monitored PSU’s research servers, HPC Linux clusters, and colocated infrastructure.
 - Initiated efforts to automate cluster deployment and management using Ansible.
-- Trained and introduced new users to ARC's resources and shared unix computing environments.
+- Introduced new users to ARC's resources and shared Unix computing environments and trained them in their use.
 
 <h3>
   <a href="http://www.pdx.edu/physics/">PSU Physics Department</a>
   <small>Lab Instructor & TA+RA • 2012 - 2014</small>
 </h3>
 
-- Wrote custom control software and a web application that enabled remote viewing and operation of a Scanning Electron Microscope over the Internet using React, Web Sockets and WebRTC.
-- Instructed PSU’s General Physics Labs and assisted in the upper division Experimental Physics Labs.
-- Developed two novel labs on the use of micro-controllers and FPGAs covering basic concepts to
-advanced topics like PID control theory.
-- Teaching introductory electronics and debugging skills to students.
+- Wrote custom control software and a web application that enabled remote viewing and operation of a scanning electron microscope over the internet using React, WebSockets, and WebRTC.
+- Taught PSU’s general physics labs and assisted in the upper-division experimental physics labs.
+- Developed two novel labs on microcontrollers and FPGAs, covering topics ranging from basic concepts to advanced subjects such as PID control theory.
+- Taught introductory electronics and debugging skills to students.
 
 <h2>
   <a class="job-logo" id="wiley" href="#wiley">
@@ -168,17 +168,17 @@ advanced topics like PID control theory.
   <small>Textbook Development Consultant • 2012</small>
 </h2>
 
-- Developed interactive figures and demos for an interactive Calculus textbook published by Wiley Publishing.
+- Developed interactive figures and demos for an interactive calculus textbook published by Wiley Publishing.
 
 <h2>
-  <a class="job-logo" id="wiley" href="#wiley">
+  <a class="job-logo" id="hsu" href="#hsu">
     <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hsu.svg">
   </a>
   <a href="http://www2.humboldt.edu/physics/gravitational-lab.html">HSU Gravitational Research Laboratory</a>
   <small>Research Assistant • 2009 - 2011</small>
 </h2>
 
-- Designed and machined custom experimental instruments and developed the lab’s data collection, automation and analysis software to study the gravitational inverse-square law at sub-millimeter distance scales.
+- Designed and machined custom experimental instruments and developed the lab’s data collection, automation, and analysis software to study the gravitational inverse-square law at submillimeter distance scales.
 
 <h2>
   <a class="job-logo" id="naic" href="#naic">
@@ -188,17 +188,17 @@ advanced topics like PID control theory.
   <small>Arecibo Guest Researcher • 2009</small>
 </h2>
 
-- Trained and operated the worlds largest radio telescope and analyzed the collected data searching for previously undiscovered galaxies.
+- Trained on and operated the world’s largest radio telescope at the time, and analyzed the collected data to search for previously undiscovered galaxies.
 
 ## Education
 
 - [Humboldt State University](http://www2.humboldt.edu/physics/) <small class="subdue">B.S. Physics 2011 </small>
-- [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (Completed coursework, No diploma)</small>
+- [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (completed coursework; degree not awarded)</small>
 
 ## Media
 
-- [Socket - Github App Improvements](https://socket.dev/blog/github-app-improvements) 2022-07-26
-- [JS Party – Episode #227: JS logging & error handling](https://changelog.com/jsparty/219) 2022-05-27
+- [Socket - GitHub App Improvements](https://socket.dev/blog/github-app-improvements) 2022-07-26
+- [JS Party – Episode #227: JS logging & error handling](https://changelog.com/jsparty/227) 2022-05-27
 - [JS Party – Episode #219: Making moves on supply chain security](https://changelog.com/jsparty/219) 2022-03-24
 - [Netlify Blog: A more flexible build architecture with updated Linux](https://www.netlify.com/blog/2019/03/14/a-more-flexible-build-architecture-with-updated-linux/) 2019-03-14
 - [Netlify Blog: Fearless deploys for your lingering processes](https://www.netlify.com/blog/2018/11/28/fearless-deploys-for-your-lingering-processes/) 2018-11-28
@@ -211,7 +211,7 @@ advanced topics like PID control theory.
 ## Community
 
 - [Datcast](https://dat-cast.hashbase.io) <small class="subdue">Podcast (2018 - 2019)</small>
-- [PDX Node](https://www.meetup.com/pdxnode/) <small class="subdue">Organizer Meetup (2015 - 2017)</small>
+- [PDX Node](https://www.meetup.com/pdxnode/) <small class="subdue">Meetup organizer (2015 - 2017)</small>
 - [Node School](https://nodeschool.io) <small class="subdue">Organizer & Mentor (2016)</small>
 - [Code for Portland](http://www.codeforportland.org) <small class="subdue">Organizer & Mentor • Open Civic Data Initiative (2014 - 2015)</small>
 - [WebRTC Camp](https://twitter.com/WebRTCCamp) <small class="subdue">Speaker (2013)</small>

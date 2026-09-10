@@ -1,16 +1,29 @@
-import { html, render } from 'uhtml-isomorphic'
+import { html, render } from 'fragtml'
 
-/** @typedef {{ url: string, title: string, publishDate: string, draft?: boolean }} BlogPost */
+/**
+ * @typedef {object} BlogPost
+ * @property {string} url
+ * @property {string} title
+ * @property {string} publishDate
+ * @property {boolean} [draft]
+ */
+
+/**
+ * @typedef {object} BlogIndexListOptions
+ * @property {boolean} [more]
+ * @property {boolean} [yearSeparators]
+ */
 
 /**
  * @param {BlogPost[]} posts
- * @param {{ more?: boolean, yearSeparators?: boolean }} [options]
+ * @param {BlogIndexListOptions} [options]
+ * @returns {string}
  */
 export function renderBlogIndexList (posts, { more = false, yearSeparators = false } = {}) {
   /** @type {number | undefined} */
   let previousYear
 
-  return render(String, html`<ul class="blog-index-list">
+  return render(html`<ul class="blog-index-list">
     ${posts.map(post => {
       const publishDate = new Date(post.publishDate)
       const year = publishDate.getUTCFullYear()
@@ -18,7 +31,7 @@ export function renderBlogIndexList (posts, { more = false, yearSeparators = fal
       previousYear = year
 
       return html`
-        <li class="blog-entry h-entry" data-year="${separatorYear}">
+        <li class="blog-entry h-entry" ${separatorYear === null ? null : html`data-year="${separatorYear}"`}>
           <span class="blog-entry-title">
             <a class="blog-entry-link u-url u-uid p-name" href="${post.url}">${post.title}</a>
             ${post.draft ? html`<span class="blog-entry-draft draft-badge">Draft</span>` : null}

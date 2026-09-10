@@ -2,6 +2,7 @@ import jsonfeedToAtom from 'jsonfeed-to-atom'
 
 /** @import { DataDeps, TemplateAsyncIterator } from '@domstack/static/types.js' */
 /** @import { FeedData } from './global.data.js' */
+/** @import { JsonFeed } from 'jsonfeed-to-atom' */
 
 /** @satisfies {DataDeps<FeedData>} */
 export const dataDeps = ['feedPosts']
@@ -28,6 +29,7 @@ export default async function * feedsTemplate ({
   },
   data: { feedPosts }
 }) {
+  /** @satisfies {JsonFeed} */
   const jsonFeed = {
     version: 'https://jsonfeed.org/version/1',
     title: siteName,

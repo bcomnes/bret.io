@@ -1,5 +1,9 @@
-import { html } from 'uhtml-isomorphic'
+/** @import { PageInfo } from '@domstack/static/types.js' */
+/** @import { HtmlResult } from 'fragtml/types.js' */
 
+import { html } from 'fragtml'
+
+/** @returns {HtmlResult} */
 export const topNavBar = () => {
   return html`
   <nav class="site-top-bar hide-print">
@@ -25,6 +29,10 @@ export const topNavBar = () => {
   `
 }
 
+/**
+ * @param {{ githubRootUrl: string, page: Pick<PageInfo, 'pageFile'> }} args
+ * @returns {HtmlResult}
+ */
 export const bottomFotterBar = ({
   githubRootUrl,
   page

@@ -1,24 +1,29 @@
-import { html } from 'uhtml-isomorphic'
+import { html, raw } from 'fragtml'
 import cn from 'classnames'
 import { topNavBar, bottomFotterBar } from '#components/top-nav-bar/index.js'
 
-/** @import { LayoutFunction } from '@domstack/static/types.js' */
+/** @import { AsyncLayoutFunction } from '@domstack/static/types.js' */
+/** @import { HtmlResult } from 'fragtml/types.js' */
+
+/** @typedef {string | HtmlResult} LayoutChildren */
 
 /**
  * @typedef {{
- *  title: string,
+ *  title?: string,
  *  description: string,
  *  siteName: string,
  *  githubRootUrl: string,
  *  siteUrl: string,
- *  serif: boolean,
+ *  serif?: boolean,
  *  image: string,
  *  siteTwitter: string,
- *  [key: string]: any
+ *  redirectTo?: string,
+ *  noindex?: boolean,
+ *  published?: boolean
  * }} RootLayoutVars
  */
 
-/** @type {LayoutFunction<RootLayoutVars>} */
+/** @type {AsyncLayoutFunction<RootLayoutVars, LayoutChildren, HtmlResult>} */
 export default async function rootLayout ({
   vars: {
     title,
@@ -29,14 +34,17 @@ export default async function rootLayout ({
     serif,
     image,
     siteTwitter,
-    published
+    published,
+    redirectTo,
+    noindex
   },
   scripts,
   styles,
   children,
   page
 }) {
-  const resolvedURL = `${siteUrl}/${page.path}${page.path.endsWith('.html') ? '' : '/'}`
+  const pagePath = page.path && !page.path.endsWith('.html') ? `${page.path}/` : page.path
+  const resolvedURL = `${siteUrl.replace(/\/$/, '')}/${pagePath}`
   return html`
 <!DOCTYPE html>
 <html lang="en" data-mine-theme="bret-io">
@@ -45,6 +53,14 @@ export default async function rootLayout ({
     <title>${title ? `${title} | ` : ''}${siteName}</title>
     <meta name="color-scheme" content="light dark">
     <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+    ${noindex ? html`<meta name="robots" content="noindex">` : null}
+    ${redirectTo
+      ? html`
+          <meta http-equiv="refresh" content="${`0;url=${redirectTo}`}">
+          <link rel="canonical" href="${redirectTo}">
+        `
+      : null
+    }
 
     <link rel="icon" type="image/x-icon" href="/favicons/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
@@ -95,7 +111,7 @@ export default async function rootLayout ({
       : null
     }
     ${styles
-      ? styles.map(style => html`<link rel="stylesheet" href=${style}>`)
+      ? styles.map(style => html`<link rel="stylesheet" href="${style}">`)
       : null
     }
   </head>
@@ -103,7 +119,7 @@ export default async function rootLayout ({
     ${topNavBar()}
     <main class="${cn(['markdown-body', 'mine-layout', { serif }])}" >
       ${page.draft || published === false ? html`<div><span class="draft-badge">Draft</span></div>` : null}
-      ${typeof children === 'string' ? html([children]) : children /* Support both uhtml and string children. Optional. */}
+      ${typeof children === 'string' ? raw(children) : children}
     </main>
     ${bottomFotterBar({
       githubRootUrl,
