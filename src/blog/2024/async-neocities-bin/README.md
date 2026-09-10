@@ -55,6 +55,7 @@ Here is a quick example of that:
 
 - Install `async-neocities@^3.0.0` to your project's `package.json`.
 - Set up a `package.json` deploy script:
+
     ```json
      "scripts": {
         "build": "npm run clean && run-p build:*",
@@ -64,14 +65,18 @@ Here is a quick example of that:
         "deploy:async-neocities": "async-neocities --src public --cleanup"
       },
     ```
+
 - Run a deploy once locally to set up the `deploy-to-neocities.json` config file. Example config contents:
+
   ```json
   {"siteName":"bret"}
   ```
+
 - Run deploys locally with `npm run deploy`.
 - Configure your CI to run `npm run deploy` and configure the token secret.
+
     ```yaml
-    name: Deploy to neociteis
+    name: Deploy to Neocities
 
     on:
       push:
@@ -82,7 +87,7 @@ Here is a quick example of that:
       node-version: 21
       FORCE_COLOR: 2
 
-    concurrency: # prevent concurrent deploys doing starnge things
+    concurrency: # prevent concurrent deploys doing strange things
       group: deploy-to-neocities
       cancel-in-progress: true
 
@@ -119,7 +124,6 @@ The `async-neocities` CLI re-uses the same ENV name as `deploy-to-neocities` act
 
 This prompts some questions regarding when are CLIs and when are actions most appropriate. Lets compare the two:
 
-
 ### CLIs
 
 - Pro: Local deploys
@@ -141,8 +145,5 @@ Implement core functionality as a re-usable library.
 Exposing a CLI makes that library an interactive tool that provides a local first workflow and is equally useful in CI.
 Exposing the library in an action further opens up the library to a wider language ecosystem which would otherwise ignore the library due to foreign ecosystem ergonomic overhead.
 The action is simpler to implement than a CLI but the CLI offers a superior experience within the implemented language ecosystem.
-
-
-
 
 [an]: https://github.com/bcomnes/async-neocities

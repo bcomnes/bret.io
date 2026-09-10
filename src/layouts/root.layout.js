@@ -1,6 +1,6 @@
 import { html, raw } from 'fragtml'
 import cn from 'classnames'
-import { topNavBar, bottomFotterBar } from '#components/top-nav-bar/index.js'
+import { topNavBar, bottomFooterBar } from '#components/top-nav-bar/index.js'
 
 /** @import { AsyncLayoutFunction } from '@domstack/static/types.js' */
 /** @import { HtmlResult } from 'fragtml/types.js' */
@@ -52,7 +52,7 @@ export default async function rootLayout ({
     <meta charset="utf-8">
     <title>${title ? `${title} | ` : ''}${siteName}</title>
     <meta name="color-scheme" content="light dark">
-    <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     ${noindex ? html`<meta name="robots" content="noindex">` : null}
     ${redirectTo
       ? html`
@@ -121,7 +121,7 @@ export default async function rootLayout ({
       ${page.draft || published === false ? html`<div><span class="draft-badge">Draft</span></div>` : null}
       ${typeof children === 'string' ? raw(children) : children}
     </main>
-    ${bottomFotterBar({
+    ${bottomFooterBar({
       githubRootUrl,
       page
     })}

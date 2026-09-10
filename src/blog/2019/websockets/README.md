@@ -10,7 +10,7 @@ Websockets are a fantastic and underutilized API.  Here are some tools and exper
 
 ## [`universal-reconnecting-websocket`](https://github.com/bcomnes/universal-reconnecting-websocket)
 
-[![](urws.png)](https://github.com/bcomnes/universal-reconnecting-websocket/)
+[![Universal reconnecting WebSocket diagram](urws.png)](https://github.com/bcomnes/universal-reconnecting-websocket/)
 
 Universal reconnecting websocket is a thin websocket client wrapper on top of DOM [`WebSocket`](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)'s and Node.js's [ws](https://github.com/websockets/ws).  It provides the following features:
 
@@ -26,17 +26,17 @@ The idea behind this library was to bring the wrapper API that I desired for web
 
 I was very happy with the browser side of the API.  I think this part turned out great, and was what the surface API was designed against.
 
-The Node.js API was essentially mixed on top of the API that was implemented against the DOM api.  The `ws` client has a lot more options than Browser websockts, and a number of key differences around protocol and binary options, which would require one to write two sepearate clients for Node and Browsers which kind of defeated the purpose of a universal client.  I did not realize this until after I wrote it.
+The Node.js API was essentially mixed on top of the API that was implemented against the DOM API. The `ws` client has a lot more options than browser WebSockets and a number of key differences around protocol and binary options, which would require writing two separate clients for Node and browsers. That kind of defeated the purpose of a universal client. I did not realize this until after I wrote it.
 
 The next step for this project would be to implement two specific `abstract` reconnecting sockets with the same API, but implemented and documented specifically to the socket type it is written around.
 
-### Key Takeway
+### Key Takeaway
 
 Don't try to write a "universal" module when wrapping `io` primitives.  Instead, implement an `abstract` version of the api specific to the `io` primitives it uses.  If, down the road, it is determined to be beneficial to have a single module that automatically chooses which underlying `abstract` implementation to use based on the environment, you can use the singular `abstract` implementations to achieve that.  Universal modules should usually only be for algorithmic modules.
 
 ## [`websocket-chat`](https://github.com/bcomnes/websocket-chat)
 
-[![](./websocket-chat.png)](https://github.com/bcomnes/websocket-chat)
+[![WebSocket chat server diagram](./websocket-chat.png)](https://github.com/bcomnes/websocket-chat)
 
 Websocket chat is a prototype grade chat server using [`ws`](https://github.com/websockets/ws).  It implements a few demonstration features:
 
@@ -51,16 +51,15 @@ It's not much but it acts as a handy reference on how to implement a naive chat 
 
 ## [`websocket-chat-client`](https://github.com/bcomnes/websocket-chat-client)
 
-[![Screenshot of websocket client UI](./websocket-chat-client.jpg)](https://websocket-chat-client.netlify.com)
+![Screenshot of WebSocket client UI](./websocket-chat-client.jpg)
 
-- 🌎[Live Demo](https://websocket-chat-client.netlify.com)
 - 🛠[Code](https://github.com/bcomnes/websocket-chat-client)
 
 This is a prototype grade example of a real time chat app that uses `universal-reconnecting-websocket` and connects to the `websocket-chat` server.  The application is completely static, and can connect to any arbitrary `websocket-chat` server, demonstrating a [JAMStack](https://jamstack.org) architecture.  Keeping the client and server decoupled ensures you have to take care of all protocol assumptions up front which would help ensure you could implement other clients against the same server (for example, a native mobile app client).
 
 ## [`dom-event-handler`](https://github.com/bcomnes/dom-event-handler)
 
-[![](./dom-event-handler.png)](https://github.com/bcomnes/dom-event-handler)
+[![DOM event handler diagram](./dom-event-handler.png)](https://github.com/bcomnes/dom-event-handler)
 
 This is module of a [WebReflection article](https://webreflection.medium.com/dom-handleevent-a-cross-platform-standard-since-year-2000-5bf17287fd38) discussing the ancient and often forgotten detail of the [EventLister](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) api.  Unfortunately the author of that article would probably disapprove of this module due to lack of semicolons.  C'est la vie.  (I still have mad respect for your work Andrea!)
 
@@ -117,7 +116,7 @@ Isn't that nice?
 
 ## [`node-event-handler`](https://github.com/bcomnes/node-event-handler)
 
-[![](./node-event-handler.png)](https://github.com/bcomnes/node-event-handler)
+[![Node event handler diagram](./node-event-handler.png)](https://github.com/bcomnes/node-event-handler)
 
 When implementing `universal-reconnecting-websocket`, it was assumed that the [EventLister](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) api could be mocked for the `ws` client events.  It turns out, this wasn't easy.
 
@@ -127,9 +126,9 @@ Node.js and DOM event systems are just too different.  Here some some challenges
 - The shape of the event data objects are totally different in both systems.
 - DOM events are a large API and difficult to simulate in Node.js.
 
-These differences broguht me to the following conclusions.
+These differences brought me to the following conclusions.
 
-- When Node.js was the hot new thing, it was in vogue to implement Node compatible API layers for the browser.  It was usually straight forward, but inevitably a userspace solution.  This had a lot of advantages (like nice and simple APIs that worked effectively) and little drawbacks other than a bit of extra bundle size and lack of a standards authority dictating how things should work.  [`browserify`](http://browserify.org) used this strategey to great effect, and it still works great today.
+- When Node.js was the hot new thing, it was in vogue to implement Node-compatible API layers for the browser. It was usually straightforward, but inevitably a userspace solution. This had a lot of advantages (like nice and simple APIs that worked effectively) and few drawbacks other than a bit of extra bundle size and the lack of a standards authority dictating how things should work. [`browserify`](http://browserify.org) used this strategy to great effect, and it still works well today.
 - As Node.js aged, and its opponents slowly regained power to push back against its influence, and as Node.js's innovations slowly sublimated into implemented, yet incompatible "standards", it became fashionable to implement DOM apis compatible for node.  The sudden interest in [node-fetch](https://github.com/node-fetch/node-fetch) is testament to this trend, despite many [bugs](https://github.com/search?q=repo%3Anode-fetch%2Fnode-fetch+clone+&type=issues), and awkward differences between it and the real DOM API.
 - Porting Node.js APIs to the browser is easy, since they are fundamentally simple, userspace derived APIs.
 - Porting Browser APIs to Node in userspace is not easy, complex and error prone.  Avoid doing it.  See the key takeaways from `urws` above for the proper way to handle IO abstractions.

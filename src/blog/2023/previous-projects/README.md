@@ -98,7 +98,7 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
     <ul>
       <li class="lang js"><a href="https://github.com/hypermodules/dti">hypermodules/dti</a></li>
       <li class="lang js"><a href="https://github.com/bcomnes/mooon">bcomnes/mooon</a></li>
-      <li class="lang js"><a href="https://zhealthdocumentation.com/etch-suite/">zhealthdocumentation.com/etch-suite</a></li>
+      <li class="lang js">Etch Suite documentation</li>
       <li class="lang js"><a href="https://github.com/prebuild">Home Prebuilders Association</a></li>
     </ul>
   </div>
@@ -118,7 +118,7 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
     </figure>
     <ul>
       <li class="lang html"><a href="https://gumcast.com/">gumcast.com</a></li>
-      <li class="lang js"><a href="https://github.com/gumcast/gumcast-api">gumcast/gumcast-api</a></li>
+      <li class="lang js"><a href="https://github.com/gumcast">gumcast on GitHub</a></li>
       <li class="lang js"><a href="https://github.com/gumcast/gumcast-client">gumcast/gumcast-client</a></li>
     </ul>
   </div>
@@ -161,7 +161,7 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
           <img loading="auto" src="/portfolio-img/uhtml-light.png" alt="Screenshot of uhtml-isomorphic">
         </picture>
       </a>
-      <figcaption>Universal exports of <a href="https://github.com/WebReflection/uhtml">uhtml</a> and <a href="https://github.com/WebReflection/uland">uland</a>. A small, high performance tagged template literal functional reactive template library. These are the best frontend module's you've never heard of.</figcaption>
+      <figcaption>Universal exports of <a href="https://github.com/WebReflection/uhtml">uhtml</a> and <a href="https://github.com/WebReflection/uland">uland</a>. A small, high-performance tagged-template literal functional reactive library. These are the best frontend modules you've never heard of.</figcaption>
     </figure>
     <ul>
       <li class="lang js"><a href="https://github.com/bcomnes/uhtml-isomorphic">bcomnes/uhtml-isomorphic</a></li>
@@ -262,10 +262,10 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
     </ul>
   </div>
   <div>
-    <h3 id="arch-arm"><a href="https://github.com/bcomnes/archlinux-arm-img">Archlinux Arm</a></h3>
+    <h3 id="arch-arm"><a href="https://github.com/bcomnes/archlinux-arm-img">Arch Linux ARM</a></h3>
     <figure>
       <a href="https://github.com/bcomnes/archlinux-arm-img"><img loading="auto" src="/portfolio-img/arch-arm-raspi.svg" alt="arch arm logo"></a>
-      <figcaption>Automated provisioning of <a href="https://archlinuxarm.org">Archlinx Arm</a> images for Rasberry Pi hardware with <a href="https://www.packer.io">Hashicorp's Packer</a> and other various micro-scale devops experiments.</figcaption>
+      <figcaption>Automated provisioning of <a href="https://archlinuxarm.org">Arch Linux ARM</a> images for Raspberry Pi hardware with <a href="https://www.packer.io">HashiCorp's Packer</a> and other micro-scale DevOps experiments.</figcaption>
     </figure>
     <ul>
       <li class="lang go"><a href="https://github.com/bcomnes/raspi-packer">bcomnes/raspi-packer</a></li>
@@ -282,7 +282,7 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
           <img loading="auto" src="/portfolio-img/hifiwifi-light.png" alt="Screenshot of hifiwi.fi">
         </picture>
       </a>
-      <figcaption>HifiWi.fi: High fidelity internet products. Catchall <abbr title="Doing Buisness As">DBA</abbr> opensource/professional contracting entity.</figcaption>
+      <figcaption>HifiWi.fi: High-fidelity internet products. Catchall <abbr title="Doing Business As">DBA</abbr> open-source/professional contracting entity.</figcaption>
     </figure>
     <ul>
       <li class="lang html"><a href="https://hifiwi.fi">hifiwi.fi</a></li>

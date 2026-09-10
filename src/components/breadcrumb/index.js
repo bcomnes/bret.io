@@ -4,14 +4,15 @@ import { html } from 'fragtml'
 import cn from 'classnames'
 
 /**
- * @param {{ pathSegments: string[] }} args
+ * @param {{ pathSegments: string[], label?: string }} args
  * @returns {HtmlResult}
  */
 export const breadcrumb = ({
-  pathSegments
+  pathSegments,
+  label = 'Breadcrumb'
 }) => {
   return html`
-  <nav class="breadcrumb-nav" aria-label="breadcrumb">
+  <nav class="breadcrumb-nav" aria-label="${label}">
         <ol class="list">
             ${pathSegments.map((segment, i, segments) =>
               html`

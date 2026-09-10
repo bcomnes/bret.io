@@ -24,5 +24,3 @@ By loosening up the motto to allow for at least some Evil, so long as its the "r
 
 Maybe its time to demand "Can't be evil"? Build in a way where the evil just isn't possible.
 Reject the possibility of evil in what software you choose to use.
-
-
