@@ -290,10 +290,6 @@
 }
 
 
-footer.site-top-bar {
-  position: static;
-  border-top: 1px solid var(--home-border);
-}
 
 .domstack-heading,
 .domstack-heading a {
@@ -302,7 +298,7 @@ footer.site-top-bar {
 
 .archive-link {
   margin: 0 0 clamp(3rem, 8vw, 6rem);
-  text-align: right;
+  text-align: center;
 }
 
 .archive-link a {

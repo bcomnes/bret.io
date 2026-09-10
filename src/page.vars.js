@@ -1,3 +1,4 @@
 export default {
-  title: null
+  title: null,
+  dataDeps: ['blogPostsHtml']
 }

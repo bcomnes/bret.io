@@ -28,13 +28,13 @@ export default async function rootLayout ({
     githubRootUrl,
     serif,
     image,
-    siteTwitter
+    siteTwitter,
+    published
   },
   scripts,
   styles,
   children,
   page
-  /* pages */
 }) {
   const resolvedURL = `${siteUrl}/${page.path}${page.path.endsWith('.html') ? '' : '/'}`
   return html`
@@ -102,7 +102,7 @@ export default async function rootLayout ({
   <body class="safe-area-inset">
     ${topNavBar()}
     <main class="${cn(['markdown-body', 'mine-layout', { serif }])}" >
-      ${page.draft ? html`<div>DRAFT</div>` : null}
+      ${page.draft || published === false ? html`<div><span class="draft-badge">Draft</span></div>` : null}
       ${typeof children === 'string' ? html([children]) : children /* Support both uhtml and string children. Optional. */}
     </main>
     ${bottomFotterBar({
