@@ -16,6 +16,22 @@ li.js::before {
   color: #f1e05a;
 }
 
+li.ts::before {
+  color: #3178c6;
+}
+
+li.npm::before {
+  color: #cb3837;
+}
+
+li.archlinux::before {
+  color: #1793d1;
+}
+
+li.socket::before {
+  color: #9762fc;
+}
+
 li.html::before {
   color: #e34c26;
 }
