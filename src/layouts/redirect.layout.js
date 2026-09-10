@@ -1,22 +1,23 @@
-import { html, render } from 'uhtml-isomorphic'
+import { html } from 'fragtml'
 
-/** @import { LayoutFunction } from '@domstack/static/types.js' */
+/** @import { LayoutFunction, LayoutVars } from '@domstack/static/types.js' */
+/** @import { HtmlResult } from 'fragtml/types.js' */
+/** @import { LayoutChildren, RootLayoutVars } from './root.layout.js' */
 
-/** @type {LayoutFunction<{ title: string, redirectTo: string }>} */
+/** @typedef {RootLayoutVars & { title: string, redirectTo: string }} RedirectLayoutVars */
+
+export const parentLayout = 'root'
+
+/** @satisfies {LayoutVars<Partial<RedirectLayoutVars>>} */
+export const vars = {
+  noindex: true
+}
+
+/** @type {LayoutFunction<RedirectLayoutVars, LayoutChildren, HtmlResult>} */
 export default function redirectLayout ({ vars }) {
-  const refresh = `0;url=${vars.redirectTo}`
-
-  return render(String, html`<!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <meta name="robots" content="noindex">
-        <meta http-equiv="refresh" content="${refresh}">
-        <link rel="canonical" href="${vars.redirectTo}">
-        <title>${vars.title}</title>
-      </head>
-      <body>
-        <p>Redirecting to <a href="${vars.redirectTo}">${vars.redirectTo}</a></p>
-      </body>
-    </html>`)
+  return html`
+    <h1>${vars.title}</h1>
+    <p>This page has moved. If you aren’t redirected automatically, follow the link below.</p>
+    <p><a href="${vars.redirectTo}">${vars.redirectTo}</a></p>
+  `
 }

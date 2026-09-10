@@ -1,12 +1,12 @@
 import builder from 'xmlbuilder'
 
-/** @import { DataDeps, TemplateFunction } from '@domstack/static/types.js' */
+/** @import { DataDeps, AsyncTemplateFunction } from '@domstack/static/types.js' */
 /** @import { SitemapData } from './global.data.js' */
 
 /** @satisfies {DataDeps<SitemapData>} */
 export const dataDeps = ['sitemapUrls']
 
-/** @type {TemplateFunction<{
+/** @type {AsyncTemplateFunction<{
  *  siteName: string,
  *  description: string,
  *  siteUrl: string,

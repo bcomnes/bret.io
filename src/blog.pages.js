@@ -1,15 +1,20 @@
-import { html, render } from 'uhtml-isomorphic'
-import { renderBlogIndexList } from './components/blog-index-list/index.js'
-
 /** @import { DataDeps, PagesFunction } from '@domstack/static/types.js' */
 /** @import { BlogData, BlogIndex } from './global.data.js' */
+
+import { html, render } from 'fragtml'
+import { renderBlogIndexList } from './components/blog-index-list/index.js'
+
+/** @typedef {{ title: string, layout: string, noindex: boolean }} BlogPageVars */
 
 /** @satisfies {DataDeps<BlogData>} */
 export const dataDeps = ['blogPosts', 'blogIndexes']
 
-/** @param {BlogIndex[]} indexes */
+/**
+ * @param {BlogIndex[]} indexes
+ * @returns {string}
+ */
 function renderArchiveLinks (indexes) {
-  return render(String, html`
+  return render(html`
     <footer class="blog-index-footer">
       <h4>Archive</h4>
       <ul class="archive-list">
@@ -19,7 +24,7 @@ function renderArchiveLinks (indexes) {
   `)
 }
 
-/** @type {PagesFunction<Record<string, any>, string, Record<string, any>, BlogData>} */
+/** @type {PagesFunction<BlogPageVars, string, Record<string, unknown>, BlogData>} */
 export default function blogPages ({ data: { blogPosts, blogIndexes } }) {
   return [
     {

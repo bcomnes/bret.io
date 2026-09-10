@@ -1,6 +1,12 @@
-import { html } from 'uhtml-isomorphic'
+/** @import { HtmlResult } from 'fragtml/types.js' */
+
+import { html } from 'fragtml'
 import cn from 'classnames'
 
+/**
+ * @param {{ pathSegments: string[] }} args
+ * @returns {HtmlResult}
+ */
 export const breadcrumb = ({
   pathSegments
 }) => {
@@ -19,6 +25,12 @@ export const breadcrumb = ({
 }
 
 const relativePathSegment = '../'
+/**
+ * @param {string} segment
+ * @param {number} index
+ * @param {number} segmentLength
+ * @returns {string}
+ */
 function generateRelativePathSegment (segment, index, segmentLength) {
   const segmentCount = segmentLength - index
   if (index === segmentLength - 1) return './'

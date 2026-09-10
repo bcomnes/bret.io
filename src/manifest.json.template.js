@@ -1,6 +1,6 @@
-/** @import { TemplateFunction } from '@domstack/static/types.js' */
+/** @import { AsyncTemplateFunction } from '@domstack/static/types.js' */
 
-/** @type {TemplateFunction<{
+/** @type {AsyncTemplateFunction<{
  *  siteName: string,
  *  description: string,
  *  siteUrl: string,

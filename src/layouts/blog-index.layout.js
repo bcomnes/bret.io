@@ -1,33 +1,26 @@
-import { html } from 'uhtml-isomorphic'
+import { html, raw } from 'fragtml'
 import { sep } from 'node:path'
 import { breadcrumb } from '#components/breadcrumb/index.js'
 
 /** @import { LayoutFunction } from '@domstack/static/types.js' */
-/** @import { RootLayoutVars } from './root.layout.js' */
+/** @import { HtmlResult } from 'fragtml/types.js' */
+/** @import { LayoutChildren, RootLayoutVars } from './root.layout.js' */
 
 /**
  * @typedef {RootLayoutVars & {
- *  title: string,
- *  publishDate: string,
- *  [key: string]: any
+ *  title: string
  * }} BlogIndexVars
  */
 
-import defaultRootLayout from './root.layout.js'
+export const parentLayout = 'root'
 
-/** @type {LayoutFunction<BlogIndexVars>} */
+/** @type {LayoutFunction<BlogIndexVars, LayoutChildren, HtmlResult>} */
 export default function blogIndexLayout (args) {
-  const { children, ...rest } = args
+  const { children } = args
   const pathSegments = args.page.path.split(sep)
-  const wrappedChildren = html`
+  return html`
     ${breadcrumb({ pathSegments })}
     <h1>${args.vars.title}</h1>
-    ${typeof children === 'string'
-      ? html([children])
-      : children /* Support both uhtml and string children. Optional. */
-    }
+    ${typeof children === 'string' ? raw(children) : children}
   `
-
-  // @ts-ignore
-  return defaultRootLayout({ children: wrappedChildren, ...rest })
 }

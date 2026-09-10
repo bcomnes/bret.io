@@ -1,15 +1,40 @@
-import { html } from 'uhtml-isomorphic'
+import { html, raw } from 'fragtml'
 
-import articleLayout from './article.layout.js'
+/** @import { LayoutFunction, LayoutVars } from '@domstack/static/types.js' */
+/** @import { HtmlResult } from 'fragtml/types.js' */
+/** @import { LayoutChildren } from './root.layout.js' */
+/** @import { ArticleLayoutVars } from './article.layout.js' */
 
+/**
+ * @typedef {ArticleLayoutVars & {
+ *  book: {
+ *    title: string,
+ *    author: string,
+ *    ISBN: string,
+ *    ISBN13: string,
+ *    OCLC: string,
+ *    reference: Record<string, string>,
+ *    publishDate: string,
+ *    publisher: string
+ *  },
+ *  review: { rating: number }
+ * }} BookReviewLayoutVars
+ */
+
+export const parentLayout = 'article'
+
+/** @satisfies {LayoutVars<Partial<BookReviewLayoutVars>>} */
+export const vars = {
+  articleType: 'http://schema.org/Review',
+  bodyType: 'description'
+}
+
+/** @type {LayoutFunction<BookReviewLayoutVars, LayoutChildren, HtmlResult>} */
 export default function bookReviewLayout (args) {
-  const { children, ...rest } = args
+  const { children } = args
   const vars = args.vars
-  const wrappedChildren = html`
-    ${typeof children === 'string'
-      ? html([children])
-      : children /* Support both uhtml and string children. Optional. */
-    }
+  return html`
+    ${typeof children === 'string' ? raw(children) : children}
     <footer>
       <h3 itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
         Review
@@ -49,7 +74,7 @@ export default function bookReviewLayout (args) {
         <li>${'Look up with:'}
           <ul>
             ${Object.entries(vars.book?.reference).map(
-              ([name, link]) => html`<li><a href=${link}>${name}</a></li>`
+              ([name, link]) => html`<li><a href="${link}">${name}</a></li>`
             )}
           </ul>
         </li>
@@ -68,11 +93,4 @@ export default function bookReviewLayout (args) {
       </ul>
     </footer>
   `
-
-  return articleLayout({
-    children: wrappedChildren,
-    articleType: 'http://schema.org/Review',
-    bodyType: 'description',
-    ...rest
-  })
 }
