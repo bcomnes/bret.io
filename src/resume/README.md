@@ -12,55 +12,80 @@ redirectFrom:
 Professional software engineer experienced in full-stack product development, infrastructure, operations, platform engineering, and cloud architecture.
 Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
-- <span class="subdue">portfolio:</span> [bret.io](https://bret.io)
-- <span class="subdue">email:</span> [bcomnes@gmail.com](mailto:bcomnes+website@gmail.com)
-- <span class="subdue">location:</span> [Sutter Creek, CA](https://www.openstreetmap.org/relation/11049834)
-- <span class="subdue">github:</span> [github.com/bcomnes](https://github.com/bcomnes)
-- <span class="subdue">npm:</span> [npmjs.com/~bret](https://www.npmjs.com/~bret)
-- <span class="subdue">linkedin:</span> [linkedin.com/in/bcomnes](https://www.linkedin.com/in/bcomnes/)
+<ul class="resume-contact" role="list">
+  <li><span class="subdue">portfolio:</span> <a href="https://bret.io">bret.io</a></li>
+  <li><span class="subdue">email:</span> <a href="mailto:bcomnes+website@gmail.com">bcomnes@gmail.com</a></li>
+  <li><span class="subdue">location:</span> <a href="https://www.openstreetmap.org/relation/11049834">Sutter Creek, CA</a></li>
+  <li><span class="subdue">github:</span> <a href="https://github.com/bcomnes">github.com/bcomnes</a></li>
+  <li><span class="subdue">npm:</span> <a href="https://www.npmjs.com/~bret">npmjs.com/~bret</a></li>
+  <li><span class="subdue">linkedin:</span> <a href="https://www.linkedin.com/in/bcomnes/">linkedin.com/in/bcomnes</a></li>
+</ul>
 
-<h2>
-  <a class="job-logo" id="socket-dev" href="#socket-dev">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/socket-dev.png" alt="Socket logo">
-  </a>
-  <a href="https://socket.dev">Socket Inc</a>
+<h2 class="job-heading">
+  <span class="job-employer">
+    <a class="job-logo" id="socket-dev" href="#socket-dev">
+      <img height="32" width="32" src="img/socket-dev.png" alt="Socket logo">
+    </a>
+    <a href="https://socket.dev">Socket Inc.</a>
+  </span>
+  <small class="job-dates">2021–Present</small>
 </h2>
 
-<h3>
-  <small>Member of Technical Staff • May 2026 - Present</small>
+<h3 class="job-role">
+  <span>Member of Technical Staff</span>
+  <small class="job-dates">2026–Present</small>
 </h3>
 
-- Tech lead of Developer Surfaces: Socket’s public customer-facing API, GitHub App, and integrations ecosystem.
+<h4>
+  <small>Tech Lead for the Developer Surfaces team.</small>
+</h4>
 
-<h3>
-  <small>Member of Technical Staff • Nov 2021 - Present</small>
+- Led technical direction through approximately 3,600% traffic growth and 415% fleet expansion.
+- Re-architected Socket’s TypeScript/Node.js GitHub App around worker services, durable queues, concurrency controls, and rate-limit backpressure.
+- Built and scaled Socket’s public API and scanning platform across PostgreSQL, Redis, Kafka, Kubernetes, and Grafana.
+- Established observability, integration testing, and operational practices for reliable high-volume processing.
+
+<h3 class="job-role">
+  <span>Senior Software Engineer</span>
+  <small class="job-dates">2021–2026</small>
 </h3>
 
-- Developed [Socket.dev](https://socket.dev)’s [GitHub App](https://github.com/apps/socket-security), a primary driver of sales and platform adoption and a contributing factor in a [$20M Series A raise](https://socket.dev/blog/series-a).
-- Business intelligence, data pipelines, and analysis.
-- Employee #5.
+<h4>
+  <small>Joined Socket as employee #5.</small>
+</h4>
 
-<h2>
-  <a class="job-logo" id="littlstar" href="#littlstar">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/littlstar-logo.svg" alt="Littlstar logo">
-  </a>
-  <a href="https://littlstar.info">Littlstar</a>
-  →
-  <a class="job-logo" id="rad" href="#rad">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/rad.svg" alt="Rad logo">
-  </a>
-  <a href="https://rad.live">Rad.live</a>
+- Built Socket’s initial GitHub App, including authentication, installation flows, webhook handling, repository scanning, and automated pull-request reports.
+- Automated background scanning during customer onboarding and repository or permission changes, improving time to first result.
+- Expanded Socket’s public API and scanning capabilities, improving product coverage and reliability.
+
+<small class="subdue"><strong>Technologies:</strong> TypeScript, Go, Node.js, React, Next.js, PostgreSQL, Redis, Kafka, Kubernetes, GCP, Grafana, GitHub API</small>
+
+<h2 class="job-heading">
+  <span class="job-employer">
+    <a class="job-logo" id="littlstar" href="#littlstar">
+      <img height="32" width="32" src="img/littlstar-logo.svg" alt="Littlstar logo">
+    </a>
+    <a href="https://littlstar.info">Littlstar</a>
+    →
+    <a class="job-logo" id="rad" href="#rad">
+      <img height="32" width="32" src="img/rad.svg" alt="Rad logo">
+    </a>
+    <a href="https://rad.live">Rad.live</a>
+  </span>
+  <small class="job-dates">2019–2021</small>
 </h2>
 
-<h3>
-  <small>Principal Engineer • 2021</small>
+<h3 class="job-role">
+  <span>Principal Engineer</span>
+  <small class="job-dates">2021</small>
 </h3>
 
 - Designed and implemented an NFT minting and auction platform in approximately 10 weeks (Next.js/GraphQL).
 - See [Littlstar portfolio](https://bret.io/blog/2021/littlstar/) for more information.
 
-<h3>
-  <small>Senior Software Engineer • 2019 - 2021</small>
+<h3 class="job-role">
+  <span>Senior Software Engineer</span>
+  <small class="job-dates">2019–2021</small>
 </h3>
 
 - Developed full IAC provisioning and deployment pipelines with Terraform and GitHub Actions targeting AWS.
@@ -70,26 +95,41 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 - Designed and implemented an organizational microservice pattern.
 - Developed an organizational strategy for JWT authorization across microservices.
 
-<h2>
-  <a class="job-logo" id="hyperdivision" href="#hyperdivision">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hyperdivision-logo.svg" alt="Hyperdivision logo">
-  </a>
-  <a href="https://archive.ph/m8Igr">Hyperdivision</a>
-  <small>Software Engineer • 2019 🇩🇰</small>
+<h2 class="job-heading">
+  <span class="job-employer">
+    <a class="job-logo" id="hyperdivision" href="#hyperdivision">
+      <img height="32" width="32" src="img/hyperdivision-logo.svg" alt="Hyperdivision logo">
+    </a>
+    <a href="https://archive.ph/m8Igr">Hyperdivision</a>
+  </span>
+  <small class="job-dates">2019</small>
 </h2>
+
+<h3 class="job-role">
+  <span>Software Engineer</span>
+  <small class="job-dates">2019</small>
+</h3>
+
+<h4>
+  <small>Denmark 🇩🇰</small>
+</h4>
 
 - Led development of Heimdall, a cryptographically secure, peer-to-peer ledger and proposal system for managing cryptographic assets in cryptocurrency exchanges and other financial technologies (Electron, Node.js, JavaScript).
 - Developed security-critical native and WebAssembly Node.js cryptography bindings ([prebuildify](https://github.com/prebuild/prebuildify), [libsodium](https://github.com/sodium-friends/sodium-native), [wat2js](https://github.com/mafintosh/wat2js)).
 
-<h2>
-  <a class="job-logo" id="netlify-platform" href="#netlify-platform">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/netlify.svg" alt="Netlify logo">
-  </a>
-  <a href="https://www.netlify.com">Netlify</a>
+<h2 class="job-heading">
+  <span class="job-employer">
+    <a class="job-logo" id="netlify-platform" href="#netlify-platform">
+      <img height="32" width="32" src="img/netlify.svg" alt="Netlify logo">
+    </a>
+    <a href="https://www.netlify.com">Netlify</a>
+  </span>
+  <small class="job-dates">2017–2019</small>
 </h2>
 
-<h3>
-  <small>Platform Engineering • 2018 - 2019</small>
+<h3 class="job-role">
+  <span>Platform Engineering</span>
+  <small class="job-dates">2018–2019</small>
 </h3>
 
 - Joined Netlify's DevOps-focused platform team.
@@ -101,8 +141,9 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 - Scaled and deployed infrastructure with GitOps via [Ansible](https://www.ansible.com), Bash, and [Terraform](http://terraform.io).
 - See [Netlify portfolio](/blog/2020/netlify/#platform) for more examples.
 
-<h3>
-  <small>Product Engineering • 2017 - 2018</small>
+<h3 class="job-role">
+  <span>Product Engineering</span>
+  <small class="job-dates">2017–2018</small>
 </h3>
 
 - Planned, designed, implemented, tested, and iterated on new features for [Netlify's React-based web app](https://app.netlify.com).
@@ -110,42 +151,63 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 - Architected and built Netlify's next-generation, extensible [CLI](https://github.com/netlify/cli).
 - See [Netlify portfolio](/blog/2020/netlify/#product) for more examples.
 
-<h2>
-  <a class="job-logo" id="zhealth" href="#zhealth">
-    <img style="display: inline-block; vertical-align: middle" height="25" width="32" src="img/zhealth.svg" alt="ZHealth logo">
-  </a>
-  <a href="http://www.zhealthconsulting.com">ZHealth</a>
-  <small>Software Engineer • 2016 - 2017</small>
+<h2 class="job-heading">
+  <span class="job-employer">
+    <a class="job-logo" id="zhealth" href="#zhealth">
+      <img height="25" width="32" src="img/zhealth.svg" alt="ZHealth logo">
+    </a>
+    <a href="http://www.zhealthconsulting.com">ZHealth</a>
+  </span>
+  <small class="job-dates">2016–2017</small>
 </h2>
+
+<h3 class="job-role">
+  <span>Software Engineer</span>
+  <small class="job-dates">2016–2017</small>
+</h3>
 
 - Developed EtchCV, a structured documentation suite for cardiac surgeons and hospitals.
 - Designed and implemented APIs and microservices.
 - Developed cross-platform desktop software using Electron, HTML, CSS, and SVG, powered by React and Redux.
 - Implemented continuous Electron app delivery using Travis CI, AppVeyor, and S3/AWS.
 
-<h2>
-  <a class="job-logo" id="jlr" href="#jlr">
-    <img style="display: inline-block; vertical-align: middle" height="28" width="113" src="img/jlr.png" alt="Jaguar Land Rover logo">
-  </a>
-  <a href="https://www.jaguarlandrover.com">Jaguar Land Rover</a>
-  <small>OS & Application Engineering • 2015 - 2016</small>
+<h2 class="job-heading">
+  <span class="job-employer">
+    <a class="job-logo" id="jlr" href="#jlr">
+      <img height="28" width="113" src="img/jlr.png" alt="Jaguar Land Rover logo">
+    </a>
+    <a href="https://www.jaguarlandrover.com">Jaguar Land Rover</a>
+  </span>
+  <small class="job-dates">2015–2016</small>
 </h2>
+
+<h3 class="job-role">
+  <span>OS & Application Engineering</span>
+  <small class="job-dates">2015–2016</small>
+</h3>
 
 - Developed mobile apps, infotainment systems, and OS software using JavaScript, Node.js, HTML, and CSS.
 - Targeted in-vehicle embedded systems, fully utilizing the onboard CAN bus.
 - Architected a single sign-on service and documentation server for internal documents and project planning using Express.js.
 
-<h2>
-  <a class="job-logo" id="psu" href="#psu">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/psu.svg" alt="Portland State University logo">
-  </a>
-  <a href="https://www.pdx.edu/">Portland State University</a>
+<h2 class="job-heading">
+  <span class="job-employer">
+    <a class="job-logo" id="psu" href="#psu">
+      <img height="32" width="32" src="img/psu.svg" alt="Portland State University logo">
+    </a>
+    <a href="https://www.pdx.edu/">Portland State University</a>
+  </span>
+  <small class="job-dates">2012–2015</small>
 </h2>
 
-<h3>
-  <a href="https://www.pdx.edu/oit/research-computing">Office of Information Technology ARC</a>
-  <small>HPC Operations & Python Development • 2013 - 2015</small>
+<h3 class="job-role">
+  <span>HPC Operations & Python Development</span>
+  <small class="job-dates">2013–2015</small>
 </h3>
+
+<h4>
+  <small><a href="https://www.pdx.edu/oit/research-computing">Office of Information Technology ARC</a></small>
+</h4>
 
 - Developed web applications and performed systems programming with Python and Django.
 - Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics.
@@ -153,43 +215,68 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 - Initiated efforts to automate cluster deployment and management using Ansible.
 - Introduced new users to ARC's resources and shared Unix computing environments and trained them in their use.
 
-<h3>
-  <a href="http://www.pdx.edu/physics/">PSU Physics Department</a>
-  <small>Lab Instructor & TA+RA • 2012 - 2014</small>
+<h3 class="job-role">
+  <span>Lab Instructor & TA+RA</span>
+  <small class="job-dates">2012–2014</small>
 </h3>
+
+<h4>
+  <small><a href="http://www.pdx.edu/physics/">PSU Physics Department</a></small>
+</h4>
 
 - Wrote custom control software and a web application that enabled remote viewing and operation of a scanning electron microscope over the internet using React, WebSockets, and WebRTC.
 - Taught PSU’s general physics labs and assisted in the upper-division experimental physics labs.
 - Developed two novel labs on microcontrollers and FPGAs, covering topics ranging from basic concepts to advanced subjects such as PID control theory.
 - Taught introductory electronics and debugging skills to students.
 
-<h2>
-  <a class="job-logo" id="wiley" href="#wiley">
-    <img class="dark-icon" style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/wiley.svg" alt="Wiley logo">
-  </a>
-  <a href="https://www.wiley.com/en-us">Wiley</a>
-  <small>Textbook Development Consultant • 2012</small>
+<h2 class="job-heading">
+  <span class="job-employer">
+    <a class="job-logo" id="wiley" href="#wiley">
+      <img class="dark-icon" height="32" width="32" src="img/wiley.svg" alt="Wiley logo">
+    </a>
+    <a href="https://www.wiley.com/en-us">Wiley</a>
+  </span>
+  <small class="job-dates">2012</small>
 </h2>
+
+<h3 class="job-role">
+  <span>Textbook Development Consultant</span>
+  <small class="job-dates">2012</small>
+</h3>
 
 - Developed interactive figures and demos for an interactive calculus textbook published by Wiley Publishing.
 
-<h2>
-  <a class="job-logo" id="hsu" href="#hsu">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/hsu.svg" alt="Humboldt State University logo">
-  </a>
-  <a href="https://www.humboldt.edu/physics-astronomy">HSU Gravitational Research Laboratory</a>
-  <small>Research Assistant • 2009 - 2011</small>
+<h2 class="job-heading">
+  <span class="job-employer">
+    <a class="job-logo" id="hsu" href="#hsu">
+      <img height="32" width="32" src="img/hsu.svg" alt="Humboldt State University logo">
+    </a>
+    <a href="https://www.humboldt.edu/physics-astronomy">HSU Gravitational Research Laboratory</a>
+  </span>
+  <small class="job-dates">2009–2011</small>
 </h2>
+
+<h3 class="job-role">
+  <span>Research Assistant</span>
+  <small class="job-dates">2009–2011</small>
+</h3>
 
 - Designed and machined custom experimental instruments and developed the lab’s data collection, automation, and analysis software to study the gravitational inverse-square law at submillimeter distance scales.
 
-<h2>
-  <a class="job-logo" id="naic" href="#naic">
-    <img style="display: inline-block; vertical-align: middle" height="32" width="32" src="img/naic.png" alt="National Astronomy and Ionosphere Center logo">
-  </a>
-  <a href="https://egg.astro.cornell.edu/index.php/">National Astronomy and Ionosphere Center</a>
-  <small>Arecibo Guest Researcher • 2009</small>
+<h2 class="job-heading">
+  <span class="job-employer">
+    <a class="job-logo" id="naic" href="#naic">
+      <img height="32" width="32" src="img/naic.png" alt="National Astronomy and Ionosphere Center logo">
+    </a>
+    <a href="https://egg.astro.cornell.edu/index.php/">National Astronomy and Ionosphere Center</a>
+  </span>
+  <small class="job-dates">2009</small>
 </h2>
+
+<h3 class="job-role">
+  <span>Arecibo Guest Researcher</span>
+  <small class="job-dates">2009</small>
+</h3>
 
 - Trained on and operated the world’s largest radio telescope at the time, and analyzed the collected data to search for previously undiscovered galaxies.
 
