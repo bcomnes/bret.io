@@ -11,7 +11,8 @@
 
   & .metadata {
     display: flex;
-    gap: 0.5em;
+    flex-wrap: wrap;
+    gap: 0.5em 1em;
     align-items: center;
     font-size: 0.8em;
   }
@@ -22,6 +23,7 @@
 
   & .author-info {
     display: flex;
+    flex-shrink: 0;
     gap: 0.5em;
     align-items: center;
   }

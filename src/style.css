@@ -109,6 +109,10 @@
   padding-block: clamp(3.5rem, 7vw, 6rem);
 }
 
+.projects-section {
+  padding-block-end: 0;
+}
+
 .recent-post-section {
   display: grid;
   grid-template-columns: minmax(12rem, 0.65fr) minmax(20rem, 1.35fr);
@@ -301,8 +305,37 @@
   font-family: 'DSWeiss-Gotisch', serif;
 }
 
+.project-key {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--home-border);
+  color: var(--home-muted);
+  font-family: var(--font-code);
+  font-size: 0.72rem;
+}
+
+.project-key h3 {
+  margin: 0 0 0.75rem;
+  font-size: inherit;
+}
+
+.project-key ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  max-inline-size: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project-key li.lang {
+  padding-left: 1em;
+  white-space: nowrap;
+}
+
 .archive-link {
-  margin: 0 0 clamp(3rem, 8vw, 6rem);
+  max-inline-size: none;
+  margin: 1.5rem 0 0;
   text-align: right;
 }
 
