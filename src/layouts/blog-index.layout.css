@@ -4,7 +4,8 @@
 .blog-index-footer {
   & .archive-list {
     padding-left: 0px;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1em;
     list-style-type: none;
   }

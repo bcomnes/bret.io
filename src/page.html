@@ -36,7 +36,12 @@
     <div>
       <h3 id="socket"><a href="https://socket.dev">Socket</a></h3>
       <figure>
-        <a href="https://socket.dev"><img class="portfolio-logo" loading="auto" src="./portfolio-img/socket.webp" width="852" height="950" alt="Socket shield and lightning bolt logo"></a>
+        <a href="https://socket.dev">
+          <picture>
+            <source srcset="./portfolio-img/socket-logo-gradient-white.png" width="2578" height="1066" media="(prefers-color-scheme: dark)">
+            <img class="portfolio-logo" loading="auto" src="./portfolio-img/socket-logo-gradient-black.png" width="2578" height="1066" alt="Socket shield and wordmark logo">
+          </picture>
+        </a>
         <figcaption>Helping secure the software supply chain at Socket Security.</figcaption>
       </figure>
       <ul>
@@ -183,10 +188,7 @@
       <h3 id="gostgrator"><a href="https://github.com/bcomnes/gostgrator">gostgrator</a></h3>
       <figure>
         <a href="https://github.com/bcomnes/gostgrator">
-          <picture>
-            <source srcset="./portfolio-img/gostgrator-dark.webp" width="1440" height="900" media="(prefers-color-scheme: dark)">
-            <img loading="auto" src="./portfolio-img/gostgrator-light.webp" width="1440" height="900" alt="Screenshot of the gostgrator README">
-          </picture>
+          <img loading="auto" src="./portfolio-img/gostgrator.webp" width="1280" height="640" alt="Gostgrator: SQL migrations for Go, featuring a traveling gopher dressed as a ghost">
         </a>
         <figcaption>A low-dependency Go port of postgrator for PostgreSQL and SQLite migrations. Supports paired SQL migrations, rollbacks, and checksum validation through database-specific CLIs and a Go API.</figcaption>
       </figure>
@@ -384,7 +386,12 @@
     <div>
       <h3 id="dotfiles"><a href="https://github.com/bcomnes/.dotfiles">.dotfiles</a></h3>
       <figure>
-        <a href="https://github.com/bcomnes/.dotfiles"><img loading="auto" src="portfolio-img/dotfiles.png" width="1316" height="976" alt="Screenshot of my terminal"></a>
+        <a href="https://github.com/bcomnes/.dotfiles">
+          <picture>
+            <source srcset="./portfolio-img/ghostty-tron-dark.webp" width="2878" height="1824" media="(prefers-color-scheme: dark)">
+            <img loading="auto" src="./portfolio-img/ghostty-tron-light.webp" width="2848" height="1832" alt="Screenshot of my Ghostty terminal with the Tron theme">
+          </picture>
+        </a>
         <figcaption>These are my .dotfiles, don't wear em out.  I've also written a few notes on how I like to do things.</figcaption>
       </figure>
       <ul>
@@ -404,16 +411,38 @@
         <figcaption>Tron Legacy editor themes, including a Zed port of the original TextMate theme with light, dark, and frosted variants.</figcaption>
       </figure>
       <ul>
-        <li class="lang js"><strong><a href="https://github.com/bcomnes/zed-theme-tron-legacy">bcomnes/zed-theme-tron-legacy</a></strong> — <a href="https://zed.dev/extensions/tron-legacy">Zed extension</a></li>
-        <li class="lang python"><a href="https://github.com/bcomnes/sublime-text-settings">bcomnes/sublime-text-settings</a></li>
+        <li class="lang rust"><strong><a href="https://github.com/bcomnes/zed-theme-tron-legacy">bcomnes/zed-theme-tron-legacy</a></strong> — <a href="https://zed.dev/extensions/tron-legacy">Zed extension</a></li>
+
+        <li class="lang ts"><a href="https://github.com/bcomnes/tron-legacy-vscode">bcomnes/tron-legacy-vscode</a></li>
+        <li class="lang sh"><a href="https://github.com/bcomnes/.dotfiles/tree/master/configs/config/ghostty/themes">Ghostty themes</a></li>
         <li class="lang python"><a href="https://github.com/bcomnes/sublime-tron-color-scheme">bcomnes/sublime-tron-color-scheme</a></li>
         <li class="lang objc"><a href="https://github.com/bcomnes/Tron.tmbundle">bcomnes/Tron.tmbundle</a></li>
-        <li class="lang objc"><a href="https://github.com/bcomnes/LaTeX-Font-Settings.tmbundle">bcomnes/LaTeX-Font-Settings.tmbundle</a></li>
-        <li class="lang js"><a href="https://github.com/bcomnes/atom-tron-legacy">bcomnes/atom-tron-legacy</a></li>
+
+
       </ul>
     </div>
 
   </div>
-</section>
 
-<p class="archive-link"><a href="/blog/2023/previous-projects/">Browse previously featured projects →</a></p>
+  <div class="project-key">
+    <h3 id="project-key-title">Bullet key</h3>
+    <ul aria-labelledby="project-key-title">
+      <li class="lang js">JavaScript</li>
+      <li class="lang ts">TypeScript</li>
+      <li class="lang html">HTML</li>
+      <li class="lang css">CSS</li>
+      <li class="lang go">Go</li>
+      <li class="lang rust">Rust</li>
+      <li class="lang python">Python</li>
+      <li class="lang sh">Shell</li>
+      <li class="lang objc">Objective-C</li>
+      <li class="lang npm">npm</li>
+      <li class="lang archlinux">Arch Linux</li>
+      <li class="lang socket">Socket</li>
+      <li class="lang twitter">Twitter / X</li>
+      <li class="lang">Other</li>
+    </ul>
+  </div>
+
+  <p class="archive-link"><a href="/blog/2023/previous-projects/">Browse previously featured projects →</a></p>
+</section>

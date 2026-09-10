@@ -40,6 +40,10 @@ li.go::before {
   color: #00ADD8;
 }
 
+li.rust::before {
+  color: #dea584;
+}
+
 li.python::before {
   color: #3572A5;
 }

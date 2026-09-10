@@ -49,6 +49,18 @@ main {
   margin-block: 2em;
 }
 
+@media screen and (max-width: 40rem) {
+  /* The body handles notch insets; the main layout supplies the page gutter. */
+  body.safe-area-inset {
+    padding-left: env(safe-area-inset-left, 0px);
+    padding-right: env(safe-area-inset-right, 0px);
+  }
+
+  .mine-layout {
+    padding-inline: 0.75rem;
+  }
+}
+
 @view-transition { navigation: auto; }
 
 /* List styles */

@@ -6,6 +6,17 @@
   letter-spacing: -0.035em;
 }
 
+.markdown-body .resume-photo {
+  display: block;
+  float: right;
+  width: 7rem;
+  height: 7rem;
+  margin: 0 0 1rem 1.5rem;
+  border: 1px solid var(--accent-midground);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .markdown-body .resume-contact {
   display: flex;
   flex-wrap: wrap;
@@ -141,6 +152,12 @@
 }
 
 @media screen and (max-width: 40rem) {
+  .markdown-body .resume-photo {
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-left: 1rem;
+  }
+
   .markdown-body .job-heading,
   .markdown-body .job-role {
     flex-direction: column;

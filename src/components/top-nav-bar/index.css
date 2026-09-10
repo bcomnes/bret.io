@@ -17,6 +17,7 @@
 nav.site-top-bar {
   position: sticky;
   top: 0px;
+  column-gap: 1.5rem;
 }
 
 footer.site-top-bar {
@@ -24,12 +25,8 @@ footer.site-top-bar {
   bottom: 0px;
 }
 
-footer > .site-top-bar-link:first-child {
-  margin-left: unset;
-}
-
-footer > .site-top-bar-link:first-child {
-  margin-left: unset;
+footer .site-top-bar-left > .site-top-bar-link:first-child {
+  margin-left: 0;
 }
 
 .site-top-bar-link,
