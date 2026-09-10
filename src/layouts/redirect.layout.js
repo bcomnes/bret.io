@@ -16,8 +16,19 @@ export const vars = {
 /** @type {LayoutFunction<RedirectLayoutVars, LayoutChildren, HtmlResult>} */
 export default function redirectLayout ({ vars }) {
   return html`
-    <h1>${vars.title}</h1>
-    <p>This page has moved. If you aren’t redirected automatically, follow the link below.</p>
-    <p><a href="${vars.redirectTo}">${vars.redirectTo}</a></p>
+    <section class="redirect-page" aria-labelledby="redirect-title">
+      <span class="redirect-symbol" aria-hidden="true">↗</span>
+      <p class="redirect-eyebrow">Page moved</p>
+      <h1 id="redirect-title">${vars.title}</h1>
+      <p class="redirect-description">This page has a new home. If you aren’t redirected automatically, use the link below to continue.</p>
+      <div class="redirect-destination">
+        <span class="redirect-label">New address</span>
+        <a href="${vars.redirectTo}">${vars.redirectTo}</a>
+      </div>
+      <div class="redirect-actions">
+        <a class="redirect-continue" href="${vars.redirectTo}">Continue to page <span aria-hidden="true">→</span></a>
+        <a class="redirect-home" href="/">Back to home</a>
+      </div>
+    </section>
   `
 }
