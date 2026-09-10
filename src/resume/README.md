@@ -9,6 +9,8 @@ redirectFrom:
 
 # Bret Comnes
 
+<img class="resume-photo" src="/favicons/apple-touch-icon-1024x1024.png" alt="Portrait of Bret Comnes" width="128" height="128">
+
 Professional software engineer experienced in full-stack product development, infrastructure, operations, platform engineering, and cloud architecture.
 Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
@@ -24,9 +26,9 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 <h2 class="job-heading">
   <span class="job-employer">
     <a class="job-logo" id="socket-dev" href="#socket-dev">
-      <img height="32" width="32" src="img/socket-dev.png" alt="Socket logo">
+      <img height="32" width="24" src="img/socket-shield.png" alt="Socket shield logo">
     </a>
-    <a href="https://socket.dev">Socket Inc.</a>
+    <a href="https://socket.dev">Socket</a>
   </span>
   <small class="job-dates">2021–Present</small>
 </h2>

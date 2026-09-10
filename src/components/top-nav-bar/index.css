@@ -17,6 +17,7 @@
 nav.site-top-bar {
   position: sticky;
   top: 0px;
+  column-gap: 1.5rem;
 }
 
 footer.site-top-bar {
