@@ -1,6 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { testBuild } from '@domstack/static'
+import { absoluteHtmlUrls } from './src/feeds.template.js'
 
 const movedPages = [
   ['projects/websockets/index.html', 'blog/2019/websockets/index.html', '/blog/2019/websockets/'],
@@ -143,7 +144,9 @@ test('builds homepage, feeds, sitemap, generated blog indexes and variable-drive
     assert.ok(item.content_html.replace(/<[^>]*>/g, '').trim(), `${item.url} has nonempty article text`)
     assert.match(item.content_html, /<(?:p|h[1-6]|ul|ol|blockquote)\b/, `${item.url} contains rendered HTML`)
     assert.doesNotMatch(item.content_html, /<!doctype|<html\b|\[object (?:Object|Promise)\]/i)
-    assert.ok(normalizeHtml(post.html).includes(normalizeHtml(item.content_html)), `${item.url} feed content matches its rendered page`)
+    // Feed URLs are absolute; resolve page URLs before comparing the rendered content.
+    const pageHtml = absoluteHtmlUrls(post.html, item.url)
+    assert.ok(normalizeHtml(pageHtml).includes(normalizeHtml(item.content_html)), `${item.url} feed content matches its rendered page`)
   }
 
   const feedXml = await build.readOutput('feed.xml')
