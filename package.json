@@ -71,7 +71,7 @@
   "dependencies": {
     "giscus": "^1.5.0",
     "macy": "^2.5.1",
-    "mermaid": "^11.6.0",
+    "mermaid": "^12.0.0",
     "photoswipe": "^5.4.4",
     "photoswipe-dynamic-caption-plugin": "^1.2.7"
   },
