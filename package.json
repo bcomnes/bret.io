@@ -15,10 +15,10 @@
     "test:node-test": "node --test --experimental-test-coverage --test-reporter spec",
     "test:build": "run-s build",
     "build": "npm run clean && run-p build:*",
-    "build:domstack": "domstack",
+    "build:domstack": "domstack build",
     "generate-favicons": "gravatar-favicons --config favicon-config.js",
     "watch": "npm run clean && run-p watch:*",
-    "watch:domstack": "npm run build:domstack -- --watch --drafts",
+    "watch:domstack": "domstack watch --drafts",
     "clean": "rm -rf public && mkdir -p public",
     "start": "npm run watch",
     "deploy": "run-s build deploy:*",
@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
-    "@domstack/static": "^12.0.0-beta.5",
+    "@domstack/static": "12.0.0-beta.10",
     "@types/masonry-layout": "^4.2.8",
     "@voxpelli/tsconfig": "^16.1.0",
     "async-neocities": "^4.0.3",
@@ -71,7 +71,7 @@
   "dependencies": {
     "giscus": "^1.5.0",
     "macy": "^2.5.1",
-    "mermaid": "^11.6.0",
+    "mermaid": "^12.0.0",
     "photoswipe": "^5.4.4",
     "photoswipe-dynamic-caption-plugin": "^1.2.7"
   },
