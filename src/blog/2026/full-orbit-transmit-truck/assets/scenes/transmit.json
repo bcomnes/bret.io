@@ -1,0 +1,1928 @@
+{
+  "metadata": {
+    "type": "Object",
+    "generator": "unity-exporter",
+    "version": 1
+  },
+  "geometries": [
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          0,
+          10703
+        ],
+        "position": [
+          10704,
+          20219
+        ],
+        "normal": [
+          20220,
+          29735
+        ],
+        "tangent": [
+          29736,
+          42423
+        ],
+        "uv": [
+          42424,
+          48767
+        ]
+      },
+      "uuid": "968DBB40-FF53-433E-A797-61DC2956C479",
+      "name": "headlight_left"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          48768,
+          59471
+        ],
+        "position": [
+          59472,
+          68987
+        ],
+        "normal": [
+          68988,
+          78503
+        ],
+        "tangent": [
+          78504,
+          91191
+        ],
+        "uv": [
+          91192,
+          97535
+        ]
+      },
+      "uuid": "A0A14A30-07CF-4E86-9DC6-FE904A446510",
+      "name": "headlight_right"
+    },
+    {
+      "groups": [
+        {
+          "start": 0,
+          "count": 12,
+          "materialIndex": 0
+        },
+        {
+          "start": 12,
+          "count": 18,
+          "materialIndex": 1
+        },
+        {
+          "start": 18,
+          "count": 24,
+          "materialIndex": 2
+        },
+        {
+          "start": 24,
+          "count": 30,
+          "materialIndex": 3
+        },
+        {
+          "start": 30,
+          "count": 42,
+          "materialIndex": 4
+        },
+        {
+          "start": 42,
+          "count": 48,
+          "materialIndex": 5
+        },
+        {
+          "start": 48,
+          "count": 54,
+          "materialIndex": 6
+        },
+        {
+          "start": 54,
+          "count": 60,
+          "materialIndex": 7
+        }
+      ],
+      "offsets": {
+        "index": [
+          97536,
+          97775
+        ],
+        "position": [
+          97776,
+          98255
+        ],
+        "normal": [
+          98256,
+          98735
+        ],
+        "tangent": [
+          98736,
+          99375
+        ],
+        "uv": [
+          99376,
+          99695
+        ]
+      },
+      "uuid": "56080FA2-6B83-4906-B6CD-2FB0491E7E87",
+      "name": "caches"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          99696,
+          108395
+        ],
+        "position": [
+          108396,
+          114791
+        ],
+        "normal": [
+          114792,
+          121187
+        ],
+        "tangent": [
+          121188,
+          129715
+        ],
+        "uv": [
+          129716,
+          133979
+        ]
+      },
+      "uuid": "4763CAAD-E699-4C2B-9D37-1373985764BA",
+      "name": "bottom_front"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          133980,
+          142811
+        ],
+        "position": [
+          142812,
+          148787
+        ],
+        "normal": [
+          148788,
+          154763
+        ],
+        "tangent": [
+          154764,
+          162731
+        ],
+        "uv": [
+          162732,
+          166715
+        ]
+      },
+      "uuid": "786BBFB5-D689-4755-A8C5-A2B3C4DCA976",
+      "name": "bottom_lights_cover"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          166716,
+          166859
+        ],
+        "position": [
+          166860,
+          167027
+        ],
+        "normal": [
+          167028,
+          167195
+        ],
+        "tangent": [
+          167196,
+          167419
+        ],
+        "uv": [
+          167420,
+          167531
+        ]
+      },
+      "uuid": "F8B0C29E-E88A-4A5E-A81B-36D8DBF98CF1",
+      "name": "grid"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          167532,
+          298499
+        ],
+        "position": [
+          298500,
+          385007
+        ],
+        "normal": [
+          385008,
+          471515
+        ],
+        "tangent": [
+          471516,
+          586859
+        ],
+        "uv": [
+          586860,
+          644531
+        ]
+      },
+      "uuid": "80F2B748-916C-4760-8AFD-65A78CF4D364",
+      "name": "head_main"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          644532,
+          653171
+        ],
+        "position": [
+          653172,
+          658907
+        ],
+        "normal": [
+          658908,
+          664643
+        ],
+        "tangent": [
+          664644,
+          672291
+        ],
+        "uv": [
+          672292,
+          676115
+        ]
+      },
+      "uuid": "83762A44-32FC-486A-8DDC-42EC6BBA5CEF",
+      "name": "headlights_covers"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          676116,
+          680987
+        ],
+        "position": [
+          680988,
+          684467
+        ],
+        "normal": [
+          684468,
+          687947
+        ],
+        "tangent": [
+          687948,
+          692587
+        ],
+        "uv": [
+          692588,
+          694907
+        ]
+      },
+      "uuid": "F7E12EDF-4C0A-4F71-BC2A-35C1828E930D",
+      "name": "windows"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          694908,
+          702227
+        ],
+        "position": [
+          702228,
+          710627
+        ],
+        "normal": [
+          710628,
+          719027
+        ],
+        "tangent": [
+          719028,
+          730227
+        ],
+        "uv": [
+          730228,
+          735827
+        ]
+      },
+      "uuid": "B531AAFB-1FFE-43DF-8714-DB4B34505316",
+      "name": "cargo_main"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          735828,
+          759059
+        ],
+        "position": [
+          759060,
+          782075
+        ],
+        "normal": [
+          782076,
+          805091
+        ],
+        "tangent": [
+          805092,
+          835779
+        ],
+        "uv": [
+          835780,
+          851123
+        ]
+      },
+      "uuid": "7EDA2B44-3462-4984-853F-4A7C8EC1418C",
+      "name": "cargo_metal"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          851124,
+          861059
+        ],
+        "position": [
+          861060,
+          867251
+        ],
+        "normal": [
+          867252,
+          873443
+        ],
+        "tangent": [
+          873444,
+          881699
+        ],
+        "uv": [
+          881700,
+          885827
+        ]
+      },
+      "uuid": "30CD2A95-7CDC-485F-AA2B-44EB4B446CA2",
+      "name": "rear_lights_inner"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          885828,
+          895763
+        ],
+        "position": [
+          895764,
+          901955
+        ],
+        "normal": [
+          901956,
+          908147
+        ],
+        "tangent": [
+          908148,
+          916403
+        ],
+        "uv": [
+          916404,
+          920531
+        ]
+      },
+      "uuid": "BB57530D-E140-48E4-B817-EDB11704E869",
+      "name": "rear_lights_outer"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          920532,
+          968819
+        ],
+        "position": [
+          968820,
+          1012979
+        ],
+        "normal": [
+          1012980,
+          1057139
+        ],
+        "tangent": [
+          1057140,
+          1116019
+        ],
+        "uv": [
+          1116020,
+          1145459
+        ]
+      },
+      "uuid": "8A122EB7-919D-4DEB-84B8-4838DCA9A477",
+      "name": "tanks"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          1145460,
+          1220291
+        ],
+        "position": [
+          1220292,
+          1277123
+        ],
+        "normal": [
+          1277124,
+          1333955
+        ],
+        "tangent": [
+          1333956,
+          1409731
+        ],
+        "uv": [
+          1409732,
+          1447619
+        ]
+      },
+      "uuid": "2C385D64-51EA-42BD-ABD9-3862C997E002",
+      "name": "bottom"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          1447620,
+          1448291
+        ],
+        "position": [
+          1448292,
+          1449011
+        ],
+        "normal": [
+          1449012,
+          1449731
+        ],
+        "tangent": [
+          1449732,
+          1450691
+        ],
+        "uv": [
+          1450692,
+          1451171
+        ]
+      },
+      "uuid": "8F8D5F87-AFC5-4E15-B42D-A885DF7EA81E",
+      "name": "caches_door"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          1451172,
+          1461731
+        ],
+        "position": [
+          1461732,
+          1467539
+        ],
+        "normal": [
+          1467540,
+          1473347
+        ],
+        "tangent": [
+          1473348,
+          1481091
+        ]
+      },
+      "uuid": "24C27AC1-BA05-43D5-BACE-DD151C689D28",
+      "name": "rear_lamps"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          1481092,
+          1481115
+        ],
+        "position": [
+          1481116,
+          1481163
+        ],
+        "normal": [
+          1481164,
+          1481211
+        ],
+        "tangent": [
+          1481212,
+          1481275
+        ],
+        "uv": [
+          1481276,
+          1481307
+        ]
+      },
+      "uuid": "3E810752-020A-46D6-AAE9-63C2CDC7B803",
+      "name": "Quad"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          1481308,
+          1489203
+        ],
+        "position": [
+          1489204,
+          1493919
+        ],
+        "normal": [
+          1493920,
+          1498635
+        ],
+        "tangent": [
+          1498636,
+          1504923
+        ],
+        "uv": [
+          1504924,
+          1508067
+        ]
+      },
+      "uuid": "E363E915-10FA-47C2-B2BA-9EB3F947B217",
+      "name": "front_tire"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          1508068,
+          1522455
+        ],
+        "position": [
+          1522456,
+          1542219
+        ],
+        "normal": [
+          1542220,
+          1561983
+        ],
+        "tangent": [
+          1561984,
+          1588335
+        ],
+        "uv": [
+          1588336,
+          1601511
+        ]
+      },
+      "uuid": "D53A00E5-335E-47D1-9B42-EB1D25A21125",
+      "name": "front_rim"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          1601512,
+          1605111
+        ],
+        "position": [
+          1605112,
+          1609683
+        ],
+        "normal": [
+          1609684,
+          1614255
+        ],
+        "tangent": [
+          1614256,
+          1620351
+        ],
+        "uv": [
+          1620352,
+          1623399
+        ]
+      },
+      "uuid": "C6030276-2946-4FA8-815F-DFEF0C62C3B8",
+      "name": "front_rim_center"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          1623400,
+          1635639
+        ],
+        "position": [
+          1635640,
+          1644027
+        ],
+        "normal": [
+          1644028,
+          1652415
+        ],
+        "tangent": [
+          1652416,
+          1663599
+        ],
+        "uv": [
+          1663600,
+          1669191
+        ]
+      },
+      "uuid": "F6890BED-653D-45AE-92A5-E17454F2EBA8",
+      "name": "rear_tire3"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          1669192,
+          1680639
+        ],
+        "position": [
+          1680640,
+          1690515
+        ],
+        "normal": [
+          1690516,
+          1700391
+        ],
+        "tangent": [
+          1700392,
+          1713559
+        ],
+        "uv": [
+          1713560,
+          1720143
+        ]
+      },
+      "uuid": "5D1B1269-E63A-4763-B3DE-B8C78B46B6D7",
+      "name": "rear_rim"
+    },
+    {
+      "groups": [],
+      "offsets": {
+        "index": [
+          1720144,
+          1726695
+        ],
+        "position": [
+          1726696,
+          1736883
+        ],
+        "normal": [
+          1736884,
+          1747071
+        ],
+        "tangent": [
+          1747072,
+          1760655
+        ],
+        "uv": [
+          1760656,
+          1767447
+        ]
+      },
+      "uuid": "9CCEF5D8-C161-437B-92C1-7A58DED9EB28",
+      "name": "rear_rim_center"
+    }
+  ],
+  "materials": [
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 16777215,
+      "uuid": "A0F60891-DD27-473B-AABC-2C8D9C8EE089",
+      "type": "MeshLambertMaterial",
+      "name": "headlight"
+    },
+    {
+      "color": 15639078,
+      "uuid": "FB4F0A5D-A351-4BCA-BB3B-7D72CB5E4A0B",
+      "type": "MeshBasicMaterial",
+      "name": "cache"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 3881787,
+      "uuid": "A3670B66-BD88-4A1D-A687-D06EAB709337",
+      "type": "MeshLambertMaterial",
+      "name": "metal_black"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 14977850,
+      "uuid": "9FBE9002-1EDD-4CF8-B56E-632D1092A263",
+      "type": "MeshLambertMaterial",
+      "name": "bottom_light_cover"
+    },
+    {
+      "color": 16777215,
+      "map": "4078A1CF-2DB6-4B10-BB0B-7AA02B10AE91",
+      "uuid": "5F6254B4-5AE5-4DDB-B8CD-BBE6FB30D6A4",
+      "type": "MeshBasicMaterial",
+      "name": "grid"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 16769536,
+      "uuid": "8008605A-3372-4D55-BD20-4CD46035CF62",
+      "type": "MeshLambertMaterial",
+      "name": "metal_yellow"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 10801117,
+      "uuid": "A167A9C7-E8A3-4AF3-A1CA-4741173F4374",
+      "type": "MeshLambertMaterial",
+      "name": "headlight_cover",
+      "transparent": true,
+      "opacity": 0.5
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 13816530,
+      "uuid": "C2477DAA-4345-469D-944A-299603E105BA",
+      "type": "MeshLambertMaterial",
+      "name": "glass"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 8737249,
+      "uuid": "21A229F2-A396-4E6B-A79A-8A9F66176619",
+      "type": "MeshLambertMaterial",
+      "name": "metal_purple"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 10197915,
+      "uuid": "8B789D3C-59AC-4540-B8F9-05F08D882796",
+      "type": "MeshLambertMaterial",
+      "name": "metal_grey"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 16729088,
+      "uuid": "810B4621-F19C-48D0-A4DA-18F39011E23E",
+      "type": "MeshLambertMaterial",
+      "name": "red_light"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 16750848,
+      "uuid": "B46F57B6-BA9A-4B51-82AD-3DFCFCF0E431",
+      "type": "MeshLambertMaterial",
+      "name": "orange_light"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 16777215,
+      "uuid": "50052301-B694-4B2B-92E7-3A75BE4FA5D4",
+      "type": "MeshLambertMaterial",
+      "name": "metal_white"
+    },
+    {
+      "color": 11302690,
+      "uuid": "DC993726-9970-40B0-ADAD-F5CE71761DED",
+      "type": "MeshBasicMaterial",
+      "name": "cache2"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 3881787,
+      "uuid": "C86707F0-6C02-4809-8585-8FF04A27907F",
+      "type": "MeshLambertMaterial",
+      "name": "lamp"
+    },
+    {
+      "color": 16777215,
+      "map": "5FC9E3FF-C2F6-4239-A0B3-A3F9AE734593",
+      "uuid": "46E6DC78-671B-427F-AC86-DDB0A2E66731",
+      "type": "MeshBasicMaterial",
+      "name": "shadow",
+      "transparent": true
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 4408131,
+      "uuid": "551C2936-D3DA-40A4-B607-E58AD443A1D0",
+      "type": "MeshLambertMaterial",
+      "name": "front_wheel_tire"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 16777215,
+      "uuid": "AF8DB45F-ADB5-480B-90FC-95DFA1FB25D0",
+      "type": "MeshLambertMaterial",
+      "name": "front_wheel_rim"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 4408131,
+      "uuid": "6531256A-4D5D-46C5-A37B-D3EADA3021DA",
+      "type": "MeshLambertMaterial",
+      "name": "rear_wheel_tire"
+    },
+    {
+      "emissive": 0,
+      "emissiveIntensity": 1.0,
+      "color": 16777215,
+      "uuid": "5E0C13FF-019A-4BC3-BB50-A02388DB7E05",
+      "type": "MeshLambertMaterial",
+      "name": "rear_wheel_rim"
+    }
+  ],
+  "cameras": [
+    "27CDC35A-8ACB-4774-8334-2E9A7A1C6E5E"
+  ],
+  "images": [
+    {
+      "uuid": "20C90400-6ED9-4795-B059-DFAC465E9048",
+      "url": "maps/grid_diffuse.jpg"
+    },
+    {
+      "uuid": "A27FBE30-6D60-46B1-B025-0035DF82946C",
+      "url": "maps/shadow.png"
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "4078A1CF-2DB6-4B10-BB0B-7AA02B10AE91",
+      "name": "grid_diffuse",
+      "image": "20C90400-6ED9-4795-B059-DFAC465E9048",
+      "offset": [
+        0.08,
+        0.0
+      ],
+      "repeat": [
+        20.0,
+        20.0
+      ],
+      "wrap": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "uuid": "5FC9E3FF-C2F6-4239-A0B3-A3F9AE734593",
+      "name": "shadow",
+      "image": "A27FBE30-6D60-46B1-B025-0035DF82946C",
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "repeat": [
+        1.0,
+        1.0
+      ],
+      "wrap": [
+        1000,
+        1000
+      ]
+    }
+  ],
+  "animations": [],
+  "object": {
+    "uuid": "ED2579EF-3F04-4136-A125-4B70D9D3F048",
+    "name": "transmit",
+    "type": "Scene",
+    "children": [
+      {
+        "uuid": "784EDE4E-7ACA-49D5-AD18-72FB3FDFB8F1",
+        "name": "container",
+        "matrix": [
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "children": [
+          {
+            "uuid": "8FB8A0D7-A494-4927-8285-C1E3DD5C3F78",
+            "name": "truck",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              -1.79,
+              0.0,
+              1.0
+            ],
+            "children": [
+              {
+                "uuid": "C9B8C894-4DFD-4A87-BDC5-E60B61C27A59",
+                "name": "headlights",
+                "children": [
+                  {
+                    "geometry": "968DBB40-FF53-433E-A797-61DC2956C479",
+                    "material": "A0F60891-DD27-473B-AABC-2C8D9C8EE089",
+                    "uuid": "D976A0DD-BC30-4268-9269-00A7825E34C9",
+                    "name": "headlight_left",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0,
+                      -1.318,
+                      1.503,
+                      -3.2,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "A0A14A30-07CF-4E86-9DC6-FE904A446510",
+                    "material": "A0F60891-DD27-473B-AABC-2C8D9C8EE089",
+                    "uuid": "A98F14C4-5FEA-49D1-8846-B9A6ED1ACA0F",
+                    "name": "headlight_right",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.0,
+                      1.318,
+                      1.503,
+                      -3.2,
+                      1.0
+                    ]
+                  }
+                ]
+              },
+              {
+                "geometry": "56080FA2-6B83-4906-B6CD-2FB0491E7E87",
+                "material": "FB4F0A5D-A351-4BCA-BB3B-7D72CB5E4A0B",
+                "uuid": "366D237C-E37E-41A5-8B66-07F2AE6526BD",
+                "name": "caches",
+                "type": "Mesh",
+                "castShadow": true,
+                "receiveShadow": true
+              },
+              {
+                "uuid": "CD30B70A-D8E9-4DF7-8BE7-A13D8D2A2201",
+                "name": "head",
+                "children": [
+                  {
+                    "geometry": "4763CAAD-E699-4C2B-9D37-1373985764BA",
+                    "material": "A3670B66-BD88-4A1D-A687-D06EAB709337",
+                    "uuid": "2AFF2F23-1571-4C25-BD93-67D29ABF134B",
+                    "name": "bottom_front",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0,
+                      -1.62920671E-07,
+                      0.0,
+                      0.0,
+                      1.62920671E-07,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.002968669,
+                      -0.00204833969,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "786BBFB5-D689-4755-A8C5-A2B3C4DCA976",
+                    "material": "9FBE9002-1EDD-4CF8-B56E-632D1092A263",
+                    "uuid": "34AA5B9B-2706-49A0-968E-ACCB44CE13B8",
+                    "name": "bottom_lights_cover",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      -1.19209253E-05,
+                      99.99996,
+                      0.0,
+                      0.0,
+                      -99.99996,
+                      -1.19209253E-05,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "F8B0C29E-E88A-4A5E-A81B-36D8DBF98CF1",
+                    "material": "5F6254B4-5AE5-4DDB-B8CD-BBE6FB30D6A4",
+                    "uuid": "BAA465C6-3E57-4E04-8F3B-E6792EF8E3B3",
+                    "name": "grid",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      -1.19209253E-05,
+                      99.99996,
+                      0.0,
+                      0.0,
+                      -99.99996,
+                      -1.19209253E-05,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "80F2B748-916C-4760-8AFD-65A78CF4D364",
+                    "material": "8008605A-3372-4D55-BD20-4CD46035CF62",
+                    "uuid": "18C2AE37-590B-4712-B65B-B7F6AE685B28",
+                    "name": "head_main",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0,
+                      -1.62920671E-07,
+                      0.0,
+                      0.0,
+                      1.62920671E-07,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "83762A44-32FC-486A-8DDC-42EC6BBA5CEF",
+                    "material": "A167A9C7-E8A3-4AF3-A1CA-4741173F4374",
+                    "uuid": "3CC2A931-3303-4A13-83EA-0F4EFF60CDC4",
+                    "name": "headlights_covers",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      -1.19209253E-05,
+                      99.99996,
+                      0.0,
+                      0.0,
+                      -99.99996,
+                      -1.19209253E-05,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "F7E12EDF-4C0A-4F71-BC2A-35C1828E930D",
+                    "material": "C2477DAA-4345-469D-944A-299603E105BA",
+                    "uuid": "7B421698-088F-4080-8E01-2969F1E6E4A8",
+                    "name": "windows",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0,
+                      -1.62920671E-07,
+                      0.0,
+                      0.0,
+                      1.62920671E-07,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  }
+                ]
+              },
+              {
+                "uuid": "E440F2E8-DBDB-4A0A-B0CC-34410D2D9EA7",
+                "name": "rear",
+                "children": [
+                  {
+                    "geometry": "B531AAFB-1FFE-43DF-8714-DB4B34505316",
+                    "material": "21A229F2-A396-4E6B-A79A-8A9F66176619",
+                    "uuid": "DB183BED-2D27-41A1-8367-4AA9B6D625CD",
+                    "name": "cargo_main",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      -1.19209253E-05,
+                      99.99996,
+                      0.0,
+                      0.0,
+                      -99.99996,
+                      -1.19209253E-05,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "7EDA2B44-3462-4984-853F-4A7C8EC1418C",
+                    "material": "8B789D3C-59AC-4540-B8F9-05F08D882796",
+                    "uuid": "7E5E2264-4E66-4A28-B75F-547A1D405F26",
+                    "name": "cargo_metal",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      -1.19209253E-05,
+                      99.99996,
+                      0.0,
+                      0.0,
+                      -99.99996,
+                      -1.19209253E-05,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "30CD2A95-7CDC-485F-AA2B-44EB4B446CA2",
+                    "material": "810B4621-F19C-48D0-A4DA-18F39011E23E",
+                    "uuid": "8C23B058-1C3A-46C7-9BBF-F4A85BFD5A08",
+                    "name": "rear_lights_inner",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      100.0,
+                      -1.62920678E-05,
+                      0.0,
+                      0.0,
+                      1.62920678E-05,
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "BB57530D-E140-48E4-B817-EDB11704E869",
+                    "material": "B46F57B6-BA9A-4B51-82AD-3DFCFCF0E431",
+                    "uuid": "3BE50A6C-2AAF-41B7-8A34-AB16D32EC710",
+                    "name": "rear_lights_outer",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      100.0,
+                      -1.62920678E-05,
+                      0.0,
+                      0.0,
+                      1.62920678E-05,
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "8A122EB7-919D-4DEB-84B8-4838DCA9A477",
+                    "material": "50052301-B694-4B2B-92E7-3A75BE4FA5D4",
+                    "uuid": "22898103-EA91-4F2A-AF6B-2E910F715F96",
+                    "name": "tanks",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      -1.19209253E-05,
+                      99.99996,
+                      0.0,
+                      0.0,
+                      -99.99996,
+                      -1.19209253E-05,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  },
+                  {
+                    "geometry": "2C385D64-51EA-42BD-ABD9-3862C997E002",
+                    "material": "A3670B66-BD88-4A1D-A687-D06EAB709337",
+                    "uuid": "DEBBF9D1-0864-465F-BC19-8B303CA2892D",
+                    "name": "bottom",
+                    "type": "Mesh",
+                    "castShadow": true,
+                    "receiveShadow": true,
+                    "matrix": [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0,
+                      -1.62920671E-07,
+                      0.0,
+                      0.0,
+                      1.62920671E-07,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ]
+                  }
+                ]
+              },
+              {
+                "geometry": "8F8D5F87-AFC5-4E15-B42D-A885DF7EA81E",
+                "material": "DC993726-9970-40B0-ADAD-F5CE71761DED",
+                "uuid": "57F9CA2E-71F8-4EA3-87E1-DFFCBAC4477B",
+                "name": "caches_door",
+                "type": "Mesh",
+                "castShadow": true,
+                "receiveShadow": true,
+                "matrix": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  -1.62920671E-07,
+                  0.0,
+                  0.0,
+                  1.62920671E-07,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "geometry": "24C27AC1-BA05-43D5-BACE-DD151C689D28",
+                "material": "C86707F0-6C02-4809-8585-8FF04A27907F",
+                "uuid": "2B9A5103-496C-4621-82FA-4B658F7E703A",
+                "name": "rear_lamps",
+                "type": "Mesh",
+                "castShadow": true,
+                "receiveShadow": true,
+                "matrix": [
+                  100.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  100.0,
+                  7.54979E-06,
+                  0.0,
+                  0.0,
+                  -7.54979E-06,
+                  100.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              }
+            ]
+          },
+          {
+            "geometry": "3E810752-020A-46D6-AAE9-63C2CDC7B803",
+            "material": "46E6DC78-671B-427F-AC86-DDB0A2E66731",
+            "uuid": "B396C7A1-0740-43A1-BA85-E1A6EF15A4E4",
+            "name": "shadow",
+            "type": "Mesh",
+            "castShadow": true,
+            "receiveShadow": true,
+            "matrix": [
+              -10.0000134,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -1.1920929E-06,
+              10.000001,
+              0.0,
+              0.0,
+              10.000001,
+              -1.1920929E-06,
+              0.0,
+              0.0,
+              -1.743,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "uuid": "8C14CC7B-2B78-41BC-A4C8-BFB77E5EC36D",
+            "name": "wheels",
+            "children": [
+              {
+                "uuid": "9105C2D0-6CD5-4AAE-A141-80686348A1C2",
+                "name": "front_wheels",
+                "children": [
+                  {
+                    "uuid": "01613BCC-81C9-496B-A4BF-FA69CB4562BB",
+                    "name": "front_wheel_right",
+                    "matrix": [
+                      93.96925,
+                      0.0,
+                      -34.20203,
+                      0.0,
+                      0.0,
+                      100.0,
+                      0.0,
+                      0.0,
+                      34.20203,
+                      0.0,
+                      93.96925,
+                      0.0,
+                      1.554,
+                      -0.98,
+                      -1.895,
+                      1.0
+                    ],
+                    "children": [
+                      {
+                        "geometry": "E363E915-10FA-47C2-B2BA-9EB3F947B217",
+                        "material": "551C2936-D3DA-40A4-B607-E58AD443A1D0",
+                        "uuid": "CA7DE4EA-5913-4141-AF0D-EDD1405E5B9E",
+                        "name": "front_tire",
+                        "type": "Mesh",
+                        "castShadow": true,
+                        "receiveShadow": true
+                      },
+                      {
+                        "uuid": "274D7FD6-0DB9-4003-9B2C-3CBAC2EC42A0",
+                        "name": "front_rim",
+                        "children": [
+                          {
+                            "geometry": "D53A00E5-335E-47D1-9B42-EB1D25A21125",
+                            "material": "AF8DB45F-ADB5-480B-90FC-95DFA1FB25D0",
+                            "uuid": "61ED2489-2468-4143-A9CF-6DBCD0550FA6",
+                            "name": "front_rim",
+                            "type": "Mesh",
+                            "castShadow": true,
+                            "receiveShadow": true,
+                            "matrix": [
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0,
+                              -1.62920671E-07,
+                              0.0,
+                              0.0,
+                              1.62920671E-07,
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0
+                            ]
+                          },
+                          {
+                            "geometry": "C6030276-2946-4FA8-815F-DFEF0C62C3B8",
+                            "material": "AF8DB45F-ADB5-480B-90FC-95DFA1FB25D0",
+                            "uuid": "2AD61F9A-69D1-49B1-8191-5C2EB884C67A",
+                            "name": "front_rim_center",
+                            "type": "Mesh",
+                            "castShadow": true,
+                            "receiveShadow": true,
+                            "matrix": [
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0,
+                              -1.62920671E-07,
+                              0.0,
+                              0.0,
+                              1.62920671E-07,
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "uuid": "52A568CA-2532-4FCD-8C71-314160421B48",
+                    "name": "front_wheel_left",
+                    "matrix": [
+                      -93.96928,
+                      0.0,
+                      34.2019958,
+                      0.0,
+                      0.0,
+                      100.0,
+                      0.0,
+                      0.0,
+                      -34.2019958,
+                      0.0,
+                      -93.96928,
+                      0.0,
+                      -1.554,
+                      -0.98,
+                      -1.895,
+                      1.0
+                    ],
+                    "children": [
+                      {
+                        "geometry": "E363E915-10FA-47C2-B2BA-9EB3F947B217",
+                        "material": "551C2936-D3DA-40A4-B607-E58AD443A1D0",
+                        "uuid": "11F50045-5640-46A7-A1A6-B70971D389A7",
+                        "name": "front_tire",
+                        "type": "Mesh",
+                        "castShadow": true,
+                        "receiveShadow": true
+                      },
+                      {
+                        "uuid": "2FE1FF9C-54F2-48BF-805C-EE210940F9B5",
+                        "name": "front_rim",
+                        "children": [
+                          {
+                            "geometry": "D53A00E5-335E-47D1-9B42-EB1D25A21125",
+                            "material": "AF8DB45F-ADB5-480B-90FC-95DFA1FB25D0",
+                            "uuid": "323ED5F8-5317-4B35-A7E3-5CD6DFC0193D",
+                            "name": "front_rim",
+                            "type": "Mesh",
+                            "castShadow": true,
+                            "receiveShadow": true,
+                            "matrix": [
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0,
+                              -1.62920671E-07,
+                              0.0,
+                              0.0,
+                              1.62920671E-07,
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0
+                            ]
+                          },
+                          {
+                            "geometry": "C6030276-2946-4FA8-815F-DFEF0C62C3B8",
+                            "material": "AF8DB45F-ADB5-480B-90FC-95DFA1FB25D0",
+                            "uuid": "979AC450-F792-41B9-9ABA-7F1C765DD717",
+                            "name": "front_rim_center",
+                            "type": "Mesh",
+                            "castShadow": true,
+                            "receiveShadow": true,
+                            "matrix": [
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0,
+                              -1.62920671E-07,
+                              0.0,
+                              0.0,
+                              1.62920671E-07,
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "uuid": "04C48C6A-205C-4D98-96F0-ADE5DC6DCCF6",
+                "name": "rear_wheels",
+                "children": [
+                  {
+                    "uuid": "94D64939-4177-4B8C-8B53-BFFDBF35800C",
+                    "name": "rear_wheel_right",
+                    "matrix": [
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      100.0,
+                      0.0,
+                      1.28,
+                      -0.98,
+                      1.871582,
+                      1.0
+                    ],
+                    "children": [
+                      {
+                        "geometry": "F6890BED-653D-45AE-92A5-E17454F2EBA8",
+                        "material": "6531256A-4D5D-46C5-A37B-D3EADA3021DA",
+                        "uuid": "1FD203FD-4B31-4102-AF45-EB07AE5EF9C4",
+                        "name": "rear_tire",
+                        "type": "Mesh",
+                        "castShadow": true,
+                        "receiveShadow": true
+                      },
+                      {
+                        "uuid": "1411BB72-2609-4E09-B781-6EBE2CB5604D",
+                        "name": "rear_rim",
+                        "matrix": [
+                          1.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          1.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          1.0,
+                          0.0,
+                          -5.47855161E-05,
+                          0.0,
+                          0.0,
+                          1.0
+                        ],
+                        "children": [
+                          {
+                            "geometry": "5D1B1269-E63A-4763-B3DE-B8C78B46B6D7",
+                            "material": "5E0C13FF-019A-4BC3-BB50-A02388DB7E05",
+                            "uuid": "F9AED8B0-247E-49FD-93DF-CF07A25A295C",
+                            "name": "rear_rim",
+                            "type": "Mesh",
+                            "castShadow": true,
+                            "receiveShadow": true,
+                            "matrix": [
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0,
+                              -1.62920671E-07,
+                              0.0,
+                              0.0,
+                              1.62920671E-07,
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0
+                            ]
+                          },
+                          {
+                            "geometry": "9CCEF5D8-C161-437B-92C1-7A58DED9EB28",
+                            "material": "5E0C13FF-019A-4BC3-BB50-A02388DB7E05",
+                            "uuid": "64EE5039-0B30-40C4-81B9-47D00ACE1A51",
+                            "name": "rear_rim_center",
+                            "type": "Mesh",
+                            "castShadow": true,
+                            "receiveShadow": true,
+                            "matrix": [
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0,
+                              -1.62920671E-07,
+                              0.0,
+                              0.0,
+                              1.62920671E-07,
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "uuid": "73181D2A-03EC-4B60-8B26-B0839FD4D070",
+                    "name": "rear_wheel_left",
+                    "matrix": [
+                      -100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      100.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0,
+                      -100.0,
+                      0.0,
+                      -1.28,
+                      -0.98,
+                      1.871582,
+                      1.0
+                    ],
+                    "children": [
+                      {
+                        "geometry": "F6890BED-653D-45AE-92A5-E17454F2EBA8",
+                        "material": "6531256A-4D5D-46C5-A37B-D3EADA3021DA",
+                        "uuid": "C20E08E4-391F-438F-8131-160F105BFF4B",
+                        "name": "rear_tire",
+                        "type": "Mesh",
+                        "castShadow": true,
+                        "receiveShadow": true
+                      },
+                      {
+                        "uuid": "BC0F825F-B31E-4FB1-BB11-E86075A1A457",
+                        "name": "rear_rim",
+                        "matrix": [
+                          1.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          1.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                          1.0,
+                          0.0,
+                          -5.47855161E-05,
+                          0.0,
+                          0.0,
+                          1.0
+                        ],
+                        "children": [
+                          {
+                            "geometry": "5D1B1269-E63A-4763-B3DE-B8C78B46B6D7",
+                            "material": "5E0C13FF-019A-4BC3-BB50-A02388DB7E05",
+                            "uuid": "DB0DFFD1-668A-43FE-BD22-0B51CCD19BE9",
+                            "name": "rear_rim",
+                            "type": "Mesh",
+                            "castShadow": true,
+                            "receiveShadow": true,
+                            "matrix": [
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0,
+                              -1.62920671E-07,
+                              0.0,
+                              0.0,
+                              1.62920671E-07,
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0
+                            ]
+                          },
+                          {
+                            "geometry": "9CCEF5D8-C161-437B-92C1-7A58DED9EB28",
+                            "material": "5E0C13FF-019A-4BC3-BB50-A02388DB7E05",
+                            "uuid": "37427372-8F5E-46E7-9B93-7DF6D59B961F",
+                            "name": "rear_rim_center",
+                            "type": "Mesh",
+                            "castShadow": true,
+                            "receiveShadow": true,
+                            "matrix": [
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0,
+                              -1.62920671E-07,
+                              0.0,
+                              0.0,
+                              1.62920671E-07,
+                              1.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              0.0,
+                              1.0
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "color": 16774358,
+        "intensity": 1.0,
+        "uuid": "FFE39DF0-563C-40AF-98F1-0E526F6BCB9E",
+        "name": "Directional Light",
+        "type": "DirectionalLight",
+        "castShadow": true,
+        "matrix": [
+          0.432066858,
+          0.304442674,
+          0.8489011,
+          0.0,
+          0.873645067,
+          0.09223956,
+          -0.477741,
+          0.0,
+          -0.223747075,
+          0.9480542,
+          -0.226121187,
+          0.0,
+          0.47,
+          4.11,
+          0.81,
+          1.0
+        ]
+      },
+      {
+        "fov": 60,
+        "aspect": 2.01033068,
+        "near": 0.3,
+        "far": 1000.0,
+        "uuid": "27CDC35A-8ACB-4774-8334-2E9A7A1C6E5E",
+        "name": "Main Camera",
+        "type": "PerspectiveCamera",
+        "matrix": [
+          -0.9961947,
+          0.0,
+          0.08715597,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          -0.08715597,
+          0.0,
+          -0.9961947,
+          0.0,
+          -14.5446205,
+          16.0,
+          17.33361,
+          1.0
+        ],
+        "layers": -1
+      }
+    ]
+  },
+  "renderer": {
+    "shadowMapEnabled": false
+  },
+  "binary": true
+}
