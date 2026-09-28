@@ -128,8 +128,6 @@ Node.js and DOM event systems are just too different.  Here some some challenges
 
 These differences brought me to the following conclusions.
 
-- When Node.js was the hot new thing, it was in vogue to implement Node-compatible API layers for the browser. It was usually straightforward, but inevitably a userspace solution. This had a lot of advantages (like nice and simple APIs that worked effectively) and few drawbacks other than a bit of extra bundle size and the lack of a standards authority dictating how things should work. [`browserify`](http://browserify.org) used this strategy to great effect, and it still works well today.
-- As Node.js aged, and its opponents slowly regained power to push back against its influence, and as Node.js's innovations slowly sublimated into implemented, yet incompatible "standards", it became fashionable to implement DOM apis compatible for node.  The sudden interest in [node-fetch](https://github.com/node-fetch/node-fetch) is testament to this trend, despite many [bugs](https://github.com/search?q=repo%3Anode-fetch%2Fnode-fetch+clone+&type=issues), and awkward differences between it and the real DOM API.
 - Porting Node.js APIs to the browser is easy, since they are fundamentally simple, userspace derived APIs.
 - Porting Browser APIs to Node in userspace is not easy, complex and error prone.  Avoid doing it.  See the key takeaways from `urws` above for the proper way to handle IO abstractions.
 - Node events are simpler to understand, but lack the handle event API found in the DOM.  Maybe a userspace event system could accommodate this a bit better, and still remain simple and compatible with Node.js events.

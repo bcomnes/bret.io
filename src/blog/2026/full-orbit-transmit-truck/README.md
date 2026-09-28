@@ -8,7 +8,7 @@ description: "A full orbit Transmit truck"
 image: ./img/og.webp
 ---
 
-I've been a fan of the Transmit truck since it appeared on the Panic website back around 2017ish?
+I've been a fan of the Transmit truck since it appeared on the Panic website back around 2017-ish?
 
 <figure class="truck-viewer">
   <div id="container" title="Drag to rotate the truck">
@@ -17,7 +17,7 @@ I've been a fan of the Transmit truck since it appeared on the Panic website bac
   <figcaption>Here it is! Go see the original <a href="https://panic.com/transmit/">over here</a> and buy a copy while you are at it.</figcaption>
 </figure>
 
-As a professional dorker, its always annoyed me that it denied me full orbital controls with pan and zoom, so I went ahead and added those here. Enjoy!
+As a professional dorker, I've always been annoyed that it denied me full orbital controls with pan and zoom, so I went ahead and added those here. Enjoy!
 
 <figure class="truck-viewer truck-viewer-full">
   <div id="container-full" title="Drag, zoom, and pan the truck">
@@ -26,6 +26,6 @@ As a professional dorker, its always annoyed me that it denied me full orbital c
   <figcaption>Full orbital controls: drag to rotate, scroll to zoom, and right-drag to pan.</figcaption>
 </figure>
 
-I love the idea of full 3D icons, why don't more projects do this? I lack domain expertise here and also just wanted to see what it would take to make something similar for other projects so this is where I started. 
+I love the idea of full 3D icons and would like to learn to make these for projects of my own, so I started by picking this one apart.
 
-(PS - Panic: I'm pretty sure this post falls under fair use but if there is any concern about this just contact me and I'm happy to take it down.)
+(P.S. — Panic: If there is any concern about this, just contact me and I'll be happy to take it down.)
