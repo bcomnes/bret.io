@@ -4,10 +4,10 @@ import { breadcrumb } from '#components/breadcrumb/index.js'
 
 /** @import { LayoutFunction } from '@domstack/static/types.js' */
 /** @import { HtmlResult } from 'fragtml/types.js' */
-/** @import { LayoutChildren, RootLayoutVars } from './root.layout.js' */
+/** @import { LayoutChildren } from './root.layout.js' */
 
 /**
- * @typedef {RootLayoutVars & {
+ * @typedef {{
  *  title: string
  * }} BlogIndexVars
  */

@@ -1,5 +1,8 @@
-/** @import { DataDeps, PagesFunction } from '@domstack/static/types.js' */
+/** @import { DataDeps, PagesForLayout } from '@domstack/static/types.js' */
 /** @import { RedirectData } from './global.data.js' */
+/** @import { SiteGlobalVars } from './layouts/layout-registry.ts' */
+
+/** @typedef {{ layout: 'redirect', title: string, redirectTo: string, noindex: boolean }} RedirectPageVars */
 
 /** @satisfies {DataDeps<RedirectData>} */
 export const dataDeps = ['redirects']
@@ -18,7 +21,7 @@ function redirectOutputName (from) {
   return relativePath.endsWith('/') ? `${relativePath}index.html` : relativePath
 }
 
-/** @type {PagesFunction<Record<string, any>, string, Record<string, any>, RedirectData>} */
+/** @type {PagesForLayout<'redirect', RedirectPageVars, SiteGlobalVars, RedirectData>} */
 export default function redirectPages ({ data }) {
   return data.redirects.map(({ from, to }) => ({
     outputName: redirectOutputName(from),

@@ -4,11 +4,11 @@ import { html } from 'fragtml'
 /** @import { HtmlResult } from 'fragtml/types.js' */
 /** @import { LayoutChildren, RootLayoutVars } from './root.layout.js' */
 
-/** @typedef {RootLayoutVars & { title: string, redirectTo: string }} RedirectLayoutVars */
+/** @typedef {{ title: string, redirectTo: string }} RedirectLayoutVars */
 
 export const parentLayout = 'root'
 
-/** @satisfies {LayoutVars<Partial<RedirectLayoutVars>>} */
+/** @satisfies {LayoutVars<Pick<RootLayoutVars, 'noindex'>>} */
 export const vars = {
   noindex: true
 }

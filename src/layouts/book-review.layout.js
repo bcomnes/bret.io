@@ -6,7 +6,7 @@ import { html, raw } from 'fragtml'
 /** @import { ArticleLayoutVars } from './article.layout.js' */
 
 /**
- * @typedef {ArticleLayoutVars & {
+ * @typedef {{
  *  book: {
  *    title: string,
  *    author: string,
@@ -23,7 +23,7 @@ import { html, raw } from 'fragtml'
 
 export const parentLayout = 'article'
 
-/** @satisfies {LayoutVars<Partial<BookReviewLayoutVars>>} */
+/** @satisfies {LayoutVars<Pick<ArticleLayoutVars, 'articleType' | 'bodyType'>>} */
 export const vars = {
   articleType: 'http://schema.org/Review',
   bodyType: 'description'

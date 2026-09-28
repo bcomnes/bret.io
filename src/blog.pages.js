@@ -1,10 +1,11 @@
-/** @import { DataDeps, PagesFunction } from '@domstack/static/types.js' */
+/** @import { DataDeps, PagesForLayout } from '@domstack/static/types.js' */
 /** @import { BlogData, BlogIndex } from './global.data.js' */
+/** @import { SiteGlobalVars } from './layouts/layout-registry.ts' */
 
 import { html, render } from 'fragtml'
 import { renderBlogIndexList } from './components/blog-index-list/index.js'
 
-/** @typedef {{ title: string, layout: string, noindex: boolean }} BlogPageVars */
+/** @typedef {{ title: string, layout: 'blog-index', noindex: boolean }} BlogPageVars */
 
 /** @satisfies {DataDeps<BlogData>} */
 export const dataDeps = ['blogPosts', 'blogIndexes']
@@ -24,7 +25,7 @@ function renderArchiveLinks (indexes) {
   `)
 }
 
-/** @type {PagesFunction<BlogPageVars, string, Record<string, unknown>, BlogData>} */
+/** @type {PagesForLayout<'blog-index', BlogPageVars, SiteGlobalVars, BlogData>} */
 export default function blogPages ({ data: { blogPosts, blogIndexes } }) {
   return [
     {
@@ -40,7 +41,7 @@ export default function blogPages ({ data: { blogPosts, blogIndexes } }) {
       outputName: `blog/${year}/index.html`,
       vars: {
         title: `${year} Blog Posts`,
-        layout: 'blog-index',
+        layout: /** @type {const} */ ('blog-index'),
         noindex: true
       },
       children: `${renderBlogIndexList(posts)}${renderArchiveLinks(blogIndexes)}`

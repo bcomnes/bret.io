@@ -2,12 +2,12 @@ import { html, raw } from 'fragtml'
 import { sep } from 'node:path'
 import { breadcrumb } from '#components/breadcrumb/index.js'
 
-/** @import { LayoutFunction, PageOutputsFunctionParams } from '@domstack/static/types.js' */
+/** @import { LayoutFunction, PageOutputsForRenderer } from '@domstack/static/types.js' */
 /** @import { HtmlResult } from 'fragtml/types.js' */
-/** @import { LayoutChildren, RootLayoutVars } from './root.layout.js' */
+/** @import { LayoutChildren } from './root.layout.js' */
 
 /**
- * @typedef {RootLayoutVars & {
+ * @typedef {{
  *  title: string,
  *  articleType?: string,
  *  bodyType?: string,
@@ -22,7 +22,7 @@ import { breadcrumb } from '#components/breadcrumb/index.js'
 
 export const parentLayout = 'root'
 
-/** @param {PageOutputsFunctionParams<ArticleLayoutVars>} params */
+/** @param {Parameters<PageOutputsForRenderer<typeof articleLayout>>[0]} params */
 export async function pageOutputs ({ page }) {
   if (page.type !== 'md') return []
 

@@ -1,4 +1,5 @@
 import type { LayoutChain, LayoutRegistryName } from '@domstack/static/types.js'
+import type globalVars from '../globals/global.vars.js'
 import type rootLayout from './root.layout.js'
 import type articleLayout from './article.layout.js'
 import type blogIndexLayout from './blog-index.layout.js'
@@ -36,6 +37,8 @@ declare module '@domstack/static/types.js' {
     }
   }
 }
+
+export type SiteGlobalVars = Awaited<ReturnType<typeof globalVars>>
 
 export type SiteLayoutName = LayoutRegistryName
 export type SiteLayoutChains = {
