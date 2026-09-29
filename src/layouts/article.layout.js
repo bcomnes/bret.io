@@ -32,6 +32,11 @@ export async function pageOutputs ({ page }) {
   }
 }
 
+const dateOnlyFormatter = new Intl.DateTimeFormat('en-US', {
+  dateStyle: 'medium',
+  timeZone: 'UTC'
+})
+
 const dateFormatter = new Intl.DateTimeFormat('en-US', {
   dateStyle: 'medium',
   timeStyle: 'short',
@@ -67,7 +72,7 @@ export default function articleLayout (args) {
             ? html`
               <time class="published-date dt-published" itemprop="datePublished" datetime="${vars.publishDate}">
                 <a href="#" class="u-url">
-                  ${dateFormatter.format(new Date(vars.publishDate))}
+                  ${(/^\d{4}-\d{2}-\d{2}$/.test(vars.publishDate) ? dateOnlyFormatter : dateFormatter).format(new Date(vars.publishDate))}
                 </a>
               </time>`
             : null

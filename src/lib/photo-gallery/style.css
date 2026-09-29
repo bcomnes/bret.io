@@ -1,0 +1,64 @@
+@import 'photoswipe/style.css';
+@import 'photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.css';
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+.photo-gallery > section {
+  min-inline-size: 0;
+  scroll-margin-block-start: 1rem;
+}
+
+.photo-gallery h2 {
+  margin-block-start: 0;
+  overflow-wrap: anywhere;
+}
+
+.photo-gallery time {
+  font-size: 0.85em;
+  overflow-wrap: anywhere;
+}
+
+.photo-gallery figure {
+  margin-inline: 0;
+}
+
+.photo-gallery .imageSwipe {
+  display: block;
+}
+
+.photo-gallery img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.photo-gallery a:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}
+
+.pswp__dynamic-caption {
+  white-space: pre-line;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pswp .pswp__dynamic-caption {
+    /* The caption plugin marks its opacity transition important. */
+    transition: none !important;
+  }
+}
+
+@media print {
+  .photo-gallery {
+    display: block;
+  }
+
+  .photo-gallery > section {
+    break-inside: avoid;
+  }
+}

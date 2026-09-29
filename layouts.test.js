@@ -25,6 +25,17 @@ function args (vars = {}, children = '<p>Rendered page content</p>', path = 'blo
   }
 }
 
+test('article dates preserve date-only precision', () => {
+  const dateOnly = render(articleLayout(args({ publishDate: '2014-08-25' })))
+  assert.match(dateOnly, /datetime="2014-08-25"/)
+  assert.match(dateOnly, /Aug 25, 2014/)
+  assert.doesNotMatch(dateOnly, /12:00|AM|PM/)
+
+  const timestamp = render(articleLayout(args({ publishDate: '2014-06-08T14:24:52-07:00' })))
+  assert.match(timestamp, /datetime="2014-06-08T14:24:52-07:00"/)
+  assert.match(timestamp, /9:24 PM/)
+})
+
 test('layouts declare their parent chains and defaults', () => {
   assert.equal(articleParent, 'root')
   assert.equal(blogParent, 'root')
