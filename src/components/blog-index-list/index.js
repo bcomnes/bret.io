@@ -36,7 +36,7 @@ export function renderBlogIndexList (posts, { more = false, yearSeparators = fal
             <a class="blog-entry-link u-url u-uid p-name" href="${post.url}">${post.title}</a>
             ${post.draft ? html`<span class="blog-entry-draft draft-badge">Draft</span>` : null}
           </span>
-          <time class="blog-entry-date dt-published" datetime="${publishDate.toISOString()}">
+          <time class="blog-entry-date dt-published" datetime="${publishDate.toISOString()}" data-localise="date">
             ${publishDate.toISOString().split('T')[0]}
           </time>
         </li>`

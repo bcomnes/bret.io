@@ -31,6 +31,12 @@
       margin-block-start: 0;
     }
   }
+  & .blog-entry-title {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
   & .blog-entry-link {}
   & .blog-entry-draft {
     margin-inline-start: 0.5em;

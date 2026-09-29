@@ -70,7 +70,7 @@ export default function articleLayout (args) {
           </address>
           ${vars.publishDate
             ? html`
-              <time class="published-date dt-published" itemprop="datePublished" datetime="${vars.publishDate}">
+              <time class="published-date dt-published" itemprop="datePublished" datetime="${vars.publishDate}" data-localise="datetime">
                 <a href="#" class="u-url">
                   ${(/^\d{4}-\d{2}-\d{2}$/.test(vars.publishDate) ? dateOnlyFormatter : dateFormatter).format(new Date(vars.publishDate))}
                 </a>

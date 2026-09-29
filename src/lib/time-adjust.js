@@ -1,5 +1,5 @@
 /**
- * localise-times.js
+ * time-adjust.js
  *
  * Re-writes every <time class="dt-published"> element so the text shows
  * the reader’s local date-and-time instead of UTC.
@@ -17,27 +17,39 @@
 
 /**
  * @param {object}  [options]
- * @param {string}  [options.selector='.dt-published']
+ * @param {string}  [options.selector='time[data-localise]']
  * @param {Intl.DateTimeFormatOptions} [options.format]
  */
 export function localiseTimes (options = {}) {
-  if (!('Temporal' in window)) return   // fall back to UTC when unsupported
-
   const {
-    selector = 'time.dt-published',
+    selector = 'time[data-localise]',
     format = { dateStyle: 'medium', timeStyle: 'short' }
   } = options
-
-  const tz = Intl.DateTimeFormat().resolvedOptions().timeZone
 
   document.querySelectorAll(selector).forEach(el => {
     const iso = el.getAttribute('datetime')
     if (!iso) return
 
-    // @ts-ignore
-    const instant = Temporal.Instant.from(iso)
-    const zoned = instant.toZonedDateTimeISO(tz)
+    const date = new Date(iso)
+    if (Number.isNaN(date.getTime())) return
 
-    el.textContent = zoned.toLocaleString(undefined, format)
+    if (el.getAttribute('data-localise') === 'date') {
+      const parts = new Intl.DateTimeFormat('en-US', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+      }).formatToParts(date)
+      const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]))
+      el.textContent = `${values['year']}-${values['month']}-${values['day']}`
+      return
+    }
+
+    // Date-only values represent a calendar date, not an instant in time.
+    if (/^\d{4}-\d{2}-\d{2}$/.test(iso)) {
+      el.textContent = iso
+      return
+    }
+
+    el.textContent = new Intl.DateTimeFormat(undefined, format).format(date)
   })
 }
