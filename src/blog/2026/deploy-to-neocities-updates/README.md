@@ -4,6 +4,7 @@ title: "async-neocities v5 / deploy-to-neocities v3.0.6"
 serif: false
 publishDate: "2026-09-29T18:23:00.808Z"
 handlebars: false
+image: img/dependent-count.webp
 ---
 
 I just released a few updates to [async-neocities](https://github.com/bcomnes/async-neocities) and [deploy-to-neocities](https://github.com/bcomnes/deploy-to-neocities).
