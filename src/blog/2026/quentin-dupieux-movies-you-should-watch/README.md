@@ -44,7 +44,7 @@ Highly recommended!
 
 ## 2. [Yannick (2023)](https://amzn.to/46UnfDA)
 
-*Yannick* is about a young construction worker who attends a play called *Le Cuck*.
+*Yannick* is about a young construction worker who attends a play called *Le Cocu*.
 The play is boring, so he stands up and interrupts the performance to tell the actors they should make it better, offering some earnest and honestly good ideas.
 The whole theater thinks he's insane and treats him that way.
 Having traveled a long way to attend the play, only to be let down and disrespected, our protagonist hijacks the theater with a pistol, demands a typewriter and a printer, and sets out to rewrite the play.
