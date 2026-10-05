@@ -23,5 +23,5 @@ I just released a few updates to [async-neocities](https://github.com/bcomnes/as
 
 <figure>
   <img src="img/subsecond.webp" alt="deploy-to-neocities preview and deployment output showing file counts and deployment time">
-  <figcaption>Enjoy you subsecond website deploys!</figcaption>
+  <figcaption>Enjoy your subsecond website deploys!</figcaption>
 </figure>
