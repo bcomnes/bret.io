@@ -7,8 +7,8 @@ image: "./img/quentin-og.webp"
 handlebars: false
 ---
 
-I came across Mr. Oizo in the early 2000s, if I recall correctly.
-He's known for ["Flat Beat"](https://www.youtube.com/watch?v=qmsbP13xu6k), which was famously used in a jeans ad. For good reason, it's a really great track.
+I came across Mr. Oizo in the early 2000s.
+He's known for ["Flat Beat"](https://www.youtube.com/watch?v=qmsbP13xu6k), which was famously used in a jeans ad.
 
 <figure>
 <img src="./img/quentin.webp" alt="Quentin Dupieux sitting in front of a cheese counter">
@@ -25,10 +25,10 @@ He's known for ["Flat Beat"](https://www.youtube.com/watch?v=qmsbP13xu6k), which
 <figcaption><a href="https://www.youtube.com/watch?v=hCq7f2jcbxU">Being Flat</a> — directed by Quentin Dupieux, Red Bull Music Academy</figcaption>
 </figure>
 
-He has been making movies for a while now, but I only caught up with them the other year, and man, what a treat.
+He has been making movies for a while now, but I only caught up with them the other year.
 His movies have a sort of self-aware Wes Anderson feel without much pretension.
 Most of them are silly, entertaining, and generally well executed.
-Nothing goes to waste in these movies, and it's incredibly refreshing.
+Nothing goes to waste in these movies.
 
 ## 1. [Mandibles (2020)](https://amzn.to/3TydBn4)
 
