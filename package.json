@@ -63,7 +63,7 @@
     "p-map": "^7.0.0",
     "parse5": "^8.0.1",
     "playwright": "^1.63.0",
-    "typescript": "~6.0.3",
+    "typescript": "~7.0.2",
     "xmlbuilder": "^15.1.1"
   },
   "engines": {
