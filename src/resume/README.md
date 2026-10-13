@@ -42,7 +42,7 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
   <small>Tech Lead for the Developer Surfaces team.</small>
 </h4>
 
-- Led technical direction through approximately 3,600% traffic growth and 415% fleet expansion.
+- Led technical direction through approximately 40x traffic growth and 415% fleet expansion.
 - Re-architected Socket’s TypeScript/Node.js GitHub App around worker services, durable queues, concurrency controls, and rate-limit backpressure.
 - Built and scaled Socket’s public API and scanning platform across PostgreSQL, Redis, Kafka, Kubernetes, and Grafana.
 - Established observability, integration testing, and operational practices for reliable high-volume processing.
