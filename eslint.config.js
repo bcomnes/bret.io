@@ -1,8 +1,9 @@
-import neostandard, { resolveIgnoresFromGitignore } from 'neostandard'
+import { globalIgnores } from 'eslint/config'
+import { neostandard, resolveIgnoresFromGitignore } from 'neostandard'
 
-export default neostandard({
-  ignores: [
-    ...resolveIgnoresFromGitignore(),
-  ],
-  env: ['browser']
-})
+export default [
+  globalIgnores(resolveIgnoresFromGitignore()),
+  ...neostandard({
+    env: ['browser'],
+  }),
+]
