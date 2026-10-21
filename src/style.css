@@ -26,7 +26,6 @@
   align-items: center;
   justify-content: center;
   padding: clamp(2rem, 4vw, 3.25rem) 0;
-  border-bottom: 1px solid var(--home-border);
 }
 
 .header .avatar {
@@ -248,7 +247,6 @@
 .portfolio figure > a {
   display: block;
   overflow: hidden;
-  border-bottom: 1px solid var(--home-border);
   border-radius: calc(var(--home-radius) - 1px) calc(var(--home-radius) - 1px) 0 0;
   background: var(--home-surface);
 }
@@ -308,7 +306,6 @@
 .project-key {
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--home-border);
   color: var(--home-muted);
   font-family: var(--font-code);
   font-size: 0.72rem;

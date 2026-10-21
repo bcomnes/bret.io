@@ -14,25 +14,18 @@
   </div>
 </header>
 
-<section class="recent-post-section" aria-labelledby="recent-posts">
-  <div class="section-heading">
-
-    <h2 id="recent-posts" class="section-header"><a href="#recent-posts">Blog</a></h2>
-    <a class="section-link" href="/blog/">All posts →</a>
-  </div>
-  <div class="recent-post-container">
-    {{{ data.blogPostsHtml }}}
-  </div>
-</section>
-
-<section class="projects-section" aria-labelledby="current">
-  <div class="section-heading">
-
-    <h2 id="current" class="section-header"><a href="#current">Projects</a></h2>
-    <p class="section-note">Products, libraries, tools, toys, and experiments I’ve built or helped maintain.</p>
-  </div>
-
+<section class="projects-section">
   <div class="portfolio grid-container">
+    <div>
+      <h3 id="blog"><a href="/blog/">Blog</a></h3>
+      <figure>
+        <a href="/blog/">
+          <img loading="lazy" src="./portfolio-img/office-blog-card.webp" width="1200" height="576" alt="A view across my home office">
+        </a>
+        <figcaption>Notes, projects, and ideas.</figcaption>
+      </figure>
+      {{{ data.blogPostsHtml }}}
+    </div>
     <div>
       <h3 id="socket"><a href="https://socket.dev">Socket</a></h3>
       <figure>
