@@ -1,5 +1,6 @@
 ---
 title: 'Bret Comnes Resume'
+description: 'Résumé of Bret Comnes, a software engineer specializing in product development, platform engineering, observability, technical leadership, SRE, and cloud architecture.'
 serif: true
 redirectFrom:
   - /cv/
@@ -11,8 +12,8 @@ redirectFrom:
 
 <img class="resume-photo" src="/favicons/apple-touch-icon-1024x1024.png" alt="Portrait of Bret Comnes" width="128" height="128">
 
-Professional software engineer experienced in full-stack product development, infrastructure, operations, platform engineering, and cloud architecture.
-Specialized in open-source tooling in JavaScript, TypeScript, and Go.
+Professional software engineer experienced in product development, platform engineering, observability, technical leadership, SRE and cloud architecture.
+
 
 <ul class="resume-contact" role="list">
   <li><span class="subdue">portfolio:</span> <a href="https://bret.io">bret.io</a></li>
@@ -39,13 +40,14 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 </h3>
 
 <h4>
-  <small>Tech Lead for the Developer Surfaces team.</small>
+  <small>Tech Lead for the Developer Surfaces team</small>
 </h4>
 
 - Led technical direction through approximately 40x traffic growth and 415% fleet expansion.
-- Re-architected Socket’s TypeScript/Node.js GitHub App around worker services, durable queues, concurrency controls, and rate-limit backpressure.
-- Built and scaled Socket’s public API and scanning platform across PostgreSQL, Redis, Kafka, Kubernetes, and Grafana.
+- Rearchitected Socket’s GitHub App, serving traffic from many Fortune 500 companies, around worker services, durable queues, concurrency controls, and rate-limit backpressure.
+- Built and scaled Socket’s public API and scanning platform.
 - Established observability, integration testing, and operational practices for reliable high-volume processing.
+- Hired and interviewed engineering candidates.
 
 <h3 class="job-role">
   <span>Senior Software Engineer</span>
@@ -56,11 +58,11 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
   <small>Joined Socket as employee #5.</small>
 </h4>
 
-- Built Socket’s initial GitHub App, including authentication, installation flows, webhook handling, repository scanning, and automated pull-request reports.
+- Built Socket’s GitHub App, including authentication, installation flows, webhook handling, repository scanning, and automated pull-request reports.
 - Automated background scanning during customer onboarding and repository or permission changes, improving time to first result.
 - Expanded Socket’s public API and scanning capabilities, improving product coverage and reliability.
 
-<small class="subdue"><strong>Technologies:</strong> TypeScript, Go, Node.js, React, Next.js, PostgreSQL, Redis, Kafka, Kubernetes, GCP, Grafana, GitHub API</small>
+<div class="resume-tech"><span class="resume-tech-label">Tech</span><ul class="lang-list"><li class="lang ts">TypeScript</li><li class="lang go">Go</li><li class="lang python">Python</li><li class="lang node">Node.js</li><li class="lang next">Next.js</li><li class="lang postgresql">PostgreSQL</li><li class="lang redis">Redis</li><li class="lang kafka">Kafka</li><li class="lang nats">NATS</li><li class="lang gcp">Bigtable</li><li class="lang kubernetes">Kubernetes</li><li class="lang gcp">GCP</li><li class="lang grafana">Grafana</li><li class="lang otel">OTel</li><li class="lang socket">GitHub API</li><li class="lang oauth">OAuth</li></ul></div>
 
 <h2 class="job-heading">
   <span class="job-employer">
@@ -82,7 +84,8 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
   <small class="job-dates">2021</small>
 </h3>
 
-- Designed and implemented an NFT minting and auction platform in approximately 10 weeks (Next.js/GraphQL).
+- Designed and implemented an NFT minting and auction platform in 10 weeks.
+- Implemented a rebrand of Littlstar to [Rad.live](https://rad.live).
 - See [Littlstar portfolio](https://bret.io/blog/2021/littlstar/) for more information.
 
 <h3 class="job-role">
@@ -90,12 +93,12 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
   <small class="job-dates">2019–2021</small>
 </h3>
 
-- Developed full IAC provisioning and deployment pipelines with Terraform and GitHub Actions targeting AWS.
+- Built multi-repository infrastructure provisioning and deployment pipelines for AWS using Terraform and GitHub Actions.
 - Developed [Little Core Labs](https://github.com/little-core-labs)’ peer-to-peer content delivery system.
-- Implemented a rebrand of Littlstar to [Rad.live](https://rad.live).
-- Redesigned and relaunched the product website using [Next.js](https://nextjs.org) and [SWR](https://swr.vercel.app).
 - Designed and implemented an organizational microservice pattern.
 - Developed an organizational strategy for JWT authorization across microservices.
+
+<div class="resume-tech"><span class="resume-tech-label">Tech</span><ul class="lang-list"><li class="lang aws">AWS</li><li class="lang node">Node.js</li><li class="lang ts">TypeScript</li><li class="lang electron">Electron</li><li class="lang next">Next.js</li><li class="lang cpp">C++</li><li class="lang postgresql">PostgreSQL</li><li class="lang graphql">GraphQL</li><li class="lang terraform">Terraform</li><li class="lang github">GitHub Actions</li><li class="lang ethereum">Ethereum</li><li class="lang oauth">OAuth</li></ul></div>
 
 <h2 class="job-heading">
   <span class="job-employer">
@@ -116,8 +119,10 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
   <small>Denmark 🇩🇰</small>
 </h4>
 
-- Led development of Heimdall, a cryptographically secure, peer-to-peer ledger and proposal system for managing cryptographic assets in cryptocurrency exchanges and other financial technologies (Electron, Node.js, JavaScript).
-- Developed security-critical native and WebAssembly Node.js cryptography bindings ([prebuildify](https://github.com/prebuild/prebuildify), [libsodium](https://github.com/sodium-friends/sodium-native), [wat2js](https://github.com/mafintosh/wat2js)).
+- Developed secure peer-to-peer financial systems for managing cryptographic assets.
+- Developed security-critical native and WebAssembly cryptography bindings ([prebuildify](https://github.com/prebuild/prebuildify), [libsodium](https://github.com/sodium-friends/sodium-native), [wat2js](https://github.com/mafintosh/wat2js)).
+
+<div class="resume-tech"><span class="resume-tech-label">Tech</span><ul class="lang-list"><li class="lang ethereum">Ethereum</li><li class="lang hypercore">Hypercore</li><li class="lang electron">Electron</li><li class="lang node">Node.js</li><li class="lang css">CSS</li><li class="lang crypto">Cryptography</li></ul></div>
 
 <h2 class="job-heading">
   <span class="job-employer">
@@ -134,24 +139,22 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
   <small class="job-dates">2018–2019</small>
 </h3>
 
-- Joined Netlify's DevOps-focused platform team.
-- Maintained and developed [Netlify's CI build environment](https://www.netlify.com/docs/continuous-deployment/), built with [Docker](https://www.docker.com), [Go](https://golang.org), [Jenkins](https://jenkins.io), and [Kubernetes](https://kubernetes.io).
+- Maintained and developed [Netlify's CI build environment](https://www.netlify.com/docs/continuous-deployment/).
 - Launched Netlify's selectable build-image infrastructure and interface.
-- Developed and maintained [Netlify's OpenAPI](https://github.com/netlify/open-api) Go client, and architected and rewrote the [JavaScript client](https://github.com/netlify/js-client).
-- Performed 24-hour on-call duties.
-- Monitored and maintained the health of Netlify's multi-cloud infrastructure using [Humio](http://humio.com) and [Datadog](https://www.datadoghq.com).
-- Scaled and deployed infrastructure with GitOps via [Ansible](https://www.ansible.com), Bash, and [Terraform](http://terraform.io).
-- See [Netlify portfolio](/blog/2020/netlify/#platform) for more examples.
+- Developed and maintained [Netlify's OpenAPI](https://github.com/netlify/open-api) client, and architected and rewrote the [JavaScript client](https://github.com/netlify/js-client).
+- Monitored and maintained the health of Netlify's multi-cloud infrastructure.
+- Scaled and deployed infrastructure with GitOps.
 
 <h3 class="job-role">
   <span>Product Engineering</span>
   <small class="job-dates">2017–2018</small>
 </h3>
 
-- Planned, designed, implemented, tested, and iterated on new features for [Netlify's React-based web app](https://app.netlify.com).
+- Planned, designed, implemented, tested, and iterated on new features for [Netlify's web app](https://app.netlify.com).
 - Supported, maintained, tested, and released Netlify's [open-source JS and Go libraries](https://github.com/netlify).
 - Architected and built Netlify's next-generation, extensible [CLI](https://github.com/netlify/cli).
-- See [Netlify portfolio](/blog/2020/netlify/#product) for more examples.
+
+<div class="resume-tech"><span class="resume-tech-label">Tech</span><ul class="lang-list"><li class="lang go">Go</li><li class="lang jenkins">Jenkins</li><li class="lang nats">NATS</li><li class="lang node">Node.js</li><li class="lang ts">TypeScript</li><li class="lang webpack">Webpack</li><li class="lang react">React</li><li class="lang css">CSS</li><li class="lang kubernetes">Kubernetes</li><li class="lang docker">Docker</li><li class="lang datadog">Datadog</li><li class="lang gcp">GCP</li><li class="lang ruby">Ruby</li><li class="lang mysql">MySQL</li></ul></div>
 
 <h2 class="job-heading">
   <span class="job-employer">
@@ -170,8 +173,9 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 - Developed EtchCV, a structured documentation suite for cardiac surgeons and hospitals.
 - Designed and implemented APIs and microservices.
-- Developed cross-platform desktop software using Electron, HTML, CSS, and SVG, powered by React and Redux.
-- Implemented continuous Electron app delivery using Travis CI, AppVeyor, and S3/AWS.
+- Implemented and supported a distributed endpoint deployment pipeline.
+
+<div class="resume-tech"><span class="resume-tech-label">Tech</span><ul class="lang-list"><li class="lang electron">Electron</li><li class="lang webpack">Webpack</li><li class="lang react">React</li><li class="lang css">CSS</li><li class="lang svg">SVG</li><li class="lang dotnet">.NET</li></ul></div>
 
 <h2 class="job-heading">
   <span class="job-employer">
@@ -190,7 +194,9 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 - Developed mobile apps, infotainment systems, and OS software using JavaScript, Node.js, HTML, and CSS.
 - Targeted in-vehicle embedded systems, fully utilizing the onboard CAN bus.
-- Architected a single sign-on service and documentation server for internal documents and project planning using Express.js.
+- Architected a single sign-on service and documentation server for internal documents and project planning.
+
+<div class="resume-tech"><span class="resume-tech-label">Tech</span><ul class="lang-list"><li class="lang js">JavaScript</li><li class="lang html">HTML</li><li class="lang css">CSS</li></ul></div>
 
 <h2 class="job-heading">
   <span class="job-employer">
@@ -211,11 +217,9 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
   <small><a href="https://www.pdx.edu/oit/research-computing">Office of Information Technology ARC</a></small>
 </h4>
 
-- Developed web applications and performed systems programming with Python and Django.
-- Developed custom database monitoring tools that tracked MySQL and Postgres usage metrics.
-- Built, automated, and monitored PSU’s research servers, HPC Linux clusters, and colocated infrastructure.
-- Initiated efforts to automate cluster deployment and management using Ansible.
-- Introduced new users to ARC's resources and shared Unix computing environments and trained them in their use.
+- Supported and developed services for PSU academic research computing.
+- Administered research computing systems.
+- Provisioned hardware on premises and in colocation facilities.
 
 <h3 class="job-role">
   <span>Lab Instructor & TA+RA</span>
@@ -226,10 +230,9 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
   <small><a href="http://www.pdx.edu/physics/">PSU Physics Department</a></small>
 </h4>
 
-- Wrote custom control software and a web application that enabled remote viewing and operation of a scanning electron microscope over the internet using React, WebSockets, and WebRTC.
-- Taught PSU’s general physics labs and assisted in the upper-division experimental physics labs.
-- Developed two novel labs on microcontrollers and FPGAs, covering topics ranging from basic concepts to advanced subjects such as PID control theory.
-- Taught introductory electronics and debugging skills to students.
+- Instructed, developed, and graded undergraduate physics and hardware labs.
+
+<div class="resume-tech"><span class="resume-tech-label">Tech</span><ul class="lang-list"><li class="lang python">Python</li><li class="lang django">Django</li><li class="lang linux">CentOS</li><li class="lang cluster">ROCKS cluster</li><li class="lang sh">Bash</li><li class="lang arduino">Arduino</li><li class="lang fpga">FPGA</li><li class="lang labview">LabVIEW</li><li class="lang solidworks">SolidWorks</li></ul></div>
 
 <h2 class="job-heading">
   <span class="job-employer">
@@ -248,6 +251,8 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 - Developed interactive figures and demos for an interactive calculus textbook published by Wiley Publishing.
 
+<div class="resume-tech"><span class="resume-tech-label">Tech</span><ul class="lang-list"><li class="lang html">HTML</li><li class="lang js">JavaScript</li><li class="lang css">CSS</li></ul></div>
+
 <h2 class="job-heading">
   <span class="job-employer">
     <a class="job-logo" id="hsu" href="#hsu">
@@ -264,6 +269,8 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 </h3>
 
 - Designed and machined custom experimental instruments and developed the lab’s data collection, automation, and analysis software to study the gravitational inverse-square law at submillimeter distance scales.
+
+<div class="resume-tech"><span class="resume-tech-label">Tech</span><ul class="lang-list"><li class="lang labview">LabVIEW</li><li class="lang solidworks">SolidWorks</li></ul></div>
 
 <h2 class="job-heading">
   <span class="job-employer">
@@ -282,10 +289,12 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 
 - Trained on and operated the world’s largest radio telescope at the time, and analyzed the collected data to search for previously undiscovered galaxies.
 
+<div class="resume-tech"><span class="resume-tech-label">Tech</span><ul class="lang-list"><li class="lang unix">Unix</li></ul></div>
+
 ## Education
 
 - [Humboldt State University](https://www.humboldt.edu/physics-astronomy) <small class="subdue">B.S. Physics 2011 </small>
-- [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (completed coursework; degree not awarded)</small>
+- [Portland State University](http://www.pdx.edu/physics/) <small class="subdue">M.S. Applied Physics 2015 (completed coursework; degree not pursued)</small>
 
 ## Media
 
@@ -310,6 +319,9 @@ Specialized in open-source tooling in JavaScript, TypeScript, and Go.
 - [Indieweb Camp](https://indieweb.org) <small class="subdue">Organizer & Mentor (2012 - 2014)</small>
 
 *[HPC]: High Performance Computing
+*[SRE]: Site Reliability Engineering
+*[GCP]: Google Cloud Platform
+*[OTel]: OpenTelemetry
 *[PSU]: Portland State University
 *[ARC]: Academic Research Computing
 *[IAC]: Infrastructure as code

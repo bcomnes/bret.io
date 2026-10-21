@@ -4,6 +4,21 @@ ul .lang {
   margin: 0;
 }
 
+.lang-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.lang-list li.lang {
+  display: inline;
+  margin: 0;
+}
+
+.lang-list li.lang + li.lang {
+  margin-left: 0.65em;
+}
+
 li.lang::before {
   display: inline-block;
   width: 1em;
@@ -12,10 +27,17 @@ li.lang::before {
   color: #888;
   transform: scale(1.5, 1.5);
 }
+
+.lang-list li.lang::before {
+  width: auto;
+  margin: 0 0.35em 0 0;
+  transform: scale(1.2);
+}
 li.js::before {
   color: #f1e05a;
 }
 
+.lang-list li.ts::before,
 li.ts::before {
   color: #3178c6;
 }
@@ -68,6 +90,43 @@ li.docker::before {
   color: #384d54;
 }
 
-li.twitter::before {
-  color: rgb(76, 159, 235);
-}
+li.twitter::before { color: rgb(76, 159, 235); }
+li.node::before { color: #339933; }
+li.next::before { color: #000; }
+li.postgresql::before { color: #336791; }
+li.redis::before { color: #d82c20; }
+li.kafka::before { color: #231f20; }
+li.nats::before { color: #27aae1; }
+li.kubernetes::before { color: #326ce5; }
+li.gcp::before { color: #4285f4; }
+li.grafana::before { color: #f46800; }
+li.otel::before { color: #f5a800; }
+li.oauth::before { color: #eb5424; }
+li.aws::before { color: #ff9900; }
+li.electron::before { color: #47848f; }
+li.graphql::before { color: #e10098; }
+li.github::before { color: #6e40c9; }
+li.ethereum::before { color: #627eea; }
+li.hypercore::before { color: #3b8f70; }
+li.crypto::before { color: #8b6f47; }
+li.jenkins::before { color: #d33833; }
+li.react::before { color: #61dafb; }
+li.docker::before { color: #2496ed; }
+li.datadog::before { color: #632ca6; }
+li.ruby::before { color: #701516; }
+li.mysql::before { color: #4479a1; }
+li.webpack::before { color: #8dd6f9; }
+li.svg::before { color: #ffb13b; }
+li.dotnet::before { color: #512bd4; }
+li.express::before { color: #666; }
+li.qt::before { color: #41cd52; }
+li.qml::before { color: #41cd52; }
+li.django::before { color: #092e20; }
+li.linux::before { color: #fcc624; }
+li.cluster::before { color: #555; }
+li.arduino::before { color: #00979d; }
+li.fpga::before { color: #759b24; }
+li.labview::before { color: #ffdb00; }
+li.solidworks::before { color: #e2231a; }
+li.unix::before { color: #555; }
+li.terraform::before { color: #7b42bc; }
