@@ -53,6 +53,7 @@ export default async function rootLayout ({
     <title>${title ? `${title} | ` : ''}${siteName}</title>
     <meta name="color-scheme" content="light dark">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="${description}">
     ${noindex ? html`<meta name="robots" content="noindex">` : null}
     ${redirectTo
       ? html`
