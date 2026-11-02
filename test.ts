@@ -90,7 +90,7 @@ test('builds homepage, feeds, sitemap, generated blog indexes and variable-drive
   const years = [...new Set(posts.map(post => new Date(post.publishDate).getUTCFullYear()))]
 
   const homepage = await build.readOutput('index.html')
-  const recentPosts = capture(homepage, /<div class="recent-post-container">([\s\S]*?)<\/div>/, 'homepage has a recent-post container')
+  const recentPosts = capture(homepage, /<h3 id="blog">[\s\S]*?<\/figure>([\s\S]*?)<\/div>/, 'homepage Blog card contains recent posts')
   assert.match(recentPosts, /<ul class="blog-index-list">/, 'recent posts render as HTML, not escaped text')
   const recentLinks = [...recentPosts.matchAll(/<a class="blog-entry-link[^"]*" href="([^"]+)">([\s\S]*?)<\/a>/g)]
   assert.deepEqual(recentLinks.map(match => decodeXml(match[1]!)), posts.slice(0, 5).map(post => post.url))
