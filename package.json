@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/bcomnes/bret.io#readme",
   "devDependencies": {
-    "@domstack/static": "12.0.0",
+    "@domstack/static": "12.0.1",
     "@types/masonry-layout": "^4.2.8",
     "@types/three": "^0.187.0",
     "@voxpelli/tsconfig": "^17.0.0",
