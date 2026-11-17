@@ -79,6 +79,7 @@
     "three": "^0.187.0"
   },
   "allowScripts": {
-    "esbuild@0.28.2": true
+    "esbuild@0.28.2": true,
+    "sharp@0.34.5": true
   }
 }
