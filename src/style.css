@@ -269,6 +269,11 @@
   transition: transform 220ms ease;
 }
 
+.portfolio figure img.domstack-logo {
+  height: auto;
+  aspect-ratio: 1200 / 630;
+}
+
 .portfolio figure img.portfolio-logo {
   object-fit: contain;
   padding: 1rem;
