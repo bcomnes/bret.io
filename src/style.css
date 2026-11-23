@@ -210,6 +210,7 @@
   min-width: 0;
   flex-direction: column;
   overflow: hidden;
+  padding-block-end: 1.1rem;
   border: 1px solid var(--home-border);
   border-radius: var(--home-radius);
   background: var(--home-surface-raised);
@@ -294,7 +295,7 @@
 
 .portfolio > div > ul {
   order: 4;
-  margin: auto 1.25rem 1.1rem;
+  margin: auto 1.25rem 0;
   padding-top: 1rem;
   font-family: var(--font-code);
   font-size: 0.72rem;
