@@ -45,3 +45,5 @@ package-lock.json
 functions
 .netlify
 public
+/playwright-report/
+/test-results/

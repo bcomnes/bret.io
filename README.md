@@ -8,10 +8,14 @@ Source code for [bret.io](https://www.bret.io).
 
 ```sh
 npm i
+npx playwright install --only-shell chromium
 npm test
 npm start # live reload server for dev
 npm run build # build snapshot from src to public
 ```
+
+Run `npm run test:playwright` for just the browser smoke tests in `playwright/`.
+Playwright starts and stops a local DOMStack preview.
 
 ## Screenshot
 
