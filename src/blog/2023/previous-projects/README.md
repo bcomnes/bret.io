@@ -2,6 +2,7 @@
 layout: article
 title: "Previously Featured Projects"
 publishDate: "2023-12-02T18:07:13.956Z"
+updatedDate: "2026-11-26T16:47:49Z"
 redirectFrom:
   - /projects/previous-projects/
 ---
@@ -273,23 +274,7 @@ I felt bad deleting old projects off my landing page, so made a page to stash th
       <li class="lang python"><a href="https://github.com/bcomnes/sbc-bootstrap">sbc-bootstrap</a></li>
     </ul>
   </div>
-  <div>
-    <h3 id="hifiwifi"><a href="https://hifiwi.fi">HifiWi.fi</a></h3>
-    <figure>
-      <a href="https://hifiwi.fi">
-        <picture>
-          <source srcset="/portfolio-img/hifiwifi-dark.png" media="(prefers-color-scheme: dark)">
-          <img loading="auto" src="/portfolio-img/hifiwifi-light.png" alt="Screenshot of hifiwi.fi">
-        </picture>
-      </a>
-      <figcaption>HifiWi.fi: High-fidelity internet products. Catchall <abbr title="Doing Business As">DBA</abbr> open-source/professional contracting entity.</figcaption>
-    </figure>
-    <ul>
-      <li class="lang html"><a href="https://hifiwi.fi">hifiwi.fi</a></li>
-      <li class="lang html"><a href="https://github.com/hifiwi-fi/hifiwi.fi">hifiwi-fi/hifiwi.fi</a></li>
-      <li class="lang twitter">Follow <a href="https://twitter.com/hifiwi_fi">@hifiwi_fi</a> on twitter</li>
-    </ul>
-  </div>
+
   <div>
     <h3 id="brwoserify"><a href="https://browserify.org">Browserify</a></h3>
     <figure>

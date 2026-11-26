@@ -60,7 +60,7 @@ export default async function rootLayout ({
           <meta http-equiv="refresh" content="${`0;url=${redirectTo}`}">
           <link rel="canonical" href="${redirectTo}">
         `
-      : null
+      : noindex ? null : html`<link rel="canonical" href="${resolvedURL}">`
     }
 
     <link rel="icon" type="image/x-icon" href="/favicons/favicon.ico">

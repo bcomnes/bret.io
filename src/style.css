@@ -217,6 +217,27 @@
   transition: border-color 140ms ease, transform 140ms ease, box-shadow 140ms ease;
 }
 
+/* Match the HifiWi.fi palette without changing the surrounding portfolio. */
+.portfolio > .hifiwifi-card {
+  --background: #f3e6c9;
+  --text: #503b2b;
+  --link-text: #19489a;
+  --home-border: #c8b995;
+  --home-surface: var(--background);
+  --home-surface-raised: var(--background);
+  --home-muted: var(--text);
+  color: var(--text);
+}
+
+@media (prefers-color-scheme: dark) {
+  .portfolio > .hifiwifi-card {
+    --background: #24231f;
+    --text: #f5eddb;
+    --link-text: #a8c8ff;
+    --home-border: #514c40;
+  }
+}
+
 .portfolio > div:hover {
   border-color: color-mix(in srgb, var(--link-text) 55%, var(--home-border));
   box-shadow: 0 0.8rem 2.5rem color-mix(in srgb, var(--text) 9%, transparent);

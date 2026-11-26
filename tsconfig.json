@@ -12,11 +12,10 @@
       "DOM.Iterable"
     ]
   },
-  "include": [
-    "src/**/*",
-    "types/**/*.d.ts"
-  ],
+  "include": ["**/*"],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "public",
+    "coverage"
   ]
 }

@@ -1,37 +1,66 @@
+/** @import { PageInfo } from '@domstack/static/types.js' */
+/** @import { LayoutChildren } from './root.layout.js' */
+
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { html, render } from 'fragtml'
-import rootLayout from './src/layouts/root.layout.js'
-import articleLayout, { parentLayout as articleParent } from './src/layouts/article.layout.js'
-import bookReviewLayout, { parentLayout as bookParent, vars as bookDefaults } from './src/layouts/book-review.layout.js'
-import blogIndexLayout, { parentLayout as blogParent } from './src/layouts/blog-index.layout.js'
-import redirectLayout, { parentLayout as redirectParent, vars as redirectDefaults } from './src/layouts/redirect.layout.js'
-import globalVars from './src/globals/global.vars.js'
-import blogPages from './src/blog.pages.js'
-import { renderBlogIndexList } from './src/components/blog-index-list/index.js'
-import { breadcrumb } from './src/components/breadcrumb/index.js'
-import { topNavBar, bottomFooterBar } from './src/components/top-nav-bar/index.js'
+import rootLayout from './root.layout.js'
+import articleLayout, { parentLayout as articleParent } from './article.layout.js'
+import bookReviewLayout, { parentLayout as bookParent, vars as bookDefaults } from './book-review.layout.js'
+import blogIndexLayout, { parentLayout as blogParent } from './blog-index.layout.js'
+import redirectLayout, { parentLayout as redirectParent, vars as redirectDefaults } from './redirect.layout.js'
+import globalVars from '../globals/global.vars.js'
+import blogPages from '../blog.pages.js'
+import { renderBlogIndexList } from '#components/blog-index-list/index.js'
+import { breadcrumb } from '#components/breadcrumb/index.js'
+import { topNavBar, bottomFooterBar } from '#components/top-nav-bar/index.js'
 
 const defaults = await globalVars()
 
-function args (vars = {}, children = '<p>Rendered page content</p>', path = 'blog/example') {
+/**
+ * @template {object} Vars
+ * @param {Vars} vars
+ * @param {LayoutChildren} [children]
+ * @param {string} [path]
+ */
+function args (vars, children = '<p>Rendered page content</p>', path = 'blog/example') {
+  const isHtmlFile = path.endsWith('.html')
+  const url = path && !isHtmlFile ? `/${path}/` : `/${path}`
+  const outputRelname = isHtmlFile ? path : `${path ? `${path}/` : ''}index.html`
+  /** @type {PageInfo} */
+  const page = {
+    path,
+    url,
+    outputName: `/public/${outputRelname}`,
+    outputRelname,
+    pageFile: {
+      root: '/src',
+      filepath: '/src/page.html',
+      relname: 'page.html',
+      basename: 'page.html',
+      parentName: 'src'
+    },
+    type: 'html',
+    compose: true,
+    draft: false
+  }
   return {
     vars: { ...defaults, title: 'Example', ...vars },
     children,
-    page: { path, pageFile: { relname: 'page.html' } },
+    page,
     data: {},
     scripts: ['/client.js'],
     styles: ['/style.css']
   }
 }
 
-test('article dates preserve date-only precision', () => {
-  const dateOnly = render(articleLayout(args({ publishDate: '2014-08-25' })))
+test('article dates preserve date-only precision', async () => {
+  const dateOnly = render(await articleLayout(args({ publishDate: '2014-08-25' })))
   assert.match(dateOnly, /datetime="2014-08-25"/)
   assert.match(dateOnly, /Aug 25, 2014/)
   assert.doesNotMatch(dateOnly, /12:00|AM|PM/)
 
-  const timestamp = render(articleLayout(args({ publishDate: '2014-06-08T14:24:52-07:00' })))
+  const timestamp = render(await articleLayout(args({ publishDate: '2014-06-08T14:24:52-07:00' })))
   assert.match(timestamp, /datetime="2014-06-08T14:24:52-07:00"/)
   assert.match(timestamp, /9:24 PM/)
 })
@@ -66,7 +95,7 @@ test('navigation names its landmark and every decorative icon link', () => {
   assert.match(output, /<nav class="site-top-bar hide-print" aria-label="Main navigation">/)
   const iconLinks = [...output.matchAll(/<a\b([^>]*)>(<img\b[^>]*>)<\/a>/g)]
   assert.equal(iconLinks.length, 9)
-  assert.deepEqual(iconLinks.map(([, attributes]) => attributes.match(/aria-label="([^"]+)"/)?.[1]), [
+  assert.deepEqual(iconLinks.map(([, attributes]) => attributes?.match(/aria-label="([^"]+)"/)?.[1]), [
     'Bret on Neocities',
     'Bret on Mastodon',
     'Bret on GitHub',
@@ -78,6 +107,7 @@ test('navigation names its landmark and every decorative icon link', () => {
     'Atom feed'
   ])
   for (const [, , image] of iconLinks) {
+    assert.ok(image)
     assert.match(image, / alt=""/)
     assert.match(image, / height="18" width="18"/)
   }
@@ -96,7 +126,7 @@ test('root includes a device-width viewport and the renamed footer component', a
   assert.match(footer, /href="https:\/\/github\.com\/bcomnes\/bret\.io\/blob\/master\/src\/page\.html"/)
 })
 
-test('breadcrumbs default their label and escape custom labels without changing links', () => {
+test('breadcrumbs default their label and escape custom labels without changing links', async () => {
   const pathSegments = ['blog', '2026', 'example']
   const output = render(breadcrumb({ pathSegments }))
   assert.match(output, /aria-label="Breadcrumb"/)
@@ -105,13 +135,13 @@ test('breadcrumbs default their label and escape custom labels without changing 
   ])
   const custom = render(breadcrumb({ pathSegments, label: 'Breadcrumb "top" <nav>' }))
   assert.match(custom, /aria-label="Breadcrumb &quot;top&quot; &lt;nav&gt;"/)
-  assert.match(render(blogIndexLayout(args())), /aria-label="Breadcrumb"/)
+  assert.match(render(await blogIndexLayout(args({}))), /aria-label="Breadcrumb"/)
 })
 
-test('articles distinguish breadcrumbs and format dates consistently in en-US UTC', () => {
+test('articles distinguish breadcrumbs and format dates consistently in en-US UTC', async () => {
   const publishDate = '2024-02-13T17:24:49.707-08:00'
   const updatedDate = '2024-02-15T09:05:00+09:00'
-  const output = render(articleLayout(args({ publishDate, updatedDate })))
+  const output = render(await articleLayout(args({ publishDate, updatedDate })))
   assert.deepEqual([...output.matchAll(/<nav\b[^>]*aria-label="([^"]+)"/g)].map(match => match[1]), [
     'Breadcrumb at top', 'Breadcrumb at bottom'
   ])
@@ -122,10 +152,10 @@ test('articles distinguish breadcrumbs and format dates consistently in en-US UT
   assert.ok(output.includes(`datetime="${updatedDate}"`))
   assert.match(output, /<a href="#" class="u-url">\s*Feb 14, 2024, 1:24 AM\s*<\/a>/)
   assert.match(output, />Updated Feb 15, 2024, 12:05 AM<\/time>/)
-  assert.doesNotMatch(render(articleLayout(args())), /<time\b/)
+  assert.doesNotMatch(render(await articleLayout(args({}))), /<time\b/)
 })
 
-test('root emits correct homepage, nested, and HTML-file URLs', async () => {
+test('root emits matching canonical and Open Graph URLs for indexable pages', async () => {
   for (const siteUrl of ['https://bret.io', 'https://bret.io/']) {
     for (const [path, expected] of [
       ['', 'https://bret.io/'],
@@ -134,8 +164,16 @@ test('root emits correct homepage, nested, and HTML-file URLs', async () => {
     ]) {
       const output = render(await rootLayout(args({ siteUrl }, '', path)))
       assert.ok(output.includes(`<meta property="og:url" content="${expected}">`))
+      assert.deepEqual(output.match(/<link rel="canonical"[^>]*>/g), [`<link rel="canonical" href="${expected}">`])
+      assert.ok(output.split('</head>')[0]?.includes(`<link rel="canonical" href="${expected}">`))
     }
   }
+})
+
+test('root omits the self-canonical on noindex pages', async () => {
+  const output = render(await rootLayout(args({ noindex: true })))
+  assert.match(output, /<meta name="robots" content="noindex">/)
+  assert.doesNotMatch(output, /rel="canonical"/)
 })
 
 test('book review nests through article and root without escaping or duplicating wrappers', async () => {
@@ -155,8 +193,8 @@ test('book review nests through article and root without escaping or duplicating
     review: { rating: 4 },
     publishDate: '2024-02-13T18:24:49.707Z'
   })
-  const review = bookReviewLayout(context)
-  const article = articleLayout({ ...context, children: review })
+  const review = await bookReviewLayout(context)
+  const article = await articleLayout({ ...context, children: review })
   const output = render(await rootLayout({ ...context, children: article }))
   assert.equal((output.match(/<html\b/g) ?? []).length, 1)
   assert.equal((output.match(/<article\b/g) ?? []).length, 1)
@@ -191,12 +229,29 @@ test('blog lists preserve year separators, draft badges, and escaped attributes'
 })
 
 test('generated blog indexes preserve rendered lists and archive links through nested layouts', async () => {
-  const posts = [{ url: '/blog/example/', title: 'Example', publishDate: '2026-01-01T00:00:00Z' }]
-  const generated = blogPages({ data: { blogPosts: posts, blogIndexes: [{ year: 2026, posts }] } })
+  const posts = [{ path: 'blog/example', url: '/blog/example/', title: 'Example', publishDate: '2026-01-01T00:00:00Z', draft: false }]
+  const generated = await blogPages({
+    vars: defaults,
+    data: { blogPosts: posts, blogIndexes: [{ year: 2026, posts }] },
+    pagesFile: {
+      name: 'blog',
+      path: 'blog',
+      pagesFile: {
+        root: '/src',
+        filepath: '/src/blog.pages.js',
+        relname: 'blog.pages.js',
+        basename: 'blog.pages.js',
+        parentName: 'src'
+      }
+    }
+  })
+  assert.ok(Array.isArray(generated))
   assert.equal(generated.length, 2)
   for (const page of generated) {
+    assert.ok(page.outputName)
+    assert.ok(typeof page.children === 'string')
     const context = args(page.vars, page.children, page.outputName.replace(/\/index\.html$/, ''))
-    const output = render(await rootLayout({ ...context, children: blogIndexLayout(context) }))
+    const output = render(await rootLayout({ ...context, children: await blogIndexLayout(context) }))
     assert.match(output, /<ul class="blog-index-list">/)
     assert.match(output, /<footer class="blog-index-footer">/)
     assert.match(output, /<a href="\/blog\/2026\/">2026<\/a>/)
@@ -206,10 +261,10 @@ test('generated blog indexes preserve rendered lists and archive links through n
 
 test('redirects retain head metadata and a styled manual link', async () => {
   const context = args({ ...redirectDefaults, title: 'Redirecting…', redirectTo: '/resume/?a=1&b=2' }, '', 'cv')
-  const output = render(await rootLayout({ ...context, children: redirectLayout(context) }))
+  const output = render(await rootLayout({ ...context, children: await redirectLayout(context) }))
   assert.match(output, /<meta name="robots" content="noindex">/)
   assert.match(output, /<meta http-equiv="refresh" content="0;url=\/resume\/\?a=1&amp;b=2">/)
-  assert.match(output, /<link rel="canonical" href="\/resume\/\?a=1&amp;b=2">/)
+  assert.deepEqual(output.match(/<link rel="canonical"[^>]*>/g), ['<link rel="canonical" href="/resume/?a=1&amp;b=2">'])
   assert.match(output, /<main class="markdown-body mine-layout"/)
   assert.match(output, /<a href="\/resume\/\?a=1&amp;b=2">\/resume\/\?a=1&amp;b=2<\/a>/)
   assert.match(output, /<section class="redirect-page" aria-labelledby="redirect-title">/)

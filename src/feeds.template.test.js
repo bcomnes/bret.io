@@ -1,6 +1,8 @@
+/** @import { JsonFeed } from 'jsonfeed-to-atom' */
+
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import feedsTemplate, { absoluteHtmlUrls } from './src/feeds.template.js'
+import feedsTemplate, { absoluteHtmlUrls } from './feeds.template.js'
 
 const baseUrl = 'https://bret.io/blog/2026/example/'
 
@@ -75,19 +77,38 @@ test('JSON and Atom feeds receive absolute article content without changing the 
         description: 'Personal website',
         authorName: 'Bret',
         authorUrl: 'https://bret.io',
-        authorImgUrl: 'https://bret.io/avatar.png'
+        authorImgUrl: 'https://bret.io/avatar.png',
+        layout: 'root',
+        publishDate: post.publishDate,
+        title: 'Feed'
       },
-      data: { feedPosts: [post] }
+      data: { feedPosts: [post] },
+      template: {
+        path: 'feeds',
+        outputName: 'feeds',
+        templateFile: {
+          root: '/src',
+          filepath: '/src/feeds.template.js',
+          relname: 'feeds.template.js',
+          basename: 'feeds.template.js',
+          parentName: 'src'
+        }
+      }
     })) outputs.push(output)
 
     assert.deepEqual(outputs.map(output => output.outputName), ['feed.json', 'feed.xml', 'atom.xml'])
-    const feed = JSON.parse(outputs[0].content)
+    const [json, atom, atomAlias] = outputs
+    assert.ok(json && atom && atomAlias)
+    /** @type {JsonFeed} */
+    const feed = JSON.parse(json.content)
+    const [item] = feed.items
+    assert.ok(item)
     assert.equal(feed.feed_url, 'https://bret.io/feed.json')
-    assert.equal(feed.items[0].url, baseUrl)
-    assert.equal(feed.items[0].id, `${baseUrl}#${post.publishDate}`)
-    assert.equal(feed.items[0].content_html, `<p><img src="${baseUrl}img/example.jpg"></p>`)
-    assert.ok(outputs[1].content.includes(`${baseUrl}img/example.jpg`))
-    assert.equal(outputs[1].content, outputs[2].content)
+    assert.equal(item.url, baseUrl)
+    assert.equal(item.id, `${baseUrl}#${post.publishDate}`)
+    assert.equal(item.content_html, `<p><img src="${baseUrl}img/example.jpg"></p>`)
+    assert.ok(atom.content.includes(`${baseUrl}img/example.jpg`))
+    assert.equal(atom.content, atomAlias.content)
     assert.equal(post.contentHtml, '<p><img src="./img/example.jpg"></p>')
   }
 })
